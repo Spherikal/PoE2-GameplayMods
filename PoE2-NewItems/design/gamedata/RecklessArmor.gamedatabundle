@@ -1,85 +1,88 @@
 {
-	"GameDataObjects": [{
-            "$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
-            "DebugName": "Brigandine_Armor_U_Reckless_Brigandine",
-            "ID": "7ebc2815-c456-44ad-85ff-e41806efaca1",
-            "Components": [
-                {
-                    "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
-                    "DisplayName": 3887,
-                    "DescriptionText": 3888,
-                    "FilterType": "Armor",
-                    "InventoryAudioEventListID": "0816d104-11c9-4cd5-9980-76e6b996df11",
-                    "IsQuestItem": "false",
-                    "IsIngredient": "false",
-                    "IsCurrency": "false",
-                    "IsAdventuringItem": "false",
-                    "CanSellForFullValue": "false",
-                    "MaxStackSize": 1,
-                    "NeverDropAsLoot": "false",
-                    "CanBePickpocketed": "true",
-                    "IsUnique": "true",
-                    "Value": 200,
-					"IconTextureSmall": "gui/icons/items/armor/breastplate/breastplate_armor_dragon_slashed_s.png",
-					"IconTextureLarge": "gui/icons/items/armor/breastplate/breastplate_armor_dragon_slashed_l.png",
-					"PencilSketchTexture": "",
-					"InspectOnUseButton": [],
-					"IsPlaceholder": "false"
-				}, {
-					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
-					"EquipmentType": "None",
-					"EquipmentSlot": "Armor",
-					"AppearancePiece": {
-						"ModelVisualDataPath": "prefabs/items/appearance/body/bp/bp02/a_bp02_v02.asset"
-					},
-                    "ItemModsIDs": [
-                        "2f868d39-3962-4a62-a656-041121931423",
-                        "b1247f31-f94b-4f6a-8199-f71ccf5a3277"
-                    ],
-                    "OnEquipVisualEffects": [],
-                    "RestrictedToClassIDs": [],
-                    "RestrictedToPlayer": "false",
-                    "EquipConditionals": {
-                        "Operator": 0,
-                        "Components": []
-                    },
-                    "ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
-                    "CannotUnequip": "false",
-                    "ItemRendererPrefab": "",
-                    "ItemModel": "",
-                    "AnimationController": "",
-                    "PaperdollOverrideRenderer": "",
-                    "AttackSummonID": "00000000-0000-0000-0000-000000000000",
-                    "CannotSheathe": "false",
-                    "PropVisualEffects": []
-                },
-                {
-                    "$type": "Game.GameData.ArmorComponent, Assembly-CSharp",
-                    "ArmorRating": 9,
-                    "SpeedFactor": 0.645,
-                    "ArmorCategory": "Heavy",
-                    "ArmorMaterial": "Brigadine",
-                    "LevelScaling": {
-                        "BaseLevel": 1,
-                        "LevelIncrement": 1,
-                        "MaxLevel": 0,
-                        "ArmorRatingAdjustment": 0
-                    },
-                    "OverridePierceRating": 5,
-                    "OverrideSlashRating": -1,
-                    "OverrideCrushRating": -1,
-                    "OverrideBurnRating": -1,
-                    "OverrideFreezeRating": -1,
-                    "OverrideShockRating": -1,
-                    "OverrideCorrodeRating": 5,
-                    "ImmunityPierce": "false",
-                    "ImmunitySlash": "false",
-                    "ImmunityCrush": "false",
-                    "ImmunityBurn": "false",
-                    "ImmunityFreeze": "false",
-                    "ImmunityShock": "false",
-                    "ImmunityCorrode": "false"
-                }
-            ]
-        }]
-  }
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+      "DebugName": "Brigandine_Armor_U_Reckless_Brigandine",
+      "ID": "7ebc2815-c456-44ad-85ff-e41806efaca1",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 3887,
+          "DescriptionText": 3888,
+          "FilterType": "Armor",
+          "InventoryAudioEventListID": "0816d104-11c9-4cd5-9980-76e6b996df11",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "false",
+          "CanBePickpocketed": "true",
+          "IsUnique": "true",
+          "Value": 200,
+          "IconTextureSmall": "gui/icons/items/armor/breastplate/breastplate_armor_dragon_slashed_s.png",
+          "IconTextureLarge": "gui/icons/items/armor/breastplate/breastplate_armor_dragon_slashed_l.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "None",
+          "EquipmentSlot": "Armor",
+          "AppearancePiece": {
+            "ModelVisualDataPath": "prefabs/items/appearance/body/bp/bp02/a_bp02_v02.asset"
+          },
+          "ItemModsIDs": [
+            "2f868d39-3962-4a62-a656-041121931423",
+            "b1247f31-f94b-4f6a-8199-f71ccf5a3277"
+          ],
+          "OnEquipVisualEffects": [],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "EquipConditionals": {
+            "Operator": 0,
+            "Components": []
+          },
+          "ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "",
+          "ItemModel": "",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "false",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.ArmorComponent, Assembly-CSharp",
+          "ArmorRating": 9,
+          "SpeedFactor": 0.645,
+          "ArmorCategory": "Heavy",
+          "ArmorMaterial": "Brigadine",
+          "LevelScaling": {
+            "BaseLevel": 1,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ArmorRatingAdjustment": 0
+          },
+          "OverridePierceRating": 5,
+          "OverrideSlashRating": -1,
+          "OverrideCrushRating": -1,
+          "OverrideBurnRating": -1,
+          "OverrideFreezeRating": -1,
+          "OverrideShockRating": -1,
+          "OverrideCorrodeRating": 5,
+          "ImmunityPierce": "false",
+          "ImmunitySlash": "false",
+          "ImmunityCrush": "false",
+          "ImmunityBurn": "false",
+          "ImmunityFreeze": "false",
+          "ImmunityShock": "false",
+          "ImmunityCorrode": "false"
+        }
+      ]
+    }
+  ]
+}

@@ -1,75 +1,84 @@
 {
-	"GameDataObjects": [{
-		"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
-		"DebugName": "Mail_Armor_U_Serafen",
-		"ID": "a63c1730-4015-4979-9516-3ee88785e6e5",
-		"Components": [{
-			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
-			"DisplayName": 5004,
-			"DescriptionText": 5005,
-			"FilterType": "Armor",
-			"InventoryAudioEventListID": "0816d104-11c9-4cd5-9980-76e6b996df11",
-			"IsQuestItem": "false",
-			"IsIngredient": "false",
-			"IsCurrency": "false",
-			"IsAdventuringItem": "false",
-			"CanSellForFullValue": "false",
-			"MaxStackSize": 1,
-			"NeverDropAsLoot": "false",
-			"CanBePickpocketed": "true",
-			"IsUnique": "true",
-			"Value": 200,
-			"IconTextureSmall": "gui/icons/items/armor/cloth/armor_cloth_serafen_s.png",
-			"IconTextureLarge": "gui/icons/items/armor/cloth/armor_cloth_serafen_l.png",
-			"PencilSketchTexture": "",
-			"InspectOnUseButton": [],
-			"IsPlaceholder": "false"
-		}, {
-			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
-			"EquipmentType": "None",
-			"EquipmentSlot": "Armor",
-			"AppearancePiece": {
-				"ModelVisualDataPath": "prefabs/items/appearance/body/cl/cl34/a_cl34.asset"
-			},
-			"ItemModsIDs": ["24f8907f-059f-493c-a000-59b3abdb3bf9","89aa8929-5728-4e11-ad39-71c9aa20ffd9"],
-			"OnEquipVisualEffects": [],
-			"RestrictedToClassIDs": [],
-			"RestrictedToPlayer": "false",
-			"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
-			"CannotUnequip": "false",
-			"ItemRendererPrefab": "",
-			"ItemModel": "",
-			"AnimationController": "",
-			"PaperdollOverrideRenderer": "",
-			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
-			"CannotSheathe": "false",
-			"PropVisualEffects": []
-		}, {
-			"$type": "Game.GameData.ArmorComponent, Assembly-CSharp",
-			"ArmorRating": 7,
-			"SpeedFactor": 0.741,
-			"ArmorCategory": "Medium",
-			"ArmorMaterial": "Mail",
-			"LevelScaling": {
-				"BaseLevel": 1,
-				"LevelIncrement": 1,
-				"MaxLevel": 0,
-				"ArmorRatingAdjustment": 0
-			},
-			"OverridePierceRating": -1,
-			"OverrideSlashRating": -1,
-			"OverrideCrushRating": 5,
-			"OverrideBurnRating": -1,
-			"OverrideFreezeRating": 5,
-			"OverrideShockRating": -1,
-			"OverrideCorrodeRating": -1,
-			"ImmunityPierce": "false",
-			"ImmunitySlash": "false",
-			"ImmunityCrush": "false",
-			"ImmunityBurn": "false",
-			"ImmunityFreeze": "false",
-			"ImmunityShock": "false",
-			"ImmunityCorrode": "false"
-		}]
-	}]
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+      "DebugName": "Mail_Armor_U_Serafen",
+      "ID": "a63c1730-4015-4979-9516-3ee88785e6e5",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 5004,
+          "DescriptionText": 5005,
+          "FilterType": "Armor",
+          "InventoryAudioEventListID": "0816d104-11c9-4cd5-9980-76e6b996df11",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "false",
+          "CanBePickpocketed": "true",
+          "IsUnique": "true",
+          "Value": 200,
+          "IconTextureSmall": "gui/icons/items/armor/cloth/armor_cloth_serafen_s.png",
+          "IconTextureLarge": "gui/icons/items/armor/cloth/armor_cloth_serafen_l.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "None",
+          "EquipmentSlot": "Armor",
+          "AppearancePiece": {
+            "ModelVisualDataPath": "prefabs/items/appearance/body/cl/cl34/a_cl34.asset"
+          },
+          "ItemModsIDs": [
+            "24f8907f-059f-493c-a000-59b3abdb3bf9",
+            "89aa8929-5728-4e11-ad39-71c9aa20ffd9"
+          ],
+          "OnEquipVisualEffects": [],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "",
+          "ItemModel": "",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "false",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.ArmorComponent, Assembly-CSharp",
+          "ArmorRating": 7,
+          "SpeedFactor": 0.741,
+          "ArmorCategory": "Medium",
+          "ArmorMaterial": "Mail",
+          "LevelScaling": {
+            "BaseLevel": 1,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ArmorRatingAdjustment": 0
+          },
+          "OverridePierceRating": -1,
+          "OverrideSlashRating": -1,
+          "OverrideCrushRating": 5,
+          "OverrideBurnRating": -1,
+          "OverrideFreezeRating": 5,
+          "OverrideShockRating": -1,
+          "OverrideCorrodeRating": -1,
+          "ImmunityPierce": "false",
+          "ImmunitySlash": "false",
+          "ImmunityCrush": "false",
+          "ImmunityBurn": "false",
+          "ImmunityFreeze": "false",
+          "ImmunityShock": "false",
+          "ImmunityCorrode": "false"
+        }
+      ]
+    }
+  ]
 }

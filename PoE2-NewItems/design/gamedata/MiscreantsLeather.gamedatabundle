@@ -1,84 +1,84 @@
 {
-	"GameDataObjects": [
-		{
-			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
-			"DebugName": "Leather_Armor_U_Miscreants_Leathers",
-			"ID": "a86c157f-362a-4b6c-a37e-4ba7525373fd",
-			"Components": [
-				{
-					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
-					"DisplayName": 4385,
-					"DescriptionText": 4386,
-					"FilterType": "Armor",
-					"InventoryAudioEventListID": "50b61346-2a8e-4595-a76f-85c497adab02",
-					"IsQuestItem": "false",
-					"IsIngredient": "false",
-					"IsCurrency": "false",
-					"IsAdventuringItem": "false",
-					"CanSellForFullValue": "false",
-					"MaxStackSize": 1,
-					"NeverDropAsLoot": "false",
-					"CanBePickpocketed": "true",
-					"IsUnique": "true",
-					"Value": 200,
-					"IconTextureSmall": "gui/cloth_outfit_ydwin_s",
-					"IconTextureLarge": "gui/cloth_outfit_ydwin_l.png",
-					"PencilSketchTexture": "",
-					"InspectOnUseButton": [],
-					"IsPlaceholder": "false"
-				},
-				{
-					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
-					"EquipmentType": "None",
-					"EquipmentSlot": "Armor",
-					"AppearancePiece": {
-						"ModelVisualDataPath": "prefabs/items/appearance/body/cl/cl17/a_cl17.asset"
-					},
-					"ItemModsIDs": [
-						"2f868d39-3962-4a62-a656-041121931423",
-						"89aa8929-5728-4e11-ad39-71c9aa20ffd9"
-					],
-					"OnEquipVisualEffects": [],
-					"RestrictedToClassIDs": [],
-					"RestrictedToPlayer": "false",
-					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
-					"CannotUnequip": "false",
-					"ItemRendererPrefab": "",
-					"ItemModel": "",
-					"AnimationController": "",
-					"PaperdollOverrideRenderer": "",
-					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
-					"CannotSheathe": "false",
-					"PropVisualEffects": []
-				},
-				{
-					"$type": "Game.GameData.ArmorComponent, Assembly-CSharp",
-					"ArmorRating": 5,
-					"SpeedFactor": 0.833,
-					"ArmorCategory": "Light",
-					"ArmorMaterial": "Leather",
-					"LevelScaling": {
-						"BaseLevel": 1,
-						"LevelIncrement": 1,
-						"MaxLevel": 0,
-						"ArmorRatingAdjustment": 0
-					},
-					"OverridePierceRating": -1,
-					"OverrideSlashRating": -1,
-					"OverrideCrushRating": 3,
-					"OverrideBurnRating": -1,
-					"OverrideFreezeRating": 3,
-					"OverrideShockRating": -1,
-					"OverrideCorrodeRating": -1,
-					"ImmunityPierce": "false",
-					"ImmunitySlash": "false",
-					"ImmunityCrush": "false",
-					"ImmunityBurn": "false",
-					"ImmunityFreeze": "false",
-					"ImmunityShock": "false",
-					"ImmunityCorrode": "false"
-				}
-			]
-		}
-	]
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+      "DebugName": "Leather_Armor_U_Miscreants_Leathers",
+      "ID": "a86c157f-362a-4b6c-a37e-4ba7525373fd",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 4385,
+          "DescriptionText": 4386,
+          "FilterType": "Armor",
+          "InventoryAudioEventListID": "50b61346-2a8e-4595-a76f-85c497adab02",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "false",
+          "CanBePickpocketed": "true",
+          "IsUnique": "true",
+          "Value": 200,
+          "IconTextureSmall": "gui/cloth_outfit_ydwin_s",
+          "IconTextureLarge": "gui/cloth_outfit_ydwin_l.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "None",
+          "EquipmentSlot": "Armor",
+          "AppearancePiece": {
+            "ModelVisualDataPath": "prefabs/items/appearance/body/cl/cl17/a_cl17.asset"
+          },
+          "ItemModsIDs": [
+            "2f868d39-3962-4a62-a656-041121931423",
+            "89aa8929-5728-4e11-ad39-71c9aa20ffd9"
+          ],
+          "OnEquipVisualEffects": [],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "",
+          "ItemModel": "",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "false",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.ArmorComponent, Assembly-CSharp",
+          "ArmorRating": 5,
+          "SpeedFactor": 0.833,
+          "ArmorCategory": "Light",
+          "ArmorMaterial": "Leather",
+          "LevelScaling": {
+            "BaseLevel": 1,
+            "LevelIncrement": 1,
+            "MaxLevel": 0,
+            "ArmorRatingAdjustment": 0
+          },
+          "OverridePierceRating": -1,
+          "OverrideSlashRating": -1,
+          "OverrideCrushRating": 3,
+          "OverrideBurnRating": -1,
+          "OverrideFreezeRating": 3,
+          "OverrideShockRating": -1,
+          "OverrideCorrodeRating": -1,
+          "ImmunityPierce": "false",
+          "ImmunitySlash": "false",
+          "ImmunityCrush": "false",
+          "ImmunityBurn": "false",
+          "ImmunityFreeze": "false",
+          "ImmunityShock": "false",
+          "ImmunityCorrode": "false"
+        }
+      ]
+    }
+  ]
 }

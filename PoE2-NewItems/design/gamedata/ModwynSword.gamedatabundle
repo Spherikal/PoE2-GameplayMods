@@ -1,506 +1,585 @@
 {
-	"GameDataObjects": [{
-			"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
-			"DebugName": "Sword_Soulbound_Modwyr",
-			"ID": "9c3d9ec9-c6e2-415f-ae7f-8070eb30e622",
-			"Components": [{
-					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
-					"DisplayName": 3370,
-					"DescriptionText": 3371,
-					"FilterType": "Weapons",
-					"InventoryAudioEventListID": "d9ef8ec9-f1fb-4d0b-88b7-49d7c0310019",
-					"IsQuestItem": "false",
-					"IsIngredient": "false",
-					"IsCurrency": "false",
-					"IsAdventuringItem": "false",
-					"CanSellForFullValue": "false",
-					"MaxStackSize": 1,
-					"NeverDropAsLoot": "false",
-					"CanBePickpocketed": "true",
-					"IsUnique": "true",
-					"Value": 35,
-					"IconTextureSmall": "gui/icons/items/weapons/sword/sword_modwyr_s.png",
-					"IconTextureLarge": "gui/icons/items/weapons/sword/sword_modwyr_l.png",
-					"PencilSketchTexture": "gui/itemsketches/sketch_modwyr.png",
-					"InspectOnUseButton": [],
-					"IsPlaceholder": "false"
-				}, {
-					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
-					"EquipmentType": "Sword",
-					"EquipmentSlot": "AnyWeapon",
-					"AppearancePiece": {
-						"ModelVisualDataPath": "prefabs/items/appearance/weapons/sword/a_sword04_v01.asset"
-					},
-					"ItemModsIDs": ["7d7b81f7-7322-441f-a366-5d15d30379f5", "dc448fbc-0490-420f-ab44-62ca73a9aeb9", "a88637ef-c3ab-48ec-9f71-022714db33d2", "eb825fda-82c5-4b91-9be1-c5093907545e", "ad711668-e339-4fca-92c3-2da2a16a998b", "a51bc2ae-d4dc-4e08-b88c-541b6cb98914"],
-					"OnEquipVisualEffects": [],
-					"RestrictedToClassIDs": [],
-					"RestrictedToPlayer": "true",
-					"ProficientAbilityID": "e56c9809-5046-48a8-9334-491b053c79a7",
-					"CannotUnequip": "false",
-					"ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
-					"ItemModel": "art/character/weapons/sword/sword01/w_sword01.fbx",
-					"AnimationController": "",
-					"PaperdollOverrideRenderer": "",
-					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
-					"CannotSheathe": "false",
-					"PropVisualEffects": [{
-							"VisualEffect": "prefabs/effects/items/weapons/fx_hel_beckoning.prefab",
-							"AttachPoint": "Fx_Bone_01",
-							"EmissiveColor": {
-								"A":1,
-								"R":0.06,
-								"G":0.18,
-								"B":0.02
-							},
-							"EmissiveGlowScale": 0.1
-						}]
-				}, {
-					"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
-					"Stance": "OneHanded",
-					"AnimationStanceID": "42de436a-5f52-4bc5-8310-076eb320abc4",
-					"StatusEffectsOnLaunchIDs": [],
-					"IsDisplayedWhenAlternate": "true",
-					"IsUniversalType": "false",
-					"AttackID": "be048545-e4f9-45d2-9bfa-cf57af6daa36",
-					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
-					"ForceBackScabbard": "false",
-					"ScabbardAppearancePiece": {
-						"ModelVisualDataPath": "prefabs/items/appearance/weapons/sword/a_sword02_scabbard.asset"
-					},
-					"ScabbardRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
-					"ScabbardModel": "",
-					"AudioEventListID": "00000000-0000-0000-0000-000000000000"
-				}, {
-					"$type": "Game.GameData.SoulbindComponent, Assembly-CSharp",
-					"ProhibitUnbind": "true",
-					"BindableClassesIDs": [],
-					"UnlockStages": [{
-							"Note": "1st Stage: Kills",
-							"LoreToAdd": -1,
-							"ItemModsToAddIDs": [],
-							"ItemModsToRemoveIDs": [],
-							"EligibleClassesIDs": [],
-							"UnlockActions": [{
-									"TargetValue": 1,
-									"StatType": "Custom",
-									"OverrideRequirementString": 4966,
-									"RequireDamageType": "None",
-									"RequireHitType": "None",
-									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
-									"Prerequisites": {
-										"Conditional": {
-											"Operator": 0,
-											"Components": []
-										}
-									},
-									"Conditional": {
-										"Operator": 0,
-										"Components": []
-									}
-								}
-							],
-							"OverrideIconTextureSmall": "",
-							"OverrideIconTextureLarge": "",
-							"OverrideItemModel": "",
-							"Scripts": [{
-									"Data": {
-										"FullName": "Void SetGlobalValue(String, Int32)",
-										"Parameters": ["n_talkingweapon_p2_quest_stage", "2"],
-										"Flags": "",
-										"UnrealCall": "",
-										"FunctionHash": 1935477378,
-										"ParameterHash": 1917371198
-									},
-									"Conditional": {
-										"Operator": 0,
-										"Components": []
-									}
-								}, {
-									"Data": {
-										"FullName": "Void SetGlobalValue(String, Int32)",
-										"Parameters": ["n_talkingweapon_p2_wantstotalk", "1"],
-										"Flags": "",
-										"UnrealCall": "",
-										"FunctionHash": 1935477378,
-										"ParameterHash": -1398564314
-									},
-									"Conditional": {
-										"Operator": 0,
-										"Components": []
-									}
-								}
-							]
-						}, {
-							"Note": "1st Stage: Talk to Sword",
-							"LoreToAdd": 5082,
-							"ItemModsToAddIDs": ["dec577b7-e428-4811-aa78-7a709ba85d96", "17949408-3304-4869-aae5-8021c6e4e404"],
-							"ItemModsToRemoveIDs": ["ad711668-e339-4fca-92c3-2da2a16a998b"],
-							"EligibleClassesIDs": [],
-							"UnlockActions": [{
-									"TargetValue": 1,
-									"StatType": "Conditional",
-									"OverrideRequirementString": 5179,
-									"RequireDamageType": "None",
-									"RequireHitType": "None",
-									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
-									"Prerequisites": {
-										"Conditional": {
-											"Operator": 0,
-											"Components": []
-										}
-									},
-									"Conditional": {
-										"Operator": 0,
-										"Components": [{
-												"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-												"Data": {
-													"FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
-													"Parameters": ["n_talkingweapon_p2_wantstotalk", "EqualTo", "0"],
-													"Flags": "",
-													"UnrealCall": "",
-													"FunctionHash": 901380568,
-													"ParameterHash": 1336104292
-												},
-												"Not": false,
-												"Operator": 0
-											}
-										]
-									}
-								}
-							],
-							"OverrideIconTextureSmall": "",
-							"OverrideIconTextureLarge": "",
-							"OverrideItemModel": "",
-							"Scripts": []
-						}, {
-							"Note": "2nd Stage: Kills",
-							"LoreToAdd": 5083,
-							"ItemModsToAddIDs": [],
-							"ItemModsToRemoveIDs": ["17949408-3304-4869-aae5-8021c6e4e404"],
-							"EligibleClassesIDs": [],
-							"UnlockActions": [{
-									"TargetValue": 1500,
-									"StatType": "Custom",
-									"OverrideRequirementString": 5198,
-									"RequireDamageType": "None",
-									"RequireHitType": "None",
-									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
-									"Prerequisites": {
-										"Conditional": {
-											"Operator": 0,
-											"Components": []
-										}
-									},
-									"Conditional": {
-										"Operator": 0,
-										"Components": []
-									}
-								}
-							],
-							"OverrideIconTextureSmall": "",
-							"OverrideIconTextureLarge": "",
-							"OverrideItemModel": "",
-							"Scripts": [{
-									"Data": {
-										"FullName": "Void SetGlobalValue(String, Int32)",
-										"Parameters": ["n_talkingweapon_p2_quest_stage", "3"],
-										"Flags": "",
-										"UnrealCall": "",
-										"FunctionHash": 1935477378,
-										"ParameterHash": 1917371197
-									},
-									"Conditional": {
-										"Operator": 0,
-										"Components": []
-									}
-								}, {
-									"Data": {
-										"FullName": "Void SetGlobalValue(String, Int32)",
-										"Parameters": ["n_talkingweapon_p2_wantstotalk", "1"],
-										"Flags": "",
-										"UnrealCall": "",
-										"FunctionHash": 1935477378,
-										"ParameterHash": -1398564314
-									},
-									"Conditional": {
-										"Operator": 0,
-										"Components": []
-									}
-								}
-							]
-						}, {
-							"Note": "2nd Stage: Talk to Sword",
-							"LoreToAdd": 5187,
-							"ItemModsToAddIDs": ["b420d957-6932-4b02-8e02-1393b07f390d", "eee60f64-ca72-4493-8060-fd8e745224df"],
-							"ItemModsToRemoveIDs": ["7d7b81f7-7322-441f-a366-5d15d30379f5"],
-							"EligibleClassesIDs": [],
-							"UnlockActions": [{
-									"TargetValue": 1,
-									"StatType": "Conditional",
-									"OverrideRequirementString": 5179,
-									"RequireDamageType": "None",
-									"RequireHitType": "None",
-									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
-									"Prerequisites": {
-										"Conditional": {
-											"Operator": 0,
-											"Components": []
-										}
-									},
-									"Conditional": {
-										"Operator": 0,
-										"Components": [{
-												"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-												"Data": {
-													"FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
-													"Parameters": ["n_talkingweapon_p2_wantstotalk", "EqualTo", "0"],
-													"Flags": "",
-													"UnrealCall": "",
-													"FunctionHash": 901380568,
-													"ParameterHash": 1336104292
-												},
-												"Not": false,
-												"Operator": 0
-											}
-										]
-									}
-								}
-							],
-							"OverrideIconTextureSmall": "",
-							"OverrideIconTextureLarge": "",
-							"OverrideItemModel": "",
-							"Scripts": []
-						}, {
-							"Note": "3rd Stage: Kills",
-							"LoreToAdd": 5084,
-							"ItemModsToAddIDs": [],
-							"ItemModsToRemoveIDs": ["ad711668-e339-4fca-92c3-2da2a16a998b"],
-							"EligibleClassesIDs": [],
-							"UnlockActions": [{
-									"TargetValue": 25,
-									"StatType": "Custom",
-									"OverrideRequirementString": 4966,
-									"RequireDamageType": "None",
-									"RequireHitType": "None",
-									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
-									"Prerequisites": {
-										"Conditional": {
-											"Operator": 0,
-											"Components": []
-										}
-									},
-									"Conditional": {
-										"Operator": 0,
-										"Components": []
-									}
-								}
-							],
-							"OverrideIconTextureSmall": "",
-							"OverrideIconTextureLarge": "",
-							"OverrideItemModel": "",
-							"Scripts": [{
-									"Data": {
-										"FullName": "Void SetGlobalValue(String, Int32)",
-										"Parameters": ["n_talkingweapon_p2_quest_stage", "4"],
-										"Flags": "",
-										"UnrealCall": "",
-										"FunctionHash": 1935477378,
-										"ParameterHash": 1917371192
-									},
-									"Conditional": {
-										"Operator": 0,
-										"Components": []
-									}
-								}, {
-									"Data": {
-										"FullName": "Void SetGlobalValue(String, Int32)",
-										"Parameters": ["n_talkingweapon_p2_wantstotalk", "1"],
-										"Flags": "",
-										"UnrealCall": "",
-										"FunctionHash": 1935477378,
-										"ParameterHash": -1398564314
-									},
-									"Conditional": {
-										"Operator": 0,
-										"Components": []
-									}
-								}
-							]
-						}, {
-							"Note": "3rd Stage: Talk to Sword",
-							"LoreToAdd": 5188,
-							"ItemModsToAddIDs": ["84037320-461b-4e58-807a-41f7e3daab8a"],
-							"ItemModsToRemoveIDs": ["ad711668-e339-4fca-92c3-2da2a16a998b"],
-							"EligibleClassesIDs": [],
-							"UnlockActions": [{
-									"TargetValue": 1,
-									"StatType": "Conditional",
-									"OverrideRequirementString": 5179,
-									"RequireDamageType": "None",
-									"RequireHitType": "None",
-									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
-									"Prerequisites": {
-										"Conditional": {
-											"Operator": 0,
-											"Components": []
-										}
-									},
-									"Conditional": {
-										"Operator": 0,
-										"Components": [{
-												"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-												"Data": {
-													"FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
-													"Parameters": ["n_talkingweapon_p2_wantstotalk", "EqualTo", "0"],
-													"Flags": "",
-													"UnrealCall": "",
-													"FunctionHash": 901380568,
-													"ParameterHash": 1336104292
-												},
-												"Not": false,
-												"Operator": 0
-											}
-										]
-									}
-								}
-							],
-							"OverrideIconTextureSmall": "",
-							"OverrideIconTextureLarge": "",
-							"OverrideItemModel": "",
-							"Scripts": []
-						}, {
-							"Note": "4th Stage: Talk with Yngfrith",
-							"LoreToAdd": 5084,
-							"ItemModsToAddIDs": [],
-							"ItemModsToRemoveIDs": [],
-							"EligibleClassesIDs": [],
-							"UnlockActions": [{
-									"TargetValue": 1,
-									"StatType": "Custom",
-									"OverrideRequirementString": 5183,
-									"RequireDamageType": "None",
-									"RequireHitType": "None",
-									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
-									"Prerequisites": {
-										"Conditional": {
-											"Operator": 0,
-											"Components": []
-										}
-									},
-									"Conditional": {
-										"Operator": 0,
-										"Components": [{
-												"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-												"Data": {
-													"FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
-													"Parameters": ["n_talkingweapon_p2_ending", "EqualTo", "1"],
-													"Flags": "",
-													"UnrealCall": "",
-													"FunctionHash": 901380568,
-													"ParameterHash": -987215364
-												},
-												"Not": false,
-												"Operator": 0
-											}
-										]
-									}
-								}
-							],
-							"OverrideIconTextureSmall": "",
-							"OverrideIconTextureLarge": "",
-							"OverrideItemModel": "",
-							"Scripts": []
-						}, {
-							"Note": "4th Stage: Talk to Sword",
-							"LoreToAdd": 5189,
-							"ItemModsToAddIDs": ["15b3743d-f357-4015-bf03-4891972c369c", "4aa940c7-6a95-4be7-ad33-651afb6d5dde"],
-							"ItemModsToRemoveIDs": ["b420d957-6932-4b02-8e02-1393b07f390d"],
-							"EligibleClassesIDs": [],
-							"UnlockActions": [{
-									"TargetValue": 1,
-									"StatType": "Conditional",
-									"OverrideRequirementString": 5179,
-									"RequireDamageType": "None",
-									"RequireHitType": "None",
-									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
-									"Prerequisites": {
-										"Conditional": {
-											"Operator": 0,
-											"Components": []
-										}
-									},
-									"Conditional": {
-										"Operator": 0,
-										"Components": [{
-												"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-												"Data": {
-													"FullName": "Boolean AlwaysFalse()",
-													"Parameters": [],
-													"Flags": "",
-													"UnrealCall": "",
-													"FunctionHash": 334029817,
-													"ParameterHash": 334029817
-												},
-												"Not": false,
-												"Operator": 0
-											}
-										]
-									}
-								}
-							],
-							"OverrideIconTextureSmall": "",
-							"OverrideIconTextureLarge": "",
-							"OverrideItemModel": "",
-							"Scripts": []
-						}
-					]
-				}, {
-					"$type": "Game.GameData.TalkingItemComponent, Assembly-CSharp",
-					"ItemGuidString": "b2a8e001-0000-0000-0000-000000000000",
-					"ScriptName": "c_talking_weapon",
-					"TalkingItemPrefab": "prefabs/items/talkingitembase.prefab",
-					"SpeakerID": "3b5814f9-820d-47e1-8a47-5c80d8b8d954"
-				}, {
-					"$type": "Game.GameData.DataScriptEventComponent, Assembly-CSharp",
-					"Scripts": [{
-							"Event": "OnItemCollected",
-							"Script": {
-								"Conditional": {
-									"Operator": 0,
-									"Components": [{
-											"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-											"Data": {
-												"FullName": "Boolean HasConversationNodeBeenPlayed(Guid, Int32)",
-												"Parameters": ["b1240ab4-e701-48f4-bc46-87d626cc5caf", "1"],
-												"Flags": "",
-												"UnrealCall": "",
-												"FunctionHash": -1870187966,
-												"ParameterHash": 1875547225
-											},
-											"Not": true,
-											"Operator": 0
-										}
-									]
-								},
-								"Scripts": [{
-										"Data": {
-											"FullName": "Void StartConversation(Guid, Guid, Int32)",
-											"Parameters": ["b1a8e901-0000-0000-0000-000000000000", "b1240ab4-e701-48f4-bc46-87d626cc5caf", "1"],
-											"Flags": "",
-											"UnrealCall": "",
-											"FunctionHash": -567834830,
-											"ParameterHash": -1505521684
-										},
-										"Conditional": {
-											"Operator": 0,
-											"Components": []
-										}
-									}
-								]
-							}
-						}
-					]
-				}
-			]
-		}]
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+      "DebugName": "Sword_Soulbound_Modwyr",
+      "ID": "9c3d9ec9-c6e2-415f-ae7f-8070eb30e622",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 3370,
+          "DescriptionText": 3371,
+          "FilterType": "Weapons",
+          "InventoryAudioEventListID": "d9ef8ec9-f1fb-4d0b-88b7-49d7c0310019",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "false",
+          "CanBePickpocketed": "true",
+          "IsUnique": "true",
+          "Value": 35,
+          "IconTextureSmall": "gui/icons/items/weapons/sword/sword_modwyr_s.png",
+          "IconTextureLarge": "gui/icons/items/weapons/sword/sword_modwyr_l.png",
+          "PencilSketchTexture": "gui/itemsketches/sketch_modwyr.png",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "Sword",
+          "EquipmentSlot": "AnyWeapon",
+          "AppearancePiece": {
+            "ModelVisualDataPath": "prefabs/items/appearance/weapons/sword/a_sword04_v01.asset"
+          },
+          "ItemModsIDs": [
+            "7d7b81f7-7322-441f-a366-5d15d30379f5",
+            "dc448fbc-0490-420f-ab44-62ca73a9aeb9",
+            "a88637ef-c3ab-48ec-9f71-022714db33d2",
+            "eb825fda-82c5-4b91-9be1-c5093907545e",
+            "ad711668-e339-4fca-92c3-2da2a16a998b",
+            "a51bc2ae-d4dc-4e08-b88c-541b6cb98914"
+          ],
+          "OnEquipVisualEffects": [],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "true",
+          "ProficientAbilityID": "e56c9809-5046-48a8-9334-491b053c79a7",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+          "ItemModel": "art/character/weapons/sword/sword01/w_sword01.fbx",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "false",
+          "PropVisualEffects": [
+            {
+              "VisualEffect": "prefabs/effects/items/weapons/fx_hel_beckoning.prefab",
+              "AttachPoint": "Fx_Bone_01",
+              "EmissiveColor": {
+                "A": 1,
+                "R": 0.06,
+                "G": 0.18,
+                "B": 0.02
+              },
+              "EmissiveGlowScale": 0.1
+            }
+          ]
+        },
+        {
+          "$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+          "Stance": "OneHanded",
+          "AnimationStanceID": "42de436a-5f52-4bc5-8310-076eb320abc4",
+          "StatusEffectsOnLaunchIDs": [],
+          "IsDisplayedWhenAlternate": "true",
+          "IsUniversalType": "false",
+          "AttackID": "be048545-e4f9-45d2-9bfa-cf57af6daa36",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "ForceBackScabbard": "false",
+          "ScabbardAppearancePiece": {
+            "ModelVisualDataPath": "prefabs/items/appearance/weapons/sword/a_sword02_scabbard.asset"
+          },
+          "ScabbardRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+          "ScabbardModel": "",
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "$type": "Game.GameData.SoulbindComponent, Assembly-CSharp",
+          "ProhibitUnbind": "true",
+          "BindableClassesIDs": [],
+          "UnlockStages": [
+            {
+              "Note": "1st Stage: Kills",
+              "LoreToAdd": -1,
+              "ItemModsToAddIDs": [],
+              "ItemModsToRemoveIDs": [],
+              "EligibleClassesIDs": [],
+              "UnlockActions": [
+                {
+                  "TargetValue": 1,
+                  "StatType": "Custom",
+                  "OverrideRequirementString": 4966,
+                  "RequireDamageType": "None",
+                  "RequireHitType": "None",
+                  "StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+                  "Prerequisites": {
+                    "Conditional": {
+                      "Operator": 0,
+                      "Components": []
+                    }
+                  },
+                  "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                  }
+                }
+              ],
+              "OverrideIconTextureSmall": "",
+              "OverrideIconTextureLarge": "",
+              "OverrideItemModel": "",
+              "Scripts": [
+                {
+                  "Data": {
+                    "FullName": "Void SetGlobalValue(String, Int32)",
+                    "Parameters": ["n_talkingweapon_p2_quest_stage", "2"],
+                    "Flags": "",
+                    "UnrealCall": "",
+                    "FunctionHash": 1935477378,
+                    "ParameterHash": 1917371198
+                  },
+                  "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                  }
+                },
+                {
+                  "Data": {
+                    "FullName": "Void SetGlobalValue(String, Int32)",
+                    "Parameters": ["n_talkingweapon_p2_wantstotalk", "1"],
+                    "Flags": "",
+                    "UnrealCall": "",
+                    "FunctionHash": 1935477378,
+                    "ParameterHash": -1398564314
+                  },
+                  "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                  }
+                }
+              ]
+            },
+            {
+              "Note": "1st Stage: Talk to Sword",
+              "LoreToAdd": 5082,
+              "ItemModsToAddIDs": [
+                "dec577b7-e428-4811-aa78-7a709ba85d96",
+                "17949408-3304-4869-aae5-8021c6e4e404"
+              ],
+              "ItemModsToRemoveIDs": ["ad711668-e339-4fca-92c3-2da2a16a998b"],
+              "EligibleClassesIDs": [],
+              "UnlockActions": [
+                {
+                  "TargetValue": 1,
+                  "StatType": "Conditional",
+                  "OverrideRequirementString": 5179,
+                  "RequireDamageType": "None",
+                  "RequireHitType": "None",
+                  "StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+                  "Prerequisites": {
+                    "Conditional": {
+                      "Operator": 0,
+                      "Components": []
+                    }
+                  },
+                  "Conditional": {
+                    "Operator": 0,
+                    "Components": [
+                      {
+                        "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                        "Data": {
+                          "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                          "Parameters": [
+                            "n_talkingweapon_p2_wantstotalk",
+                            "EqualTo",
+                            "0"
+                          ],
+                          "Flags": "",
+                          "UnrealCall": "",
+                          "FunctionHash": 901380568,
+                          "ParameterHash": 1336104292
+                        },
+                        "Not": false,
+                        "Operator": 0
+                      }
+                    ]
+                  }
+                }
+              ],
+              "OverrideIconTextureSmall": "",
+              "OverrideIconTextureLarge": "",
+              "OverrideItemModel": "",
+              "Scripts": []
+            },
+            {
+              "Note": "2nd Stage: Kills",
+              "LoreToAdd": 5083,
+              "ItemModsToAddIDs": [],
+              "ItemModsToRemoveIDs": ["17949408-3304-4869-aae5-8021c6e4e404"],
+              "EligibleClassesIDs": [],
+              "UnlockActions": [
+                {
+                  "TargetValue": 1500,
+                  "StatType": "Custom",
+                  "OverrideRequirementString": 5198,
+                  "RequireDamageType": "None",
+                  "RequireHitType": "None",
+                  "StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+                  "Prerequisites": {
+                    "Conditional": {
+                      "Operator": 0,
+                      "Components": []
+                    }
+                  },
+                  "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                  }
+                }
+              ],
+              "OverrideIconTextureSmall": "",
+              "OverrideIconTextureLarge": "",
+              "OverrideItemModel": "",
+              "Scripts": [
+                {
+                  "Data": {
+                    "FullName": "Void SetGlobalValue(String, Int32)",
+                    "Parameters": ["n_talkingweapon_p2_quest_stage", "3"],
+                    "Flags": "",
+                    "UnrealCall": "",
+                    "FunctionHash": 1935477378,
+                    "ParameterHash": 1917371197
+                  },
+                  "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                  }
+                },
+                {
+                  "Data": {
+                    "FullName": "Void SetGlobalValue(String, Int32)",
+                    "Parameters": ["n_talkingweapon_p2_wantstotalk", "1"],
+                    "Flags": "",
+                    "UnrealCall": "",
+                    "FunctionHash": 1935477378,
+                    "ParameterHash": -1398564314
+                  },
+                  "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                  }
+                }
+              ]
+            },
+            {
+              "Note": "2nd Stage: Talk to Sword",
+              "LoreToAdd": 5187,
+              "ItemModsToAddIDs": [
+                "b420d957-6932-4b02-8e02-1393b07f390d",
+                "eee60f64-ca72-4493-8060-fd8e745224df"
+              ],
+              "ItemModsToRemoveIDs": ["7d7b81f7-7322-441f-a366-5d15d30379f5"],
+              "EligibleClassesIDs": [],
+              "UnlockActions": [
+                {
+                  "TargetValue": 1,
+                  "StatType": "Conditional",
+                  "OverrideRequirementString": 5179,
+                  "RequireDamageType": "None",
+                  "RequireHitType": "None",
+                  "StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+                  "Prerequisites": {
+                    "Conditional": {
+                      "Operator": 0,
+                      "Components": []
+                    }
+                  },
+                  "Conditional": {
+                    "Operator": 0,
+                    "Components": [
+                      {
+                        "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                        "Data": {
+                          "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                          "Parameters": [
+                            "n_talkingweapon_p2_wantstotalk",
+                            "EqualTo",
+                            "0"
+                          ],
+                          "Flags": "",
+                          "UnrealCall": "",
+                          "FunctionHash": 901380568,
+                          "ParameterHash": 1336104292
+                        },
+                        "Not": false,
+                        "Operator": 0
+                      }
+                    ]
+                  }
+                }
+              ],
+              "OverrideIconTextureSmall": "",
+              "OverrideIconTextureLarge": "",
+              "OverrideItemModel": "",
+              "Scripts": []
+            },
+            {
+              "Note": "3rd Stage: Kills",
+              "LoreToAdd": 5084,
+              "ItemModsToAddIDs": [],
+              "ItemModsToRemoveIDs": ["ad711668-e339-4fca-92c3-2da2a16a998b"],
+              "EligibleClassesIDs": [],
+              "UnlockActions": [
+                {
+                  "TargetValue": 25,
+                  "StatType": "Custom",
+                  "OverrideRequirementString": 4966,
+                  "RequireDamageType": "None",
+                  "RequireHitType": "None",
+                  "StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+                  "Prerequisites": {
+                    "Conditional": {
+                      "Operator": 0,
+                      "Components": []
+                    }
+                  },
+                  "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                  }
+                }
+              ],
+              "OverrideIconTextureSmall": "",
+              "OverrideIconTextureLarge": "",
+              "OverrideItemModel": "",
+              "Scripts": [
+                {
+                  "Data": {
+                    "FullName": "Void SetGlobalValue(String, Int32)",
+                    "Parameters": ["n_talkingweapon_p2_quest_stage", "4"],
+                    "Flags": "",
+                    "UnrealCall": "",
+                    "FunctionHash": 1935477378,
+                    "ParameterHash": 1917371192
+                  },
+                  "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                  }
+                },
+                {
+                  "Data": {
+                    "FullName": "Void SetGlobalValue(String, Int32)",
+                    "Parameters": ["n_talkingweapon_p2_wantstotalk", "1"],
+                    "Flags": "",
+                    "UnrealCall": "",
+                    "FunctionHash": 1935477378,
+                    "ParameterHash": -1398564314
+                  },
+                  "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                  }
+                }
+              ]
+            },
+            {
+              "Note": "3rd Stage: Talk to Sword",
+              "LoreToAdd": 5188,
+              "ItemModsToAddIDs": ["84037320-461b-4e58-807a-41f7e3daab8a"],
+              "ItemModsToRemoveIDs": ["ad711668-e339-4fca-92c3-2da2a16a998b"],
+              "EligibleClassesIDs": [],
+              "UnlockActions": [
+                {
+                  "TargetValue": 1,
+                  "StatType": "Conditional",
+                  "OverrideRequirementString": 5179,
+                  "RequireDamageType": "None",
+                  "RequireHitType": "None",
+                  "StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+                  "Prerequisites": {
+                    "Conditional": {
+                      "Operator": 0,
+                      "Components": []
+                    }
+                  },
+                  "Conditional": {
+                    "Operator": 0,
+                    "Components": [
+                      {
+                        "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                        "Data": {
+                          "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                          "Parameters": [
+                            "n_talkingweapon_p2_wantstotalk",
+                            "EqualTo",
+                            "0"
+                          ],
+                          "Flags": "",
+                          "UnrealCall": "",
+                          "FunctionHash": 901380568,
+                          "ParameterHash": 1336104292
+                        },
+                        "Not": false,
+                        "Operator": 0
+                      }
+                    ]
+                  }
+                }
+              ],
+              "OverrideIconTextureSmall": "",
+              "OverrideIconTextureLarge": "",
+              "OverrideItemModel": "",
+              "Scripts": []
+            },
+            {
+              "Note": "4th Stage: Talk with Yngfrith",
+              "LoreToAdd": 5084,
+              "ItemModsToAddIDs": [],
+              "ItemModsToRemoveIDs": [],
+              "EligibleClassesIDs": [],
+              "UnlockActions": [
+                {
+                  "TargetValue": 1,
+                  "StatType": "Custom",
+                  "OverrideRequirementString": 5183,
+                  "RequireDamageType": "None",
+                  "RequireHitType": "None",
+                  "StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+                  "Prerequisites": {
+                    "Conditional": {
+                      "Operator": 0,
+                      "Components": []
+                    }
+                  },
+                  "Conditional": {
+                    "Operator": 0,
+                    "Components": [
+                      {
+                        "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                        "Data": {
+                          "FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+                          "Parameters": [
+                            "n_talkingweapon_p2_ending",
+                            "EqualTo",
+                            "1"
+                          ],
+                          "Flags": "",
+                          "UnrealCall": "",
+                          "FunctionHash": 901380568,
+                          "ParameterHash": -987215364
+                        },
+                        "Not": false,
+                        "Operator": 0
+                      }
+                    ]
+                  }
+                }
+              ],
+              "OverrideIconTextureSmall": "",
+              "OverrideIconTextureLarge": "",
+              "OverrideItemModel": "",
+              "Scripts": []
+            },
+            {
+              "Note": "4th Stage: Talk to Sword",
+              "LoreToAdd": 5189,
+              "ItemModsToAddIDs": [
+                "15b3743d-f357-4015-bf03-4891972c369c",
+                "4aa940c7-6a95-4be7-ad33-651afb6d5dde"
+              ],
+              "ItemModsToRemoveIDs": ["b420d957-6932-4b02-8e02-1393b07f390d"],
+              "EligibleClassesIDs": [],
+              "UnlockActions": [
+                {
+                  "TargetValue": 1,
+                  "StatType": "Conditional",
+                  "OverrideRequirementString": 5179,
+                  "RequireDamageType": "None",
+                  "RequireHitType": "None",
+                  "StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+                  "Prerequisites": {
+                    "Conditional": {
+                      "Operator": 0,
+                      "Components": []
+                    }
+                  },
+                  "Conditional": {
+                    "Operator": 0,
+                    "Components": [
+                      {
+                        "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                        "Data": {
+                          "FullName": "Boolean AlwaysFalse()",
+                          "Parameters": [],
+                          "Flags": "",
+                          "UnrealCall": "",
+                          "FunctionHash": 334029817,
+                          "ParameterHash": 334029817
+                        },
+                        "Not": false,
+                        "Operator": 0
+                      }
+                    ]
+                  }
+                }
+              ],
+              "OverrideIconTextureSmall": "",
+              "OverrideIconTextureLarge": "",
+              "OverrideItemModel": "",
+              "Scripts": []
+            }
+          ]
+        },
+        {
+          "$type": "Game.GameData.TalkingItemComponent, Assembly-CSharp",
+          "ItemGuidString": "b2a8e001-0000-0000-0000-000000000000",
+          "ScriptName": "c_talking_weapon",
+          "TalkingItemPrefab": "prefabs/items/talkingitembase.prefab",
+          "SpeakerID": "3b5814f9-820d-47e1-8a47-5c80d8b8d954"
+        },
+        {
+          "$type": "Game.GameData.DataScriptEventComponent, Assembly-CSharp",
+          "Scripts": [
+            {
+              "Event": "OnItemCollected",
+              "Script": {
+                "Conditional": {
+                  "Operator": 0,
+                  "Components": [
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean HasConversationNodeBeenPlayed(Guid, Int32)",
+                        "Parameters": [
+                          "b1240ab4-e701-48f4-bc46-87d626cc5caf",
+                          "1"
+                        ],
+                        "Flags": "",
+                        "UnrealCall": "",
+                        "FunctionHash": -1870187966,
+                        "ParameterHash": 1875547225
+                      },
+                      "Not": true,
+                      "Operator": 0
+                    }
+                  ]
+                },
+                "Scripts": [
+                  {
+                    "Data": {
+                      "FullName": "Void StartConversation(Guid, Guid, Int32)",
+                      "Parameters": [
+                        "b1a8e901-0000-0000-0000-000000000000",
+                        "b1240ab4-e701-48f4-bc46-87d626cc5caf",
+                        "1"
+                      ],
+                      "Flags": "",
+                      "UnrealCall": "",
+                      "FunctionHash": -567834830,
+                      "ParameterHash": -1505521684
+                    },
+                    "Conditional": {
+                      "Operator": 0,
+                      "Components": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

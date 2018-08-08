@@ -1,70 +1,82 @@
 {
-	"GameDataObjects": [{
-			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
-			"DebugName": "Shield_Large_U_Cadhu_Scalth",
-			"ID": "31167607-7bfd-417c-8dd6-d1808e4e2bb9",
-			"Components": [{
-					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
-					"DisplayName": 2536,
-					"DescriptionText": 5109,
-					"FilterType": "Weapons",
-					"InventoryAudioEventListID": "3e83b58f-e67b-4ba5-b2c4-964e57aa1b4f",
-					"IsQuestItem": "false",
-					"IsIngredient": "false",
-					"IsCurrency": "false",
-					"IsAdventuringItem": "false",
-					"CanSellForFullValue": "false",
-					"MaxStackSize": 1,
-					"NeverDropAsLoot": "false",
-					"CanBePickpocketed": "true",
-					"IsUnique": "true",
-					"Value": 35,
-					"IconTextureSmall": "gui/icons/items/weapons/shield_medium/shield_medium_lethandrias_devotion_s.png",
-					"IconTextureLarge": "gui/icons/items/weapons/shield_medium/shield_medium_lethandrias_devotion_l.png",
-					"PencilSketchTexture": "",
-					"InspectOnUseButton": [],
-					"IsPlaceholder": "false"
-				}, {
-					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
-					"EquipmentType": "LargeShield",
-					"EquipmentSlot": "SecondaryWeaponOnly",
-					"AppearancePiece": {
-						"ModelVisualDataPath": "prefabs/items/appearance/weapons/shield_medium/shield_medium_heater_04.asset"
-					},
-					"ItemModsIDs": ["92236b9d-7217-47fa-9c45-3b30b38e70a0", "e2b1b1d6-0e6e-4046-b11e-1ef52ca23639", "ada8ae46-b63c-4251-9bf4-10f16cceb4b5", "d0b1f796-2546-4a25-8d2f-511282ac6d22", "63d1c47c-6f0d-46fe-ac7a-f351d6c2b08e"],
-					"OnEquipVisualEffects": [{
-							"VisualEffect": "prefabs/effects/items/weapons/fx_lethandrias_devotion.prefab",
-							"AttachPoint": "Fx_Bone_01",
-							"EmissiveColor": {
-								"A": 1,
-								"R": 1,
-								"G": 1,
-								"B": 1
-							},
-							"EmissiveGlowScale": 0
-						}
-					],
-					"RestrictedToClassIDs": [],
-					"RestrictedToPlayer": "false",
-					"ProficientAbilityID": "99f28fcd-60cf-4009-9cef-0574312e7efe",
-					"CannotUnequip": "false",
-					"ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
-					"ItemModel": "art/character/weapons/shield_medium/shieldm01/shieldm01.fbx",
-					"AnimationController": "",
-					"PaperdollOverrideRenderer": "",
-					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
-					"CannotSheathe": "false",
-					"PropVisualEffects": []
-				}, {
-					"$type": "Game.GameData.ShieldComponent, Assembly-CSharp",
-					"ShieldType": "Medium",
-					"AttachmentType": "Arm",
-					"AnimationStanceID": "82d96ea3-42dd-4466-9b8b-4a3cecf9d898",
-					"BaseDeflectBonus": 8,
-					"BaseReflexBonus": 0,
-					"BaseAccuracyBonus": -4,
-					"AudioEventListID": "00000000-0000-0000-0000-000000000000"
-				}
-			]
-		}]
-  }
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+      "DebugName": "Shield_Large_U_Cadhu_Scalth",
+      "ID": "31167607-7bfd-417c-8dd6-d1808e4e2bb9",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+          "DisplayName": 2536,
+          "DescriptionText": 5109,
+          "FilterType": "Weapons",
+          "InventoryAudioEventListID": "3e83b58f-e67b-4ba5-b2c4-964e57aa1b4f",
+          "IsQuestItem": "false",
+          "IsIngredient": "false",
+          "IsCurrency": "false",
+          "IsAdventuringItem": "false",
+          "CanSellForFullValue": "false",
+          "MaxStackSize": 1,
+          "NeverDropAsLoot": "false",
+          "CanBePickpocketed": "true",
+          "IsUnique": "true",
+          "Value": 35,
+          "IconTextureSmall": "gui/icons/items/weapons/shield_medium/shield_medium_lethandrias_devotion_s.png",
+          "IconTextureLarge": "gui/icons/items/weapons/shield_medium/shield_medium_lethandrias_devotion_l.png",
+          "PencilSketchTexture": "",
+          "InspectOnUseButton": [],
+          "IsPlaceholder": "false"
+        },
+        {
+          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+          "EquipmentType": "LargeShield",
+          "EquipmentSlot": "SecondaryWeaponOnly",
+          "AppearancePiece": {
+            "ModelVisualDataPath": "prefabs/items/appearance/weapons/shield_medium/shield_medium_heater_04.asset"
+          },
+          "ItemModsIDs": [
+            "92236b9d-7217-47fa-9c45-3b30b38e70a0",
+            "e2b1b1d6-0e6e-4046-b11e-1ef52ca23639",
+            "ada8ae46-b63c-4251-9bf4-10f16cceb4b5",
+            "d0b1f796-2546-4a25-8d2f-511282ac6d22",
+            "63d1c47c-6f0d-46fe-ac7a-f351d6c2b08e"
+          ],
+          "OnEquipVisualEffects": [
+            {
+              "VisualEffect": "prefabs/effects/items/weapons/fx_lethandrias_devotion.prefab",
+              "AttachPoint": "Fx_Bone_01",
+              "EmissiveColor": {
+                "A": 1,
+                "R": 1,
+                "G": 1,
+                "B": 1
+              },
+              "EmissiveGlowScale": 0
+            }
+          ],
+          "RestrictedToClassIDs": [],
+          "RestrictedToPlayer": "false",
+          "ProficientAbilityID": "99f28fcd-60cf-4009-9cef-0574312e7efe",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+          "ItemModel": "art/character/weapons/shield_medium/shieldm01/shieldm01.fbx",
+          "AnimationController": "",
+          "PaperdollOverrideRenderer": "",
+          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+          "CannotSheathe": "false",
+          "PropVisualEffects": []
+        },
+        {
+          "$type": "Game.GameData.ShieldComponent, Assembly-CSharp",
+          "ShieldType": "Medium",
+          "AttachmentType": "Arm",
+          "AnimationStanceID": "82d96ea3-42dd-4466-9b8b-4a3cecf9d898",
+          "BaseDeflectBonus": 8,
+          "BaseReflexBonus": 0,
+          "BaseAccuracyBonus": -4,
+          "AudioEventListID": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    }
+  ]
+}
