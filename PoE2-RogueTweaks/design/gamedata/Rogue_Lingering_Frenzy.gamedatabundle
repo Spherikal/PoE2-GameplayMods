@@ -2,7 +2,7 @@
 	"GameDataObjects": [{
 			"$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
 			"DebugName": "Rogue_Lingering_Frenzy",
-			"ID": "dc8da24a-58d7-46c9-afae-90bbbb001b4f",
+			"ID": "57e40b86-6fec-4ad4-b6c8-488516bd8fbb",
 			"Components": [{
 					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
 					"KeywordsIDs": [],
@@ -12,7 +12,7 @@
 							"String": 11304
 						}
 					],
-					"UpgradedFromID": "dc8da24a-58d7-46c9-afae-90aaaa001b4f",
+					"UpgradedFromID": "e1fe8bba-6992-4819-8e4e-2d745271050b",
 					"Vocalization": "BarbarianShout",
 					"Icon": "gui/icons/abilities/barbarian/spirit_tornado.png",
 					"UsageType": "ClassPowerPool",

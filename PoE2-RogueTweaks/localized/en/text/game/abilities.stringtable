@@ -36,12 +36,12 @@
     </Entry>
     <Entry>
       <ID>11307</ID>
-      <DefaultText>Carnage</DefaultText>
+      <DefaultText>Rogue Carnage</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>11308</ID>
-      <DefaultText>Accurate Carnage</DefaultText>
+      <DefaultText>Rogue Accurate Carnage</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

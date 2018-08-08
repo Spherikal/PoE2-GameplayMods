@@ -2,7 +2,7 @@
 	"GameDataObjects": [{
 			"$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
 			"DebugName": "Rogue_Frenzy",
-			"ID": "dc8da24a-58d7-46c9-afae-90aaaa001b4f",
+			"ID": "e1fe8bba-6992-4819-8e4e-2d745271050b",
 			"Components": [{
 					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
 					"KeywordsIDs": [],
