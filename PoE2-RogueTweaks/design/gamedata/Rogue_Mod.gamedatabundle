@@ -6,8 +6,7 @@
       "ID": "958174ed-bef9-4d9b-9bc0-25bef1864623",
       "Components": [
         {
-          "$type":
-            "Game.GameData.BaseProgressionTableComponent, Assembly-CSharp",
+          "$type": "Game.GameData.BaseProgressionTableComponent, Assembly-CSharp",
           "AbilityUnlocks": [
             {
               "Note": "PL 1 Unlock - Fast Runner",
@@ -77,8 +76,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsClass(Guid)",
                         "Parameters": ["f0036bfb-53d5-4d0c-b11a-b780d788a108"],
@@ -96,8 +94,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsClass(Guid)",
                         "Parameters": ["f0036bfb-53d5-4d0c-b11a-b780d788a108"],
@@ -632,8 +629,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -651,8 +647,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -687,8 +682,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -706,8 +700,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -742,8 +735,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -761,8 +753,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -780,8 +771,7 @@
               }
             },
             {
-              "Note":
-                "PL 1 Auto Grant - Arcane Trickster Arkemyr's Dazzling Lights",
+              "Note": "PL 1 Auto Grant - Arcane Trickster Arkemyr's Dazzling Lights",
               "Category": "Subclass",
               "UnlockStyle": "AutoGrant",
               "ActivationObject": "Self",
@@ -798,8 +788,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -817,8 +806,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -853,8 +841,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -872,8 +859,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -908,8 +894,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -927,8 +912,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -963,8 +947,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -982,8 +965,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -1018,8 +1000,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -1037,8 +1018,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -1073,8 +1053,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -1092,8 +1071,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -1128,8 +1106,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -1147,8 +1124,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -1183,8 +1159,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -1202,8 +1177,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -1238,8 +1212,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -1257,8 +1230,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
@@ -1293,8 +1265,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["db98a320-6781-4469-b450-dec52ada245a"],
@@ -1312,8 +1283,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["db98a320-6781-4469-b450-dec52ada245a"],
@@ -1348,8 +1318,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["db98a320-6781-4469-b450-dec52ada245a"],
@@ -1367,8 +1336,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["db98a320-6781-4469-b450-dec52ada245a"],
@@ -1381,8 +1349,7 @@
                       "Operator": 0
                     },
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["db98a320-6781-4469-b450-dec52ada245a"],
@@ -1417,8 +1384,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["db98a320-6781-4469-b450-dec52ada245a"],
@@ -1436,8 +1402,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["db98a320-6781-4469-b450-dec52ada245a"],
@@ -1450,8 +1415,7 @@
                       "Operator": 0
                     },
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["db98a320-6781-4469-b450-dec52ada245a"],
@@ -1486,8 +1450,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["db98a320-6781-4469-b450-dec52ada245a"],
@@ -1505,8 +1468,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["db98a320-6781-4469-b450-dec52ada245a"],
@@ -1519,8 +1481,7 @@
                       "Operator": 0
                     },
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["db98a320-6781-4469-b450-dec52ada245a"],
@@ -1555,8 +1516,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["ff4e2496-c063-4274-afe3-653f06094b1c"],
@@ -1574,8 +1534,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["ff4e2496-c063-4274-afe3-653f06094b1c"],
@@ -1610,8 +1569,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["ff4e2496-c063-4274-afe3-653f06094b1c"],
@@ -1629,8 +1587,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["ff4e2496-c063-4274-afe3-653f06094b1c"],
@@ -1643,8 +1600,7 @@
                       "Operator": 0
                     },
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
                         "Parameters": ["ff4e2496-c063-4274-afe3-653f06094b1c"],
@@ -1704,8 +1660,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["da59e137-4636-4362-9fce-e0c5e5394a06"],
@@ -1718,8 +1673,7 @@
                       "Operator": 0
                     },
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["5d9e8d52-1ad3-4217-b3bd-7d0ba32bc9c8"],
@@ -1833,8 +1787,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["18edb643-7060-4f14-aed0-3c7cee166cb0"],
@@ -1847,8 +1800,7 @@
                       "Operator": 0
                     },
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["a54896f9-19fe-4edc-9d56-45fa753fa1fa"],
@@ -1962,8 +1914,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["bfac9c06-7259-4094-ab14-f1bcfaa4ce07"],
@@ -1976,8 +1927,7 @@
                       "Operator": 0
                     },
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["554f351c-9441-4861-a3cc-9a5f20d7fa28"],
@@ -1990,8 +1940,7 @@
                       "Operator": 0
                     },
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["e8dbfaf0-b7c1-4c4a-bf1e-d85020826712"],
@@ -2030,8 +1979,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["32c92168-485c-4076-8251-54ad9dc030e3"],
@@ -2044,8 +1992,7 @@
                       "Operator": 0
                     },
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["386bdde4-9754-4ebf-931d-18c3b5c73b5b"],
@@ -2084,8 +2031,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["1fda55c8-8d5f-47b2-b25d-0ca82c0debed"],
@@ -2124,8 +2070,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["1fda55c8-8d5f-47b2-b25d-0ca82c0debed"],
@@ -2214,8 +2159,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["7eb29970-dfae-4c45-9dd5-203c4f9b2f8c"],
@@ -2254,8 +2198,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["7eb29970-dfae-4c45-9dd5-203c4f9b2f8c"],
@@ -2294,8 +2237,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["e1fe8bba-6992-4819-8e4e-2d745271050b"],
@@ -2333,8 +2275,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["b2ebf753-78e9-4b72-b9de-80bf68d0b646"],
@@ -2347,8 +2288,7 @@
                       "Operator": 0
                     },
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["158edf6d-677e-4a95-ba5b-1e49e1dbc108"],
@@ -2437,8 +2377,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["719dd06a-6008-4f1d-949c-2bac54bde4da"],
@@ -2451,8 +2390,7 @@
                       "Operator": 0
                     },
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["e1668937-c325-45ec-a53e-7fb9ba421abe"],
@@ -2491,8 +2429,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["719dd06a-6008-4f1d-949c-2bac54bde4da"],
@@ -2505,8 +2442,7 @@
                       "Operator": 0
                     },
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["e110ab6f-f378-496f-b207-b557ea782f4f"],
@@ -2545,8 +2481,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["0cd190ac-00f0-4f3c-a7dc-960efa88df57"],
@@ -2559,8 +2494,7 @@
                       "Operator": 0
                     },
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["0dfe2284-a7d0-4344-a110-77580b9740b4"],
@@ -2624,8 +2558,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["bfa09dc0-06e0-48ec-8ba0-08da0c7eb890"],
@@ -2664,8 +2597,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["bfa09dc0-06e0-48ec-8ba0-08da0c7eb890"],
@@ -2704,8 +2636,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["bfa09dc0-06e0-48ec-8ba0-08da0c7eb890"],
@@ -2744,8 +2675,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["f131a116-1055-4290-9649-b5b3cde178bf"],
@@ -2784,8 +2714,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["f131a116-1055-4290-9649-b5b3cde178bf"],
@@ -2824,8 +2753,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["e89bcf5c-5b28-4792-aff1-7daa02262d1e"],
@@ -2864,8 +2792,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["e89bcf5c-5b28-4792-aff1-7daa02262d1e"],
@@ -2904,8 +2831,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["9b61af12-4802-4be3-b6af-4d9286d86394"],
@@ -2969,8 +2895,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["59efd9b3-33f8-41f4-9976-06c4b72a7bb6"],
@@ -3009,8 +2934,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["59efd9b3-33f8-41f4-9976-06c4b72a7bb6"],
@@ -3099,8 +3023,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["e110ab6f-f378-496f-b207-b557ea782f4f"],
@@ -3139,8 +3062,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["e1668937-c325-45ec-a53e-7fb9ba421abe"],
@@ -3179,8 +3101,7 @@
                   "Operator": 0,
                   "Components": [
                     {
-                      "$type":
-                        "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                       "Data": {
                         "FullName": "Boolean ProgressionTableHasAbility(Guid)",
                         "Parameters": ["e78ad9bf-18db-4079-a57b-7da273a5adf7"],
@@ -3308,8 +3229,7 @@
           "DefaultCustomAI2ID": "00000000-0000-0000-0000-000000000000"
         },
         {
-          "$type":
-            "Game.GameData.ClassProgressionTableComponent, Assembly-CSharp",
+          "$type": "Game.GameData.ClassProgressionTableComponent, Assembly-CSharp",
           "CategoryNames": [
             {
               "Category": "General",
