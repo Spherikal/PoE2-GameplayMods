@@ -8,8 +8,8 @@
 				}, {
 					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
 					"KeywordsIDs": [],
-					"DisplayName": 11307,
-					"Description": 11305,
+					"DisplayName": 11308,
+					"Description": 11306,
 					"UpgradeDescriptions": [],
 					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
 					"Vocalization": "NoVocalization",
@@ -65,7 +65,7 @@
 						"PenetrationAdjustment": 0
 					},
 					"StatusEffectKeywordsIDs": [],
-					"StatusEffectsIDs": ["0cf0cad9-64c3-4c23-92e4-7ff623bfb251"],
+					"StatusEffectsIDs": ["1932db90-150d-4103-9ff7-d4cd0bc12f3a"],
 					"VisualEffects": [],
 					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
 					"AttackID": "00000000-0000-0000-0000-000000000000",

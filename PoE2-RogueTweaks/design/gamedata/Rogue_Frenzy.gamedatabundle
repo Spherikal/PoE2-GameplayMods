@@ -7,7 +7,7 @@
 					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
 					"KeywordsIDs": [],
 					"DisplayName": 11301,
-					"Description": 82002,
+					"Description": 11302,
 					"UpgradeDescriptions": [],
 					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
 					"Vocalization": "BarbarianShout",

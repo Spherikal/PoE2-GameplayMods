@@ -6,8 +6,8 @@
 			"Components": [{
 					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
 					"KeywordsIDs": [],
-					"DisplayName": 11306,
-					"Description": 11304,
+					"DisplayName": 11307,
+					"Description": 11305,
 					"UpgradeDescriptions": [],
 					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
 					"Vocalization": "NoVocalization",
