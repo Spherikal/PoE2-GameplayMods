@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\abilities</Name>
+  <NextEntryID>1</NextEntryID>
+  <EntryCount>3325</EntryCount>
+  <Entries>
+	<Entry>
+      <ID>11301</ID>
+      <DefaultText>Frenzy</DefaultText>
+      <FemaleText />
+    </Entry>
+	<Entry>
+      <ID>82002</ID>
+      <DefaultText>&lt;line-height=100%&gt;Sends the rogue into a frenzied state, granting &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations as well as an Action Speed bonus. While frenzied, the rogue receives a &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;b&gt;Deflection&lt;/b&gt;&lt;space=0.7em&gt;&lt;#b0cffd&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; penalty.&lt;/line-height&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11302</ID>
+      <DefaultText>Lingering Frenzy</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11303</ID>
+      <DefaultText>(Lingering Frenzy) - While active, kills increase the frenzy duration.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11304</ID>
+      <DefaultText>The rogue's attacks become so forceful as to impact others around the target enemy. For every successful melee attack, the rogue makes reduced-damage attacks at all other enemies within a short distance of the target.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11305</ID>
+      <DefaultText>The rogue learns to line up their most savage blows, improving the Accuracy of secondary attacks from Carnage.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11306</ID>
+      <DefaultText>Carnage</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>11307</ID>
+      <DefaultText>Accurate Carnage</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

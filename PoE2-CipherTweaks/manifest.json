@@ -1,0 +1,14 @@
+{
+    "Title" : {
+        "en" : "Cipher Tweaks"
+    },
+    "Description" : {
+        "en" :  "Makes changes to various parts of the Cipher class."
+    },
+    "Author" : "Spherikal",
+    "ModVersion": "1.1",
+    "SupportedGameVersion" : {
+        "Min" : "1.2.0",
+        "Max" : "1.2.2"
+    }
+}

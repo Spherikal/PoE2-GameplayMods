@@ -1,0 +1,76 @@
+{
+	"GameDataObjects": [{
+			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+			"DebugName": "Breastplate_Armor_U_Devil_of_Caroc_Breastplate",
+			"ID": "1a2a2118-230c-4538-936a-0f8f43daeb83",
+			"Components": [{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 4375,
+					"DescriptionText": 4376,
+					"FilterType": "Armor",
+					"InventoryAudioEventListID": "3b0b476e-883e-4a9e-9a61-956eabf30b6d",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "true",
+					"Value": 200,
+					"IconTextureSmall": "devils_caroc_s",
+					"IconTextureLarge": "gui/devils_caroc_L.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				}, {
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "None",
+					"EquipmentSlot": "Armor",
+					"AppearancePiece": {
+						"ModelVisualDataPath": "prefabs/items/appearance/body/bp/bp05/a_bp05.asset"
+					},
+					"ItemModsIDs": ["f23d7b9f-563a-4a5a-b7c4-d572e2386ddf", "53f92f5e-94b7-482b-9d95-b92afa15b319", "be20ec96-68be-40f1-a05c-267933ea5eef"],
+					"OnEquipVisualEffects": [],
+					"RestrictedToClassIDs": [],
+					"RestrictedToPlayer": "false",
+					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				}, {
+					"$type": "Game.GameData.ArmorComponent, Assembly-CSharp",
+					"ArmorRating": 7,
+					"SpeedFactor": 0.741,
+					"ArmorCategory": "Medium",
+					"ArmorMaterial": "Plate",
+					"LevelScaling": {
+						"BaseLevel": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"ArmorRatingAdjustment": 0
+					},
+					"OverridePierceRating": -1,
+					"OverrideSlashRating": 5,
+					"OverrideCrushRating": -1,
+					"OverrideBurnRating": -1,
+					"OverrideFreezeRating": -1,
+					"OverrideShockRating": 5,
+					"OverrideCorrodeRating": -1,
+					"ImmunityPierce": "false",
+					"ImmunitySlash": "false",
+					"ImmunityCrush": "false",
+					"ImmunityBurn": "false",
+					"ImmunityFreeze": "false",
+					"ImmunityShock": "false",
+					"ImmunityCorrode": "false"
+				}
+			]
+		}]
+  }

@@ -1,0 +1,83 @@
+{
+	"GameDataObjects": [{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Escape",
+			"ID": "719dd06a-6008-4f1d-949c-2bac54bde4da",
+			"Components": [{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"KeywordsIDs": [],
+					"DisplayName": 360,
+					"Description": 921,
+					"UpgradeDescriptions": [],
+					"UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+					"Vocalization": "NoVocalization",
+					"Icon": "gui/icons/abilities/rogue/escape.png",
+					"UsageType": "ClassPowerPool",
+					"UsageValue": 1,
+					"AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+					"AbilityLevel": 1,
+					"IsPassive": "false",
+					"StackingRuleOverride": "Default",
+					"TriggerOnHit": "false",
+					"IsModal": "false",
+					"ModalGroupID": "00000000-0000-0000-0000-000000000000",
+					"IsCombatOnly": "false",
+					"IsNonCombatOnly": "false",
+					"HideFromUI": "false",
+					"HideFromCombatLog": "false",
+					"UniqueSet": "None",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"DurationOverride": 0,
+					"OverrideEmpower": "Default",
+					"ClearsOnMovement": "false",
+					"CannotActivateWhileInStealth": "false",
+					"CannotActivateWhileInvisible": "false",
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"PowerLevelScaling": {
+						"ScalingType": "Default",
+						"BaseLevel": 0,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"DamageAdjustment": 1,
+						"DurationAdjustment": 1,
+						"BounceCountAdjustment": 0,
+						"ProjectileCountAdjustment": 0,
+						"AccuracyAdjustment": 0,
+						"PenetrationAdjustment": 0
+					},
+					"StatusEffectKeywordsIDs": [],
+					"StatusEffectsIDs": ["66610652-10ed-46d2-8d0e-29c89a0e57dc", "18e5ab80-6d41-4d20-9a8a-f0ba76419ce5", "58094d33-44b6-4862-88ab-c89214b94d23"],
+					"VisualEffects": [],
+					"SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+					"AttackID": "7364676c-a8bf-498f-96ec-617d38993f15",
+					"AITargetingConditional": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						},
+						"Scripts": []
+					},
+					"AudioEventListID": "63ee55df-f554-4203-b034-00ff2cddcb63"
+				}, {
+					"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+				}
+			]
+		}]
+}

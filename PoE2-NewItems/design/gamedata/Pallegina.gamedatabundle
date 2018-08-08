@@ -1,0 +1,76 @@
+{
+	"GameDataObjects": [{
+			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+			"DebugName": "Breastplate_Armor_U_Casita_Samelias_Legacy",
+			"ID": "8cc0e17a-c41f-4c5b-af88-2be826d706d8",
+			"Components": [{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 2570,
+					"DescriptionText": 4927,
+					"FilterType": "Armor",
+					"InventoryAudioEventListID": "3b0b476e-883e-4a9e-9a61-956eabf30b6d",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "true",
+					"Value": 200,
+					"IconTextureSmall": "gui/icons/items/armor/breastplate/breastplate_armor_pallegina_s.png",
+					"IconTextureLarge": "gui/icons/items/armor/breastplate/breastplate_armor_pallegina_l.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				}, {
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "None",
+					"EquipmentSlot": "Armor",
+					"AppearancePiece": {
+						"ModelVisualDataPath": "prefabs/items/appearance/body/bp/bp04/a_bp04.asset"
+					},
+					"ItemModsIDs": ["2f868d39-3962-4a62-a656-041121931423", "72710a5f-c6dd-4c82-b711-e2ae0aeea889"],
+					"OnEquipVisualEffects": [],
+					"RestrictedToClassIDs": [],
+					"RestrictedToPlayer": "false",
+					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				}, {
+					"$type": "Game.GameData.ArmorComponent, Assembly-CSharp",
+					"ArmorRating": 7,
+					"SpeedFactor": 0.741,
+					"ArmorCategory": "Medium",
+					"ArmorMaterial": "Plate",
+					"LevelScaling": {
+						"BaseLevel": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"ArmorRatingAdjustment": 0
+					},
+					"OverridePierceRating": -1,
+					"OverrideSlashRating": 5,
+					"OverrideCrushRating": -1,
+					"OverrideBurnRating": -1,
+					"OverrideFreezeRating": -1,
+					"OverrideShockRating": 5,
+					"OverrideCorrodeRating": -1,
+					"ImmunityPierce": "false",
+					"ImmunitySlash": "false",
+					"ImmunityCrush": "false",
+					"ImmunityBurn": "false",
+					"ImmunityFreeze": "false",
+					"ImmunityShock": "false",
+					"ImmunityCorrode": "false"
+				}
+			]
+		}]
+  }

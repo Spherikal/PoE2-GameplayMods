@@ -1,0 +1,14 @@
+{
+    "Title" : {
+        "en" : "Slower Days and Longer Nights"
+    },
+    "Description" : {
+        "en" :  "This mod makes the day and night last twice as long. I felt that the day and night went by too fast so I doubled the time it takes for a day to pass. The mod shouldn't affect anything other than slowing down the pace of the day/night cycle. Character and combat speed will work just like before."
+    },
+    "Author" : "Spherikal",
+    "ModVersion": "1.2",
+    "SupportedGameVersion" : {
+        "Min" : "1.0.0",
+        "Max" : "1.2.2"
+    }
+}

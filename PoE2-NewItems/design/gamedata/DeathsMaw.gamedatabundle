@@ -1,0 +1,50 @@
+{
+	"GameDataObjects": [{
+			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+			"DebugName": "Head_U_Helm_Deaths_Maw",
+			"ID": "2d98e788-6778-4c6b-a54e-1039c90efe27",
+			"Components": [{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 4200,
+					"DescriptionText": 4201,
+					"FilterType": "Clothing",
+					"InventoryAudioEventListID": "50b61346-2a8e-4595-a76f-85c497adab02",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "true",
+					"Value": 65,
+					"IconTextureSmall": "gui/icons/items/head/helm_plate_01_S.png",
+					"IconTextureLarge": "gui/icons/items/head/helm_plate_01_L.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				}, {
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "None",
+					"EquipmentSlot": "Head",
+					"AppearancePiece": {
+						"ModelVisualDataPath": "prefabs/items/appearance/helm/a_helm09.asset"
+					},
+					"ItemModsIDs": ["6438ab2e-4d5f-425e-b904-b76798c2a45a"],
+					"OnEquipVisualEffects": [],
+					"RestrictedToClassIDs": [],
+					"RestrictedToPlayer": "false",
+					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				}
+			]
+		}]
+}

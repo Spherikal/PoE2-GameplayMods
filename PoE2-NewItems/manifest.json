@@ -1,0 +1,14 @@
+{
+    "Title" : {
+        "en" : "New Items"
+    },
+    "Description" : {
+        "en" :  "Adds, removes and modifies a lot of weapons and armor."
+    },
+    "Author" : "Spherikal",
+    "ModVersion": "1.1",
+    "SupportedGameVersion" : {
+        "Min" : "1.2.0",
+        "Max" : "1.2.2"
+    }
+}

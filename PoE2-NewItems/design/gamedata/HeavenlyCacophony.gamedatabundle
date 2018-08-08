@@ -1,0 +1,50 @@
+{
+	"GameDataObjects": [{
+		"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+		"DebugName": "Head_U_Helm_Heavens_Cacophony",
+		"ID": "05260c2b-3af2-401b-9c46-789aa25f238c",
+		"Components": [{
+				"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+				"DisplayName": 4212,
+				"DescriptionText": 4213,
+				"FilterType": "Clothing",
+				"InventoryAudioEventListID": "50b61346-2a8e-4595-a76f-85c497adab02",
+				"IsQuestItem": "false",
+				"IsIngredient": "false",
+				"IsCurrency": "false",
+				"IsAdventuringItem": "false",
+				"CanSellForFullValue": "false",
+				"MaxStackSize": 1,
+				"NeverDropAsLoot": "false",
+				"CanBePickpocketed": "true",
+				"IsUnique": "true",
+				"Value": 4200,
+				"IconTextureSmall": "gui/icons/items/head/helm_plate_01_s.png",
+				"IconTextureLarge": "gui/icons/items/head/helm_plate_01_l.png",
+				"PencilSketchTexture": "",
+				"InspectOnUseButton": [],
+				"IsPlaceholder": "false"
+			}, {
+				"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+				"EquipmentType": "None",
+				"EquipmentSlot": "Head",
+				"AppearancePiece": {
+					"ModelVisualDataPath": "prefabs/items/appearance/helm/a_helm09.asset"
+				},
+				"ItemModsIDs": ["a1c63763-4fcd-4609-8290-183127d5018a", "06860ccc-2b65-4783-ac34-a84775c0266e", "a6c3c5ca-a6db-4a8e-a6f1-25adb306996b"],
+				"OnEquipVisualEffects": [],
+				"RestrictedToClassIDs": [],
+				"RestrictedToPlayer": "false",
+				"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+				"CannotUnequip": "false",
+				"ItemRendererPrefab": "",
+				"ItemModel": "",
+				"AnimationController": "",
+				"PaperdollOverrideRenderer": "",
+				"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+				"CannotSheathe": "false",
+				"PropVisualEffects": []
+			}
+		]
+	}]
+  }

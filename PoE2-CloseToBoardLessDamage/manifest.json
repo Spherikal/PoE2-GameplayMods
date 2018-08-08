@@ -1,0 +1,14 @@
+{
+    "Title" : {
+        "en" : "Close to Board Deals Less Damage"
+    },
+    "Description" : {
+        "en" :  "No longer take massive damage when going straight-to-board."
+    },
+    "Author" : "Spherikal",
+    "ModVersion": "1.0",
+    "SupportedGameVersion" : {
+        "Min" : "1.2.0",
+        "Max" : "1.2.2"
+    }
+}

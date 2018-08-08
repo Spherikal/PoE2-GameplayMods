@@ -1,0 +1,50 @@
+{
+	"GameDataObjects": [{
+			"$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+			"DebugName": "Head_U_Hat_Thaoss_Headdress",
+			"ID": "148c31cd-b698-445b-9f82-a25b71bb1a81",
+			"Components": [{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 3856,
+					"DescriptionText": 3857,
+					"FilterType": "Clothing",
+					"InventoryAudioEventListID": "50b61346-2a8e-4595-a76f-85c497adab02",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "true",
+					"Value": 90,
+					"IconTextureSmall": "gui/icons/items/head/helm_pearlescent_rhomboid_helstone_s.png",
+					"IconTextureLarge": "gui/icons/items/head/helm_pearlescent_rhomboid_helstone_l.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				}, {
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "None",
+					"EquipmentSlot": "Head",
+					"AppearancePiece": {
+						"ModelVisualDataPath": "prefabs/items/appearance/helm/a_helm40.asset"
+					},
+					"ItemModsIDs": ["f43e0509-899e-4e2a-9087-62b687726df1", "d4d6df9a-3f3a-4379-9911-aee013886a4d"],
+					"OnEquipVisualEffects": [],
+					"RestrictedToClassIDs": [],
+					"RestrictedToPlayer": "false",
+					"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				}
+			]
+		}]
+  }
