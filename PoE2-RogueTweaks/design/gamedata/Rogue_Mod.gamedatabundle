@@ -587,31 +587,6 @@
               }
             },
             {
-              "Note": "PL 0 Auto Grant - Rogue Carnage",
-              "Category": "General",
-              "UnlockStyle": "AutoGrant",
-              "ActivationObject": "Self",
-              "AddAbilityID": "0e3a5aa2-42fb-43c0-aef7-7d42092267b3",
-              "RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
-              "Prerequisites": {
-                "MinimumCharacterLevel": 1,
-                "PowerLevelRequirement": {
-                  "ClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
-                  "MinimumPowerLevel": 0
-                },
-                "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
-                "Conditional": {
-                  "Operator": 0,
-                  "Components": []
-                },
-                "VisibilityConditional": {
-                  "Operator": 0,
-                  "Components": []
-                },
-                "IsMutuallyExclusiveUpgrade": "true"
-              }
-            },
-            {
               "Note": "PL 0 Auto Grant - Sneak Attack",
               "Category": "General",
               "UnlockStyle": "AutoGrant",
@@ -1618,7 +1593,7 @@
               }
             },
             {
-              "Note": "PL 1 Unlock - Rogue Frenzy",
+              "Note": "PL 1 Unlock - Frenzy",
               "Category": "General",
               "UnlockStyle": "Unlock",
               "ActivationObject": "Self",
@@ -1813,31 +1788,6 @@
                       "Operator": 0
                     }
                   ]
-                },
-                "VisibilityConditional": {
-                  "Operator": 0,
-                  "Components": []
-                },
-                "IsMutuallyExclusiveUpgrade": "true"
-              }
-            },
-            {
-              "Note": "PL 2 Unlock - Rogue Accurate Carnage",
-              "Category": "General",
-              "UnlockStyle": "Unlock",
-              "ActivationObject": "Self",
-              "AddAbilityID": "2116932c-dae1-44b9-9ef5-dc5ee1b7d8d7",
-              "RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
-              "Prerequisites": {
-                "MinimumCharacterLevel": 1,
-                "PowerLevelRequirement": {
-                  "ClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
-                  "MinimumPowerLevel": 2
-                },
-                "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
-                "Conditional": {
-                  "Operator": 0,
-                  "Components": []
                 },
                 "VisibilityConditional": {
                   "Operator": 0,
