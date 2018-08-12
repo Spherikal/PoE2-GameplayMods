@@ -1,92 +1,83 @@
 {
-  "GameDataObjects": [
-    {
-      "$type": "Game.GameData.AttackMeleeGameData, Assembly-CSharp",
-      "DebugName": "Small_Puff_Attack",
-      "ID": "3a1f9d08-13e6-4cff-9976-ceca8b032eb6",
-      "Components": [
-        {
-          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
-          "KeywordsIDs": [],
-          "AttackDistance": 6,
-          "MinAttackDistance": 0,
-          "AttackVariationID": "99332174-d49f-446e-a3ae-525440011024",
-          "UseParentEquippableHand": "false",
-          "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
-          "RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
-          "ImpactDelay": 0,
-          "ForcedTarget": "Self",
-          "AffectedTargetType": "All",
-          "AffectedTargetConditional": {
-            "Conditional": {
-              "Operator": 0,
-              "Components": []
-            }
-          },
-          "AffectedTargetDeathState": "Alive",
-          "HostilityOverride": "Default",
-          "PushDistance": 0,
-          "FaceTarget": "true",
-          "AccuracyBonus": 0,
-          "PenetrationRating": 7,
-          "DamageData": {
-            "DamageType": "None",
-            "AlternateDamageType": "None",
-            "Minimum": 0,
-            "Maximum": 0,
-            "DamageProcs": []
-          },
-          "RequiresHitObject": "true",
-          "StatusEffectKeywordsIDs": ["52bab8df-37f8-468c-97a6-aa622fdc1d9e"],
-          "StatusEffectsIDs": [
-            "6aaab833-dc7d-496c-a8ae-7daae9ebb74d",
-            "2e3b3b0c-47a7-440d-8d4c-955d30b71ebc",
-            "6dfcfe79-95eb-4b10-936a-299f459398e8",
-            "331c793b-6bc6-4ca0-bca6-a7b14b404f69",
-            "bb979d32-a867-4c2d-beb3-cb7bd69b9b3c"
-          ],
-          "RandomizeStatusEffect": "false",
-          "CanGraze": "false",
-          "CanCrit": "true",
-          "DefendedBy": "None",
-          "AfflictionsDefendedBy": "None",
-          "AfflictionApplicationModifier": "None",
-          "SubstituteHitVisualEffect": "",
-          "VisualEffects": [],
-          "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
-          "ExtraAttackID": "00000000-0000-0000-0000-000000000000",
-          "LaunchBone": "RightWeapon",
-          "HitBone": "Chest",
-          "OnHitShakeDuration": "None",
-          "OnHitShakeStrength": "None",
-          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
-          "AllReactNoise": "false",
-          "InterruptsOn": "None",
-          "InterruptType": "Normal",
-          "TargetAngle": 0,
-          "ApplyOnceOnly": "false",
-          "PathsToTarget": "true",
-          "HideFromCombatLog": "false",
-          "AdditionalAttackOnTooltip": "false",
-          "DoesNotApplyDamage": "false",
-          "TreatAsWeapon": "false",
-          "BounceData": {
-            "Bounces": 0,
-            "Multiplier": 0.5,
-            "Range": 10,
-            "InRangeOrder": "false",
-            "NoRepeatTargets": "false",
-            "AlwaysBounceAtEnemies": "false",
-            "Delay": 0,
-            "NeverBounce": "false"
-          }
-        },
-        {
-          "$type": "Game.GameData.AttackMeleeComponent, Assembly-CSharp",
-          "EngagementRadius": 1,
-          "IsUnarmed": "false"
-        }
-      ]
-    }
-  ]
+	"GameDataObjects": [{
+		"$type": "Game.GameData.AttackMeleeGameData, Assembly-CSharp",
+		"DebugName": "Small_Puff_Attack",
+		"ID": "3a1f9d08-13e6-4cff-9976-ceca8b032eb6",
+		"Components": [{
+				"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+				"KeywordsIDs": [],
+				"AttackDistance": 6,
+				"MinAttackDistance": 0,
+				"AttackVariationID": "99332174-d49f-446e-a3ae-525440011024",
+				"UseParentEquippableHand": "false",
+				"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+				"RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
+				"ImpactDelay": 0,
+				"ForcedTarget": "Self",
+				"AffectedTargetType": "All",
+				"AffectedTargetConditional": {
+					"Conditional": {
+						"Operator": 0,
+						"Components": []
+					}
+				},
+				"AffectedTargetDeathState": "Alive",
+				"HostilityOverride": "Default",
+				"PushDistance": 0,
+				"FaceTarget": "true",
+				"AccuracyBonus": 0,
+				"PenetrationRating": 7,
+				"DamageData": {
+					"DamageType": "None",
+					"AlternateDamageType": "None",
+					"Minimum": 0,
+					"Maximum": 0,
+					"DamageProcs": []
+				},
+				"RequiresHitObject": "true",
+				"StatusEffectKeywordsIDs": ["52bab8df-37f8-468c-97a6-aa622fdc1d9e"],
+				"StatusEffectsIDs": ["6aaab833-dc7d-496c-a8ae-7daae9ebb74d", "2e3b3b0c-47a7-440d-8d4c-955d30b71ebc", "6dfcfe79-95eb-4b10-936a-299f459398e8", "331c793b-6bc6-4ca0-bca6-a7b14b404f69", "bb979d32-a867-4c2d-beb3-cb7bd69b9b3c"],
+				"RandomizeStatusEffect": "false",
+				"CanGraze": "false",
+				"CanCrit": "true",
+				"DefendedBy": "None",
+				"AfflictionsDefendedBy": "None",
+				"AfflictionApplicationModifier": "None",
+				"SubstituteHitVisualEffect": "",
+				"VisualEffects": [],
+				"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+				"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+				"LaunchBone": "RightWeapon",
+				"HitBone": "Chest",
+				"OnHitShakeDuration": "None",
+				"OnHitShakeStrength": "None",
+				"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+				"AllReactNoise": "false",
+				"InterruptsOn": "None",
+				"InterruptType": "Normal",
+				"TargetAngle": 0,
+				"ApplyOnceOnly": "false",
+				"PathsToTarget": "true",
+				"HideFromCombatLog": "false",
+				"AdditionalAttackOnTooltip": "false",
+				"DoesNotApplyDamage": "false",
+				"TreatAsWeapon": "false",
+				"BounceData": {
+					"Bounces": 0,
+					"Multiplier": 0.5,
+					"Range": 10,
+					"InRangeOrder": "false",
+					"NoRepeatTargets": "false",
+					"AlwaysBounceAtEnemies": "false",
+					"Delay": 0,
+					"NeverBounce": "false"
+				}
+			},
+			{
+				"$type": "Game.GameData.AttackMeleeComponent, Assembly-CSharp",
+				"EngagementRadius": 1,
+				"IsUnarmed": "false"
+			}
+		]
+	}]
 }

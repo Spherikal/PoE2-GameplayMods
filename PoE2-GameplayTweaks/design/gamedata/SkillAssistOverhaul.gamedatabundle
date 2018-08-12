@@ -1,232 +1,226 @@
 {
-  "GameDataObjects": [
-    {
-      "$type": "Game.GameData.SkillManagerGameData, Assembly-CSharp",
-      "DebugName": "SkillManager",
-      "ID": "ecfc6eff-f96f-48c0-8a23-2cd9c1342743",
-      "Components": [
-        {
-          "$type": "Game.GameData.SkillManagerComponent, Assembly-CSharp",
-          "StealthSkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
-          "AthleticsSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
-          "MechanicsSkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
-          "SurvivalSkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
-          "AlchemySkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
-          "HerbalismSkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
-          "ArcanaSkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
-          "SleightOfHandSkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36"
-        },
-        {
-          "$type": "Game.GameData.SkillAssistThresholdComponent, Assembly-CSharp",
-          "AssistThresholds": [
-            {
-              "Threshold": 2,
-              "AssistValue": 1
-            },
-            {
-              "Threshold": 4,
-              "AssistValue": 2
-            },
-            {
-              "Threshold": 6,
-              "AssistValue": 3
-            },
-            {
-              "Threshold": 8,
-              "AssistValue": 4
-            },
-            {
-              "Threshold": 10,
-              "AssistValue": 5
-            },
-            {
-              "Threshold": 12,
-              "AssistValue": 6
-            },
-            {
-              "Threshold": 14,
-              "AssistValue": 7
-            },
-            {
-              "Threshold": 16,
-              "AssistValue": 8
-            },
-            {
-              "Threshold": 18,
-              "AssistValue": 9
-            },
-            {
-              "Threshold": 20,
-              "AssistValue": 10
-            }
-          ]
-        },
-        {
-          "$type": "Game.GameData.SleightOfHandSettingsComponent, Assembly-CSharp",
-          "VisionModifier": 2,
-          "DetectionModifier": 2,
-          "LevelModifiers": [
-            {
-              "Level": 1,
-              "Modifier": 1
-            },
-            {
-              "Level": 2,
-              "Modifier": 2
-            },
-            {
-              "Level": 3,
-              "Modifier": 3
-            },
-            {
-              "Level": 4,
-              "Modifier": 3
-            },
-            {
-              "Level": 5,
-              "Modifier": 4
-            },
-            {
-              "Level": 6,
-              "Modifier": 4
-            },
-            {
-              "Level": 7,
-              "Modifier": 5
-            },
-            {
-              "Level": 8,
-              "Modifier": 5
-            },
-            {
-              "Level": 9,
-              "Modifier": 5
-            },
-            {
-              "Level": 10,
-              "Modifier": 6
-            },
-            {
-              "Level": 11,
-              "Modifier": 6
-            },
-            {
-              "Level": 12,
-              "Modifier": 6
-            },
-            {
-              "Level": 13,
-              "Modifier": 7
-            },
-            {
-              "Level": 14,
-              "Modifier": 7
-            },
-            {
-              "Level": 15,
-              "Modifier": 7
-            },
-            {
-              "Level": 16,
-              "Modifier": 8
-            },
-            {
-              "Level": 17,
-              "Modifier": 8
-            },
-            {
-              "Level": 18,
-              "Modifier": 8
-            },
-            {
-              "Level": 19,
-              "Modifier": 9
-            },
-            {
-              "Level": 20,
-              "Modifier": 10
-            }
-          ],
-          "ItemModifiers": [
-            {
-              "ItemType": "Weapons",
-              "Modifier": 2
-            },
-            {
-              "ItemType": "Armor",
-              "Modifier": 3
-            },
-            {
-              "ItemType": "Clothing",
-              "Modifier": 1
-            },
-            {
-              "ItemType": "Consumables",
-              "Modifier": 0
-            },
-            {
-              "ItemType": "Ingredients",
-              "Modifier": -1
-            },
-            {
-              "ItemType": "Quest",
-              "Modifier": -3
-            },
-            {
-              "ItemType": "Misc",
-              "Modifier": -3
-            },
-            {
-              "ItemType": "ShipCrew",
-              "Modifier": 0
-            },
-            {
-              "ItemType": "FoodOrDrink",
-              "Modifier": 0
-            },
-            {
-              "ItemType": "ShipSails",
-              "Modifier": 0
-            },
-            {
-              "ItemType": "ShipHulls",
-              "Modifier": 0
-            },
-            {
-              "ItemType": "ShipFlags",
-              "Modifier": 0
-            },
-            {
-              "ItemType": "ShipCannons",
-              "Modifier": 0
-            },
-            {
-              "ItemType": "ShipUpgrades",
-              "Modifier": 0
-            },
-            {
-              "ItemType": "ShipPermanentUpgrades",
-              "Modifier": 0
-            },
-            {
-              "ItemType": "Artifact",
-              "Modifier": 0
-            }
-          ]
-        },
-        {
-          "$type": "Game.GameData.StealthSettingsComponent, Assembly-CSharp",
-          "HearingSuspicionRate": 40,
-          "VisionSuspicionRate": 80,
-          "HearingMovementRatio": 0.75,
-          "StealthDecayRate": 15,
-          "StealthDecayDelay": 0.75,
-          "MaxSuspicionStealthAccelerationMultiplier": 4,
-          "MaxSuspicionStealthDecelerationMultiplier": 0.05,
-          "MinDistanceMultiplier": 2,
-          "MaxDistanceMultiplier": 0.5
-        }
-      ]
-    }
-  ]
+	"GameDataObjects": [{
+		"$type": "Game.GameData.SkillManagerGameData, Assembly-CSharp",
+		"DebugName": "SkillManager",
+		"ID": "ecfc6eff-f96f-48c0-8a23-2cd9c1342743",
+		"Components": [{
+				"$type": "Game.GameData.SkillManagerComponent, Assembly-CSharp",
+				"StealthSkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
+				"AthleticsSkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+				"MechanicsSkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+				"SurvivalSkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
+				"AlchemySkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+				"HerbalismSkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
+				"ArcanaSkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
+				"SleightOfHandSkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36"
+			},
+			{
+				"$type": "Game.GameData.SkillAssistThresholdComponent, Assembly-CSharp",
+				"AssistThresholds": [{
+						"Threshold": 2,
+						"AssistValue": 1
+					},
+					{
+						"Threshold": 4,
+						"AssistValue": 2
+					},
+					{
+						"Threshold": 6,
+						"AssistValue": 3
+					},
+					{
+						"Threshold": 8,
+						"AssistValue": 4
+					},
+					{
+						"Threshold": 10,
+						"AssistValue": 5
+					},
+					{
+						"Threshold": 12,
+						"AssistValue": 6
+					},
+					{
+						"Threshold": 14,
+						"AssistValue": 7
+					},
+					{
+						"Threshold": 16,
+						"AssistValue": 8
+					},
+					{
+						"Threshold": 18,
+						"AssistValue": 9
+					},
+					{
+						"Threshold": 20,
+						"AssistValue": 10
+					}
+				]
+			},
+			{
+				"$type": "Game.GameData.SleightOfHandSettingsComponent, Assembly-CSharp",
+				"VisionModifier": 2,
+				"DetectionModifier": 2,
+				"LevelModifiers": [{
+						"Level": 1,
+						"Modifier": 1
+					},
+					{
+						"Level": 2,
+						"Modifier": 2
+					},
+					{
+						"Level": 3,
+						"Modifier": 3
+					},
+					{
+						"Level": 4,
+						"Modifier": 3
+					},
+					{
+						"Level": 5,
+						"Modifier": 4
+					},
+					{
+						"Level": 6,
+						"Modifier": 4
+					},
+					{
+						"Level": 7,
+						"Modifier": 5
+					},
+					{
+						"Level": 8,
+						"Modifier": 5
+					},
+					{
+						"Level": 9,
+						"Modifier": 5
+					},
+					{
+						"Level": 10,
+						"Modifier": 6
+					},
+					{
+						"Level": 11,
+						"Modifier": 6
+					},
+					{
+						"Level": 12,
+						"Modifier": 6
+					},
+					{
+						"Level": 13,
+						"Modifier": 7
+					},
+					{
+						"Level": 14,
+						"Modifier": 7
+					},
+					{
+						"Level": 15,
+						"Modifier": 7
+					},
+					{
+						"Level": 16,
+						"Modifier": 8
+					},
+					{
+						"Level": 17,
+						"Modifier": 8
+					},
+					{
+						"Level": 18,
+						"Modifier": 8
+					},
+					{
+						"Level": 19,
+						"Modifier": 9
+					},
+					{
+						"Level": 20,
+						"Modifier": 10
+					}
+				],
+				"ItemModifiers": [{
+						"ItemType": "Weapons",
+						"Modifier": 2
+					},
+					{
+						"ItemType": "Armor",
+						"Modifier": 3
+					},
+					{
+						"ItemType": "Clothing",
+						"Modifier": 1
+					},
+					{
+						"ItemType": "Consumables",
+						"Modifier": 0
+					},
+					{
+						"ItemType": "Ingredients",
+						"Modifier": -1
+					},
+					{
+						"ItemType": "Quest",
+						"Modifier": -3
+					},
+					{
+						"ItemType": "Misc",
+						"Modifier": -3
+					},
+					{
+						"ItemType": "ShipCrew",
+						"Modifier": 0
+					},
+					{
+						"ItemType": "FoodOrDrink",
+						"Modifier": 0
+					},
+					{
+						"ItemType": "ShipSails",
+						"Modifier": 0
+					},
+					{
+						"ItemType": "ShipHulls",
+						"Modifier": 0
+					},
+					{
+						"ItemType": "ShipFlags",
+						"Modifier": 0
+					},
+					{
+						"ItemType": "ShipCannons",
+						"Modifier": 0
+					},
+					{
+						"ItemType": "ShipUpgrades",
+						"Modifier": 0
+					},
+					{
+						"ItemType": "ShipPermanentUpgrades",
+						"Modifier": 0
+					},
+					{
+						"ItemType": "Artifact",
+						"Modifier": 0
+					}
+				]
+			},
+			{
+				"$type": "Game.GameData.StealthSettingsComponent, Assembly-CSharp",
+				"HearingSuspicionRate": 40,
+				"VisionSuspicionRate": 80,
+				"HearingMovementRatio": 0.75,
+				"StealthDecayRate": 15,
+				"StealthDecayDelay": 0.75,
+				"MaxSuspicionStealthAccelerationMultiplier": 4,
+				"MaxSuspicionStealthDecelerationMultiplier": 0.05,
+				"MinDistanceMultiplier": 2,
+				"MaxDistanceMultiplier": 0.5
+			}
+		]
+	}]
 }

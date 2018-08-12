@@ -1,1210 +1,1160 @@
 {
-  "GameDataObjects": [
-    {
-      "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
-      "DebugName": "Barbarian",
-      "ID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
-      "Components": [
-        {
-          "$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
-          "DisplayName": 253,
-          "DisplayNamePlural": 2064,
-          "SummaryText": 792,
-          "DescriptionText": 500,
-          "RequireSubclass": "false",
-          "Icon": "gui/icons/gamesystems/class_barbarian_l.png",
-          "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_barbarian.png",
-          "AccruedResourceIcon": "",
-          "SkillsList": [
-            {
-              "SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
-              "Value": 4
-            },
-            {
-              "SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
-              "Value": 4
-            },
-            {
-              "SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
-              "Value": 4
-            },
-            {
-              "SkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
-              "Value": 4
-            },
-            {
-              "SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
-              "Value": 4
-            }
-          ],
-          "BaseStatsID": "ec709d8c-e447-402e-a84f-aeb65aab8c7d",
-          "IsSpellcaster": "false",
-          "SpellcastsByPowerLevel": [],
-          "SpellIdentifierString": 4536,
-          "SpellIdentifierStringPlural": 4537,
-          "HasAccruedResource": "false",
-          "PowerPoolName": 2658,
-          "AccruedResourceName": -1,
-          "LightColor": {
-            "A": 1,
-            "R": 0.9921569,
-            "G": 0.5372549,
-            "B": 0.5372549
-          },
-          "DarkColor": {
-            "A": 1,
-            "R": 0.5568628,
-            "G": 0.07450981,
-            "B": 0.07450981
-          },
-          "ProTierAttributesIDs": [
-            "736f0d1d-b98f-46f1-a528-80ee6f53516a",
-            "cadf2f85-9a68-4cfd-80ac-429bac09056f"
-          ],
-          "GodTierAttributesIDs": [
-            "bbd14702-d38a-4627-964f-24cac6e0ee1f",
-            "72712dca-8f95-42ef-bca1-be2e99f69de3"
-          ],
-          "DefaultDecisionTree": {
-            "GuidString": "996965e6-8e7c-4537-a56a-845042435edb"
-          },
-          "AISpeedRating": 8,
-          "ResourceConversionRate": 1,
-          "HybridClassTitles": [
-            {
-              "OtherClassID": "b4a0f1d1-b8f7-47e7-b899-99e478004a37",
-              "Title": 2644
-            },
-            {
-              "OtherClassID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
-              "Title": 2647
-            },
-            {
-              "OtherClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
-              "Title": 2646
-            },
-            {
-              "OtherClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
-              "Title": 2592
-            },
-            {
-              "OtherClassID": "f0036bfb-53d5-4d0c-b11a-b780d788a108",
-              "Title": 2633
-            },
-            {
-              "OtherClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
-              "Title": 2620
-            },
-            {
-              "OtherClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
-              "Title": 2627
-            },
-            {
-              "OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
-              "Title": 2640
-            },
-            {
-              "OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
-              "Title": 2612
-            },
-            {
-              "OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
-              "Title": 2605
-            }
-          ],
-          "ImprovedUnarmedAttack": "false",
-          "UsesGrimoires": "false",
-          "AccruedResourceAbilitiesAreSpells": "false"
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
-      "DebugName": "Chanter",
-      "ID": "b4a0f1d1-b8f7-47e7-b899-99e478004a37",
-      "Components": [
-        {
-          "$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
-          "DisplayName": 259,
-          "DisplayNamePlural": 2070,
-          "SummaryText": 798,
-          "DescriptionText": 506,
-          "RequireSubclass": "false",
-          "Icon": "gui/icons/gamesystems/class_chanter_l.png",
-          "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_chanter.png",
-          "AccruedResourceIcon": "gui/icons/gamesystems/actionbar_leader_chanter_resource.png",
-          "SkillsList": [
-            {
-              "SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
-              "Value": 4
-            },
-            {
-              "SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
-              "Value": 4
-            },
-            {
-              "SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
-              "Value": 4
-            },
-            {
-              "SkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36",
-              "Value": 4
-            },
-            {
-              "SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
-              "Value": 4
-            }
-          ],
-          "BaseStatsID": "ff6ee38b-b584-488c-a406-86c23b03f8cb",
-          "IsSpellcaster": "true",
-          "SpellcastsByPowerLevel": [
-            {
-              "Values": ["-1", "0", "0", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "0", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "-1", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "-1", "-1", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "-1", "-1", "-1", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "-1", "-1", "-1", "-1", "0", "0", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "-1", "-1", "-1", "-1", "-1", "0", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1"]
-            }
-          ],
-          "SpellIdentifierString": 3352,
-          "SpellIdentifierStringPlural": 3351,
-          "HasAccruedResource": "true",
-          "PowerPoolName": 2659,
-          "AccruedResourceName": 1434,
-          "LightColor": {
-            "A": 1,
-            "R": 0.9372549,
-            "G": 0.7764706,
-            "B": 0.5568628
-          },
-          "DarkColor": {
-            "A": 1,
-            "R": 0.2980392,
-            "G": 0.2352941,
-            "B": 0.003921569
-          },
-          "ProTierAttributesIDs": ["72712dca-8f95-42ef-bca1-be2e99f69de3"],
-          "GodTierAttributesIDs": [
-            "cadf2f85-9a68-4cfd-80ac-429bac09056f",
-            "2b56c512-6456-44c3-952a-e16431e48ccb"
-          ],
-          "DefaultDecisionTree": {
-            "GuidString": "6e24de46-d683-4ecd-a39f-13d979974a7c"
-          },
-          "AISpeedRating": 0,
-          "ResourceConversionRate": 1,
-          "HybridClassTitles": [
-            {
-              "OtherClassID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
-              "Title": 2643
-            },
-            {
-              "OtherClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
-              "Title": 2642
-            },
-            {
-              "OtherClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
-              "Title": 2593
-            },
-            {
-              "OtherClassID": "f0036bfb-53d5-4d0c-b11a-b780d788a108",
-              "Title": 2634
-            },
-            {
-              "OtherClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
-              "Title": 2621
-            },
-            {
-              "OtherClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
-              "Title": 2628
-            },
-            {
-              "OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
-              "Title": 2638
-            },
-            {
-              "OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
-              "Title": 2613
-            },
-            {
-              "OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
-              "Title": 2604
-            }
-          ],
-          "ImprovedUnarmedAttack": "false",
-          "UsesGrimoires": "false",
-          "AccruedResourceAbilitiesAreSpells": "true"
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
-      "DebugName": "Cipher",
-      "ID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
-      "Components": [
-        {
-          "$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
-          "DisplayName": 258,
-          "DisplayNamePlural": 2069,
-          "SummaryText": 797,
-          "DescriptionText": 505,
-          "RequireSubclass": "false",
-          "Icon": "gui/icons/gamesystems/class_cipher_l.png",
-          "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_cipher.png",
-          "AccruedResourceIcon": "gui/icons/gamesystems/actionbar_leader_cipher_resource.png",
-          "SkillsList": [
-            {
-              "SkillID": "f5d2c2bf-1ffd-4741-b6d8-31ae01985d4b",
-              "Value": 4
-            },
-            {
-              "SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
-              "Value": 4
-            },
-            {
-              "SkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36",
-              "Value": 4
-            },
-            {
-              "SkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
-              "Value": 4
-            },
-            {
-              "SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
-              "Value": 4
-            }
-          ],
-          "BaseStatsID": "d0f4b102-d085-4f52-8325-49cc9f4adfaa",
-          "IsSpellcaster": "true",
-          "SpellcastsByPowerLevel": [
-            {
-              "Values": ["-1", "0", "0", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "0", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "-1", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "-1", "-1", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "-1", "-1", "-1", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "-1", "-1", "-1", "-1", "0", "0", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "-1", "-1", "-1", "-1", "-1", "0", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1", "0"]
-            },
-            {
-              "Values": ["-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1"]
-            }
-          ],
-          "SpellIdentifierString": 1588,
-          "SpellIdentifierStringPlural": 1486,
-          "HasAccruedResource": "true",
-          "PowerPoolName": 2660,
-          "AccruedResourceName": 415,
-          "LightColor": {
-            "A": 1,
-            "R": 0.7490196,
-            "G": 0.4941176,
-            "B": 1
-          },
-          "DarkColor": {
-            "A": 1,
-            "R": 0.2901961,
-            "G": 0.08627451,
-            "B": 0.7647059
-          },
-          "ProTierAttributesIDs": [
-            "bbd14702-d38a-4627-964f-24cac6e0ee1f",
-            "cadf2f85-9a68-4cfd-80ac-429bac09056f"
-          ],
-          "GodTierAttributesIDs": [
-            "6f687c04-019c-498f-b202-cc8679fc511f",
-            "736f0d1d-b98f-46f1-a528-80ee6f53516a"
-          ],
-          "DefaultDecisionTree": {
-            "GuidString": "88dc9d79-7dca-4e34-9e51-14ec4c2b528f"
-          },
-          "AISpeedRating": 0,
-          "ResourceConversionRate": 10,
-          "HybridClassTitles": [
-            {
-              "OtherClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
-              "Title": 2645
-            },
-            {
-              "OtherClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
-              "Title": 2594
-            },
-            {
-              "OtherClassID": "f0036bfb-53d5-4d0c-b11a-b780d788a108",
-              "Title": 2635
-            },
-            {
-              "OtherClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
-              "Title": 2622
-            },
-            {
-              "OtherClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
-              "Title": 2629
-            },
-            {
-              "OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
-              "Title": 2639
-            },
-            {
-              "OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
-              "Title": 2614
-            },
-            {
-              "OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
-              "Title": 2603
-            }
-          ],
-          "ImprovedUnarmedAttack": "false",
-          "UsesGrimoires": "false",
-          "AccruedResourceAbilitiesAreSpells": "true"
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
-      "DebugName": "Druid",
-      "ID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
-      "Components": [
-        {
-          "$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
-          "DisplayName": 255,
-          "DisplayNamePlural": 2066,
-          "SummaryText": 794,
-          "DescriptionText": 502,
-          "RequireSubclass": "true",
-          "Icon": "gui/icons/gamesystems/class_druid_l.png",
-          "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_druid.png",
-          "AccruedResourceIcon": "",
-          "SkillsList": [
-            {
-              "SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
-              "Value": 4
-            },
-            {
-              "SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
-              "Value": 4
-            },
-            {
-              "SkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
-              "Value": 4
-            },
-            {
-              "SkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
-              "Value": 4
-            },
-            {
-              "SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
-              "Value": 4
-            }
-          ],
-          "BaseStatsID": "35a26ec2-711f-41b2-a25f-f62cf4e0a1ca",
-          "IsSpellcaster": "true",
-          "SpellcastsByPowerLevel": [
-            {
-              "Values": ["2", "0", "0", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "1", "0", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "1", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "1", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "1", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "2", "1", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "2", "2", "1", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "2", "2", "2", "1", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "2", "2", "2", "2", "1"]
-            }
-          ],
-          "SpellIdentifierString": 1588,
-          "SpellIdentifierStringPlural": 1486,
-          "HasAccruedResource": "false",
-          "PowerPoolName": 2661,
-          "AccruedResourceName": -1,
-          "LightColor": {
-            "A": 1,
-            "R": 0.5294118,
-            "G": 0.7450981,
-            "B": 0.2196078
-          },
-          "DarkColor": {
-            "A": 1,
-            "R": 0.1843137,
-            "G": 0.3058824,
-            "B": 0.003921569
-          },
-          "ProTierAttributesIDs": ["bbd14702-d38a-4627-964f-24cac6e0ee1f"],
-          "GodTierAttributesIDs": [
-            "cadf2f85-9a68-4cfd-80ac-429bac09056f",
-            "2b56c512-6456-44c3-952a-e16431e48ccb"
-          ],
-          "DefaultDecisionTree": {
-            "GuidString": "6997515f-c08e-4b89-9f9a-08e149cd6a2d"
-          },
-          "AISpeedRating": 0,
-          "ResourceConversionRate": 1,
-          "HybridClassTitles": [
-            {
-              "OtherClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
-              "Title": 2595
-            },
-            {
-              "OtherClassID": "f0036bfb-53d5-4d0c-b11a-b780d788a108",
-              "Title": 2636
-            },
-            {
-              "OtherClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
-              "Title": 2623
-            },
-            {
-              "OtherClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
-              "Title": 2630
-            },
-            {
-              "OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
-              "Title": 2641
-            },
-            {
-              "OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
-              "Title": 2615
-            },
-            {
-              "OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
-              "Title": 2602
-            }
-          ],
-          "ImprovedUnarmedAttack": "false",
-          "UsesGrimoires": "false",
-          "AccruedResourceAbilitiesAreSpells": "false"
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
-      "DebugName": "Fighter",
-      "ID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
-      "Components": [
-        {
-          "$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
-          "DisplayName": 249,
-          "DisplayNamePlural": 2060,
-          "SummaryText": 788,
-          "DescriptionText": 496,
-          "RequireSubclass": "false",
-          "Icon": "gui/icons/gamesystems/class_fighter_l.png",
-          "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_fighter.png",
-          "AccruedResourceIcon": "",
-          "SkillsList": [
-            {
-              "SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
-              "Value": 4
-            },
-            {
-              "SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
-              "Value": 4
-            },
-            {
-              "SkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40",
-              "Value": 4
-            },
-            {
-              "SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
-              "Value": 4
-            },
-            {
-              "SkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
-              "Value": 4
-            }
-          ],
-          "BaseStatsID": "b5a6674f-a558-4053-897d-2fe0d144c78c",
-          "IsSpellcaster": "false",
-          "SpellcastsByPowerLevel": [],
-          "SpellIdentifierString": 4536,
-          "SpellIdentifierStringPlural": 4537,
-          "HasAccruedResource": "false",
-          "PowerPoolName": 2662,
-          "AccruedResourceName": -1,
-          "LightColor": {
-            "A": 1,
-            "R": 1,
-            "G": 0.4313726,
-            "B": 0.2392157
-          },
-          "DarkColor": {
-            "A": 1,
-            "R": 0.5411765,
-            "G": 0.1294118,
-            "B": 0.003921569
-          },
-          "ProTierAttributesIDs": ["bbd14702-d38a-4627-964f-24cac6e0ee1f"],
-          "GodTierAttributesIDs": [
-            "72712dca-8f95-42ef-bca1-be2e99f69de3",
-            "2b56c512-6456-44c3-952a-e16431e48ccb"
-          ],
-          "DefaultDecisionTree": {
-            "GuidString": "f6c47266-545d-46cc-98b5-12374d96eb09"
-          },
-          "AISpeedRating": 5,
-          "ResourceConversionRate": 1,
-          "HybridClassTitles": [
-            {
-              "OtherClassID": "f0036bfb-53d5-4d0c-b11a-b780d788a108",
-              "Title": 2609
-            },
-            {
-              "OtherClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
-              "Title": 2611
-            },
-            {
-              "OtherClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
-              "Title": 2610
-            },
-            {
-              "OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
-              "Title": 2608
-            },
-            {
-              "OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
-              "Title": 2607
-            },
-            {
-              "OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
-              "Title": 2606
-            }
-          ],
-          "ImprovedUnarmedAttack": "false",
-          "UsesGrimoires": "false",
-          "AccruedResourceAbilitiesAreSpells": "false"
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
-      "DebugName": "Monk",
-      "ID": "f0036bfb-53d5-4d0c-b11a-b780d788a108",
-      "Components": [
-        {
-          "$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
-          "DisplayName": 257,
-          "DisplayNamePlural": 2068,
-          "SummaryText": 796,
-          "DescriptionText": 504,
-          "RequireSubclass": "false",
-          "Icon": "gui/icons/gamesystems/class_monk_l.png",
-          "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_monk.png",
-          "AccruedResourceIcon": "gui/icons/gamesystems/actionbar_leader_monk_resource.png",
-          "SkillsList": [
-            {
-              "SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
-              "Value": 4
-            },
-            {
-              "SkillID": "f5d2c2bf-1ffd-4741-b6d8-31ae01985d4b",
-              "Value": 4
-            },
-            {
-              "SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
-              "Value": 4
-            },
-            {
-              "SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
-              "Value": 4
-            },
-            {
-              "SkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
-              "Value": 4
-            }
-          ],
-          "BaseStatsID": "a4f2d46c-1b70-4434-87b5-cef69f9659c7",
-          "IsSpellcaster": "false",
-          "SpellcastsByPowerLevel": [],
-          "SpellIdentifierString": 4536,
-          "SpellIdentifierStringPlural": 4537,
-          "HasAccruedResource": "true",
-          "PowerPoolName": 2663,
-          "AccruedResourceName": 1503,
-          "LightColor": {
-            "A": 1,
-            "R": 0.8823529,
-            "G": 0.6470588,
-            "B": 0.3647059
-          },
-          "DarkColor": {
-            "A": 1,
-            "R": 0.4666667,
-            "G": 0.1647059,
-            "B": 0.003921569
-          },
-          "ProTierAttributesIDs": [
-            "bbd14702-d38a-4627-964f-24cac6e0ee1f",
-            "2b56c512-6456-44c3-952a-e16431e48ccb"
-          ],
-          "GodTierAttributesIDs": [
-            "72712dca-8f95-42ef-bca1-be2e99f69de3",
-            "736f0d1d-b98f-46f1-a528-80ee6f53516a"
-          ],
-          "DefaultDecisionTree": {
-            "GuidString": "e581809e-c5dd-46f7-8ac7-c4e5ed5fcb15"
-          },
-          "AISpeedRating": 9,
-          "ResourceConversionRate": 1,
-          "HybridClassTitles": [
-            {
-              "OtherClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
-              "Title": 2624
-            },
-            {
-              "OtherClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
-              "Title": 2631
-            },
-            {
-              "OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
-              "Title": 2637
-            },
-            {
-              "OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
-              "Title": 2616
-            },
-            {
-              "OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
-              "Title": 2599
-            }
-          ],
-          "ImprovedUnarmedAttack": "true",
-          "UsesGrimoires": "false",
-          "AccruedResourceAbilitiesAreSpells": "false"
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
-      "DebugName": "Paladin",
-      "ID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
-      "Components": [
-        {
-          "$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
-          "DisplayName": 256,
-          "DisplayNamePlural": 2067,
-          "SummaryText": 795,
-          "DescriptionText": 503,
-          "RequireSubclass": "true",
-          "Icon": "gui/icons/gamesystems/class_paladin_l.png",
-          "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_paladin.png",
-          "AccruedResourceIcon": "",
-          "SkillsList": [
-            {
-              "SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
-              "Value": 4
-            },
-            {
-              "SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
-              "Value": 4
-            },
-            {
-              "SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
-              "Value": 4
-            },
-            {
-              "SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
-              "Value": 4
-            },
-            {
-              "SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
-              "Value": 4
-            }
-          ],
-          "BaseStatsID": "15575900-652f-43a0-b1b5-1b8f09eb2f7b",
-          "IsSpellcaster": "false",
-          "SpellcastsByPowerLevel": [],
-          "SpellIdentifierString": 4536,
-          "SpellIdentifierStringPlural": 4537,
-          "HasAccruedResource": "false",
-          "PowerPoolName": 2664,
-          "AccruedResourceName": -1,
-          "LightColor": {
-            "A": 1,
-            "R": 0.7921569,
-            "G": 0.6745098,
-            "B": 0.3647059
-          },
-          "DarkColor": {
-            "A": 1,
-            "R": 0.3098039,
-            "G": 0.227451,
-            "B": 0.003921569
-          },
-          "ProTierAttributesIDs": [
-            "bbd14702-d38a-4627-964f-24cac6e0ee1f",
-            "cadf2f85-9a68-4cfd-80ac-429bac09056f",
-            "72712dca-8f95-42ef-bca1-be2e99f69de3"
-          ],
-          "GodTierAttributesIDs": ["2b56c512-6456-44c3-952a-e16431e48ccb"],
-          "DefaultDecisionTree": {
-            "GuidString": "0e20e423-5b01-46b0-b9ca-b4e20bc8a58e"
-          },
-          "AISpeedRating": 6,
-          "ResourceConversionRate": 1,
-          "HybridClassTitles": [
-            {
-              "OtherClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
-              "Title": 2625
-            },
-            {
-              "OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
-              "Title": 2626
-            },
-            {
-              "OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
-              "Title": 2617
-            },
-            {
-              "OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
-              "Title": 2601
-            }
-          ],
-          "ImprovedUnarmedAttack": "false",
-          "UsesGrimoires": "false",
-          "AccruedResourceAbilitiesAreSpells": "false"
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
-      "DebugName": "Priest",
-      "ID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
-      "Components": [
-        {
-          "$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
-          "DisplayName": 251,
-          "DisplayNamePlural": 2062,
-          "SummaryText": 790,
-          "DescriptionText": 498,
-          "RequireSubclass": "true",
-          "Icon": "gui/icons/gamesystems/class_priest_l.png",
-          "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_priest.png",
-          "AccruedResourceIcon": "",
-          "SkillsList": [
-            {
-              "SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
-              "Value": 4
-            },
-            {
-              "SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
-              "Value": 4
-            },
-            {
-              "SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
-              "Value": 4
-            },
-            {
-              "SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
-              "Value": 4
-            },
-            {
-              "SkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
-              "Value": 4
-            }
-          ],
-          "BaseStatsID": "3e429ebe-f2b6-4ef5-b53c-23f264f710d0",
-          "IsSpellcaster": "true",
-          "SpellcastsByPowerLevel": [
-            {
-              "Values": ["2", "0", "0", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "1", "0", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "1", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "1", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "1", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "2", "1", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "2", "2", "1", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "2", "2", "2", "1", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "2", "2", "2", "2", "1"]
-            }
-          ],
-          "SpellIdentifierString": 1588,
-          "SpellIdentifierStringPlural": 1486,
-          "HasAccruedResource": "false",
-          "PowerPoolName": 2665,
-          "AccruedResourceName": -1,
-          "LightColor": {
-            "A": 1,
-            "R": 0.4627451,
-            "G": 0.7058824,
-            "B": 1
-          },
-          "DarkColor": {
-            "A": 1,
-            "R": 0.03137255,
-            "G": 0.2431373,
-            "B": 0.6352941
-          },
-          "ProTierAttributesIDs": [
-            "bbd14702-d38a-4627-964f-24cac6e0ee1f",
-            "736f0d1d-b98f-46f1-a528-80ee6f53516a"
-          ],
-          "GodTierAttributesIDs": [
-            "cadf2f85-9a68-4cfd-80ac-429bac09056f",
-            "2b56c512-6456-44c3-952a-e16431e48ccb"
-          ],
-          "DefaultDecisionTree": {
-            "GuidString": "d9116209-02d3-4509-954e-e06db1f9bdbb"
-          },
-          "AISpeedRating": 0,
-          "ResourceConversionRate": 1,
-          "HybridClassTitles": [
-            {
-              "OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
-              "Title": 2632
-            },
-            {
-              "OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
-              "Title": 2618
-            },
-            {
-              "OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
-              "Title": 2600
-            }
-          ],
-          "ImprovedUnarmedAttack": "false",
-          "UsesGrimoires": "false",
-          "AccruedResourceAbilitiesAreSpells": "false"
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
-      "DebugName": "Ranger",
-      "ID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
-      "Components": [
-        {
-          "$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
-          "DisplayName": 254,
-          "DisplayNamePlural": 2065,
-          "SummaryText": 793,
-          "DescriptionText": 501,
-          "RequireSubclass": "false",
-          "Icon": "gui/icons/gamesystems/class_ranger_l.png",
-          "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_ranger.png",
-          "AccruedResourceIcon": "",
-          "SkillsList": [
-            {
-              "SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
-              "Value": 4
-            },
-            {
-              "SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
-              "Value": 4
-            },
-            {
-              "SkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
-              "Value": 4
-            },
-            {
-              "SkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
-              "Value": 4
-            },
-            {
-              "SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
-              "Value": 4
-            }
-          ],
-          "BaseStatsID": "0b29cbd9-a8ac-49fd-8e05-d825caa0749f",
-          "IsSpellcaster": "false",
-          "SpellcastsByPowerLevel": [],
-          "SpellIdentifierString": 4536,
-          "SpellIdentifierStringPlural": 4537,
-          "HasAccruedResource": "false",
-          "PowerPoolName": 2666,
-          "AccruedResourceName": -1,
-          "LightColor": {
-            "A": 1,
-            "R": 0.345098,
-            "G": 0.8117647,
-            "B": 0.7058824
-          },
-          "DarkColor": {
-            "A": 1,
-            "R": 0.003921569,
-            "G": 0.3372549,
-            "B": 0.2627451
-          },
-          "ProTierAttributesIDs": [
-            "cadf2f85-9a68-4cfd-80ac-429bac09056f",
-            "736f0d1d-b98f-46f1-a528-80ee6f53516a"
-          ],
-          "GodTierAttributesIDs": [
-            "bbd14702-d38a-4627-964f-24cac6e0ee1f",
-            "6f687c04-019c-498f-b202-cc8679fc511f"
-          ],
-          "DefaultDecisionTree": {
-            "GuidString": "bbf8f16d-2c62-4e3c-9133-e631a309986b"
-          },
-          "AISpeedRating": 7,
-          "ResourceConversionRate": 1,
-          "HybridClassTitles": [
-            {
-              "OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
-              "Title": 2619
-            },
-            {
-              "OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
-              "Title": 2598
-            }
-          ],
-          "ImprovedUnarmedAttack": "false",
-          "UsesGrimoires": "false",
-          "AccruedResourceAbilitiesAreSpells": "false"
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
-      "DebugName": "Rogue",
-      "ID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
-      "Components": [
-        {
-          "$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
-          "DisplayName": 250,
-          "DisplayNamePlural": 2061,
-          "SummaryText": 789,
-          "DescriptionText": 497,
-          "RequireSubclass": "false",
-          "Icon": "gui/icons/gamesystems/class_rogue_l.png",
-          "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_rogue.png",
-          "AccruedResourceIcon": "",
-          "SkillsList": [
-            {
-              "SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
-              "Value": 4
-            },
-            {
-              "SkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40",
-              "Value": 4
-            },
-            {
-              "SkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
-              "Value": 4
-            },
-            {
-              "SkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36",
-              "Value": 4
-            },
-            {
-              "SkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
-              "Value": 4
-            }
-          ],
-          "BaseStatsID": "6a35da66-ea3d-444a-b1a9-df24d9ce049f",
-          "IsSpellcaster": "false",
-          "SpellcastsByPowerLevel": [],
-          "SpellIdentifierString": 4536,
-          "SpellIdentifierStringPlural": 4537,
-          "HasAccruedResource": "false",
-          "PowerPoolName": 2667,
-          "AccruedResourceName": -1,
-          "LightColor": {
-            "A": 1,
-            "R": 0.8392157,
-            "G": 0.4666667,
-            "B": 1
-          },
-          "DarkColor": {
-            "A": 1,
-            "R": 0.4,
-            "G": 0.07450981,
-            "B": 0.682353
-          },
-          "ProTierAttributesIDs": [
-            "736f0d1d-b98f-46f1-a528-80ee6f53516a",
-            "cadf2f85-9a68-4cfd-80ac-429bac09056f"
-          ],
-          "GodTierAttributesIDs": [
-            "bbd14702-d38a-4627-964f-24cac6e0ee1f",
-            "6f687c04-019c-498f-b202-cc8679fc511f"
-          ],
-          "DefaultDecisionTree": {
-            "GuidString": "8ba00fc6-c93e-4bb1-8200-c56d2a6edf24"
-          },
-          "AISpeedRating": 10,
-          "ResourceConversionRate": 1,
-          "HybridClassTitles": [
-            {
-              "OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
-              "Title": 2597
-            }
-          ],
-          "ImprovedUnarmedAttack": "false",
-          "UsesGrimoires": "false",
-          "AccruedResourceAbilitiesAreSpells": "false"
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
-      "DebugName": "Wizard",
-      "ID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
-      "Components": [
-        {
-          "$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
-          "DisplayName": 252,
-          "DisplayNamePlural": 2063,
-          "SummaryText": 791,
-          "DescriptionText": 499,
-          "RequireSubclass": "false",
-          "Icon": "gui/icons/gamesystems/class_wizard_l.png",
-          "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_wizard.png",
-          "AccruedResourceIcon": "",
-          "SkillsList": [
-            {
-              "SkillID": "f5d2c2bf-1ffd-4741-b6d8-31ae01985d4b",
-              "Value": 4
-            },
-            {
-              "SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
-              "Value": 4
-            },
-            {
-              "SkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
-              "Value": 4
-            },
-            {
-              "SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
-              "Value": 4
-            },
-            {
-              "SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
-              "Value": 4
-            }
-          ],
-          "BaseStatsID": "9cf41223-fe57-4ba2-8aae-ccab2d6eecb8",
-          "IsSpellcaster": "true",
-          "SpellcastsByPowerLevel": [
-            {
-              "Values": ["2", "0", "0", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "1", "0", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "1", "0", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "1", "0", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "1", "0", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "2", "1", "0", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "2", "2", "1", "0", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "2", "2", "2", "1", "0"]
-            },
-            {
-              "Values": ["2", "2", "2", "2", "2", "2", "2", "2", "1"]
-            }
-          ],
-          "SpellIdentifierString": 1588,
-          "SpellIdentifierStringPlural": 1486,
-          "HasAccruedResource": "false",
-          "PowerPoolName": 2668,
-          "AccruedResourceName": -1,
-          "LightColor": {
-            "A": 1,
-            "R": 0.9960784,
-            "G": 0.6941177,
-            "B": 0.9686275
-          },
-          "DarkColor": {
-            "A": 1,
-            "R": 0.4313726,
-            "G": 0.05490196,
-            "B": 0.6627451
-          },
-          "ProTierAttributesIDs": [
-            "736f0d1d-b98f-46f1-a528-80ee6f53516a",
-            "6f687c04-019c-498f-b202-cc8679fc511f"
-          ],
-          "GodTierAttributesIDs": [
-            "bbd14702-d38a-4627-964f-24cac6e0ee1f",
-            "cadf2f85-9a68-4cfd-80ac-429bac09056f"
-          ],
-          "DefaultDecisionTree": {
-            "GuidString": "a83e67f9-7536-43f5-8db1-88ba2b3ec165"
-          },
-          "AISpeedRating": 0,
-          "ResourceConversionRate": 1,
-          "HybridClassTitles": [],
-          "ImprovedUnarmedAttack": "false",
-          "UsesGrimoires": "true",
-          "AccruedResourceAbilitiesAreSpells": "false"
-        }
-      ]
-    }
-  ]
+	"GameDataObjects": [{
+			"$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
+			"DebugName": "Barbarian",
+			"ID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+			"Components": [{
+				"$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
+				"DisplayName": 253,
+				"DisplayNamePlural": 2064,
+				"SummaryText": 792,
+				"DescriptionText": 500,
+				"RequireSubclass": "false",
+				"Icon": "gui/icons/gamesystems/class_barbarian_l.png",
+				"PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_barbarian.png",
+				"AccruedResourceIcon": "",
+				"SkillsList": [{
+						"SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
+						"Value": 4
+					},
+					{
+						"SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
+						"Value": 4
+					},
+					{
+						"SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+						"Value": 4
+					},
+					{
+						"SkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
+						"Value": 4
+					},
+					{
+						"SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
+						"Value": 4
+					}
+				],
+				"BaseStatsID": "ec709d8c-e447-402e-a84f-aeb65aab8c7d",
+				"IsSpellcaster": "false",
+				"SpellcastsByPowerLevel": [],
+				"SpellIdentifierString": 4536,
+				"SpellIdentifierStringPlural": 4537,
+				"HasAccruedResource": "false",
+				"PowerPoolName": 2658,
+				"AccruedResourceName": -1,
+				"LightColor": {
+					"A": 1,
+					"R": 0.9921569,
+					"G": 0.5372549,
+					"B": 0.5372549
+				},
+				"DarkColor": {
+					"A": 1,
+					"R": 0.5568628,
+					"G": 0.07450981,
+					"B": 0.07450981
+				},
+				"ProTierAttributesIDs": [
+					"736f0d1d-b98f-46f1-a528-80ee6f53516a",
+					"cadf2f85-9a68-4cfd-80ac-429bac09056f"
+				],
+				"GodTierAttributesIDs": [
+					"bbd14702-d38a-4627-964f-24cac6e0ee1f",
+					"72712dca-8f95-42ef-bca1-be2e99f69de3"
+				],
+				"DefaultDecisionTree": {
+					"GuidString": "996965e6-8e7c-4537-a56a-845042435edb"
+				},
+				"AISpeedRating": 8,
+				"ResourceConversionRate": 1,
+				"HybridClassTitles": [{
+						"OtherClassID": "b4a0f1d1-b8f7-47e7-b899-99e478004a37",
+						"Title": 2644
+					},
+					{
+						"OtherClassID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
+						"Title": 2647
+					},
+					{
+						"OtherClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+						"Title": 2646
+					},
+					{
+						"OtherClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+						"Title": 2592
+					},
+					{
+						"OtherClassID": "f0036bfb-53d5-4d0c-b11a-b780d788a108",
+						"Title": 2633
+					},
+					{
+						"OtherClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
+						"Title": 2620
+					},
+					{
+						"OtherClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+						"Title": 2627
+					},
+					{
+						"OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+						"Title": 2640
+					},
+					{
+						"OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+						"Title": 2612
+					},
+					{
+						"OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+						"Title": 2605
+					}
+				],
+				"ImprovedUnarmedAttack": "false",
+				"UsesGrimoires": "false",
+				"AccruedResourceAbilitiesAreSpells": "false"
+			}]
+		},
+		{
+			"$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
+			"DebugName": "Chanter",
+			"ID": "b4a0f1d1-b8f7-47e7-b899-99e478004a37",
+			"Components": [{
+				"$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
+				"DisplayName": 259,
+				"DisplayNamePlural": 2070,
+				"SummaryText": 798,
+				"DescriptionText": 506,
+				"RequireSubclass": "false",
+				"Icon": "gui/icons/gamesystems/class_chanter_l.png",
+				"PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_chanter.png",
+				"AccruedResourceIcon": "gui/icons/gamesystems/actionbar_leader_chanter_resource.png",
+				"SkillsList": [{
+						"SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
+						"Value": 4
+					},
+					{
+						"SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
+						"Value": 4
+					},
+					{
+						"SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
+						"Value": 4
+					},
+					{
+						"SkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36",
+						"Value": 4
+					},
+					{
+						"SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
+						"Value": 4
+					}
+				],
+				"BaseStatsID": "ff6ee38b-b584-488c-a406-86c23b03f8cb",
+				"IsSpellcaster": "true",
+				"SpellcastsByPowerLevel": [{
+						"Values": ["-1", "0", "0", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "0", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "-1", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "-1", "-1", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "-1", "-1", "-1", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "-1", "-1", "-1", "-1", "0", "0", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "-1", "-1", "-1", "-1", "-1", "0", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1"]
+					}
+				],
+				"SpellIdentifierString": 3352,
+				"SpellIdentifierStringPlural": 3351,
+				"HasAccruedResource": "true",
+				"PowerPoolName": 2659,
+				"AccruedResourceName": 1434,
+				"LightColor": {
+					"A": 1,
+					"R": 0.9372549,
+					"G": 0.7764706,
+					"B": 0.5568628
+				},
+				"DarkColor": {
+					"A": 1,
+					"R": 0.2980392,
+					"G": 0.2352941,
+					"B": 0.003921569
+				},
+				"ProTierAttributesIDs": ["72712dca-8f95-42ef-bca1-be2e99f69de3"],
+				"GodTierAttributesIDs": [
+					"cadf2f85-9a68-4cfd-80ac-429bac09056f",
+					"2b56c512-6456-44c3-952a-e16431e48ccb"
+				],
+				"DefaultDecisionTree": {
+					"GuidString": "6e24de46-d683-4ecd-a39f-13d979974a7c"
+				},
+				"AISpeedRating": 0,
+				"ResourceConversionRate": 1,
+				"HybridClassTitles": [{
+						"OtherClassID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
+						"Title": 2643
+					},
+					{
+						"OtherClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+						"Title": 2642
+					},
+					{
+						"OtherClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+						"Title": 2593
+					},
+					{
+						"OtherClassID": "f0036bfb-53d5-4d0c-b11a-b780d788a108",
+						"Title": 2634
+					},
+					{
+						"OtherClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
+						"Title": 2621
+					},
+					{
+						"OtherClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+						"Title": 2628
+					},
+					{
+						"OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+						"Title": 2638
+					},
+					{
+						"OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+						"Title": 2613
+					},
+					{
+						"OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+						"Title": 2604
+					}
+				],
+				"ImprovedUnarmedAttack": "false",
+				"UsesGrimoires": "false",
+				"AccruedResourceAbilitiesAreSpells": "true"
+			}]
+		},
+		{
+			"$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
+			"DebugName": "Cipher",
+			"ID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
+			"Components": [{
+				"$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
+				"DisplayName": 258,
+				"DisplayNamePlural": 2069,
+				"SummaryText": 797,
+				"DescriptionText": 505,
+				"RequireSubclass": "false",
+				"Icon": "gui/icons/gamesystems/class_cipher_l.png",
+				"PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_cipher.png",
+				"AccruedResourceIcon": "gui/icons/gamesystems/actionbar_leader_cipher_resource.png",
+				"SkillsList": [{
+						"SkillID": "f5d2c2bf-1ffd-4741-b6d8-31ae01985d4b",
+						"Value": 4
+					},
+					{
+						"SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
+						"Value": 4
+					},
+					{
+						"SkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36",
+						"Value": 4
+					},
+					{
+						"SkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+						"Value": 4
+					},
+					{
+						"SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
+						"Value": 4
+					}
+				],
+				"BaseStatsID": "d0f4b102-d085-4f52-8325-49cc9f4adfaa",
+				"IsSpellcaster": "true",
+				"SpellcastsByPowerLevel": [{
+						"Values": ["-1", "0", "0", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "0", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "-1", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "-1", "-1", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "-1", "-1", "-1", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "-1", "-1", "-1", "-1", "0", "0", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "-1", "-1", "-1", "-1", "-1", "0", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1", "0"]
+					},
+					{
+						"Values": ["-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1"]
+					}
+				],
+				"SpellIdentifierString": 1588,
+				"SpellIdentifierStringPlural": 1486,
+				"HasAccruedResource": "true",
+				"PowerPoolName": 2660,
+				"AccruedResourceName": 415,
+				"LightColor": {
+					"A": 1,
+					"R": 0.7490196,
+					"G": 0.4941176,
+					"B": 1
+				},
+				"DarkColor": {
+					"A": 1,
+					"R": 0.2901961,
+					"G": 0.08627451,
+					"B": 0.7647059
+				},
+				"ProTierAttributesIDs": [
+					"bbd14702-d38a-4627-964f-24cac6e0ee1f",
+					"cadf2f85-9a68-4cfd-80ac-429bac09056f"
+				],
+				"GodTierAttributesIDs": [
+					"6f687c04-019c-498f-b202-cc8679fc511f",
+					"736f0d1d-b98f-46f1-a528-80ee6f53516a"
+				],
+				"DefaultDecisionTree": {
+					"GuidString": "88dc9d79-7dca-4e34-9e51-14ec4c2b528f"
+				},
+				"AISpeedRating": 0,
+				"ResourceConversionRate": 10,
+				"HybridClassTitles": [{
+						"OtherClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+						"Title": 2645
+					},
+					{
+						"OtherClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+						"Title": 2594
+					},
+					{
+						"OtherClassID": "f0036bfb-53d5-4d0c-b11a-b780d788a108",
+						"Title": 2635
+					},
+					{
+						"OtherClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
+						"Title": 2622
+					},
+					{
+						"OtherClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+						"Title": 2629
+					},
+					{
+						"OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+						"Title": 2639
+					},
+					{
+						"OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+						"Title": 2614
+					},
+					{
+						"OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+						"Title": 2603
+					}
+				],
+				"ImprovedUnarmedAttack": "false",
+				"UsesGrimoires": "false",
+				"AccruedResourceAbilitiesAreSpells": "true"
+			}]
+		},
+		{
+			"$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
+			"DebugName": "Druid",
+			"ID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+			"Components": [{
+				"$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
+				"DisplayName": 255,
+				"DisplayNamePlural": 2066,
+				"SummaryText": 794,
+				"DescriptionText": 502,
+				"RequireSubclass": "true",
+				"Icon": "gui/icons/gamesystems/class_druid_l.png",
+				"PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_druid.png",
+				"AccruedResourceIcon": "",
+				"SkillsList": [{
+						"SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
+						"Value": 4
+					},
+					{
+						"SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
+						"Value": 4
+					},
+					{
+						"SkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+						"Value": 4
+					},
+					{
+						"SkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
+						"Value": 4
+					},
+					{
+						"SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
+						"Value": 4
+					}
+				],
+				"BaseStatsID": "35a26ec2-711f-41b2-a25f-f62cf4e0a1ca",
+				"IsSpellcaster": "true",
+				"SpellcastsByPowerLevel": [{
+						"Values": ["2", "0", "0", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "1", "0", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "1", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "1", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "1", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "2", "1", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "2", "2", "1", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "2", "2", "2", "1", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "2", "2", "2", "2", "1"]
+					}
+				],
+				"SpellIdentifierString": 1588,
+				"SpellIdentifierStringPlural": 1486,
+				"HasAccruedResource": "false",
+				"PowerPoolName": 2661,
+				"AccruedResourceName": -1,
+				"LightColor": {
+					"A": 1,
+					"R": 0.5294118,
+					"G": 0.7450981,
+					"B": 0.2196078
+				},
+				"DarkColor": {
+					"A": 1,
+					"R": 0.1843137,
+					"G": 0.3058824,
+					"B": 0.003921569
+				},
+				"ProTierAttributesIDs": ["bbd14702-d38a-4627-964f-24cac6e0ee1f"],
+				"GodTierAttributesIDs": [
+					"cadf2f85-9a68-4cfd-80ac-429bac09056f",
+					"2b56c512-6456-44c3-952a-e16431e48ccb"
+				],
+				"DefaultDecisionTree": {
+					"GuidString": "6997515f-c08e-4b89-9f9a-08e149cd6a2d"
+				},
+				"AISpeedRating": 0,
+				"ResourceConversionRate": 1,
+				"HybridClassTitles": [{
+						"OtherClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+						"Title": 2595
+					},
+					{
+						"OtherClassID": "f0036bfb-53d5-4d0c-b11a-b780d788a108",
+						"Title": 2636
+					},
+					{
+						"OtherClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
+						"Title": 2623
+					},
+					{
+						"OtherClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+						"Title": 2630
+					},
+					{
+						"OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+						"Title": 2641
+					},
+					{
+						"OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+						"Title": 2615
+					},
+					{
+						"OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+						"Title": 2602
+					}
+				],
+				"ImprovedUnarmedAttack": "false",
+				"UsesGrimoires": "false",
+				"AccruedResourceAbilitiesAreSpells": "false"
+			}]
+		},
+		{
+			"$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
+			"DebugName": "Fighter",
+			"ID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+			"Components": [{
+				"$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
+				"DisplayName": 249,
+				"DisplayNamePlural": 2060,
+				"SummaryText": 788,
+				"DescriptionText": 496,
+				"RequireSubclass": "false",
+				"Icon": "gui/icons/gamesystems/class_fighter_l.png",
+				"PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_fighter.png",
+				"AccruedResourceIcon": "",
+				"SkillsList": [{
+						"SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
+						"Value": 4
+					},
+					{
+						"SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
+						"Value": 4
+					},
+					{
+						"SkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40",
+						"Value": 4
+					},
+					{
+						"SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+						"Value": 4
+					},
+					{
+						"SkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+						"Value": 4
+					}
+				],
+				"BaseStatsID": "b5a6674f-a558-4053-897d-2fe0d144c78c",
+				"IsSpellcaster": "false",
+				"SpellcastsByPowerLevel": [],
+				"SpellIdentifierString": 4536,
+				"SpellIdentifierStringPlural": 4537,
+				"HasAccruedResource": "false",
+				"PowerPoolName": 2662,
+				"AccruedResourceName": -1,
+				"LightColor": {
+					"A": 1,
+					"R": 1,
+					"G": 0.4313726,
+					"B": 0.2392157
+				},
+				"DarkColor": {
+					"A": 1,
+					"R": 0.5411765,
+					"G": 0.1294118,
+					"B": 0.003921569
+				},
+				"ProTierAttributesIDs": ["bbd14702-d38a-4627-964f-24cac6e0ee1f"],
+				"GodTierAttributesIDs": [
+					"72712dca-8f95-42ef-bca1-be2e99f69de3",
+					"2b56c512-6456-44c3-952a-e16431e48ccb"
+				],
+				"DefaultDecisionTree": {
+					"GuidString": "f6c47266-545d-46cc-98b5-12374d96eb09"
+				},
+				"AISpeedRating": 5,
+				"ResourceConversionRate": 1,
+				"HybridClassTitles": [{
+						"OtherClassID": "f0036bfb-53d5-4d0c-b11a-b780d788a108",
+						"Title": 2609
+					},
+					{
+						"OtherClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
+						"Title": 2611
+					},
+					{
+						"OtherClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+						"Title": 2610
+					},
+					{
+						"OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+						"Title": 2608
+					},
+					{
+						"OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+						"Title": 2607
+					},
+					{
+						"OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+						"Title": 2606
+					}
+				],
+				"ImprovedUnarmedAttack": "false",
+				"UsesGrimoires": "false",
+				"AccruedResourceAbilitiesAreSpells": "false"
+			}]
+		},
+		{
+			"$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
+			"DebugName": "Monk",
+			"ID": "f0036bfb-53d5-4d0c-b11a-b780d788a108",
+			"Components": [{
+				"$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
+				"DisplayName": 257,
+				"DisplayNamePlural": 2068,
+				"SummaryText": 796,
+				"DescriptionText": 504,
+				"RequireSubclass": "false",
+				"Icon": "gui/icons/gamesystems/class_monk_l.png",
+				"PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_monk.png",
+				"AccruedResourceIcon": "gui/icons/gamesystems/actionbar_leader_monk_resource.png",
+				"SkillsList": [{
+						"SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
+						"Value": 4
+					},
+					{
+						"SkillID": "f5d2c2bf-1ffd-4741-b6d8-31ae01985d4b",
+						"Value": 4
+					},
+					{
+						"SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
+						"Value": 4
+					},
+					{
+						"SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+						"Value": 4
+					},
+					{
+						"SkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
+						"Value": 4
+					}
+				],
+				"BaseStatsID": "a4f2d46c-1b70-4434-87b5-cef69f9659c7",
+				"IsSpellcaster": "false",
+				"SpellcastsByPowerLevel": [],
+				"SpellIdentifierString": 4536,
+				"SpellIdentifierStringPlural": 4537,
+				"HasAccruedResource": "true",
+				"PowerPoolName": 2663,
+				"AccruedResourceName": 1503,
+				"LightColor": {
+					"A": 1,
+					"R": 0.8823529,
+					"G": 0.6470588,
+					"B": 0.3647059
+				},
+				"DarkColor": {
+					"A": 1,
+					"R": 0.4666667,
+					"G": 0.1647059,
+					"B": 0.003921569
+				},
+				"ProTierAttributesIDs": [
+					"bbd14702-d38a-4627-964f-24cac6e0ee1f",
+					"2b56c512-6456-44c3-952a-e16431e48ccb"
+				],
+				"GodTierAttributesIDs": [
+					"72712dca-8f95-42ef-bca1-be2e99f69de3",
+					"736f0d1d-b98f-46f1-a528-80ee6f53516a"
+				],
+				"DefaultDecisionTree": {
+					"GuidString": "e581809e-c5dd-46f7-8ac7-c4e5ed5fcb15"
+				},
+				"AISpeedRating": 9,
+				"ResourceConversionRate": 1,
+				"HybridClassTitles": [{
+						"OtherClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
+						"Title": 2624
+					},
+					{
+						"OtherClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+						"Title": 2631
+					},
+					{
+						"OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+						"Title": 2637
+					},
+					{
+						"OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+						"Title": 2616
+					},
+					{
+						"OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+						"Title": 2599
+					}
+				],
+				"ImprovedUnarmedAttack": "true",
+				"UsesGrimoires": "false",
+				"AccruedResourceAbilitiesAreSpells": "false"
+			}]
+		},
+		{
+			"$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
+			"DebugName": "Paladin",
+			"ID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
+			"Components": [{
+				"$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
+				"DisplayName": 256,
+				"DisplayNamePlural": 2067,
+				"SummaryText": 795,
+				"DescriptionText": 503,
+				"RequireSubclass": "true",
+				"Icon": "gui/icons/gamesystems/class_paladin_l.png",
+				"PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_paladin.png",
+				"AccruedResourceIcon": "",
+				"SkillsList": [{
+						"SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
+						"Value": 4
+					},
+					{
+						"SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
+						"Value": 4
+					},
+					{
+						"SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+						"Value": 4
+					},
+					{
+						"SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
+						"Value": 4
+					},
+					{
+						"SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
+						"Value": 4
+					}
+				],
+				"BaseStatsID": "15575900-652f-43a0-b1b5-1b8f09eb2f7b",
+				"IsSpellcaster": "false",
+				"SpellcastsByPowerLevel": [],
+				"SpellIdentifierString": 4536,
+				"SpellIdentifierStringPlural": 4537,
+				"HasAccruedResource": "false",
+				"PowerPoolName": 2664,
+				"AccruedResourceName": -1,
+				"LightColor": {
+					"A": 1,
+					"R": 0.7921569,
+					"G": 0.6745098,
+					"B": 0.3647059
+				},
+				"DarkColor": {
+					"A": 1,
+					"R": 0.3098039,
+					"G": 0.227451,
+					"B": 0.003921569
+				},
+				"ProTierAttributesIDs": [
+					"bbd14702-d38a-4627-964f-24cac6e0ee1f",
+					"cadf2f85-9a68-4cfd-80ac-429bac09056f",
+					"72712dca-8f95-42ef-bca1-be2e99f69de3"
+				],
+				"GodTierAttributesIDs": ["2b56c512-6456-44c3-952a-e16431e48ccb"],
+				"DefaultDecisionTree": {
+					"GuidString": "0e20e423-5b01-46b0-b9ca-b4e20bc8a58e"
+				},
+				"AISpeedRating": 6,
+				"ResourceConversionRate": 1,
+				"HybridClassTitles": [{
+						"OtherClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+						"Title": 2625
+					},
+					{
+						"OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+						"Title": 2626
+					},
+					{
+						"OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+						"Title": 2617
+					},
+					{
+						"OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+						"Title": 2601
+					}
+				],
+				"ImprovedUnarmedAttack": "false",
+				"UsesGrimoires": "false",
+				"AccruedResourceAbilitiesAreSpells": "false"
+			}]
+		},
+		{
+			"$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
+			"DebugName": "Priest",
+			"ID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+			"Components": [{
+				"$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
+				"DisplayName": 251,
+				"DisplayNamePlural": 2062,
+				"SummaryText": 790,
+				"DescriptionText": 498,
+				"RequireSubclass": "true",
+				"Icon": "gui/icons/gamesystems/class_priest_l.png",
+				"PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_priest.png",
+				"AccruedResourceIcon": "",
+				"SkillsList": [{
+						"SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
+						"Value": 4
+					},
+					{
+						"SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
+						"Value": 4
+					},
+					{
+						"SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
+						"Value": 4
+					},
+					{
+						"SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
+						"Value": 4
+					},
+					{
+						"SkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
+						"Value": 4
+					}
+				],
+				"BaseStatsID": "3e429ebe-f2b6-4ef5-b53c-23f264f710d0",
+				"IsSpellcaster": "true",
+				"SpellcastsByPowerLevel": [{
+						"Values": ["2", "0", "0", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "1", "0", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "1", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "1", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "1", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "2", "1", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "2", "2", "1", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "2", "2", "2", "1", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "2", "2", "2", "2", "1"]
+					}
+				],
+				"SpellIdentifierString": 1588,
+				"SpellIdentifierStringPlural": 1486,
+				"HasAccruedResource": "false",
+				"PowerPoolName": 2665,
+				"AccruedResourceName": -1,
+				"LightColor": {
+					"A": 1,
+					"R": 0.4627451,
+					"G": 0.7058824,
+					"B": 1
+				},
+				"DarkColor": {
+					"A": 1,
+					"R": 0.03137255,
+					"G": 0.2431373,
+					"B": 0.6352941
+				},
+				"ProTierAttributesIDs": [
+					"bbd14702-d38a-4627-964f-24cac6e0ee1f",
+					"736f0d1d-b98f-46f1-a528-80ee6f53516a"
+				],
+				"GodTierAttributesIDs": [
+					"cadf2f85-9a68-4cfd-80ac-429bac09056f",
+					"2b56c512-6456-44c3-952a-e16431e48ccb"
+				],
+				"DefaultDecisionTree": {
+					"GuidString": "d9116209-02d3-4509-954e-e06db1f9bdbb"
+				},
+				"AISpeedRating": 0,
+				"ResourceConversionRate": 1,
+				"HybridClassTitles": [{
+						"OtherClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+						"Title": 2632
+					},
+					{
+						"OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+						"Title": 2618
+					},
+					{
+						"OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+						"Title": 2600
+					}
+				],
+				"ImprovedUnarmedAttack": "false",
+				"UsesGrimoires": "false",
+				"AccruedResourceAbilitiesAreSpells": "false"
+			}]
+		},
+		{
+			"$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
+			"DebugName": "Ranger",
+			"ID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+			"Components": [{
+				"$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
+				"DisplayName": 254,
+				"DisplayNamePlural": 2065,
+				"SummaryText": 793,
+				"DescriptionText": 501,
+				"RequireSubclass": "false",
+				"Icon": "gui/icons/gamesystems/class_ranger_l.png",
+				"PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_ranger.png",
+				"AccruedResourceIcon": "",
+				"SkillsList": [{
+						"SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
+						"Value": 4
+					},
+					{
+						"SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
+						"Value": 4
+					},
+					{
+						"SkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
+						"Value": 4
+					},
+					{
+						"SkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
+						"Value": 4
+					},
+					{
+						"SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
+						"Value": 4
+					}
+				],
+				"BaseStatsID": "0b29cbd9-a8ac-49fd-8e05-d825caa0749f",
+				"IsSpellcaster": "false",
+				"SpellcastsByPowerLevel": [],
+				"SpellIdentifierString": 4536,
+				"SpellIdentifierStringPlural": 4537,
+				"HasAccruedResource": "false",
+				"PowerPoolName": 2666,
+				"AccruedResourceName": -1,
+				"LightColor": {
+					"A": 1,
+					"R": 0.345098,
+					"G": 0.8117647,
+					"B": 0.7058824
+				},
+				"DarkColor": {
+					"A": 1,
+					"R": 0.003921569,
+					"G": 0.3372549,
+					"B": 0.2627451
+				},
+				"ProTierAttributesIDs": [
+					"cadf2f85-9a68-4cfd-80ac-429bac09056f",
+					"736f0d1d-b98f-46f1-a528-80ee6f53516a"
+				],
+				"GodTierAttributesIDs": [
+					"bbd14702-d38a-4627-964f-24cac6e0ee1f",
+					"6f687c04-019c-498f-b202-cc8679fc511f"
+				],
+				"DefaultDecisionTree": {
+					"GuidString": "bbf8f16d-2c62-4e3c-9133-e631a309986b"
+				},
+				"AISpeedRating": 7,
+				"ResourceConversionRate": 1,
+				"HybridClassTitles": [{
+						"OtherClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+						"Title": 2619
+					},
+					{
+						"OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+						"Title": 2598
+					}
+				],
+				"ImprovedUnarmedAttack": "false",
+				"UsesGrimoires": "false",
+				"AccruedResourceAbilitiesAreSpells": "false"
+			}]
+		},
+		{
+			"$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
+			"DebugName": "Rogue",
+			"ID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+			"Components": [{
+				"$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
+				"DisplayName": 250,
+				"DisplayNamePlural": 2061,
+				"SummaryText": 789,
+				"DescriptionText": 497,
+				"RequireSubclass": "false",
+				"Icon": "gui/icons/gamesystems/class_rogue_l.png",
+				"PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_rogue.png",
+				"AccruedResourceIcon": "",
+				"SkillsList": [{
+						"SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
+						"Value": 4
+					},
+					{
+						"SkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40",
+						"Value": 4
+					},
+					{
+						"SkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
+						"Value": 4
+					},
+					{
+						"SkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36",
+						"Value": 4
+					},
+					{
+						"SkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+						"Value": 4
+					}
+				],
+				"BaseStatsID": "6a35da66-ea3d-444a-b1a9-df24d9ce049f",
+				"IsSpellcaster": "false",
+				"SpellcastsByPowerLevel": [],
+				"SpellIdentifierString": 4536,
+				"SpellIdentifierStringPlural": 4537,
+				"HasAccruedResource": "false",
+				"PowerPoolName": 2667,
+				"AccruedResourceName": -1,
+				"LightColor": {
+					"A": 1,
+					"R": 0.8392157,
+					"G": 0.4666667,
+					"B": 1
+				},
+				"DarkColor": {
+					"A": 1,
+					"R": 0.4,
+					"G": 0.07450981,
+					"B": 0.682353
+				},
+				"ProTierAttributesIDs": [
+					"736f0d1d-b98f-46f1-a528-80ee6f53516a",
+					"cadf2f85-9a68-4cfd-80ac-429bac09056f"
+				],
+				"GodTierAttributesIDs": [
+					"bbd14702-d38a-4627-964f-24cac6e0ee1f",
+					"6f687c04-019c-498f-b202-cc8679fc511f"
+				],
+				"DefaultDecisionTree": {
+					"GuidString": "8ba00fc6-c93e-4bb1-8200-c56d2a6edf24"
+				},
+				"AISpeedRating": 10,
+				"ResourceConversionRate": 1,
+				"HybridClassTitles": [{
+					"OtherClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+					"Title": 2597
+				}],
+				"ImprovedUnarmedAttack": "false",
+				"UsesGrimoires": "false",
+				"AccruedResourceAbilitiesAreSpells": "false"
+			}]
+		},
+		{
+			"$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
+			"DebugName": "Wizard",
+			"ID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+			"Components": [{
+				"$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
+				"DisplayName": 252,
+				"DisplayNamePlural": 2063,
+				"SummaryText": 791,
+				"DescriptionText": 499,
+				"RequireSubclass": "false",
+				"Icon": "gui/icons/gamesystems/class_wizard_l.png",
+				"PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_wizard.png",
+				"AccruedResourceIcon": "",
+				"SkillsList": [{
+						"SkillID": "f5d2c2bf-1ffd-4741-b6d8-31ae01985d4b",
+						"Value": 4
+					},
+					{
+						"SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
+						"Value": 4
+					},
+					{
+						"SkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+						"Value": 4
+					},
+					{
+						"SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
+						"Value": 4
+					},
+					{
+						"SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
+						"Value": 4
+					}
+				],
+				"BaseStatsID": "9cf41223-fe57-4ba2-8aae-ccab2d6eecb8",
+				"IsSpellcaster": "true",
+				"SpellcastsByPowerLevel": [{
+						"Values": ["2", "0", "0", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "1", "0", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "1", "0", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "1", "0", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "1", "0", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "2", "1", "0", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "2", "2", "1", "0", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "2", "2", "2", "1", "0"]
+					},
+					{
+						"Values": ["2", "2", "2", "2", "2", "2", "2", "2", "1"]
+					}
+				],
+				"SpellIdentifierString": 1588,
+				"SpellIdentifierStringPlural": 1486,
+				"HasAccruedResource": "false",
+				"PowerPoolName": 2668,
+				"AccruedResourceName": -1,
+				"LightColor": {
+					"A": 1,
+					"R": 0.9960784,
+					"G": 0.6941177,
+					"B": 0.9686275
+				},
+				"DarkColor": {
+					"A": 1,
+					"R": 0.4313726,
+					"G": 0.05490196,
+					"B": 0.6627451
+				},
+				"ProTierAttributesIDs": [
+					"736f0d1d-b98f-46f1-a528-80ee6f53516a",
+					"6f687c04-019c-498f-b202-cc8679fc511f"
+				],
+				"GodTierAttributesIDs": [
+					"bbd14702-d38a-4627-964f-24cac6e0ee1f",
+					"cadf2f85-9a68-4cfd-80ac-429bac09056f"
+				],
+				"DefaultDecisionTree": {
+					"GuidString": "a83e67f9-7536-43f5-8db1-88ba2b3ec165"
+				},
+				"AISpeedRating": 0,
+				"ResourceConversionRate": 1,
+				"HybridClassTitles": [],
+				"ImprovedUnarmedAttack": "false",
+				"UsesGrimoires": "true",
+				"AccruedResourceAbilitiesAreSpells": "false"
+			}]
+		}
+	]
 }

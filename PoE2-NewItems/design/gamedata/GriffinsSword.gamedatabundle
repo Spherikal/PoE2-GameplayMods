@@ -1,87 +1,82 @@
 {
-  "GameDataObjects": [
-    {
-      "$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
-      "DebugName": "Sword_U_Griffins_Blade",
-      "ID": "a2adc754-27e1-40e8-a0ba-cc0d26b049f8",
-      "Components": [
-        {
-          "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
-          "DisplayName": 4806,
-          "DescriptionText": 4807,
-          "FilterType": "Weapons",
-          "InventoryAudioEventListID": "d9ef8ec9-f1fb-4d0b-88b7-49d7c0310019",
-          "IsQuestItem": "false",
-          "IsIngredient": "false",
-          "IsCurrency": "false",
-          "IsAdventuringItem": "false",
-          "CanSellForFullValue": "false",
-          "MaxStackSize": 1,
-          "NeverDropAsLoot": "false",
-          "CanBePickpocketed": "true",
-          "IsUnique": "true",
-          "Value": 35,
-          "IconTextureSmall": "gui/icons/items/weapons/great_sword/great_sword_queens_rule_s.png",
-          "IconTextureLarge": "gui/icons/items/weapons/great_sword/great_sword_queens_rule_l.png",
-          "PencilSketchTexture": "",
-          "InspectOnUseButton": [],
-          "IsPlaceholder": "false"
-        },
-        {
-          "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
-          "EquipmentType": "Sword",
-          "EquipmentSlot": "AnyWeapon",
-          "AppearancePiece": {
-            "ModelVisualDataPath": "prefabs/items/appearance/weapons/great_sword/great_sword01_citzal.asset"
-          },
-          "ItemModsIDs": [
-            "b420d957-6932-4b02-8e02-1393b07f390d",
-            "15af3177-3c63-4334-8651-336aa4e244a0",
-            "376024a3-c952-49ed-9b77-a081007f81cf"
-          ],
-          "OnEquipVisualEffects": [
-            {
-              "VisualEffect": "",
-              "AttachPoint": "Fx_Bone_01",
-              "EmissiveColor": {
-                "A": 1,
-                "R": 0.127,
-                "G": 0.5,
-                "B": 0.212
-              },
-              "EmissiveGlowScale": 1
-            }
-          ],
-          "RestrictedToClassIDs": [],
-          "RestrictedToPlayer": "false",
-          "ProficientAbilityID": "e56c9809-5046-48a8-9334-491b053c79a7",
-          "CannotUnequip": "false",
-          "ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
-          "ItemModel": "art/character/weapons/great_sword/great_sword01/w_gs01.fbx",
-          "AnimationController": "",
-          "PaperdollOverrideRenderer": "",
-          "AttackSummonID": "00000000-0000-0000-0000-000000000000",
-          "CannotSheathe": "false",
-          "PropVisualEffects": []
-        },
-        {
-          "$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
-          "Stance": "OneHanded",
-          "AnimationStanceID": "42de436a-5f52-4bc5-8310-076eb320abc4",
-          "StatusEffectsOnLaunchIDs": [],
-          "IsDisplayedWhenAlternate": "true",
-          "IsUniversalType": "false",
-          "AttackID": "be048545-e4f9-45d2-9bfa-cf57af6daa36",
-          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
-          "ForceBackScabbard": "true",
-          "ScabbardAppearancePiece": {
-            "ModelVisualDataPath": "prefabs/items/appearance/weapons/great_sword/a_great_sword01_scabbard.asset"
-          },
-          "ScabbardRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
-          "ScabbardModel": "",
-          "AudioEventListID": "00000000-0000-0000-0000-000000000000"
-        }
-      ]
-    }
-  ]
+	"GameDataObjects": [{
+		"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+		"DebugName": "Sword_U_Griffins_Blade",
+		"ID": "a2adc754-27e1-40e8-a0ba-cc0d26b049f8",
+		"Components": [{
+				"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+				"DisplayName": 4806,
+				"DescriptionText": 4807,
+				"FilterType": "Weapons",
+				"InventoryAudioEventListID": "d9ef8ec9-f1fb-4d0b-88b7-49d7c0310019",
+				"IsQuestItem": "false",
+				"IsIngredient": "false",
+				"IsCurrency": "false",
+				"IsAdventuringItem": "false",
+				"CanSellForFullValue": "false",
+				"MaxStackSize": 1,
+				"NeverDropAsLoot": "false",
+				"CanBePickpocketed": "true",
+				"IsUnique": "true",
+				"Value": 35,
+				"IconTextureSmall": "gui/icons/items/weapons/great_sword/great_sword_queens_rule_s.png",
+				"IconTextureLarge": "gui/icons/items/weapons/great_sword/great_sword_queens_rule_l.png",
+				"PencilSketchTexture": "",
+				"InspectOnUseButton": [],
+				"IsPlaceholder": "false"
+			},
+			{
+				"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+				"EquipmentType": "Sword",
+				"EquipmentSlot": "AnyWeapon",
+				"AppearancePiece": {
+					"ModelVisualDataPath": "prefabs/items/appearance/weapons/great_sword/great_sword01_citzal.asset"
+				},
+				"ItemModsIDs": [
+					"b420d957-6932-4b02-8e02-1393b07f390d",
+					"15af3177-3c63-4334-8651-336aa4e244a0",
+					"376024a3-c952-49ed-9b77-a081007f81cf"
+				],
+				"OnEquipVisualEffects": [{
+					"VisualEffect": "",
+					"AttachPoint": "Fx_Bone_01",
+					"EmissiveColor": {
+						"A": 1,
+						"R": 0.127,
+						"G": 0.5,
+						"B": 0.212
+					},
+					"EmissiveGlowScale": 1
+				}],
+				"RestrictedToClassIDs": [],
+				"RestrictedToPlayer": "false",
+				"ProficientAbilityID": "e56c9809-5046-48a8-9334-491b053c79a7",
+				"CannotUnequip": "false",
+				"ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+				"ItemModel": "art/character/weapons/great_sword/great_sword01/w_gs01.fbx",
+				"AnimationController": "",
+				"PaperdollOverrideRenderer": "",
+				"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+				"CannotSheathe": "false",
+				"PropVisualEffects": []
+			},
+			{
+				"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+				"Stance": "OneHanded",
+				"AnimationStanceID": "42de436a-5f52-4bc5-8310-076eb320abc4",
+				"StatusEffectsOnLaunchIDs": [],
+				"IsDisplayedWhenAlternate": "true",
+				"IsUniversalType": "false",
+				"AttackID": "be048545-e4f9-45d2-9bfa-cf57af6daa36",
+				"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+				"ForceBackScabbard": "true",
+				"ScabbardAppearancePiece": {
+					"ModelVisualDataPath": "prefabs/items/appearance/weapons/great_sword/a_great_sword01_scabbard.asset"
+				},
+				"ScabbardRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+				"ScabbardModel": "",
+				"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+			}
+		]
+	}]
 }

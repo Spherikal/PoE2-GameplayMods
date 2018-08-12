@@ -1,459 +1,441 @@
 {
-  "GameDataObjects": [
-    {
-      "$type": "Game.GameData.ShipDuelSettingsGameData, Assembly-CSharp",
-      "DebugName": "ShipDuelSettings",
-      "ID": "3e3d9dd2-be09-4fcb-b96e-75e851797208",
-      "Components": [
-        {
-          "$type": "Game.GameData.ShipDuelSettings, Assembly-CSharp",
-          "RakingFireDefenseBonus": 10,
-          "TurnDefenseBonus": 5,
-          "MovementDefenseBonusMultiplier": 0.2,
-          "CannoneerHitChancePerLevel": 5,
-          "IncompententHelmsmanAccuracyBonus": -10,
-          "JibAccuracyBonus": -30,
-          "CannonTooClosePenalty": -0.2,
-          "CannonTooFarPenalty": -0.2,
-          "CannonMaxRangeBonus": 0,
-          "CannonHitThreshold": 100,
-          "AdvantageMovementBonus": 20,
-          "IncompententDeckhandsMovementMultiplier": 0.5,
-          "GlobalAIWeights": {
-            "SelfHullDamageWeight": 1,
-            "SelfSailDamageWeight": 0.5,
-            "SelfCrewDamageWeight": 0.8,
-            "SelfDeathWeight": 4,
-            "SelfEventWeight": 1,
-            "OpponentHullDamageWeight": 1,
-            "OpponentSailDamageWeight": 0.5,
-            "OpponentCrewDamageWeight": 0.8,
-            "OpponentDeathWeight": 4,
-            "BoardingWeight": 1,
-            "RetreatWeight": 1,
-            "RetreatSkew": -0.2
-          },
-          "RetreatDistance": 600,
-          "HoldAccuracyBonus": 20,
-          "RammeeDamage": {
-            "DamageMin": 8,
-            "DamageMax": 15,
-            "CrewDamageMin": 1,
-            "CrewDamageMax": 1,
-            "DamageTypes": [
-              {
-                "DamageType": "Hull",
-                "Weight": 1
-              },
-              {
-                "DamageType": "Sail",
-                "Weight": 0
-              },
-              {
-                "DamageType": "AnyCrew",
-                "Weight": 0
-              },
-              {
-                "DamageType": "AboveDeckCrew",
-                "Weight": 0
-              },
-              {
-                "DamageType": "BelowDeckCrew",
-                "Weight": 0
-              }
-            ]
-          },
-          "RammerDamage": {
-            "DamageMin": 0,
-            "DamageMax": 10,
-            "CrewDamageMin": 1,
-            "CrewDamageMax": 1,
-            "DamageTypes": [
-              {
-                "DamageType": "Hull",
-                "Weight": 1
-              },
-              {
-                "DamageType": "Sail",
-                "Weight": 0
-              },
-              {
-                "DamageType": "AnyCrew",
-                "Weight": 0
-              },
-              {
-                "DamageType": "AboveDeckCrew",
-                "Weight": 0
-              },
-              {
-                "DamageType": "BelowDeckCrew",
-                "Weight": 0
-              }
-            ]
-          },
-          "CloseToBoardDamage": [
-            {
-              "DamageMin": 3,
-              "DamageMax": 20,
-              "CrewDamageMin": 1,
-              "CrewDamageMax": 1,
-              "DamageTypes": [
-                {
-                  "DamageType": "Hull",
-                  "Weight": 1
-                },
-                {
-                  "DamageType": "Sail",
-                  "Weight": 0
-                },
-                {
-                  "DamageType": "AnyCrew",
-                  "Weight": 0
-                },
-                {
-                  "DamageType": "AboveDeckCrew",
-                  "Weight": 0
-                },
-                {
-                  "DamageType": "BelowDeckCrew",
-                  "Weight": 0
-                }
-              ]
-            },
-            {
-              "DamageMin": 0,
-              "DamageMax": 10,
-              "CrewDamageMin": 1,
-              "CrewDamageMax": 1,
-              "DamageTypes": [
-                {
-                  "DamageType": "Hull",
-                  "Weight": 0
-                },
-                {
-                  "DamageType": "Sail",
-                  "Weight": 1
-                },
-                {
-                  "DamageType": "AnyCrew",
-                  "Weight": 0
-                },
-                {
-                  "DamageType": "AboveDeckCrew",
-                  "Weight": 0
-                },
-                {
-                  "DamageType": "BelowDeckCrew",
-                  "Weight": 0
-                }
-              ]
-            },
-            {
-              "DamageMin": 1,
-              "DamageMax": 1,
-              "CrewDamageMin": 0,
-              "CrewDamageMax": 3,
-              "DamageTypes": [
-                {
-                  "DamageType": "Hull",
-                  "Weight": 0
-                },
-                {
-                  "DamageType": "Sail",
-                  "Weight": 0
-                },
-                {
-                  "DamageType": "AnyCrew",
-                  "Weight": 1
-                },
-                {
-                  "DamageType": "AboveDeckCrew",
-                  "Weight": 0
-                },
-                {
-                  "DamageType": "BelowDeckCrew",
-                  "Weight": 0
-                }
-              ]
-            }
-          ],
-          "MaxEvents": 4,
-          "InjuriesIDs": [
-            "17fc9c75-c0ea-4823-b5f6-f3b29f53d546",
-            "c97a3d47-ea0b-48e3-93f7-4fa94fcadefc",
-            "1e0fbf95-28b3-4a18-baef-ff5ff21e7986",
-            "b7c6acd2-ca6d-4bf6-ac71-6dcf82b96d65",
-            "163e8713-5a13-4a64-a68d-4a302c9c4596",
-            "08142ffd-7629-44e7-898b-bfeb66c78952"
-          ],
-          "HitPowderStoreChance": 0.01,
-          "BraceForImpactInjuryPreventionChance": 0.5,
-          "RakingFireSailDamageMultiplier": 1.5,
-          "RakingFireHullDamageMultiplier": 1.5,
-          "RakingFireCrewDamageMultiplier": 2,
-          "AdvantageCannonMaxRangeMultiplier": 1.2,
-          "CannonResultDelay": 3,
-          "CannonInstanceDelay": 0.9,
-          "OnFireCannons": [
-            {
-              "Data": {
-                "FullName": "Void SetInteractionImage(String)",
-                "Parameters": [
-                  "gui\\interactionportraits\\re_world_map\\re_si_cannons_firing.png"
-                ],
-                "Flags": "",
-                "UnrealCall": "",
-                "FunctionHash": 2042494187,
-                "ParameterHash": 2130143173
-              },
-              "Conditional": {
-                "Operator": 0,
-                "Components": [
-                  {
-                    "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-                    "Data": {
-                      "FullName": "Boolean IsShipType(ShipDuelParticipant, ShipType)",
-                      "Parameters": ["Actor", "Canoe"],
-                      "Flags": "",
-                      "UnrealCall": "",
-                      "FunctionHash": 1807620614,
-                      "ParameterHash": -1861780293
-                    },
-                    "Not": true,
-                    "Operator": 0
-                  },
-                  {
-                    "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-                    "Data": {
-                      "FullName": "Boolean IsShipType(ShipDuelParticipant, ShipType)",
-                      "Parameters": ["Actor", "Longship"],
-                      "Flags": "",
-                      "UnrealCall": "",
-                      "FunctionHash": 1807620614,
-                      "ParameterHash": 2070572829
-                    },
-                    "Not": true,
-                    "Operator": 0
-                  }
-                ]
-              }
-            },
-            {
-              "Data": {
-                "FullName": "Void SetInteractionImage(String)",
-                "Parameters": [
-                  "gui\\interactionportraits\\ship_duels\\sd_voyager_attack.png"
-                ],
-                "Flags": "",
-                "UnrealCall": "",
-                "FunctionHash": 2042494187,
-                "ParameterHash": 767418745
-              },
-              "Conditional": {
-                "Operator": 0,
-                "Components": [
-                  {
-                    "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-                    "Data": {
-                      "FullName": "Boolean IsShipType(ShipDuelParticipant, ShipType)",
-                      "Parameters": ["Actor", "Canoe"],
-                      "Flags": "",
-                      "UnrealCall": "",
-                      "FunctionHash": 1807620614,
-                      "ParameterHash": -1861780293
-                    },
-                    "Not": false,
-                    "Operator": 0
-                  }
-                ]
-              }
-            },
-            {
-              "Data": {
-                "FullName": "Void SetInteractionImage(String)",
-                "Parameters": [
-                  "gui\\interactionportraits\\ship_duels\\sd_longship_attack.png"
-                ],
-                "Flags": "",
-                "UnrealCall": "",
-                "FunctionHash": 2042494187,
-                "ParameterHash": 750819960
-              },
-              "Conditional": {
-                "Operator": 0,
-                "Components": [
-                  {
-                    "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-                    "Data": {
-                      "FullName": "Boolean IsShipType(ShipDuelParticipant, ShipType)",
-                      "Parameters": ["Actor", "Longship"],
-                      "Flags": "",
-                      "UnrealCall": "",
-                      "FunctionHash": 1807620614,
-                      "ParameterHash": 2070572829
-                    },
-                    "Not": false,
-                    "Operator": 0
-                  }
-                ]
-              }
-            }
-          ],
-          "DifficultySettings": [
-            {
-              "Difficulty": "Easy",
-              "EnemyHealthMultiplier": 0.8,
-              "EnemyDamageMultiplier": 0.8,
-              "EnemyShipAccuracyBonus": 0,
-              "PlayerEventChanceMultiplier": 1,
-              "EnemyEventChanceMultiplier": 1,
-              "PlayerCannotSink": "false",
-              "CloseToBoardDamageMultiplier": 0.8
-            },
-            {
-              "Difficulty": "Normal",
-              "EnemyHealthMultiplier": 1,
-              "EnemyDamageMultiplier": 1,
-              "EnemyShipAccuracyBonus": 0,
-              "PlayerEventChanceMultiplier": 1,
-              "EnemyEventChanceMultiplier": 1,
-              "PlayerCannotSink": "false",
-              "CloseToBoardDamageMultiplier": 1
-            },
-            {
-              "Difficulty": "Hard",
-              "EnemyHealthMultiplier": 1,
-              "EnemyDamageMultiplier": 1,
-              "EnemyShipAccuracyBonus": 0,
-              "PlayerEventChanceMultiplier": 1,
-              "EnemyEventChanceMultiplier": 1,
-              "PlayerCannotSink": "false",
-              "CloseToBoardDamageMultiplier": 1.1
-            },
-            {
-              "Difficulty": "PathOfTheDamned",
-              "EnemyHealthMultiplier": 1,
-              "EnemyDamageMultiplier": 1,
-              "EnemyShipAccuracyBonus": 0,
-              "PlayerEventChanceMultiplier": 1,
-              "EnemyEventChanceMultiplier": 1,
-              "PlayerCannotSink": "false",
-              "CloseToBoardDamageMultiplier": 1.2
-            },
-            {
-              "Difficulty": "StoryTime",
-              "EnemyHealthMultiplier": 0.66,
-              "EnemyDamageMultiplier": 0.66,
-              "EnemyShipAccuracyBonus": -15,
-              "PlayerEventChanceMultiplier": 2,
-              "EnemyEventChanceMultiplier": 0.5,
-              "PlayerCannotSink": "true",
-              "CloseToBoardDamageMultiplier": 0.8
-            }
-          ],
-          "RepairHullEventID": "8d178f39-90af-4399-8dae-38104466247e",
-          "RepairSailsEventID": "efcba635-cdf0-4d06-b3c2-2dcc9cd8bc4f",
-          "ShipSunkExperienceMultiplier": 2,
-          "ShipSunkTalesMultiplier": 2,
-          "PlayerSurrenderSupplyRatio": 0.3,
-          "PlayerSurrenderMinimumFoodDrink": 20,
-          "PlayerSurrenderMoneyRatio": 0.15,
-          "PlayerSurrenderMinimumMoney": 500,
-          "PlayerSurrenderSailorTales": 1,
-          "CloseToBoardDamageMultPerDefenderRank": 1.2,
-          "CloseToBoardDamageMultPerAttackerRank": 0.9
-        },
-        {
-          "$type": "Game.GameData.ShipDuelEventSettingsComponent, Assembly-CSharp",
-          "EventTypeData": [
-            {
-              "EventType": "HullDamage",
-              "FormatString": 5
-            },
-            {
-              "EventType": "SailDamage",
-              "FormatString": 6
-            },
-            {
-              "EventType": "CrewDamage",
-              "FormatString": 7
-            },
-            {
-              "EventType": "AboveDeckCrewDamage",
-              "FormatString": 8
-            },
-            {
-              "EventType": "BelowDeckCrewDamage",
-              "FormatString": 9
-            },
-            {
-              "EventType": "SinkClock",
-              "FormatString": 10
-            },
-            {
-              "EventType": "LoseResource",
-              "FormatString": 11
-            },
-            {
-              "EventType": "MultiplyCombatSpeed",
-              "FormatString": 12
-            },
-            {
-              "EventType": "LoseRepairSupplies",
-              "FormatString": 22
-            },
-            {
-              "EventType": "SailorOverboard",
-              "FormatString": 24
-            }
-          ]
-        },
-        {
-          "$type": "Game.GameData.ShipDuelAudioSettingsComponent, Assembly-CSharp",
-          "HullDamageRange": {
-            "Min": 5,
-            "Max": 30
-          },
-          "SailDamageRange": {
-            "Min": 5,
-            "Max": 30
-          },
-          "CrewDamageRange": {
-            "Min": 1,
-            "Max": 4
-          },
-          "FullSailEvent": "ship_full_sail",
-          "HalfSailEvent": "ship_half_sail",
-          "BoardEvent": "",
-          "HoldEvent": "ship_hold_position",
-          "TurnStarboardEvent": "ship_turn_starboard",
-          "TurnPortEvent": "ship_turn_port",
-          "TurnReverseEvent": "ship_turn_reverse",
-          "FireCannonsEvents": "",
-          "ReportEvent": "ship_report_to",
-          "BraceForImpactEvent": "",
-          "RamEvent": "ship_ram",
-          "FireCannonIndividualEvent": "ship_cannon_fire",
-          "CannonMissEvent": "ship_cannon_miss",
-          "CannonDamageEvent": "ship_cannon_damage",
-          "RamDamageEvent": "ship_ram_damage",
-          "OtherDamageEvent": "",
-          "DamageEventJumpstart": [
-            {
-              "Threshold": 0,
-              "Value": 1.5
-            },
-            {
-              "Threshold": 0.3,
-              "Value": 2
-            },
-            {
-              "Threshold": 0.7,
-              "Value": 2.5
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"GameDataObjects": [{
+		"$type": "Game.GameData.ShipDuelSettingsGameData, Assembly-CSharp",
+		"DebugName": "ShipDuelSettings",
+		"ID": "3e3d9dd2-be09-4fcb-b96e-75e851797208",
+		"Components": [{
+				"$type": "Game.GameData.ShipDuelSettings, Assembly-CSharp",
+				"RakingFireDefenseBonus": 10,
+				"TurnDefenseBonus": 5,
+				"MovementDefenseBonusMultiplier": 0.2,
+				"CannoneerHitChancePerLevel": 5,
+				"IncompententHelmsmanAccuracyBonus": -10,
+				"JibAccuracyBonus": -30,
+				"CannonTooClosePenalty": -0.2,
+				"CannonTooFarPenalty": -0.2,
+				"CannonMaxRangeBonus": 0,
+				"CannonHitThreshold": 100,
+				"AdvantageMovementBonus": 20,
+				"IncompententDeckhandsMovementMultiplier": 0.5,
+				"GlobalAIWeights": {
+					"SelfHullDamageWeight": 1,
+					"SelfSailDamageWeight": 0.5,
+					"SelfCrewDamageWeight": 0.8,
+					"SelfDeathWeight": 4,
+					"SelfEventWeight": 1,
+					"OpponentHullDamageWeight": 1,
+					"OpponentSailDamageWeight": 0.5,
+					"OpponentCrewDamageWeight": 0.8,
+					"OpponentDeathWeight": 4,
+					"BoardingWeight": 1,
+					"RetreatWeight": 1,
+					"RetreatSkew": -0.2
+				},
+				"RetreatDistance": 600,
+				"HoldAccuracyBonus": 20,
+				"RammeeDamage": {
+					"DamageMin": 8,
+					"DamageMax": 15,
+					"CrewDamageMin": 1,
+					"CrewDamageMax": 1,
+					"DamageTypes": [{
+							"DamageType": "Hull",
+							"Weight": 1
+						},
+						{
+							"DamageType": "Sail",
+							"Weight": 0
+						},
+						{
+							"DamageType": "AnyCrew",
+							"Weight": 0
+						},
+						{
+							"DamageType": "AboveDeckCrew",
+							"Weight": 0
+						},
+						{
+							"DamageType": "BelowDeckCrew",
+							"Weight": 0
+						}
+					]
+				},
+				"RammerDamage": {
+					"DamageMin": 0,
+					"DamageMax": 10,
+					"CrewDamageMin": 1,
+					"CrewDamageMax": 1,
+					"DamageTypes": [{
+							"DamageType": "Hull",
+							"Weight": 1
+						},
+						{
+							"DamageType": "Sail",
+							"Weight": 0
+						},
+						{
+							"DamageType": "AnyCrew",
+							"Weight": 0
+						},
+						{
+							"DamageType": "AboveDeckCrew",
+							"Weight": 0
+						},
+						{
+							"DamageType": "BelowDeckCrew",
+							"Weight": 0
+						}
+					]
+				},
+				"CloseToBoardDamage": [{
+						"DamageMin": 3,
+						"DamageMax": 20,
+						"CrewDamageMin": 1,
+						"CrewDamageMax": 1,
+						"DamageTypes": [{
+								"DamageType": "Hull",
+								"Weight": 1
+							},
+							{
+								"DamageType": "Sail",
+								"Weight": 0
+							},
+							{
+								"DamageType": "AnyCrew",
+								"Weight": 0
+							},
+							{
+								"DamageType": "AboveDeckCrew",
+								"Weight": 0
+							},
+							{
+								"DamageType": "BelowDeckCrew",
+								"Weight": 0
+							}
+						]
+					},
+					{
+						"DamageMin": 0,
+						"DamageMax": 10,
+						"CrewDamageMin": 1,
+						"CrewDamageMax": 1,
+						"DamageTypes": [{
+								"DamageType": "Hull",
+								"Weight": 0
+							},
+							{
+								"DamageType": "Sail",
+								"Weight": 1
+							},
+							{
+								"DamageType": "AnyCrew",
+								"Weight": 0
+							},
+							{
+								"DamageType": "AboveDeckCrew",
+								"Weight": 0
+							},
+							{
+								"DamageType": "BelowDeckCrew",
+								"Weight": 0
+							}
+						]
+					},
+					{
+						"DamageMin": 1,
+						"DamageMax": 1,
+						"CrewDamageMin": 0,
+						"CrewDamageMax": 3,
+						"DamageTypes": [{
+								"DamageType": "Hull",
+								"Weight": 0
+							},
+							{
+								"DamageType": "Sail",
+								"Weight": 0
+							},
+							{
+								"DamageType": "AnyCrew",
+								"Weight": 1
+							},
+							{
+								"DamageType": "AboveDeckCrew",
+								"Weight": 0
+							},
+							{
+								"DamageType": "BelowDeckCrew",
+								"Weight": 0
+							}
+						]
+					}
+				],
+				"MaxEvents": 4,
+				"InjuriesIDs": [
+					"17fc9c75-c0ea-4823-b5f6-f3b29f53d546",
+					"c97a3d47-ea0b-48e3-93f7-4fa94fcadefc",
+					"1e0fbf95-28b3-4a18-baef-ff5ff21e7986",
+					"b7c6acd2-ca6d-4bf6-ac71-6dcf82b96d65",
+					"163e8713-5a13-4a64-a68d-4a302c9c4596",
+					"08142ffd-7629-44e7-898b-bfeb66c78952"
+				],
+				"HitPowderStoreChance": 0.01,
+				"BraceForImpactInjuryPreventionChance": 0.5,
+				"RakingFireSailDamageMultiplier": 1.5,
+				"RakingFireHullDamageMultiplier": 1.5,
+				"RakingFireCrewDamageMultiplier": 2,
+				"AdvantageCannonMaxRangeMultiplier": 1.2,
+				"CannonResultDelay": 3,
+				"CannonInstanceDelay": 0.9,
+				"OnFireCannons": [{
+						"Data": {
+							"FullName": "Void SetInteractionImage(String)",
+							"Parameters": [
+								"gui\\interactionportraits\\re_world_map\\re_si_cannons_firing.png"
+							],
+							"Flags": "",
+							"UnrealCall": "",
+							"FunctionHash": 2042494187,
+							"ParameterHash": 2130143173
+						},
+						"Conditional": {
+							"Operator": 0,
+							"Components": [{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"FullName": "Boolean IsShipType(ShipDuelParticipant, ShipType)",
+										"Parameters": ["Actor", "Canoe"],
+										"Flags": "",
+										"UnrealCall": "",
+										"FunctionHash": 1807620614,
+										"ParameterHash": -1861780293
+									},
+									"Not": true,
+									"Operator": 0
+								},
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"FullName": "Boolean IsShipType(ShipDuelParticipant, ShipType)",
+										"Parameters": ["Actor", "Longship"],
+										"Flags": "",
+										"UnrealCall": "",
+										"FunctionHash": 1807620614,
+										"ParameterHash": 2070572829
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							]
+						}
+					},
+					{
+						"Data": {
+							"FullName": "Void SetInteractionImage(String)",
+							"Parameters": [
+								"gui\\interactionportraits\\ship_duels\\sd_voyager_attack.png"
+							],
+							"Flags": "",
+							"UnrealCall": "",
+							"FunctionHash": 2042494187,
+							"ParameterHash": 767418745
+						},
+						"Conditional": {
+							"Operator": 0,
+							"Components": [{
+								"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+								"Data": {
+									"FullName": "Boolean IsShipType(ShipDuelParticipant, ShipType)",
+									"Parameters": ["Actor", "Canoe"],
+									"Flags": "",
+									"UnrealCall": "",
+									"FunctionHash": 1807620614,
+									"ParameterHash": -1861780293
+								},
+								"Not": false,
+								"Operator": 0
+							}]
+						}
+					},
+					{
+						"Data": {
+							"FullName": "Void SetInteractionImage(String)",
+							"Parameters": [
+								"gui\\interactionportraits\\ship_duels\\sd_longship_attack.png"
+							],
+							"Flags": "",
+							"UnrealCall": "",
+							"FunctionHash": 2042494187,
+							"ParameterHash": 750819960
+						},
+						"Conditional": {
+							"Operator": 0,
+							"Components": [{
+								"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+								"Data": {
+									"FullName": "Boolean IsShipType(ShipDuelParticipant, ShipType)",
+									"Parameters": ["Actor", "Longship"],
+									"Flags": "",
+									"UnrealCall": "",
+									"FunctionHash": 1807620614,
+									"ParameterHash": 2070572829
+								},
+								"Not": false,
+								"Operator": 0
+							}]
+						}
+					}
+				],
+				"DifficultySettings": [{
+						"Difficulty": "Easy",
+						"EnemyHealthMultiplier": 0.8,
+						"EnemyDamageMultiplier": 0.8,
+						"EnemyShipAccuracyBonus": 0,
+						"PlayerEventChanceMultiplier": 1,
+						"EnemyEventChanceMultiplier": 1,
+						"PlayerCannotSink": "false",
+						"CloseToBoardDamageMultiplier": 0.8
+					},
+					{
+						"Difficulty": "Normal",
+						"EnemyHealthMultiplier": 1,
+						"EnemyDamageMultiplier": 1,
+						"EnemyShipAccuracyBonus": 0,
+						"PlayerEventChanceMultiplier": 1,
+						"EnemyEventChanceMultiplier": 1,
+						"PlayerCannotSink": "false",
+						"CloseToBoardDamageMultiplier": 1
+					},
+					{
+						"Difficulty": "Hard",
+						"EnemyHealthMultiplier": 1,
+						"EnemyDamageMultiplier": 1,
+						"EnemyShipAccuracyBonus": 0,
+						"PlayerEventChanceMultiplier": 1,
+						"EnemyEventChanceMultiplier": 1,
+						"PlayerCannotSink": "false",
+						"CloseToBoardDamageMultiplier": 1.1
+					},
+					{
+						"Difficulty": "PathOfTheDamned",
+						"EnemyHealthMultiplier": 1,
+						"EnemyDamageMultiplier": 1,
+						"EnemyShipAccuracyBonus": 0,
+						"PlayerEventChanceMultiplier": 1,
+						"EnemyEventChanceMultiplier": 1,
+						"PlayerCannotSink": "false",
+						"CloseToBoardDamageMultiplier": 1.2
+					},
+					{
+						"Difficulty": "StoryTime",
+						"EnemyHealthMultiplier": 0.66,
+						"EnemyDamageMultiplier": 0.66,
+						"EnemyShipAccuracyBonus": -15,
+						"PlayerEventChanceMultiplier": 2,
+						"EnemyEventChanceMultiplier": 0.5,
+						"PlayerCannotSink": "true",
+						"CloseToBoardDamageMultiplier": 0.8
+					}
+				],
+				"RepairHullEventID": "8d178f39-90af-4399-8dae-38104466247e",
+				"RepairSailsEventID": "efcba635-cdf0-4d06-b3c2-2dcc9cd8bc4f",
+				"ShipSunkExperienceMultiplier": 2,
+				"ShipSunkTalesMultiplier": 2,
+				"PlayerSurrenderSupplyRatio": 0.3,
+				"PlayerSurrenderMinimumFoodDrink": 20,
+				"PlayerSurrenderMoneyRatio": 0.15,
+				"PlayerSurrenderMinimumMoney": 500,
+				"PlayerSurrenderSailorTales": 1,
+				"CloseToBoardDamageMultPerDefenderRank": 1.2,
+				"CloseToBoardDamageMultPerAttackerRank": 0.9
+			},
+			{
+				"$type": "Game.GameData.ShipDuelEventSettingsComponent, Assembly-CSharp",
+				"EventTypeData": [{
+						"EventType": "HullDamage",
+						"FormatString": 5
+					},
+					{
+						"EventType": "SailDamage",
+						"FormatString": 6
+					},
+					{
+						"EventType": "CrewDamage",
+						"FormatString": 7
+					},
+					{
+						"EventType": "AboveDeckCrewDamage",
+						"FormatString": 8
+					},
+					{
+						"EventType": "BelowDeckCrewDamage",
+						"FormatString": 9
+					},
+					{
+						"EventType": "SinkClock",
+						"FormatString": 10
+					},
+					{
+						"EventType": "LoseResource",
+						"FormatString": 11
+					},
+					{
+						"EventType": "MultiplyCombatSpeed",
+						"FormatString": 12
+					},
+					{
+						"EventType": "LoseRepairSupplies",
+						"FormatString": 22
+					},
+					{
+						"EventType": "SailorOverboard",
+						"FormatString": 24
+					}
+				]
+			},
+			{
+				"$type": "Game.GameData.ShipDuelAudioSettingsComponent, Assembly-CSharp",
+				"HullDamageRange": {
+					"Min": 5,
+					"Max": 30
+				},
+				"SailDamageRange": {
+					"Min": 5,
+					"Max": 30
+				},
+				"CrewDamageRange": {
+					"Min": 1,
+					"Max": 4
+				},
+				"FullSailEvent": "ship_full_sail",
+				"HalfSailEvent": "ship_half_sail",
+				"BoardEvent": "",
+				"HoldEvent": "ship_hold_position",
+				"TurnStarboardEvent": "ship_turn_starboard",
+				"TurnPortEvent": "ship_turn_port",
+				"TurnReverseEvent": "ship_turn_reverse",
+				"FireCannonsEvents": "",
+				"ReportEvent": "ship_report_to",
+				"BraceForImpactEvent": "",
+				"RamEvent": "ship_ram",
+				"FireCannonIndividualEvent": "ship_cannon_fire",
+				"CannonMissEvent": "ship_cannon_miss",
+				"CannonDamageEvent": "ship_cannon_damage",
+				"RamDamageEvent": "ship_ram_damage",
+				"OtherDamageEvent": "",
+				"DamageEventJumpstart": [{
+						"Threshold": 0,
+						"Value": 1.5
+					},
+					{
+						"Threshold": 0.3,
+						"Value": 2
+					},
+					{
+						"Threshold": 0.7,
+						"Value": 2.5
+					}
+				]
+			}
+		]
+	}]
 }

@@ -1,659 +1,574 @@
 {
-  "GameDataObjects": [
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Apprentice",
-      "ID": "30a9beec-617b-410a-a62e-25ed2de3b04c",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 4042,
-          "SummaryText": 762,
-          "DescriptionText": -1,
-          "Icon": "gui/icons/gamesystems/background_apprentice.png",
-          "SkillsList": [
-            {
-              "SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
-              "Value": 6
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Aristocrat",
-      "ID": "a7b302e1-033d-4d12-9a90-9047588ac622",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 534,
-          "SummaryText": 635,
-          "DescriptionText": 515,
-          "Icon": "gui/icons/gamesystems/background_aristocrat_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
-              "Value": 2
-            },
-            {
-              "SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
-              "Value": 2
-            },
-            {
-              "SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Artist",
-      "ID": "80cdca20-91dc-4fb0-82ef-cf21df9ce2d9",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 535,
-          "SummaryText": 636,
-          "DescriptionText": 516,
-          "Icon": "gui/icons/gamesystems/background_artist_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
-              "Value": 2
-            },
-            {
-              "SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
-              "Value": 2
-            },
-            {
-              "SkillID": "f5d2c2bf-1ffd-4741-b6d8-31ae01985d4b",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Clergy",
-      "ID": "a4f3bfbc-39f8-4301-a5d7-ada1044c7459",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 546,
-          "SummaryText": 647,
-          "DescriptionText": 527,
-          "Icon": "gui/icons/gamesystems/background_clergy_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
-              "Value": 6
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Colonist",
-      "ID": "66f33e44-2d42-4a57-bbc4-873545401036",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 536,
-          "SummaryText": 637,
-          "DescriptionText": 517,
-          "Icon": "gui/icons/gamesystems/background_colonist_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
-              "Value": 2
-            },
-            {
-              "SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
-              "Value": 2
-            },
-            {
-              "SkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Dissident",
-      "ID": "8892ecd9-3a3d-476f-a092-e595841a02ed",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 537,
-          "SummaryText": 638,
-          "DescriptionText": 518,
-          "Icon": "gui/icons/gamesystems/background_dissident_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
-              "Value": 2
-            },
-            {
-              "SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
-              "Value": 2
-            },
-            {
-              "SkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Drifter",
-      "ID": "f15f2b6a-69f1-4697-9695-9525da25684e",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 538,
-          "SummaryText": 639,
-          "DescriptionText": 519,
-          "Icon": "gui/icons/gamesystems/background_drifter_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36",
-              "Value": 2
-            },
-            {
-              "SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
-              "Value": 2
-            },
-            {
-              "SkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Explorer",
-      "ID": "7cfa6c66-568d-4906-8057-83e7974b3ae0",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 539,
-          "SummaryText": 640,
-          "DescriptionText": 520,
-          "Icon": "gui/icons/gamesystems/background_explorer_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
-              "Value": 2
-            },
-            {
-              "SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
-              "Value": 2
-            },
-            {
-              "SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Farmer",
-      "ID": "1aa2cea4-30af-473a-b9cf-ead152edd694",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 1721,
-          "SummaryText": 537,
-          "DescriptionText": -1,
-          "Icon": "gui/icons/gamesystems/background_farmer.png",
-          "SkillsList": [
-            {
-              "SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
-              "Value": 6
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Gentry",
-      "ID": "1d748a38-1b97-4038-b3e8-b77ee209bda6",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 1724,
-          "SummaryText": 652,
-          "DescriptionText": -1,
-          "Icon": "gui/icons/gamesystems/background_gentry.png",
-          "SkillsList": [
-            {
-              "SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
-              "Value": 6
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Hunter",
-      "ID": "412de08a-27b2-4470-8427-8ca6c40ce7ab",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 540,
-          "SummaryText": 641,
-          "DescriptionText": 521,
-          "Icon": "gui/icons/gamesystems/background_hunter_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
-              "Value": 2
-            },
-            {
-              "SkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
-              "Value": 2
-            },
-            {
-              "SkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Laborer",
-      "ID": "180ec9d0-dac8-4832-9387-469b3a12de8d",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 541,
-          "SummaryText": 642,
-          "DescriptionText": 522,
-          "Icon": "gui/icons/gamesystems/background_laborer_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
-              "Value": 6
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Marksman",
-      "ID": "4962a1df-b587-47e9-8e77-38bc36350dbf",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 4041,
-          "SummaryText": 761,
-          "DescriptionText": -1,
-          "Icon": "gui/icons/gamesystems/background_marksman.png",
-          "SkillsList": [
-            {
-              "SkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
-              "Value": 4
-            },
-            {
-              "SkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Mercenary",
-      "ID": "0c794fe0-a7e0-4901-bb6c-e5d7c1f955a2",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 542,
-          "SummaryText": 643,
-          "DescriptionText": 523,
-          "Icon": "gui/icons/gamesystems/background_mercenary_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40",
-              "Value": 2
-            },
-            {
-              "SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
-              "Value": 2
-            },
-            {
-              "SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Merchant",
-      "ID": "68379d53-6b7d-49d3-b79b-b8af99539b8c",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 543,
-          "SummaryText": 644,
-          "DescriptionText": 524,
-          "Icon": "gui/icons/gamesystems/background_merchant_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40",
-              "Value": 2
-            },
-            {
-              "SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
-              "Value": 2
-            },
-            {
-              "SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Midwife",
-      "ID": "526fe21e-66e2-4b93-87a5-ad1a0ab9af8a",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 1723,
-          "SummaryText": -1,
-          "DescriptionText": -1,
-          "Icon": "gui/icons/gamesystems/background_missionary.png",
-          "SkillsList": [
-            {
-              "SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
-              "Value": 2
-            },
-            {
-              "SkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
-              "Value": 2
-            },
-            {
-              "SkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Missionary",
-      "ID": "03e64fd6-06de-4377-89e3-9fdaf799e4db",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 4007,
-          "SummaryText": 677,
-          "DescriptionText": -1,
-          "Icon": "gui/icons/gamesystems/background_missionary.png",
-          "SkillsList": [
-            {
-              "SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
-              "Value": 2
-            },
-            {
-              "SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
-              "Value": 2
-            },
-            {
-              "SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Mystic",
-      "ID": "ad48837e-d60a-406e-bb42-e15cb8b8e895",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 544,
-          "SummaryText": 645,
-          "DescriptionText": 525,
-          "Icon": "gui/icons/gamesystems/background_mystic_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
-              "Value": 2
-            },
-            {
-              "SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
-              "Value": 2
-            },
-            {
-              "SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "None",
-      "ID": "05594ae8-9d20-4592-97b5-62a1d69c1ddb",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 248,
-          "SummaryText": -1,
-          "DescriptionText": -1,
-          "Icon": "",
-          "SkillsList": []
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Philosopher",
-      "ID": "1b49fbd6-97ad-44bc-8d0b-8a8ef3989c6b",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 545,
-          "SummaryText": 646,
-          "DescriptionText": 526,
-          "Icon": "gui/icons/gamesystems/background_philosopher_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "f5d2c2bf-1ffd-4741-b6d8-31ae01985d4b",
-              "Value": 6
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Raider",
-      "ID": "a66fd205-ccb6-4b1d-97d8-4d5aaeccd6bf",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 547,
-          "SummaryText": 648,
-          "DescriptionText": 528,
-          "Icon": "gui/icons/gamesystems/background_raider_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40",
-              "Value": 2
-            },
-            {
-              "SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
-              "Value": 2
-            },
-            {
-              "SkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Scholar",
-      "ID": "5f6f1b32-aa73-4152-a1aa-af6259abf9ee",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 548,
-          "SummaryText": 649,
-          "DescriptionText": 529,
-          "Icon": "gui/icons/gamesystems/background_scholar_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
-              "Value": 2
-            },
-            {
-              "SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
-              "Value": 2
-            },
-            {
-              "SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Scientist",
-      "ID": "4d422623-6b4d-434d-bee0-6d56b694744c",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 549,
-          "SummaryText": 650,
-          "DescriptionText": 530,
-          "Icon": "gui/icons/gamesystems/background_scientist_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
-              "Value": 2
-            },
-            {
-              "SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
-              "Value": 2
-            },
-            {
-              "SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Slave",
-      "ID": "140481e5-2ef8-41ca-a2b5-a6a95671e3b9",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 550,
-          "SummaryText": 651,
-          "DescriptionText": 531,
-          "Icon": "gui/icons/gamesystems/background_slave_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
-              "Value": 2
-            },
-            {
-              "SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
-              "Value": 2
-            },
-            {
-              "SkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Soldier",
-      "ID": "0c5e6133-238b-4a3e-be40-ea5991eb2141",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 1722,
-          "SummaryText": 653,
-          "DescriptionText": -1,
-          "Icon": "gui/icons/gamesystems/background_soldier.png",
-          "SkillsList": [
-            {
-              "SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
-              "Value": 2
-            },
-            {
-              "SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
-              "Value": 2
-            },
-            {
-              "SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
-              "Value": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
-      "DebugName": "Trapper",
-      "ID": "cfcbc796-fe40-4ef1-a396-bcdc187f9b79",
-      "Components": [
-        {
-          "$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
-          "DisplayName": 2059,
-          "SummaryText": 894,
-          "DescriptionText": 4477,
-          "Icon": "gui/icons/gamesystems/background_hunter_l.png",
-          "SkillsList": [
-            {
-              "SkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
-              "Value": 6
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"GameDataObjects": [{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Apprentice",
+			"ID": "30a9beec-617b-410a-a62e-25ed2de3b04c",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 4042,
+				"SummaryText": 762,
+				"DescriptionText": -1,
+				"Icon": "gui/icons/gamesystems/background_apprentice.png",
+				"SkillsList": [{
+					"SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
+					"Value": 6
+				}]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Aristocrat",
+			"ID": "a7b302e1-033d-4d12-9a90-9047588ac622",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 534,
+				"SummaryText": 635,
+				"DescriptionText": 515,
+				"Icon": "gui/icons/gamesystems/background_aristocrat_l.png",
+				"SkillsList": [{
+						"SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
+						"Value": 2
+					},
+					{
+						"SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
+						"Value": 2
+					},
+					{
+						"SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Artist",
+			"ID": "80cdca20-91dc-4fb0-82ef-cf21df9ce2d9",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 535,
+				"SummaryText": 636,
+				"DescriptionText": 516,
+				"Icon": "gui/icons/gamesystems/background_artist_l.png",
+				"SkillsList": [{
+						"SkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+						"Value": 2
+					},
+					{
+						"SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
+						"Value": 2
+					},
+					{
+						"SkillID": "f5d2c2bf-1ffd-4741-b6d8-31ae01985d4b",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Clergy",
+			"ID": "a4f3bfbc-39f8-4301-a5d7-ada1044c7459",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 546,
+				"SummaryText": 647,
+				"DescriptionText": 527,
+				"Icon": "gui/icons/gamesystems/background_clergy_l.png",
+				"SkillsList": [{
+					"SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
+					"Value": 6
+				}]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Colonist",
+			"ID": "66f33e44-2d42-4a57-bbc4-873545401036",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 536,
+				"SummaryText": 637,
+				"DescriptionText": 517,
+				"Icon": "gui/icons/gamesystems/background_colonist_l.png",
+				"SkillsList": [{
+						"SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
+						"Value": 2
+					},
+					{
+						"SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+						"Value": 2
+					},
+					{
+						"SkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Dissident",
+			"ID": "8892ecd9-3a3d-476f-a092-e595841a02ed",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 537,
+				"SummaryText": 638,
+				"DescriptionText": 518,
+				"Icon": "gui/icons/gamesystems/background_dissident_l.png",
+				"SkillsList": [{
+						"SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
+						"Value": 2
+					},
+					{
+						"SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
+						"Value": 2
+					},
+					{
+						"SkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Drifter",
+			"ID": "f15f2b6a-69f1-4697-9695-9525da25684e",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 538,
+				"SummaryText": 639,
+				"DescriptionText": 519,
+				"Icon": "gui/icons/gamesystems/background_drifter_l.png",
+				"SkillsList": [{
+						"SkillID": "3b073ebf-0a4a-48a3-947d-ad38bef10b36",
+						"Value": 2
+					},
+					{
+						"SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
+						"Value": 2
+					},
+					{
+						"SkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Explorer",
+			"ID": "7cfa6c66-568d-4906-8057-83e7974b3ae0",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 539,
+				"SummaryText": 640,
+				"DescriptionText": 520,
+				"Icon": "gui/icons/gamesystems/background_explorer_l.png",
+				"SkillsList": [{
+						"SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
+						"Value": 2
+					},
+					{
+						"SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
+						"Value": 2
+					},
+					{
+						"SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Farmer",
+			"ID": "1aa2cea4-30af-473a-b9cf-ead152edd694",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 1721,
+				"SummaryText": 537,
+				"DescriptionText": -1,
+				"Icon": "gui/icons/gamesystems/background_farmer.png",
+				"SkillsList": [{
+					"SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
+					"Value": 6
+				}]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Gentry",
+			"ID": "1d748a38-1b97-4038-b3e8-b77ee209bda6",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 1724,
+				"SummaryText": 652,
+				"DescriptionText": -1,
+				"Icon": "gui/icons/gamesystems/background_gentry.png",
+				"SkillsList": [{
+					"SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
+					"Value": 6
+				}]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Hunter",
+			"ID": "412de08a-27b2-4470-8427-8ca6c40ce7ab",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 540,
+				"SummaryText": 641,
+				"DescriptionText": 521,
+				"Icon": "gui/icons/gamesystems/background_hunter_l.png",
+				"SkillsList": [{
+						"SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
+						"Value": 2
+					},
+					{
+						"SkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+						"Value": 2
+					},
+					{
+						"SkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Laborer",
+			"ID": "180ec9d0-dac8-4832-9387-469b3a12de8d",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 541,
+				"SummaryText": 642,
+				"DescriptionText": 522,
+				"Icon": "gui/icons/gamesystems/background_laborer_l.png",
+				"SkillsList": [{
+					"SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+					"Value": 6
+				}]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Marksman",
+			"ID": "4962a1df-b587-47e9-8e77-38bc36350dbf",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 4041,
+				"SummaryText": 761,
+				"DescriptionText": -1,
+				"Icon": "gui/icons/gamesystems/background_marksman.png",
+				"SkillsList": [{
+						"SkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
+						"Value": 4
+					},
+					{
+						"SkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Mercenary",
+			"ID": "0c794fe0-a7e0-4901-bb6c-e5d7c1f955a2",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 542,
+				"SummaryText": 643,
+				"DescriptionText": 523,
+				"Icon": "gui/icons/gamesystems/background_mercenary_l.png",
+				"SkillsList": [{
+						"SkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40",
+						"Value": 2
+					},
+					{
+						"SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+						"Value": 2
+					},
+					{
+						"SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Merchant",
+			"ID": "68379d53-6b7d-49d3-b79b-b8af99539b8c",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 543,
+				"SummaryText": 644,
+				"DescriptionText": 524,
+				"Icon": "gui/icons/gamesystems/background_merchant_l.png",
+				"SkillsList": [{
+						"SkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40",
+						"Value": 2
+					},
+					{
+						"SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
+						"Value": 2
+					},
+					{
+						"SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Midwife",
+			"ID": "526fe21e-66e2-4b93-87a5-ad1a0ab9af8a",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 1723,
+				"SummaryText": -1,
+				"DescriptionText": -1,
+				"Icon": "gui/icons/gamesystems/background_missionary.png",
+				"SkillsList": [{
+						"SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
+						"Value": 2
+					},
+					{
+						"SkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+						"Value": 2
+					},
+					{
+						"SkillID": "1b26af87-fd19-4dc6-9380-4f5cec7aefd5",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Missionary",
+			"ID": "03e64fd6-06de-4377-89e3-9fdaf799e4db",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 4007,
+				"SummaryText": 677,
+				"DescriptionText": -1,
+				"Icon": "gui/icons/gamesystems/background_missionary.png",
+				"SkillsList": [{
+						"SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
+						"Value": 2
+					},
+					{
+						"SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
+						"Value": 2
+					},
+					{
+						"SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Mystic",
+			"ID": "ad48837e-d60a-406e-bb42-e15cb8b8e895",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 544,
+				"SummaryText": 645,
+				"DescriptionText": 525,
+				"Icon": "gui/icons/gamesystems/background_mystic_l.png",
+				"SkillsList": [{
+						"SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
+						"Value": 2
+					},
+					{
+						"SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
+						"Value": 2
+					},
+					{
+						"SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "None",
+			"ID": "05594ae8-9d20-4592-97b5-62a1d69c1ddb",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 248,
+				"SummaryText": -1,
+				"DescriptionText": -1,
+				"Icon": "",
+				"SkillsList": []
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Philosopher",
+			"ID": "1b49fbd6-97ad-44bc-8d0b-8a8ef3989c6b",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 545,
+				"SummaryText": 646,
+				"DescriptionText": 526,
+				"Icon": "gui/icons/gamesystems/background_philosopher_l.png",
+				"SkillsList": [{
+					"SkillID": "f5d2c2bf-1ffd-4741-b6d8-31ae01985d4b",
+					"Value": 6
+				}]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Raider",
+			"ID": "a66fd205-ccb6-4b1d-97d8-4d5aaeccd6bf",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 547,
+				"SummaryText": 648,
+				"DescriptionText": 528,
+				"Icon": "gui/icons/gamesystems/background_raider_l.png",
+				"SkillsList": [{
+						"SkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40",
+						"Value": 2
+					},
+					{
+						"SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+						"Value": 2
+					},
+					{
+						"SkillID": "8cc41e27-e62f-4e75-9f7d-ae47986895d2",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Scholar",
+			"ID": "5f6f1b32-aa73-4152-a1aa-af6259abf9ee",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 548,
+				"SummaryText": 649,
+				"DescriptionText": 529,
+				"Icon": "gui/icons/gamesystems/background_scholar_l.png",
+				"SkillsList": [{
+						"SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
+						"Value": 2
+					},
+					{
+						"SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
+						"Value": 2
+					},
+					{
+						"SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Scientist",
+			"ID": "4d422623-6b4d-434d-bee0-6d56b694744c",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 549,
+				"SummaryText": 650,
+				"DescriptionText": 530,
+				"Icon": "gui/icons/gamesystems/background_scientist_l.png",
+				"SkillsList": [{
+						"SkillID": "e67f20e3-5bf9-4d87-9bda-211405107362",
+						"Value": 2
+					},
+					{
+						"SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
+						"Value": 2
+					},
+					{
+						"SkillID": "e5f33551-ec5c-4cc8-b5f2-1eb03d210374",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Slave",
+			"ID": "140481e5-2ef8-41ca-a2b5-a6a95671e3b9",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 550,
+				"SummaryText": 651,
+				"DescriptionText": 531,
+				"Icon": "gui/icons/gamesystems/background_slave_l.png",
+				"SkillsList": [{
+						"SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
+						"Value": 2
+					},
+					{
+						"SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+						"Value": 2
+					},
+					{
+						"SkillID": "eb8da173-4a3e-4910-94e8-dd0c1436ca40",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Soldier",
+			"ID": "0c5e6133-238b-4a3e-be40-ea5991eb2141",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 1722,
+				"SummaryText": 653,
+				"DescriptionText": -1,
+				"Icon": "gui/icons/gamesystems/background_soldier.png",
+				"SkillsList": [{
+						"SkillID": "fefc4d3d-250d-4c32-85e0-62a851240e62",
+						"Value": 2
+					},
+					{
+						"SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
+						"Value": 2
+					},
+					{
+						"SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
+						"Value": 2
+					}
+				]
+			}]
+		},
+		{
+			"$type": "Game.GameData.BackgroundGameData, Assembly-CSharp",
+			"DebugName": "Trapper",
+			"ID": "cfcbc796-fe40-4ef1-a396-bcdc187f9b79",
+			"Components": [{
+				"$type": "Game.GameData.BackgroundComponent, Assembly-CSharp",
+				"DisplayName": 2059,
+				"SummaryText": 894,
+				"DescriptionText": 4477,
+				"Icon": "gui/icons/gamesystems/background_hunter_l.png",
+				"SkillsList": [{
+					"SkillID": "3affbb70-86bd-41f3-82c6-325326d40796",
+					"Value": 6
+				}]
+			}]
+		}
+	]
 }

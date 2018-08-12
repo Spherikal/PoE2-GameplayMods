@@ -1,109 +1,105 @@
 {
-  "GameDataObjects": [
-    {
-      "$type": "Game.GameData.AttackMeleeGameData, Assembly-CSharp",
-      "DebugName": "Lay_on_Hands_Melee",
-      "ID": "483142fd-44d7-44c7-a1e7-b5b0abaab833",
-      "Components": [
-        {
-          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
-          "KeywordsIDs": [],
-          "AttackDistance": 10,
-          "MinAttackDistance": 0,
-          "AttackVariationID": "dd5934cf-0e6f-4f4a-8f92-3d3102090e8f",
-          "UseParentEquippableHand": "false",
-          "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
-          "RecoveryTimeID": "2065a64b-0d53-48b8-9cfd-600992c389fd",
-          "ImpactDelay": 0,
-          "ForcedTarget": "None",
-          "AffectedTargetType": "Ally",
-          "AffectedTargetConditional": {
-            "Conditional": {
-              "Operator": 0,
-              "Components": []
-            }
-          },
-          "AffectedTargetDeathState": "Alive",
-          "HostilityOverride": "Default",
-          "PushDistance": 0,
-          "FaceTarget": "true",
-          "AccuracyBonus": 0,
-          "PenetrationRating": 0,
-          "DamageData": {
-            "DamageType": "None",
-            "AlternateDamageType": "None",
-            "Minimum": 0,
-            "Maximum": 0,
-            "DamageProcs": []
-          },
-          "RequiresHitObject": "true",
-          "StatusEffectKeywordsIDs": [],
-          "StatusEffectsIDs": ["fbdf499a-ea26-4f90-8832-28c6b1ea3751"],
-          "RandomizeStatusEffect": "false",
-          "CanGraze": "false",
-          "CanCrit": "true",
-          "DefendedBy": "None",
-          "AfflictionsDefendedBy": "None",
-          "AfflictionApplicationModifier": "None",
-          "SubstituteHitVisualEffect": "",
-          "VisualEffects": [
-            {
-              "VisualEffect": "prefabs/effects/abilities/paladin/fx_lay_on_hands_start.prefab",
-              "AttachPoint": "RightWeapon",
-              "AttachObject": "Caster",
-              "AttachMode": "Attach",
-              "MeshType": "None",
-              "Event": "OnAnimEvent",
-              "AnimEventID": 0,
-              "Loop": "true",
-              "Scale": "false"
-            },
-            {
-              "VisualEffect": "prefabs/effects/abilities/paladin/fx_lay_on_hands_target.prefab",
-              "AttachPoint": "Chest",
-              "AttachObject": "Target",
-              "AttachMode": "Attach",
-              "MeshType": "None",
-              "Event": "OnHit",
-              "AnimEventID": 0,
-              "Loop": "false",
-              "Scale": "false"
-            }
-          ],
-          "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
-          "ExtraAttackID": "00000000-0000-0000-0000-000000000000",
-          "LaunchBone": "RightWeapon",
-          "HitBone": "Chest",
-          "OnHitShakeDuration": "None",
-          "OnHitShakeStrength": "None",
-          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
-          "AllReactNoise": "false",
-          "InterruptsOn": "None",
-          "InterruptType": "Normal",
-          "TargetAngle": 0,
-          "ApplyOnceOnly": "false",
-          "PathsToTarget": "true",
-          "HideFromCombatLog": "false",
-          "AdditionalAttackOnTooltip": "false",
-          "DoesNotApplyDamage": "false",
-          "TreatAsWeapon": "false",
-          "BounceData": {
-            "Bounces": 0,
-            "Multiplier": 0.5,
-            "Range": 10,
-            "InRangeOrder": "false",
-            "NoRepeatTargets": "false",
-            "AlwaysBounceAtEnemies": "false",
-            "Delay": 0,
-            "NeverBounce": "false"
-          }
-        },
-        {
-          "$type": "Game.GameData.AttackMeleeComponent, Assembly-CSharp",
-          "EngagementRadius": 1,
-          "IsUnarmed": "false"
-        }
-      ]
-    }
-  ]
+	"GameDataObjects": [{
+		"$type": "Game.GameData.AttackMeleeGameData, Assembly-CSharp",
+		"DebugName": "Lay_on_Hands_Melee",
+		"ID": "483142fd-44d7-44c7-a1e7-b5b0abaab833",
+		"Components": [{
+				"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+				"KeywordsIDs": [],
+				"AttackDistance": 10,
+				"MinAttackDistance": 0,
+				"AttackVariationID": "dd5934cf-0e6f-4f4a-8f92-3d3102090e8f",
+				"UseParentEquippableHand": "false",
+				"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+				"RecoveryTimeID": "2065a64b-0d53-48b8-9cfd-600992c389fd",
+				"ImpactDelay": 0,
+				"ForcedTarget": "None",
+				"AffectedTargetType": "Ally",
+				"AffectedTargetConditional": {
+					"Conditional": {
+						"Operator": 0,
+						"Components": []
+					}
+				},
+				"AffectedTargetDeathState": "Alive",
+				"HostilityOverride": "Default",
+				"PushDistance": 0,
+				"FaceTarget": "true",
+				"AccuracyBonus": 0,
+				"PenetrationRating": 0,
+				"DamageData": {
+					"DamageType": "None",
+					"AlternateDamageType": "None",
+					"Minimum": 0,
+					"Maximum": 0,
+					"DamageProcs": []
+				},
+				"RequiresHitObject": "true",
+				"StatusEffectKeywordsIDs": [],
+				"StatusEffectsIDs": ["fbdf499a-ea26-4f90-8832-28c6b1ea3751"],
+				"RandomizeStatusEffect": "false",
+				"CanGraze": "false",
+				"CanCrit": "true",
+				"DefendedBy": "None",
+				"AfflictionsDefendedBy": "None",
+				"AfflictionApplicationModifier": "None",
+				"SubstituteHitVisualEffect": "",
+				"VisualEffects": [{
+						"VisualEffect": "prefabs/effects/abilities/paladin/fx_lay_on_hands_start.prefab",
+						"AttachPoint": "RightWeapon",
+						"AttachObject": "Caster",
+						"AttachMode": "Attach",
+						"MeshType": "None",
+						"Event": "OnAnimEvent",
+						"AnimEventID": 0,
+						"Loop": "true",
+						"Scale": "false"
+					},
+					{
+						"VisualEffect": "prefabs/effects/abilities/paladin/fx_lay_on_hands_target.prefab",
+						"AttachPoint": "Chest",
+						"AttachObject": "Target",
+						"AttachMode": "Attach",
+						"MeshType": "None",
+						"Event": "OnHit",
+						"AnimEventID": 0,
+						"Loop": "false",
+						"Scale": "false"
+					}
+				],
+				"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+				"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+				"LaunchBone": "RightWeapon",
+				"HitBone": "Chest",
+				"OnHitShakeDuration": "None",
+				"OnHitShakeStrength": "None",
+				"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+				"AllReactNoise": "false",
+				"InterruptsOn": "None",
+				"InterruptType": "Normal",
+				"TargetAngle": 0,
+				"ApplyOnceOnly": "false",
+				"PathsToTarget": "true",
+				"HideFromCombatLog": "false",
+				"AdditionalAttackOnTooltip": "false",
+				"DoesNotApplyDamage": "false",
+				"TreatAsWeapon": "false",
+				"BounceData": {
+					"Bounces": 0,
+					"Multiplier": 0.5,
+					"Range": 10,
+					"InRangeOrder": "false",
+					"NoRepeatTargets": "false",
+					"AlwaysBounceAtEnemies": "false",
+					"Delay": 0,
+					"NeverBounce": "false"
+				}
+			},
+			{
+				"$type": "Game.GameData.AttackMeleeComponent, Assembly-CSharp",
+				"EngagementRadius": 1,
+				"IsUnarmed": "false"
+			}
+		]
+	}]
 }
