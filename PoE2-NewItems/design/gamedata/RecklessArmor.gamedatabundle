@@ -21,19 +21,19 @@
           "CanBePickpocketed": "true",
           "IsUnique": "true",
           "Value": 200,
-          "IconTextureSmall": "gui/icons/items/armor/breastplate/breastplate_armor_dragon_slashed_s.png",
-          "IconTextureLarge": "gui/icons/items/armor/breastplate/breastplate_armor_dragon_slashed_l.png",
+          "IconTextureSmall": "gui/icons/items/armor/breastplate/breastplate_armor_guardians_plate_s.png",
+          "IconTextureLarge": "gui/icons/items/armor/breastplate/breastplate_armor_guardians_plate_l.png",
           "PencilSketchTexture": "",
           "InspectOnUseButton": [],
           "IsPlaceholder": "false"
         },
         {
           "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
-          "EquipmentType": "None",
-          "EquipmentSlot": "Armor",
-          "AppearancePiece": {
-            "ModelVisualDataPath": "prefabs/items/appearance/body/bp/bp02/a_bp02_v02.asset"
-          },
+                    "EquipmentType": "None",
+                    "EquipmentSlot": "Armor",
+                    "AppearancePiece": {
+                        "ModelVisualDataPath": "prefabs/lax02/appearance/body/pl/a_lax02_pl200_v01.asset"
+                    },
           "ItemModsIDs": [
             "2f868d39-3962-4a62-a656-041121931423",
             "b1247f31-f94b-4f6a-8199-f71ccf5a3277"

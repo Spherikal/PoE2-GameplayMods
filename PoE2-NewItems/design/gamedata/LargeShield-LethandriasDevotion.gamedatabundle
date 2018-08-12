@@ -21,18 +21,18 @@
           "CanBePickpocketed": "true",
           "IsUnique": "true",
           "Value": 35,
-          "IconTextureSmall": "gui/icons/items/weapons/shield_large/shield_large_shining_bulwark_s.png",
-          "IconTextureLarge": "gui/icons/items/weapons/shield_large/shield_large_shining_bulwark_l.png",
+          "IconTextureSmall": "gui/icons/items/weapons/shield_medium/shield_medium_01_s.png",
+          "IconTextureLarge": "gui/icons/items/weapons/shield_medium/shield_medium_01_l.png",
           "PencilSketchTexture": "",
           "InspectOnUseButton": [],
           "IsPlaceholder": "false"
         },
         {
           "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
-          "EquipmentType": "LargeShield",
+          "EquipmentType": "MediumShield",
           "EquipmentSlot": "SecondaryWeaponOnly",
           "AppearancePiece": {
-            "ModelVisualDataPath": "prefabs/items/appearance/weapons/shield_large/a_shield_large03_v01.asset"
+            "ModelVisualDataPath": "prefabs/items/appearance/weapons/shield_medium/shield_medium06.asset"
           },
           "ItemModsIDs": [
             "92236b9d-7217-47fa-9c45-3b30b38e70a0",
@@ -55,12 +55,12 @@
         },
         {
           "$type": "Game.GameData.ShieldComponent, Assembly-CSharp",
-          "ShieldType": "Large",
+          "ShieldType": "Medium",
           "AttachmentType": "Arm",
           "AnimationStanceID": "82d96ea3-42dd-4466-9b8b-4a3cecf9d898",
-          "BaseDeflectBonus": 12,
+          "BaseDeflectBonus": 8,
           "BaseReflexBonus": 0,
-          "BaseAccuracyBonus": -8,
+          "BaseAccuracyBonus": -4,
           "AudioEventListID": "00000000-0000-0000-0000-000000000000"
         }
       ]

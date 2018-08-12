@@ -693,6 +693,40 @@
               }
             },
             {
+              "Note": "PL 0 Unlock - Small Puff",
+              "Category": "General",
+              "UnlockStyle": "AutoGrant",
+              "ActivationObject": "Self",
+              "AddAbilityID": "890c7abc-390c-4e46-a70b-91e4fabc621a",
+              "RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+              "Prerequisites": {
+                "MinimumCharacterLevel": 1,
+                "PowerLevelRequirement": {
+                  "ClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+                  "MinimumPowerLevel": 0
+                },
+                "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+                "Conditional": {
+                  "Operator": 0,
+                  "Components": [
+                    {
+                      "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                      "Data": {
+                        "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                        "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
+                        "Flags": "",
+                        "UnrealCall": "",
+                        "FunctionHash": 0,
+                        "ParameterHash": 0
+                      },
+                      "Not": true,
+                      "Operator": 0
+                    }
+                  ]
+                }
+              }
+            },
+            {
               "Note": "PL 0 Auto Grant - Arcane Trickster",
               "Category": "General",
               "UnlockStyle": "AutoGrant",

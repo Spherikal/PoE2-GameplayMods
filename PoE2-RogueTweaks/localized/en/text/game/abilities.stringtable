@@ -36,12 +36,12 @@
     </Entry>
     <Entry>
       <ID>11307</ID>
-      <DefaultText>Rogue Carnage</DefaultText>
+      <DefaultText>Small Puff</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>11308</ID>
-      <DefaultText>Rogue Accurate Carnage</DefaultText>
+      <DefaultText>The rogue dissapears in a small puff.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

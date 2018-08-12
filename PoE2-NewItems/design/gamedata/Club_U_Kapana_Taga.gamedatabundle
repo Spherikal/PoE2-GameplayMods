@@ -1,0 +1,93 @@
+{
+	"GameDataObjects": [
+		{
+			"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+			"DebugName": "Club_U_Kapana_Taga",
+			"ID": "1bf30763-74a9-4be6-8ff1-e465aeb451f7",
+			"Components": [
+				{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 3860,
+					"DescriptionText": 3861,
+					"FilterType": "Weapons",
+					"InventoryAudioEventListID": "81ec0468-cf25-427e-bdb6-b32013313a97",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "true",
+					"Value": 35,
+					"IconTextureSmall": "gui/icons/items/weapons/sabre/sabre_grave-calling_s.png",
+					"IconTextureLarge": "gui/icons/items/weapons/sabre/sabre_grave-calling_l.png",
+					"PencilSketchTexture": "",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				},
+				{
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "Club",
+					"EquipmentSlot": "AnyWeapon",
+					"AppearancePiece": {
+						"ModelVisualDataPath": "prefabs/items/appearance/weapons/sabre/a_sabre04.asset"
+					},
+					"ItemModsIDs": [
+						"39ad9ed8-4931-4dc0-a257-73736e637172",
+						"4aa940c7-6a95-4be7-ad33-651afb6d5dde",
+						"c8ba2ac7-8bf9-4092-8ba4-851251e62ec7",
+						"443abc4c-215e-4b25-89e0-03a4aa751a4c",
+						"e3dfed5a-60cd-4af9-a592-f0a601fca9bd"
+					],
+					"OnEquipVisualEffects": [
+						{
+							"VisualEffect": "prefabs/effects/items/weapons/fx_grave_calling.prefab",
+							"AttachPoint": "Fx_Bone_01",
+							"EmissiveColor": {
+								"A": 1,
+								"R": 0.5019608,
+								"G": 0.7529412,
+								"B": 1
+							},
+							"EmissiveGlowScale": 1
+						}
+					],
+					"RestrictedToClassIDs": [],
+					"RestrictedToPlayer": "false",
+					"EquipConditionals": {
+						"Operator": 0,
+						"Components": []
+					},
+					"ProficientAbilityID": "11d2067c-4af7-45ad-ba02-eb098119a4c5",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				},
+				{
+					"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+					"Stance": "OneHanded",
+					"AnimationStanceID": "42de436a-5f52-4bc5-8310-076eb320abc4",
+					"StatusEffectsOnLaunchIDs": [],
+					"IsDisplayedWhenAlternate": "true",
+					"IsUniversalType": "false",
+					"AttackID": "137ac8f4-d734-4629-bb67-c281d0418ad1",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"ForceBackScabbard": "false",
+					"ScabbardAppearancePiece": {
+						"ModelVisualDataPath": "prefabs/items/appearance/weapons/sabre/a_sabre01_scabbard.asset"
+					},
+					"ScabbardRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+					"ScabbardModel": "",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+				}
+			]
+		}
+	]
+}

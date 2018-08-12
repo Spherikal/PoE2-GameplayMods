@@ -21,18 +21,18 @@
           "CanBePickpocketed": "true",
           "IsUnique": "true",
           "Value": 35,
-					"IconTextureSmall": "gui/icons/items/weapons/shield_large/large_shield_akolas_apex_ward_s.png",
-					"IconTextureLarge": "gui/icons/items/weapons/shield_large/large_shield_akolas_apex_ward_l.png",
+          "IconTextureSmall": "gui/icons/items/weapons/shield_medium/shield_medium_animat_s.png",
+          "IconTextureLarge": "gui/icons/items/weapons/shield_medium/shield_medium_animat_l.png",
           "PencilSketchTexture": "",
           "InspectOnUseButton": [],
           "IsPlaceholder": "false"
         },
         {
           "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
-          "EquipmentType": "LargeShield",
+          "EquipmentType": "MediumShield",
           "EquipmentSlot": "SecondaryWeaponOnly",
           "AppearancePiece": {
-						"ModelVisualDataPath": "prefabs/items/appearance/weapons/shield_large/a_shield_large04_v01.asset"
+            "ModelVisualDataPath": "prefabs/items/appearance/weapons/shield_medium/shield_medium_adra.asset"
           },
           "ItemModsIDs": [
             "92236b9d-7217-47fa-9c45-3b30b38e70a0",
@@ -41,14 +41,13 @@
             "d0b1f796-2546-4a25-8d2f-511282ac6d22",
             "63d1c47c-6f0d-46fe-ac7a-f351d6c2b08e"
           ],
-          
-					"OnEquipVisualEffects": [],
+          "OnEquipVisualEffects": [],
           "RestrictedToClassIDs": [],
           "RestrictedToPlayer": "false",
-					"ProficientAbilityID": "f2a32614-d8ce-4183-870f-96cc74d2c57a",
-					"CannotUnequip": "false",
-					"ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
-					"ItemModel": "",
+          "ProficientAbilityID": "f2a32614-d8ce-4183-870f-96cc74d2c57a",
+          "CannotUnequip": "false",
+          "ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+          "ItemModel": "",
           "AnimationController": "",
           "PaperdollOverrideRenderer": "",
           "AttackSummonID": "00000000-0000-0000-0000-000000000000",
