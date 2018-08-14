@@ -1,0 +1,189 @@
+{
+    "GameDataObjects": [{
+        "$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+        "DebugName": "LAX02_Shield_Large_Soulbound_Wintertide_Bulwark",
+        "ID": "8f620341-704f-4dbf-8ec8-dcd9d61b3411",
+        "Components": [{
+            "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+            "DisplayName": 5392,
+            "DescriptionText": 5393,
+            "FilterType": "Weapons",
+            "InventoryAudioEventListID": "3e83b58f-e67b-4ba5-b2c4-964e57aa1b4f",
+            "IsQuestItem": "false",
+            "IsIngredient": "false",
+            "IsCurrency": "false",
+            "IsAdventuringItem": "false",
+            "CanSellForFullValue": "false",
+            "MaxStackSize": 1,
+            "NeverDropAsLoot": "false",
+            "CanBePickpocketed": "true",
+            "IsUnique": "true",
+            "Value": 35,
+            "IconTextureSmall": "gui/icons/items/weapons/shield_large/shield_large_shining_bulwark_s.png",
+            "IconTextureLarge": "gui/icons/items/weapons/shield_large/shield_large_shining_bulwark_l.png",
+            "PencilSketchTexture": "gui/itemsketches/lax02_sketch_wintertide_bulwark.png",
+            "InspectOnUseButton": [],
+            "IsPlaceholder": "false"
+        }, {
+            "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+            "EquipmentType": "LargeShield",
+            "EquipmentSlot": "SecondaryWeaponOnly",
+            "AppearancePiece": {
+                "ModelVisualDataPath": "prefabs/items/appearance/weapons/shield_large/a_shield_large03_v01.asset"
+            },
+            "ItemModsIDs": ["92236b9d-7217-47fa-9c45-3b30b38e70a0", "9f21b418-4c30-4e5d-a297-8768bb8fb0bf", "f7483e48-acf3-4c99-a392-3b28f9ff2ca9", "6a61d30f-1328-40a1-83c6-5c837daf8b28"],
+            "OnEquipVisualEffects": [],
+            "RestrictedToClassIDs": [],
+            "RestrictedToPlayer": "false",
+            "EquipConditionals": {
+                "Operator": 0,
+                "Components": []
+            },
+            "ProficientAbilityID": "13dd99b4-0d6b-4000-bd55-3ab165a35416",
+            "CannotUnequip": "false",
+            "ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+            "ItemModel": "",
+            "AnimationController": "",
+            "PaperdollOverrideRenderer": "",
+            "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+            "CannotSheathe": "false",
+            "PropVisualEffects": []
+        }, {
+            "$type": "Game.GameData.ShieldComponent, Assembly-CSharp",
+            "ShieldType": "Large",
+            "AttachmentType": "Arm",
+            "AnimationStanceID": "82d96ea3-42dd-4466-9b8b-4a3cecf9d898",
+            "BaseDeflectBonus": 12,
+            "BaseReflexBonus": 0,
+            "BaseAccuracyBonus": -8,
+            "AudioEventListID": "00000000-0000-0000-0000-000000000000"
+        }, {
+            "$type": "Game.GameData.SoulbindComponent, Assembly-CSharp",
+            "ProhibitUnbind": "false",
+            "BindableClassesIDs": [],
+            "UnlockStages": [{
+                "Note": "Stage 1",
+                "LoreToAdd": 5486,
+                "ItemModsToAddIDs": ["8b7b9746-6507-4571-8f29-1bfa2ca6c9f8", "771760ed-247e-4250-891a-c05fbc52104d"],
+                "ItemModsToRemoveIDs": ["f7483e48-acf3-4c99-a392-3b28f9ff2ca9"],
+                "EligibleClassesIDs": [],
+                "UnlockActions": [{
+                    "TargetValue": 1000,
+                    "StatType": "Custom",
+                    "OverrideRequirementString": 4705,
+                    "RequireDamageType": "None",
+                    "RequireHitType": "None",
+                    "StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+                    "Prerequisites": {
+                        "Conditional": {
+                            "Operator": 0,
+                            "Components": []
+                        }
+                    },
+                    "Conditional": {
+                        "Operator": 0,
+                        "Components": []
+                    }
+                }],
+                "OverrideIconTextureSmall": "",
+                "OverrideIconTextureLarge": "",
+                "OverrideItemModel": "",
+                "Scripts": []
+            }, {
+                "Note": "Stage 2",
+                "LoreToAdd": 5487,
+                "ItemModsToAddIDs": ["f2be9006-05d4-46d2-9da7-951f632c9715", "d71d0a99-b5ff-4b94-b9db-897f256c108a", "ffc66248-7ada-40ab-93da-98d6fc9383fc"],
+                "ItemModsToRemoveIDs": ["9f21b418-4c30-4e5d-a297-8768bb8fb0bf", "771760ed-247e-4250-891a-c05fbc52104d"],
+                "EligibleClassesIDs": [],
+                "UnlockActions": [{
+                    "TargetValue": 100,
+                    "StatType": "Custom",
+                    "OverrideRequirementString": 4729,
+                    "RequireDamageType": "None",
+                    "RequireHitType": "None",
+                    "StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+                    "Prerequisites": {
+                        "Conditional": {
+                            "Operator": 0,
+                            "Components": []
+                        }
+                    },
+                    "Conditional": {
+                        "Operator": 0,
+                        "Components": []
+                    }
+                }],
+                "OverrideIconTextureSmall": "",
+                "OverrideIconTextureLarge": "",
+                "OverrideItemModel": "",
+                "Scripts": []
+            }, {
+                "Note": "Stage 3",
+                "LoreToAdd": 5488,
+                "ItemModsToAddIDs": ["ee1c4222-6c02-4b51-9936-eec346b72c8a"],
+                "ItemModsToRemoveIDs": ["ffc66248-7ada-40ab-93da-98d6fc9383fc"],
+                "EligibleClassesIDs": [],
+                "UnlockActions": [{
+                    "TargetValue": 500,
+                    "StatType": "Custom",
+                    "OverrideRequirementString": 5387,
+                    "RequireDamageType": "None",
+                    "RequireHitType": "None",
+                    "StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+                    "Prerequisites": {
+                        "Conditional": {
+                            "Operator": 0,
+                            "Components": []
+                        }
+                    },
+                    "Conditional": {
+                        "Operator": 0,
+                        "Components": []
+                    }
+                }],
+                "OverrideIconTextureSmall": "",
+                "OverrideIconTextureLarge": "",
+                "OverrideItemModel": "",
+                "Scripts": []
+            }]
+        }, {
+            "$type": "Game.GameData.DataScriptEventComponent, Assembly-CSharp",
+            "Scripts": [{
+                "Event": "OnItemCollected",
+                "Script": {
+                    "Conditional": {
+                        "Operator": 0,
+                        "Components": []
+                    },
+                    "Scripts": [{
+                        "Data": {
+                            "FullName": "Void SetGlobalValue(String, Int32)",
+                            "Parameters": ["LAX2_b_frozen_guardian_shield_acquired", "1"],
+                            "Flags": "",
+                            "UnrealCall": "",
+                            "FunctionHash": 1935477378,
+                            "ParameterHash": 796227019
+                        },
+                        "Conditional": {
+                            "Operator": 0,
+                            "Components": []
+                        }
+                    }, {
+                        "Data": {
+                            "FullName": "Void SetGlobalValue(String, Int32)",
+                            "Parameters": ["LAX2_n_relic_winter_bulwark", "2"],
+                            "Flags": "",
+                            "UnrealCall": "",
+                            "FunctionHash": 1935477378,
+                            "ParameterHash": 1147354683
+                        },
+                        "Conditional": {
+                            "Operator": 0,
+                            "Components": []
+                        }
+                    }]
+                }
+            }]
+        }]
+    }]
+}

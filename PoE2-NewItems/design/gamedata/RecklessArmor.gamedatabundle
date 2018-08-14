@@ -19,8 +19,8 @@
 			"CanBePickpocketed": "true",
 			"IsUnique": "true",
 			"Value": 200,
-			"IconTextureSmall": "gui/icons/items/armor/breastplate/breastplate_armor_guardians_plate_s.png",
-			"IconTextureLarge": "gui/icons/items/armor/breastplate/breastplate_armor_guardians_plate_l.png",
+			"IconTextureSmall": "gui/icons/items/armor/scale/armor_scale_hearth_defender_s.png",
+			"IconTextureLarge": "gui/icons/items/armor/scale/armor_scale_hearth_defender_l.png",
 			"PencilSketchTexture": "",
 			"InspectOnUseButton": [],
 			"IsPlaceholder": "false"
@@ -29,7 +29,7 @@
 			"EquipmentType": "None",
 			"EquipmentSlot": "Armor",
 			"AppearancePiece": {
-				"ModelVisualDataPath": "prefabs/lax02/appearance/body/pl/a_lax02_pl200_v01.asset"
+				"ModelVisualDataPath": "prefabs/items/appearance/body/sc/sc03/a_sc03_v02.asset"
 			},
 			"ItemModsIDs": ["2f868d39-3962-4a62-a656-041121931423", "b1247f31-f94b-4f6a-8199-f71ccf5a3277"],
 			"OnEquipVisualEffects": [],
