@@ -2019,7 +2019,7 @@
 				"Prerequisites": {
 					"MinimumCharacterLevel": 1,
 					"PowerLevelRequirement": {
-						"Class": "Cipher",
+						"ClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
 						"MinimumPowerLevel": 3
 					},
 					"RequiresAbilityID": "e1fe8bba-6992-4819-8e4e-2d745271050b",
