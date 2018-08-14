@@ -61,94 +61,83 @@
 			"HideFromCombatLog": "false",
 			"HideFromUI": "false",
 			"VisualEffects": [{
-					"VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_joint.prefab",
-					"AttachPoint": "RightWeapon",
-					"AttachMode": "Attach",
-					"MeshType": "None",
-					"Loop": "true",
-					"Event": "OnApply"
-				},
-				{
-					"VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_joint.prefab",
-					"AttachPoint": "LeftWeapon",
-					"AttachMode": "Attach",
-					"MeshType": "None",
-					"Loop": "true",
-					"Event": "OnApply"
-				},
-				{
-					"VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_joint.prefab",
-					"AttachPoint": "ElbowLeft",
-					"AttachMode": "Attach",
-					"MeshType": "None",
-					"Loop": "true",
-					"Event": "OnApply"
-				},
-				{
-					"VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_joint.prefab",
-					"AttachPoint": "ElbowRight",
-					"AttachMode": "Attach",
-					"MeshType": "None",
-					"Loop": "true",
-					"Event": "OnApply"
-				},
-				{
-					"VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_chest.prefab",
-					"AttachPoint": "Chest",
-					"AttachMode": "Attach",
-					"MeshType": "None",
-					"Loop": "true",
-					"Event": "OnApply"
-				},
-				{
-					"VisualEffect": "prefabs/effects/abilities/cast/fx_cast_wizard_control.prefab",
-					"AttachPoint": "LeftWeapon",
-					"AttachMode": "Attach",
-					"MeshType": "None",
-					"Loop": "true",
-					"Event": "OnApply"
-				},
-				{
-					"VisualEffect": "prefabs/effects/abilities/cast/fx_cast_wizard_control_rhand.prefab",
-					"AttachPoint": "RightWeapon",
-					"AttachMode": "Attach",
-					"MeshType": "None",
-					"Loop": "true",
-					"Event": "OnApply"
-				},
-				{
-					"VisualEffect": "prefabs/effects/abilities/cast/fx_grimoire_close_control.prefab",
-					"AttachPoint": "LeftWeapon",
-					"AttachMode": "Attach",
-					"MeshType": "None",
-					"Loop": "true",
-					"Event": "OnApply"
-				},
-				{
-					"VisualEffect": "prefabs/effects/abilities/cast/fx_cast_wizard_control_rhand_launch.prefab",
-					"AttachPoint": "RightWeapon",
-					"AttachMode": "Attach",
-					"MeshType": "None",
-					"Loop": "true",
-					"Event": "OnApply"
-				},
-				{
-					"VisualEffect": "prefabs/effects/abilities/wizzard/fx_arcane_clense_aoe.prefab",
-					"AttachPoint": "Ground",
-					"AttachMode": "Attach",
-					"MeshType": "None",
-					"Loop": "true",
-					"Event": "OnApply"
-				},
-				{
-					"VisualEffect": "prefabs/effects/abilities/wizzard/fx_arcane_clense_hit.prefab",
-					"AttachPoint": "Chest",
-					"AttachMode": "Attach",
-					"MeshType": "None",
-					"Loop": "true",
-					"Event": "OnApply"
-				}
-			],
+				"VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_joint.prefab",
+				"AttachPoint": "RightWeapon",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Loop": "true",
+				"Event": "OnApply"
+			}, {
+				"VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_joint.prefab",
+				"AttachPoint": "LeftWeapon",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Loop": "true",
+				"Event": "OnApply"
+			}, {
+				"VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_joint.prefab",
+				"AttachPoint": "ElbowLeft",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Loop": "true",
+				"Event": "OnApply"
+			}, {
+				"VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_joint.prefab",
+				"AttachPoint": "ElbowRight",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Loop": "true",
+				"Event": "OnApply"
+			}, {
+				"VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_chest.prefab",
+				"AttachPoint": "Chest",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Loop": "true",
+				"Event": "OnApply"
+			}, {
+				"VisualEffect": "prefabs/effects/abilities/cast/fx_cast_wizard_control.prefab",
+				"AttachPoint": "LeftWeapon",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Loop": "true",
+				"Event": "OnApply"
+			}, {
+				"VisualEffect": "prefabs/effects/abilities/cast/fx_cast_wizard_control_rhand.prefab",
+				"AttachPoint": "RightWeapon",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Loop": "true",
+				"Event": "OnApply"
+			}, {
+				"VisualEffect": "prefabs/effects/abilities/cast/fx_grimoire_close_control.prefab",
+				"AttachPoint": "LeftWeapon",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Loop": "true",
+				"Event": "OnApply"
+			}, {
+				"VisualEffect": "prefabs/effects/abilities/cast/fx_cast_wizard_control_rhand_launch.prefab",
+				"AttachPoint": "RightWeapon",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Loop": "true",
+				"Event": "OnApply"
+			}, {
+				"VisualEffect": "prefabs/effects/abilities/wizzard/fx_arcane_clense_aoe.prefab",
+				"AttachPoint": "Ground",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Loop": "true",
+				"Event": "OnApply"
+			}, {
+				"VisualEffect": "prefabs/effects/abilities/wizzard/fx_arcane_clense_hit.prefab",
+				"AttachPoint": "Chest",
+				"AttachMode": "Attach",
+				"MeshType": "None",
+				"Loop": "true",
+				"Event": "OnApply"
+			}],
 			"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
 			"AttackFilter": {
 				"KeywordsIDs": [],

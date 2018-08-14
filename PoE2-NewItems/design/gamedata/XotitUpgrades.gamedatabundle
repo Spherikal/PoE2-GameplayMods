@@ -1,702 +1,670 @@
 {
 	"GameDataObjects": [{
-			"$type": "Game.GameData.RecipeData, Assembly-CSharp",
-			"DebugName": "Recipe_ArmorMod_Fine",
-			"ID": "3f4563fd-d809-4de1-a5ef-f2790cf89452",
-			"Components": [{
-				"$type": "Game.GameData.RecipeComponent, Assembly-CSharp",
-				"DisplayName": 71,
-				"CraftingLocation": "None",
-				"CategoryID": "8cf78fc1-1992-490f-99c7-41e72c6f67dc",
-				"VisibilityConditions": {
-					"Operator": 0,
-					"Components": [{
-							"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-							"Data": {
-								"FullName": "Boolean HasItemMod(Guid)",
-								"Parameters": ["24f8907f-059f-493c-a000-59b3abdb3bf9"],
-								"UnrealCall": "",
-								"FunctionHash": 1518072523,
-								"ParameterHash": 201315453
-							},
-							"Not": true,
-							"Operator": 0
-						},
-						{
-							"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-							"Data": {
-								"FullName": "Boolean HasItemMod(Guid)",
-								"Parameters": ["2f868d39-3962-4a62-a656-041121931423"],
-								"UnrealCall": "",
-								"FunctionHash": 1518072523,
-								"ParameterHash": 1857954571
-							},
-							"Not": true,
-							"Operator": 0
-						},
-						{
-							"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-							"Data": {
-								"FullName": "Boolean HasItemMod(Guid)",
-								"Parameters": ["2ce74fe7-eb32-4a61-ab65-6539fc7123c8"],
-								"UnrealCall": "",
-								"FunctionHash": 1518072523,
-								"ParameterHash": -1257253140
-							},
-							"Not": true,
-							"Operator": 0
-						},
-						{
-							"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-							"Data": {
-								"FullName": "Boolean HasItemMod(Guid)",
-								"Parameters": ["f23d7b9f-563a-4a5a-b7c4-d572e2386ddf"],
-								"UnrealCall": "",
-								"FunctionHash": 1518072523,
-								"ParameterHash": -205421556
-							},
-							"Not": true,
-							"Operator": 0
-						}
-					]
-				},
-				"CreationConditions": {
-					"Operator": 0,
-					"Components": []
-				},
-				"Cost": 1000,
-				"CanModifyWeapons": "false",
-				"CanModifyArmor": "false",
-				"CanModifyShields": "false",
-				"CanModifySpecificItemsIDs": [
-					"cf0258c3-ecc3-413a-9d3c-53bf53208517",
-					"a4f10fad-4c87-45df-af5b-39cc5b2f6a65",
-					"895650b0-b356-4a3f-b749-88574f36f36a"
-				],
-				"Ingredients": [{
-						"ItemID": "2698426e-c4ee-457b-8d1c-d55823f06c66",
-						"Quantity": 1,
-						"IsDestroyed": "true"
+		"$type": "Game.GameData.RecipeData, Assembly-CSharp",
+		"DebugName": "Recipe_ArmorMod_Fine",
+		"ID": "3f4563fd-d809-4de1-a5ef-f2790cf89452",
+		"Components": [{
+			"$type": "Game.GameData.RecipeComponent, Assembly-CSharp",
+			"DisplayName": 71,
+			"CraftingLocation": "None",
+			"CategoryID": "8cf78fc1-1992-490f-99c7-41e72c6f67dc",
+			"VisibilityConditions": {
+				"Operator": 0,
+				"Components": [{
+					"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+					"Data": {
+						"FullName": "Boolean HasItemMod(Guid)",
+						"Parameters": ["24f8907f-059f-493c-a000-59b3abdb3bf9"],
+						"UnrealCall": "",
+						"FunctionHash": 1518072523,
+						"ParameterHash": 201315453
 					},
-					{
-						"ItemID": "52d4be66-1b00-44b7-9e0b-c6f99544f126",
-						"Quantity": 1,
-						"IsDestroyed": "true"
+					"Not": true,
+					"Operator": 0
+				}, {
+					"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+					"Data": {
+						"FullName": "Boolean HasItemMod(Guid)",
+						"Parameters": ["2f868d39-3962-4a62-a656-041121931423"],
+						"UnrealCall": "",
+						"FunctionHash": 1518072523,
+						"ParameterHash": 1857954571
 					},
-					{
-						"ItemID": "125843a1-7b6d-4259-bf82-d186891ef84a",
-						"Quantity": 1,
-						"IsDestroyed": "true"
-					}
-				],
-				"Output": [],
-				"ItemModsToAddIDs": ["24f8907f-059f-493c-a000-59b3abdb3bf9"],
-				"ItemModsToRemoveIDs": []
-			}]
-		},
-		{
-			"$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
-			"DebugName": "Critical_Harvest",
-			"ID": "ca70c221-c081-465c-adef-082978056001",
-			"Components": [{
-				"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
-				"DisplayName": 11203,
-				"HideFromUI": "false",
-				"EnchantCategory": "Unique",
-				"Cost": 4,
-				"DisplayEvenIfCostZero": "true",
-				"CursesItem": "false",
-				"StatusEffectsOnEquipIDs": [
-					"ca70c221-c081-465c-adef-082978056002",
-					"ca70c221-c081-465c-adef-082978056009"
-				],
-				"StatusEffectsOnLaunchIDs": [],
-				"StatusEffectsOnAttackIDs": [],
-				"AbilityModsOnEquipIDs": [],
-				"OnEquipVisualEffects": [],
-				"DamageProcs": [],
-				"AbilitiesOnEquipIDs": []
-			}]
-		},
-		{
-			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-			"DebugName": "Critical_Harvest_SE_Recovery",
-			"ID": "ca70c221-c081-465c-adef-082978056002",
-			"Components": [{
-				"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-				"StatusEffectType": "RecoveryTimeMultiplier",
-				"OverrideDescriptionString": -1,
-				"UseStatusEffectValueAs": "None",
-				"BaseValue": 0.95,
-				"DynamicValue": {
-					"Stat": "None",
-					"SkillDataID": "00000000-0000-0000-0000-000000000000",
-					"Class": "None",
-					"MultiplyBy": 1,
-					"Operator": "Add"
-				},
-				"KeywordsIDs": [],
-				"DurationType": "Infinite",
-				"Duration": 1,
-				"MaxStackQuantity": 0,
-				"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
-				"ApplicationType": "ApplyOnStart",
-				"IntervalRateID": "00000000-0000-0000-0000-000000000000",
-				"StackedChildrenApplyEffects": "false",
-				"ApplicationPrerequisites": {
-					"Conditional": {
-						"Operator": 0,
-						"Components": []
-					}
-				},
-				"TriggerAdjustment": {
-					"TriggerOnEvent": "None",
-					"TriggerOffEvent": "None",
-					"ValidateWithAttackFilter": "false",
-					"ParamValue": 0,
-					"ValueAdjustment": 0,
-					"DurationAdjustment": 0,
-					"ResetTriggerOnEffectTimeout": "false",
-					"MaxTriggerCount": 0,
-					"IgnoreMaxTriggerCount": "false",
-					"RemoveEffectAtMax": "false",
-					"ChanceToTrigger": 1
-				},
-				"PowerLevelScaling": {
-					"UseCharacterLevel": "false",
-					"BaseLevel": 0,
-					"LevelIncrement": 1,
-					"MaxLevel": 0,
-					"ValueAdjustment": 0,
-					"DurationAdjustment": 0
-				},
-				"IsHostile": "false",
-				"ClearOnCombatEnd": "false",
-				"ClearOnRest": "false",
-				"ClearOnFoodRest": "false",
-				"ClearWhenAttacks": "false",
-				"ClearOnDeath": "false",
-				"HideFromCombatTooltip": "false",
-				"HideFromCombatLog": "false",
-				"HideFromUI": "false",
-				"VisualEffects": [],
-				"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
-				"AttackFilter": {
-					"KeywordsIDs": [],
-					"KeywordLogic": "Or",
-					"Range": "None",
-					"ClassType": "None",
-					"Source": "None",
-					"DefendedBy": "None",
-					"Empowered": "false",
-					"Disengagement": "false",
-					"Stealthed": "false",
-					"UseStealthLinger": "false",
-					"PowerLevel": 0,
-					"PowerLevelOperator": "EqualTo",
-					"ChanceToApply": 1,
-					"AttackHostility": "Default"
-				},
-				"AttackTargetFilter": {
-					"KeywordsIDs": [],
-					"KeywordLogic": "Or",
-					"Race": "None",
-					"HealthPercentage": 0,
-					"HealthOperator": "EqualTo",
-					"Distance": 0,
-					"DistanceOperator": "EqualTo",
-					"HasDOT": "false",
-					"IsMarked": "false",
-					"TargetHostility": "Default"
-				},
-				"ExtraValue": 0,
-				"OverridePenetration": 0,
-				"DamageTypeValue": "All",
-				"KeywordValueID": "00000000-0000-0000-0000-000000000000",
-				"RaceValue": "None",
-				"StatusEffectTypeValue": "None",
-				"ItemValueID": "00000000-0000-0000-0000-000000000000",
-				"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
-				"StatusEffectsValueIDs": [],
-				"AttackValueID": "00000000-0000-0000-0000-000000000000",
-				"AttackOverrideValue": "None",
-				"EventValue": "OnApply",
-				"ClassValue": "None",
-				"WeaponTypeValue": "None",
-				"AttackHitType": "None",
-				"SkillValueID": "00000000-0000-0000-0000-000000000000",
-				"AudioEventListID": "00000000-0000-0000-0000-000000000000",
-				"BedRestDaysMinimum": 0,
-				"BedRestDaysMaximum": 0
-			}]
-		},
-		{
-			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-			"DebugName": "Critical_Harvest_SE_CrittoHit",
-			"ID": "ca70c221-c081-465c-adef-082978056009",
-			"Components": [{
-				"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-				"StatusEffectType": "EnemyCritToHitChance",
-				"OverrideDescriptionString": -1,
-				"UseStatusEffectValueAs": "None",
-				"BaseValue": 0.1,
-				"DynamicValue": {
-					"Stat": "None",
-					"SkillDataID": "00000000-0000-0000-0000-000000000000",
-					"Class": "None",
-					"MultiplyBy": 1,
-					"Operator": "Add"
-				},
-				"KeywordsIDs": [],
-				"DurationType": "Infinite",
-				"Duration": 1,
-				"MaxStackQuantity": 0,
-				"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
-				"ApplicationType": "ApplyOnStart",
-				"IntervalRateID": "00000000-0000-0000-0000-000000000000",
-				"StackedChildrenApplyEffects": "false",
-				"ApplicationPrerequisites": {
-					"Conditional": {
-						"Operator": 0,
-						"Components": []
-					}
-				},
-				"TriggerAdjustment": {
-					"TriggerOnEvent": "None",
-					"TriggerOffEvent": "None",
-					"ValidateWithAttackFilter": "false",
-					"ParamValue": 0,
-					"ValueAdjustment": 0,
-					"DurationAdjustment": 0,
-					"ResetTriggerOnEffectTimeout": "false",
-					"MaxTriggerCount": 0,
-					"IgnoreMaxTriggerCount": "false",
-					"RemoveEffectAtMax": "false",
-					"ChanceToTrigger": 1
-				},
-				"PowerLevelScaling": {
-					"UseCharacterLevel": "false",
-					"BaseLevel": 0,
-					"LevelIncrement": 1,
-					"MaxLevel": 0,
-					"ValueAdjustment": 0,
-					"DurationAdjustment": 0
-				},
-				"IsHostile": "false",
-				"ClearOnCombatEnd": "false",
-				"ClearOnRest": "false",
-				"ClearOnFoodRest": "false",
-				"ClearWhenAttacks": "false",
-				"ClearOnDeath": "false",
-				"HideFromCombatTooltip": "true",
-				"HideFromCombatLog": "false",
-				"HideFromUI": "false",
-				"VisualEffects": [],
-				"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
-				"AttackFilter": {
-					"KeywordsIDs": [],
-					"KeywordLogic": "Or",
-					"Range": "None",
-					"ClassType": "None",
-					"Source": "None",
-					"DefendedBy": "None",
-					"Empowered": "false",
-					"Disengagement": "false",
-					"Stealthed": "false",
-					"UseStealthLinger": "false",
-					"PowerLevel": 0,
-					"PowerLevelOperator": "EqualTo",
-					"ChanceToApply": 1,
-					"AttackHostility": "Default"
-				},
-				"AttackTargetFilter": {
-					"KeywordsIDs": [],
-					"KeywordLogic": "Or",
-					"Race": "None",
-					"HealthPercentage": 0,
-					"HealthOperator": "EqualTo",
-					"Distance": 0,
-					"DistanceOperator": "EqualTo",
-					"HasDOT": "false",
-					"IsMarked": "false",
-					"TargetHostility": "Default"
-				},
-				"ExtraValue": 0,
-				"OverridePenetration": 0,
-				"DamageTypeValue": "All",
-				"KeywordValueID": "00000000-0000-0000-0000-000000000000",
-				"RaceValue": "None",
-				"StatusEffectTypeValue": "None",
-				"ItemValueID": "00000000-0000-0000-0000-000000000000",
-				"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
-				"StatusEffectsValueIDs": [],
-				"AttackValueID": "00000000-0000-0000-0000-000000000000",
-				"AttackOverrideValue": "None",
-				"EventValue": "OnApply",
-				"ClassValue": "None",
-				"WeaponTypeValue": "None",
-				"AttackHitType": "None",
-				"SkillValueID": "00000000-0000-0000-0000-000000000000",
-				"AudioEventListID": "00000000-0000-0000-0000-000000000000",
-				"BedRestDaysMinimum": 0,
-				"BedRestDaysMaximum": 0
-			}]
-		},
-		{
-			"$type": "Game.GameData.RecipeData, Assembly-CSharp",
-			"DebugName": "Recipe_Critical_Harvest",
-			"ID": "ca70c221-c081-465c-adef-082978056003",
-			"Components": [{
-				"$type": "Game.GameData.RecipeComponent, Assembly-CSharp",
-				"DisplayName": 11210,
-				"CraftingLocation": "None",
-				"CategoryID": "7bad3803-0dfd-473a-a857-326f4853a4d6",
-				"VisibilityConditions": {
-					"Operator": 0,
-					"Components": [{
-						"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-						"Data": {
-							"FullName": "Boolean HasItemMod(Guid)",
-							"Parameters": ["ca70c221-c081-465c-adef-082978056001"],
-							"UnrealCall": "",
-							"FunctionHash": 1518072523,
-							"ParameterHash": -1561273296
-						},
-						"Not": true,
-						"Operator": 0
-					}]
-				},
-				"CreationConditions": {
+					"Not": true,
+					"Operator": 0
+				}, {
+					"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+					"Data": {
+						"FullName": "Boolean HasItemMod(Guid)",
+						"Parameters": ["2ce74fe7-eb32-4a61-ab65-6539fc7123c8"],
+						"UnrealCall": "",
+						"FunctionHash": 1518072523,
+						"ParameterHash": -1257253140
+					},
+					"Not": true,
+					"Operator": 0
+				}, {
+					"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+					"Data": {
+						"FullName": "Boolean HasItemMod(Guid)",
+						"Parameters": ["f23d7b9f-563a-4a5a-b7c4-d572e2386ddf"],
+						"UnrealCall": "",
+						"FunctionHash": 1518072523,
+						"ParameterHash": -205421556
+					},
+					"Not": true,
+					"Operator": 0
+				}]
+			},
+			"CreationConditions": {
+				"Operator": 0,
+				"Components": []
+			},
+			"Cost": 1000,
+			"CanModifyWeapons": "false",
+			"CanModifyArmor": "false",
+			"CanModifyShields": "false",
+			"CanModifySpecificItemsIDs": ["cf0258c3-ecc3-413a-9d3c-53bf53208517", "a4f10fad-4c87-45df-af5b-39cc5b2f6a65", "895650b0-b356-4a3f-b749-88574f36f36a"],
+			"Ingredients": [{
+				"ItemID": "2698426e-c4ee-457b-8d1c-d55823f06c66",
+				"Quantity": 1,
+				"IsDestroyed": "true"
+			}, {
+				"ItemID": "52d4be66-1b00-44b7-9e0b-c6f99544f126",
+				"Quantity": 1,
+				"IsDestroyed": "true"
+			}, {
+				"ItemID": "125843a1-7b6d-4259-bf82-d186891ef84a",
+				"Quantity": 1,
+				"IsDestroyed": "true"
+			}],
+			"Output": [],
+			"ItemModsToAddIDs": ["24f8907f-059f-493c-a000-59b3abdb3bf9"],
+			"ItemModsToRemoveIDs": []
+		}]
+	}, {
+		"$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+		"DebugName": "Critical_Harvest",
+		"ID": "ca70c221-c081-465c-adef-082978056001",
+		"Components": [{
+			"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+			"DisplayName": 11203,
+			"HideFromUI": "false",
+			"EnchantCategory": "Unique",
+			"Cost": 4,
+			"DisplayEvenIfCostZero": "true",
+			"CursesItem": "false",
+			"StatusEffectsOnEquipIDs": ["ca70c221-c081-465c-adef-082978056002", "ca70c221-c081-465c-adef-082978056009"],
+			"StatusEffectsOnLaunchIDs": [],
+			"StatusEffectsOnAttackIDs": [],
+			"AbilityModsOnEquipIDs": [],
+			"OnEquipVisualEffects": [],
+			"DamageProcs": [],
+			"AbilitiesOnEquipIDs": []
+		}]
+	}, {
+		"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+		"DebugName": "Critical_Harvest_SE_Recovery",
+		"ID": "ca70c221-c081-465c-adef-082978056002",
+		"Components": [{
+			"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+			"StatusEffectType": "RecoveryTimeMultiplier",
+			"OverrideDescriptionString": -1,
+			"UseStatusEffectValueAs": "None",
+			"BaseValue": 0.95,
+			"DynamicValue": {
+				"Stat": "None",
+				"SkillDataID": "00000000-0000-0000-0000-000000000000",
+				"Class": "None",
+				"MultiplyBy": 1,
+				"Operator": "Add"
+			},
+			"KeywordsIDs": [],
+			"DurationType": "Infinite",
+			"Duration": 1,
+			"MaxStackQuantity": 0,
+			"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+			"ApplicationType": "ApplyOnStart",
+			"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+			"StackedChildrenApplyEffects": "false",
+			"ApplicationPrerequisites": {
+				"Conditional": {
 					"Operator": 0,
 					"Components": []
-				},
-				"Cost": 3000,
-				"CanModifyWeapons": "false",
-				"CanModifyArmor": "false",
-				"CanModifyShields": "false",
-				"CanModifySpecificItemsIDs": ["895650b0-b356-4a3f-b749-88574f36f36a"],
-				"Ingredients": [{
-						"ItemID": "ec090111-cbc3-4da3-8b70-d0c20ae9fb2c",
-						"Quantity": 1,
-						"IsDestroyed": "true"
-					},
-					{
-						"ItemID": "31ca6dd6-8295-405c-b68a-c0b5636ba6bb",
-						"Quantity": 1,
-						"IsDestroyed": "true"
-					},
-					{
-						"ItemID": "38b527d6-ec68-4674-9f13-e69250fbfcec",
-						"Quantity": 1,
-						"IsDestroyed": "true"
-					}
-				],
-				"Output": [],
-				"ItemModsToAddIDs": ["ca70c221-c081-465c-adef-082978056001"],
-				"ItemModsToRemoveIDs": []
-			}]
-		},
-		{
-			"$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
-			"DebugName": "Fury_Reaper",
-			"ID": "ca70c221-c081-465c-adef-082978056004",
-			"Components": [{
-				"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
-				"DisplayName": 11204,
-				"HideFromUI": "false",
-				"EnchantCategory": "Unique",
-				"Cost": 4,
-				"DisplayEvenIfCostZero": "true",
-				"CursesItem": "false",
-				"StatusEffectsOnEquipIDs": [
-					"ca70c221-c081-465c-adef-082978056005",
-					"ca70c221-c081-465c-adef-082978056008"
-				],
-				"StatusEffectsOnLaunchIDs": [],
-				"StatusEffectsOnAttackIDs": [],
-				"AbilityModsOnEquipIDs": [],
-				"OnEquipVisualEffects": [],
-				"DamageProcs": [],
-				"AbilitiesOnEquipIDs": []
-			}]
-		},
-		{
-			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-			"DebugName": "Fury_Reaper_SE_Dexterity",
-			"ID": "ca70c221-c081-465c-adef-082978056005",
-			"Components": [{
-				"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-				"StatusEffectType": "Dexterity",
-				"OverrideDescriptionString": -1,
-				"UseStatusEffectValueAs": "None",
-				"BaseValue": 2,
-				"DynamicValue": {
-					"Stat": "None",
-					"SkillDataID": "00000000-0000-0000-0000-000000000000",
-					"Class": "None",
-					"MultiplyBy": 1,
-					"Operator": "Add"
-				},
+				}
+			},
+			"TriggerAdjustment": {
+				"TriggerOnEvent": "None",
+				"TriggerOffEvent": "None",
+				"ValidateWithAttackFilter": "false",
+				"ParamValue": 0,
+				"ValueAdjustment": 0,
+				"DurationAdjustment": 0,
+				"ResetTriggerOnEffectTimeout": "false",
+				"MaxTriggerCount": 0,
+				"IgnoreMaxTriggerCount": "false",
+				"RemoveEffectAtMax": "false",
+				"ChanceToTrigger": 1
+			},
+			"PowerLevelScaling": {
+				"UseCharacterLevel": "false",
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"ValueAdjustment": 0,
+				"DurationAdjustment": 0
+			},
+			"IsHostile": "false",
+			"ClearOnCombatEnd": "false",
+			"ClearOnRest": "false",
+			"ClearOnFoodRest": "false",
+			"ClearWhenAttacks": "false",
+			"ClearOnDeath": "false",
+			"HideFromCombatTooltip": "false",
+			"HideFromCombatLog": "false",
+			"HideFromUI": "false",
+			"VisualEffects": [],
+			"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackFilter": {
 				"KeywordsIDs": [],
-				"DurationType": "Infinite",
-				"Duration": 1,
-				"MaxStackQuantity": 0,
-				"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
-				"ApplicationType": "ApplyOnStart",
-				"IntervalRateID": "00000000-0000-0000-0000-000000000000",
-				"StackedChildrenApplyEffects": "false",
-				"ApplicationPrerequisites": {
-					"Conditional": {
-						"Operator": 0,
-						"Components": []
-					}
-				},
-				"TriggerAdjustment": {
-					"TriggerOnEvent": "None",
-					"TriggerOffEvent": "None",
-					"ValidateWithAttackFilter": "false",
-					"ParamValue": 0,
-					"ValueAdjustment": 0,
-					"DurationAdjustment": 0,
-					"ResetTriggerOnEffectTimeout": "false",
-					"MaxTriggerCount": 0,
-					"IgnoreMaxTriggerCount": "false",
-					"RemoveEffectAtMax": "false",
-					"ChanceToTrigger": 1
-				},
-				"PowerLevelScaling": {
-					"UseCharacterLevel": "false",
-					"BaseLevel": 0,
-					"LevelIncrement": 1,
-					"MaxLevel": 0,
-					"ValueAdjustment": 0,
-					"DurationAdjustment": 0
-				},
-				"IsHostile": "false",
-				"ClearOnCombatEnd": "false",
-				"ClearOnRest": "false",
-				"ClearOnFoodRest": "false",
-				"ClearWhenAttacks": "false",
-				"ClearOnDeath": "false",
-				"HideFromCombatTooltip": "false",
-				"HideFromCombatLog": "false",
-				"HideFromUI": "false",
-				"VisualEffects": [],
-				"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
-				"AttackFilter": {
-					"KeywordsIDs": [],
-					"KeywordLogic": "Or",
-					"Range": "None",
-					"ClassType": "None",
-					"Source": "None",
-					"DefendedBy": "None",
-					"Empowered": "false",
-					"Disengagement": "false",
-					"Stealthed": "false",
-					"UseStealthLinger": "false",
-					"PowerLevel": 0,
-					"PowerLevelOperator": "EqualTo",
-					"ChanceToApply": 1,
-					"AttackHostility": "Default"
-				},
-				"AttackTargetFilter": {
-					"KeywordsIDs": [],
-					"KeywordLogic": "Or",
-					"Race": "None",
-					"HealthPercentage": 0,
-					"HealthOperator": "EqualTo",
-					"Distance": 0,
-					"DistanceOperator": "EqualTo",
-					"HasDOT": "false",
-					"IsMarked": "false",
-					"TargetHostility": "Default"
-				},
-				"ExtraValue": 0,
-				"OverridePenetration": 0,
-				"DamageTypeValue": "All",
-				"KeywordValueID": "00000000-0000-0000-0000-000000000000",
-				"RaceValue": "None",
-				"StatusEffectTypeValue": "None",
-				"ItemValueID": "00000000-0000-0000-0000-000000000000",
-				"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
-				"StatusEffectsValueIDs": [],
-				"AttackValueID": "00000000-0000-0000-0000-000000000000",
-				"AttackOverrideValue": "None",
-				"EventValue": "OnApply",
-				"ClassValue": "None",
-				"WeaponTypeValue": "None",
-				"AttackHitType": "None",
-				"SkillValueID": "00000000-0000-0000-0000-000000000000",
-				"AudioEventListID": "00000000-0000-0000-0000-000000000000",
-				"BedRestDaysMinimum": 0,
-				"BedRestDaysMaximum": 0
-			}]
-		},
-		{
-			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-			"DebugName": "Fury_Reaper_SE_Religion",
-			"ID": "ca70c221-c081-465c-adef-082978056008",
-			"Components": [{
-				"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-				"StatusEffectType": "Skill",
-				"OverrideDescriptionString": -1,
-				"UseStatusEffectValueAs": "None",
-				"BaseValue": 1,
-				"DynamicValue": {
-					"Stat": "None",
-					"SkillDataID": "00000000-0000-0000-0000-000000000000",
-					"Class": "None",
-					"MultiplyBy": 1,
-					"Operator": "Add"
-				},
+				"KeywordLogic": "Or",
+				"Range": "None",
+				"ClassType": "None",
+				"Source": "None",
+				"DefendedBy": "None",
+				"Empowered": "false",
+				"Disengagement": "false",
+				"Stealthed": "false",
+				"UseStealthLinger": "false",
+				"PowerLevel": 0,
+				"PowerLevelOperator": "EqualTo",
+				"ChanceToApply": 1,
+				"AttackHostility": "Default"
+			},
+			"AttackTargetFilter": {
 				"KeywordsIDs": [],
-				"DurationType": "Infinite",
-				"Duration": 1,
-				"MaxStackQuantity": 0,
-				"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
-				"ApplicationType": "ApplyOnStart",
-				"IntervalRateID": "00000000-0000-0000-0000-000000000000",
-				"StackedChildrenApplyEffects": "false",
-				"ApplicationPrerequisites": {
-					"Conditional": {
-						"Operator": 0,
-						"Components": []
-					}
-				},
-				"TriggerAdjustment": {
-					"TriggerOnEvent": "None",
-					"TriggerOffEvent": "None",
-					"ValidateWithAttackFilter": "false",
-					"ParamValue": 0,
-					"ValueAdjustment": 0,
-					"DurationAdjustment": 0,
-					"ResetTriggerOnEffectTimeout": "false",
-					"MaxTriggerCount": 0,
-					"IgnoreMaxTriggerCount": "false",
-					"RemoveEffectAtMax": "false",
-					"ChanceToTrigger": 1
-				},
-				"PowerLevelScaling": {
-					"UseCharacterLevel": "false",
-					"BaseLevel": 0,
-					"LevelIncrement": 1,
-					"MaxLevel": 0,
-					"ValueAdjustment": 0,
-					"DurationAdjustment": 0
-				},
-				"IsHostile": "false",
-				"ClearOnCombatEnd": "false",
-				"ClearOnRest": "false",
-				"ClearOnFoodRest": "false",
-				"ClearWhenAttacks": "false",
-				"ClearOnDeath": "false",
-				"HideFromCombatTooltip": "false",
-				"HideFromCombatLog": "false",
-				"HideFromUI": "false",
-				"VisualEffects": [],
-				"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
-				"AttackFilter": {
-					"KeywordsIDs": [],
-					"KeywordLogic": "Or",
-					"Range": "None",
-					"ClassType": "None",
-					"Source": "None",
-					"DefendedBy": "None",
-					"Empowered": "false",
-					"Disengagement": "false",
-					"Stealthed": "false",
-					"UseStealthLinger": "false",
-					"PowerLevel": 0,
-					"PowerLevelOperator": "EqualTo",
-					"ChanceToApply": 1,
-					"AttackHostility": "Default"
-				},
-				"AttackTargetFilter": {
-					"KeywordsIDs": [],
-					"KeywordLogic": "Or",
-					"Race": "None",
-					"HealthPercentage": 0,
-					"HealthOperator": "EqualTo",
-					"Distance": 0,
-					"DistanceOperator": "EqualTo",
-					"HasDOT": "false",
-					"IsMarked": "false",
-					"TargetHostility": "Default"
-				},
-				"ExtraValue": 0,
-				"OverridePenetration": 0,
-				"DamageTypeValue": "All",
-				"KeywordValueID": "00000000-0000-0000-0000-000000000000",
-				"RaceValue": "None",
-				"StatusEffectTypeValue": "None",
-				"ItemValueID": "00000000-0000-0000-0000-000000000000",
-				"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
-				"StatusEffectsValueIDs": [],
-				"AttackValueID": "00000000-0000-0000-0000-000000000000",
-				"AttackOverrideValue": "None",
-				"EventValue": "OnApply",
-				"ClassValue": "None",
-				"WeaponTypeValue": "None",
-				"AttackHitType": "None",
-				"SkillValueID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
-				"AudioEventListID": "00000000-0000-0000-0000-000000000000",
-				"BedRestDaysMinimum": 0,
-				"BedRestDaysMaximum": 0
-			}]
-		},
-		{
-			"$type": "Game.GameData.RecipeData, Assembly-CSharp",
-			"DebugName": "Recipe_Ngati_Blessing",
-			"ID": "ca70c221-c081-465c-adef-082978056006",
-			"Components": [{
-				"$type": "Game.GameData.RecipeComponent, Assembly-CSharp",
-				"DisplayName": 11211,
-				"CraftingLocation": "None",
-				"CategoryID": "7bad3803-0dfd-473a-a857-326f4853a4d6",
-				"VisibilityConditions": {
-					"Operator": 0,
-					"Components": [{
-						"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-						"Data": {
-							"FullName": "Boolean HasItemMod(Guid)",
-							"Parameters": ["ca70c221-c081-465c-adef-082978056004"],
-							"UnrealCall": "",
-							"FunctionHash": 1518072523,
-							"ParameterHash": -1561273296
-						},
-						"Not": true,
-						"Operator": 0
-					}]
-				},
-				"CreationConditions": {
+				"KeywordLogic": "Or",
+				"Race": "None",
+				"HealthPercentage": 0,
+				"HealthOperator": "EqualTo",
+				"Distance": 0,
+				"DistanceOperator": "EqualTo",
+				"HasDOT": "false",
+				"IsMarked": "false",
+				"TargetHostility": "Default"
+			},
+			"ExtraValue": 0,
+			"OverridePenetration": 0,
+			"DamageTypeValue": "All",
+			"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+			"RaceValue": "None",
+			"StatusEffectTypeValue": "None",
+			"ItemValueID": "00000000-0000-0000-0000-000000000000",
+			"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+			"StatusEffectsValueIDs": [],
+			"AttackValueID": "00000000-0000-0000-0000-000000000000",
+			"AttackOverrideValue": "None",
+			"EventValue": "OnApply",
+			"ClassValue": "None",
+			"WeaponTypeValue": "None",
+			"AttackHitType": "None",
+			"SkillValueID": "00000000-0000-0000-0000-000000000000",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+			"BedRestDaysMinimum": 0,
+			"BedRestDaysMaximum": 0
+		}]
+	}, {
+		"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+		"DebugName": "Critical_Harvest_SE_CrittoHit",
+		"ID": "ca70c221-c081-465c-adef-082978056009",
+		"Components": [{
+			"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+			"StatusEffectType": "EnemyCritToHitChance",
+			"OverrideDescriptionString": -1,
+			"UseStatusEffectValueAs": "None",
+			"BaseValue": 0.1,
+			"DynamicValue": {
+				"Stat": "None",
+				"SkillDataID": "00000000-0000-0000-0000-000000000000",
+				"Class": "None",
+				"MultiplyBy": 1,
+				"Operator": "Add"
+			},
+			"KeywordsIDs": [],
+			"DurationType": "Infinite",
+			"Duration": 1,
+			"MaxStackQuantity": 0,
+			"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+			"ApplicationType": "ApplyOnStart",
+			"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+			"StackedChildrenApplyEffects": "false",
+			"ApplicationPrerequisites": {
+				"Conditional": {
 					"Operator": 0,
 					"Components": []
-				},
-				"Cost": 3000,
-				"CanModifyWeapons": "false",
-				"CanModifyArmor": "false",
-				"CanModifyShields": "false",
-				"CanModifySpecificItemsIDs": ["895650b0-b356-4a3f-b749-88574f36f36a"],
-				"Ingredients": [{
-						"ItemID": "41ee97da-df52-40ad-91ab-38ab4b6d1416",
-						"Quantity": 1,
-						"IsDestroyed": "true"
+				}
+			},
+			"TriggerAdjustment": {
+				"TriggerOnEvent": "None",
+				"TriggerOffEvent": "None",
+				"ValidateWithAttackFilter": "false",
+				"ParamValue": 0,
+				"ValueAdjustment": 0,
+				"DurationAdjustment": 0,
+				"ResetTriggerOnEffectTimeout": "false",
+				"MaxTriggerCount": 0,
+				"IgnoreMaxTriggerCount": "false",
+				"RemoveEffectAtMax": "false",
+				"ChanceToTrigger": 1
+			},
+			"PowerLevelScaling": {
+				"UseCharacterLevel": "false",
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"ValueAdjustment": 0,
+				"DurationAdjustment": 0
+			},
+			"IsHostile": "false",
+			"ClearOnCombatEnd": "false",
+			"ClearOnRest": "false",
+			"ClearOnFoodRest": "false",
+			"ClearWhenAttacks": "false",
+			"ClearOnDeath": "false",
+			"HideFromCombatTooltip": "true",
+			"HideFromCombatLog": "false",
+			"HideFromUI": "false",
+			"VisualEffects": [],
+			"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackFilter": {
+				"KeywordsIDs": [],
+				"KeywordLogic": "Or",
+				"Range": "None",
+				"ClassType": "None",
+				"Source": "None",
+				"DefendedBy": "None",
+				"Empowered": "false",
+				"Disengagement": "false",
+				"Stealthed": "false",
+				"UseStealthLinger": "false",
+				"PowerLevel": 0,
+				"PowerLevelOperator": "EqualTo",
+				"ChanceToApply": 1,
+				"AttackHostility": "Default"
+			},
+			"AttackTargetFilter": {
+				"KeywordsIDs": [],
+				"KeywordLogic": "Or",
+				"Race": "None",
+				"HealthPercentage": 0,
+				"HealthOperator": "EqualTo",
+				"Distance": 0,
+				"DistanceOperator": "EqualTo",
+				"HasDOT": "false",
+				"IsMarked": "false",
+				"TargetHostility": "Default"
+			},
+			"ExtraValue": 0,
+			"OverridePenetration": 0,
+			"DamageTypeValue": "All",
+			"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+			"RaceValue": "None",
+			"StatusEffectTypeValue": "None",
+			"ItemValueID": "00000000-0000-0000-0000-000000000000",
+			"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+			"StatusEffectsValueIDs": [],
+			"AttackValueID": "00000000-0000-0000-0000-000000000000",
+			"AttackOverrideValue": "None",
+			"EventValue": "OnApply",
+			"ClassValue": "None",
+			"WeaponTypeValue": "None",
+			"AttackHitType": "None",
+			"SkillValueID": "00000000-0000-0000-0000-000000000000",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+			"BedRestDaysMinimum": 0,
+			"BedRestDaysMaximum": 0
+		}]
+	}, {
+		"$type": "Game.GameData.RecipeData, Assembly-CSharp",
+		"DebugName": "Recipe_Critical_Harvest",
+		"ID": "ca70c221-c081-465c-adef-082978056003",
+		"Components": [{
+			"$type": "Game.GameData.RecipeComponent, Assembly-CSharp",
+			"DisplayName": 11210,
+			"CraftingLocation": "None",
+			"CategoryID": "7bad3803-0dfd-473a-a857-326f4853a4d6",
+			"VisibilityConditions": {
+				"Operator": 0,
+				"Components": [{
+					"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+					"Data": {
+						"FullName": "Boolean HasItemMod(Guid)",
+						"Parameters": ["ca70c221-c081-465c-adef-082978056001"],
+						"UnrealCall": "",
+						"FunctionHash": 1518072523,
+						"ParameterHash": -1561273296
 					},
-					{
-						"ItemID": "ec090111-cbc3-4da3-8b70-d0c20ae9fb2c",
-						"Quantity": 1,
-						"IsDestroyed": "true"
+					"Not": true,
+					"Operator": 0
+				}]
+			},
+			"CreationConditions": {
+				"Operator": 0,
+				"Components": []
+			},
+			"Cost": 3000,
+			"CanModifyWeapons": "false",
+			"CanModifyArmor": "false",
+			"CanModifyShields": "false",
+			"CanModifySpecificItemsIDs": ["895650b0-b356-4a3f-b749-88574f36f36a"],
+			"Ingredients": [{
+				"ItemID": "ec090111-cbc3-4da3-8b70-d0c20ae9fb2c",
+				"Quantity": 1,
+				"IsDestroyed": "true"
+			}, {
+				"ItemID": "31ca6dd6-8295-405c-b68a-c0b5636ba6bb",
+				"Quantity": 1,
+				"IsDestroyed": "true"
+			}, {
+				"ItemID": "38b527d6-ec68-4674-9f13-e69250fbfcec",
+				"Quantity": 1,
+				"IsDestroyed": "true"
+			}],
+			"Output": [],
+			"ItemModsToAddIDs": ["ca70c221-c081-465c-adef-082978056001"],
+			"ItemModsToRemoveIDs": []
+		}]
+	}, {
+		"$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+		"DebugName": "Fury_Reaper",
+		"ID": "ca70c221-c081-465c-adef-082978056004",
+		"Components": [{
+			"$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+			"DisplayName": 11204,
+			"HideFromUI": "false",
+			"EnchantCategory": "Unique",
+			"Cost": 4,
+			"DisplayEvenIfCostZero": "true",
+			"CursesItem": "false",
+			"StatusEffectsOnEquipIDs": ["ca70c221-c081-465c-adef-082978056005", "ca70c221-c081-465c-adef-082978056008"],
+			"StatusEffectsOnLaunchIDs": [],
+			"StatusEffectsOnAttackIDs": [],
+			"AbilityModsOnEquipIDs": [],
+			"OnEquipVisualEffects": [],
+			"DamageProcs": [],
+			"AbilitiesOnEquipIDs": []
+		}]
+	}, {
+		"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+		"DebugName": "Fury_Reaper_SE_Dexterity",
+		"ID": "ca70c221-c081-465c-adef-082978056005",
+		"Components": [{
+			"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+			"StatusEffectType": "Dexterity",
+			"OverrideDescriptionString": -1,
+			"UseStatusEffectValueAs": "None",
+			"BaseValue": 2,
+			"DynamicValue": {
+				"Stat": "None",
+				"SkillDataID": "00000000-0000-0000-0000-000000000000",
+				"Class": "None",
+				"MultiplyBy": 1,
+				"Operator": "Add"
+			},
+			"KeywordsIDs": [],
+			"DurationType": "Infinite",
+			"Duration": 1,
+			"MaxStackQuantity": 0,
+			"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+			"ApplicationType": "ApplyOnStart",
+			"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+			"StackedChildrenApplyEffects": "false",
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"TriggerAdjustment": {
+				"TriggerOnEvent": "None",
+				"TriggerOffEvent": "None",
+				"ValidateWithAttackFilter": "false",
+				"ParamValue": 0,
+				"ValueAdjustment": 0,
+				"DurationAdjustment": 0,
+				"ResetTriggerOnEffectTimeout": "false",
+				"MaxTriggerCount": 0,
+				"IgnoreMaxTriggerCount": "false",
+				"RemoveEffectAtMax": "false",
+				"ChanceToTrigger": 1
+			},
+			"PowerLevelScaling": {
+				"UseCharacterLevel": "false",
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"ValueAdjustment": 0,
+				"DurationAdjustment": 0
+			},
+			"IsHostile": "false",
+			"ClearOnCombatEnd": "false",
+			"ClearOnRest": "false",
+			"ClearOnFoodRest": "false",
+			"ClearWhenAttacks": "false",
+			"ClearOnDeath": "false",
+			"HideFromCombatTooltip": "false",
+			"HideFromCombatLog": "false",
+			"HideFromUI": "false",
+			"VisualEffects": [],
+			"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackFilter": {
+				"KeywordsIDs": [],
+				"KeywordLogic": "Or",
+				"Range": "None",
+				"ClassType": "None",
+				"Source": "None",
+				"DefendedBy": "None",
+				"Empowered": "false",
+				"Disengagement": "false",
+				"Stealthed": "false",
+				"UseStealthLinger": "false",
+				"PowerLevel": 0,
+				"PowerLevelOperator": "EqualTo",
+				"ChanceToApply": 1,
+				"AttackHostility": "Default"
+			},
+			"AttackTargetFilter": {
+				"KeywordsIDs": [],
+				"KeywordLogic": "Or",
+				"Race": "None",
+				"HealthPercentage": 0,
+				"HealthOperator": "EqualTo",
+				"Distance": 0,
+				"DistanceOperator": "EqualTo",
+				"HasDOT": "false",
+				"IsMarked": "false",
+				"TargetHostility": "Default"
+			},
+			"ExtraValue": 0,
+			"OverridePenetration": 0,
+			"DamageTypeValue": "All",
+			"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+			"RaceValue": "None",
+			"StatusEffectTypeValue": "None",
+			"ItemValueID": "00000000-0000-0000-0000-000000000000",
+			"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+			"StatusEffectsValueIDs": [],
+			"AttackValueID": "00000000-0000-0000-0000-000000000000",
+			"AttackOverrideValue": "None",
+			"EventValue": "OnApply",
+			"ClassValue": "None",
+			"WeaponTypeValue": "None",
+			"AttackHitType": "None",
+			"SkillValueID": "00000000-0000-0000-0000-000000000000",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+			"BedRestDaysMinimum": 0,
+			"BedRestDaysMaximum": 0
+		}]
+	}, {
+		"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+		"DebugName": "Fury_Reaper_SE_Religion",
+		"ID": "ca70c221-c081-465c-adef-082978056008",
+		"Components": [{
+			"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+			"StatusEffectType": "Skill",
+			"OverrideDescriptionString": -1,
+			"UseStatusEffectValueAs": "None",
+			"BaseValue": 1,
+			"DynamicValue": {
+				"Stat": "None",
+				"SkillDataID": "00000000-0000-0000-0000-000000000000",
+				"Class": "None",
+				"MultiplyBy": 1,
+				"Operator": "Add"
+			},
+			"KeywordsIDs": [],
+			"DurationType": "Infinite",
+			"Duration": 1,
+			"MaxStackQuantity": 0,
+			"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+			"ApplicationType": "ApplyOnStart",
+			"IntervalRateID": "00000000-0000-0000-0000-000000000000",
+			"StackedChildrenApplyEffects": "false",
+			"ApplicationPrerequisites": {
+				"Conditional": {
+					"Operator": 0,
+					"Components": []
+				}
+			},
+			"TriggerAdjustment": {
+				"TriggerOnEvent": "None",
+				"TriggerOffEvent": "None",
+				"ValidateWithAttackFilter": "false",
+				"ParamValue": 0,
+				"ValueAdjustment": 0,
+				"DurationAdjustment": 0,
+				"ResetTriggerOnEffectTimeout": "false",
+				"MaxTriggerCount": 0,
+				"IgnoreMaxTriggerCount": "false",
+				"RemoveEffectAtMax": "false",
+				"ChanceToTrigger": 1
+			},
+			"PowerLevelScaling": {
+				"UseCharacterLevel": "false",
+				"BaseLevel": 0,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"ValueAdjustment": 0,
+				"DurationAdjustment": 0
+			},
+			"IsHostile": "false",
+			"ClearOnCombatEnd": "false",
+			"ClearOnRest": "false",
+			"ClearOnFoodRest": "false",
+			"ClearWhenAttacks": "false",
+			"ClearOnDeath": "false",
+			"HideFromCombatTooltip": "false",
+			"HideFromCombatLog": "false",
+			"HideFromUI": "false",
+			"VisualEffects": [],
+			"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+			"AttackFilter": {
+				"KeywordsIDs": [],
+				"KeywordLogic": "Or",
+				"Range": "None",
+				"ClassType": "None",
+				"Source": "None",
+				"DefendedBy": "None",
+				"Empowered": "false",
+				"Disengagement": "false",
+				"Stealthed": "false",
+				"UseStealthLinger": "false",
+				"PowerLevel": 0,
+				"PowerLevelOperator": "EqualTo",
+				"ChanceToApply": 1,
+				"AttackHostility": "Default"
+			},
+			"AttackTargetFilter": {
+				"KeywordsIDs": [],
+				"KeywordLogic": "Or",
+				"Race": "None",
+				"HealthPercentage": 0,
+				"HealthOperator": "EqualTo",
+				"Distance": 0,
+				"DistanceOperator": "EqualTo",
+				"HasDOT": "false",
+				"IsMarked": "false",
+				"TargetHostility": "Default"
+			},
+			"ExtraValue": 0,
+			"OverridePenetration": 0,
+			"DamageTypeValue": "All",
+			"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+			"RaceValue": "None",
+			"StatusEffectTypeValue": "None",
+			"ItemValueID": "00000000-0000-0000-0000-000000000000",
+			"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+			"StatusEffectsValueIDs": [],
+			"AttackValueID": "00000000-0000-0000-0000-000000000000",
+			"AttackOverrideValue": "None",
+			"EventValue": "OnApply",
+			"ClassValue": "None",
+			"WeaponTypeValue": "None",
+			"AttackHitType": "None",
+			"SkillValueID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
+			"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+			"BedRestDaysMinimum": 0,
+			"BedRestDaysMaximum": 0
+		}]
+	}, {
+		"$type": "Game.GameData.RecipeData, Assembly-CSharp",
+		"DebugName": "Recipe_Ngati_Blessing",
+		"ID": "ca70c221-c081-465c-adef-082978056006",
+		"Components": [{
+			"$type": "Game.GameData.RecipeComponent, Assembly-CSharp",
+			"DisplayName": 11211,
+			"CraftingLocation": "None",
+			"CategoryID": "7bad3803-0dfd-473a-a857-326f4853a4d6",
+			"VisibilityConditions": {
+				"Operator": 0,
+				"Components": [{
+					"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+					"Data": {
+						"FullName": "Boolean HasItemMod(Guid)",
+						"Parameters": ["ca70c221-c081-465c-adef-082978056004"],
+						"UnrealCall": "",
+						"FunctionHash": 1518072523,
+						"ParameterHash": -1561273296
 					},
-					{
-						"ItemID": "5a72bd37-59b3-473d-ab2f-a9c44673efa4",
-						"Quantity": 1,
-						"IsDestroyed": "true"
-					}
-				],
-				"Output": [],
-				"ItemModsToAddIDs": ["ca70c221-c081-465c-adef-082978056004"],
-				"ItemModsToRemoveIDs": []
-			}]
-		}
-	]
+					"Not": true,
+					"Operator": 0
+				}]
+			},
+			"CreationConditions": {
+				"Operator": 0,
+				"Components": []
+			},
+			"Cost": 3000,
+			"CanModifyWeapons": "false",
+			"CanModifyArmor": "false",
+			"CanModifyShields": "false",
+			"CanModifySpecificItemsIDs": ["895650b0-b356-4a3f-b749-88574f36f36a"],
+			"Ingredients": [{
+				"ItemID": "41ee97da-df52-40ad-91ab-38ab4b6d1416",
+				"Quantity": 1,
+				"IsDestroyed": "true"
+			}, {
+				"ItemID": "ec090111-cbc3-4da3-8b70-d0c20ae9fb2c",
+				"Quantity": 1,
+				"IsDestroyed": "true"
+			}, {
+				"ItemID": "5a72bd37-59b3-473d-ab2f-a9c44673efa4",
+				"Quantity": 1,
+				"IsDestroyed": "true"
+			}],
+			"Output": [],
+			"ItemModsToAddIDs": ["ca70c221-c081-465c-adef-082978056004"],
+			"ItemModsToRemoveIDs": []
+		}]
+	}]
 }

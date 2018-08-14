@@ -31,10 +31,7 @@
 						"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
 						"Data": {
 							"FullName": "Boolean HasStatusEffect(Guid, Guid)",
-							"Parameters": [
-								"011111e9-0000-0000-0000-000000000000",
-								"ff61ecc9-fd46-47a8-be7c-64f42831b811"
-							],
+							"Parameters": ["011111e9-0000-0000-0000-000000000000", "ff61ecc9-fd46-47a8-be7c-64f42831b811"],
 							"Flags": "",
 							"UnrealCall": "",
 							"FunctionHash": -2101652762,

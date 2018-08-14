@@ -4,83 +4,76 @@
 		"DebugName": "Leather_Armor_U_Garari_Cuirass",
 		"ID": "1cb83310-bb3d-4036-985f-b6b5f7b5bfc7",
 		"Components": [{
-				"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
-				"DisplayName": 4674,
-				"DescriptionText": 4675,
-				"FilterType": "Armor",
-				"InventoryAudioEventListID": "50b61346-2a8e-4595-a76f-85c497adab02",
-				"IsQuestItem": "false",
-				"IsIngredient": "false",
-				"IsCurrency": "false",
-				"IsAdventuringItem": "false",
-				"CanSellForFullValue": "false",
-				"MaxStackSize": 1,
-				"NeverDropAsLoot": "false",
-				"CanBePickpocketed": "true",
-				"IsUnique": "true",
-				"Value": 200,
-				"IconTextureSmall": "gui/icons/items/armor/cloth/lax02_robe_harbingers_robes_s.png",
-				"IconTextureLarge": "gui/icons/items/armor/cloth/lax02_robe_harbingers_robes_l.png",
-				"PencilSketchTexture": "",
-				"InspectOnUseButton": [],
-				"IsPlaceholder": "false"
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 4674,
+			"DescriptionText": 4675,
+			"FilterType": "Armor",
+			"InventoryAudioEventListID": "50b61346-2a8e-4595-a76f-85c497adab02",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "true",
+			"Value": 200,
+			"IconTextureSmall": "gui/icons/items/armor/cloth/lax02_robe_harbingers_robes_s.png",
+			"IconTextureLarge": "gui/icons/items/armor/cloth/lax02_robe_harbingers_robes_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		}, {
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "None",
+			"EquipmentSlot": "Armor",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/lax02/appearance/body/cl/a_lax02_cl200_v01.asset"
 			},
-			{
-				"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
-				"EquipmentType": "None",
-				"EquipmentSlot": "Armor",
-				"AppearancePiece": {
-					"ModelVisualDataPath": "prefabs/lax02/appearance/body/cl/a_lax02_cl200_v01.asset"
-				},
-				"ItemModsIDs": [
-					"f23d7b9f-563a-4a5a-b7c4-d572e2386ddf",
-					"4c2d656d-4f87-4661-81f4-5587cfaefbcd",
-					"6871f520-73a5-4f93-89f7-019d73eb493e"
-				],
-				"OnEquipVisualEffects": [],
-				"RestrictedToClassIDs": [],
-				"RestrictedToPlayer": "false",
-				"EquipConditionals": {
-					"Operator": 0,
-					"Components": []
-				},
-				"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
-				"CannotUnequip": "false",
-				"ItemRendererPrefab": "",
-				"ItemModel": "",
-				"AnimationController": "",
-				"PaperdollOverrideRenderer": "",
-				"AttackSummonID": "00000000-0000-0000-0000-000000000000",
-				"CannotSheathe": "false",
-				"PropVisualEffects": []
+			"ItemModsIDs": ["f23d7b9f-563a-4a5a-b7c4-d572e2386ddf", "4c2d656d-4f87-4661-81f4-5587cfaefbcd", "6871f520-73a5-4f93-89f7-019d73eb493e"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClassIDs": [],
+			"RestrictedToPlayer": "false",
+			"EquipConditionals": {
+				"Operator": 0,
+				"Components": []
 			},
-			{
-				"$type": "Game.GameData.ArmorComponent, Assembly-CSharp",
-				"ArmorRating": 5,
-				"SpeedFactor": 0.833,
-				"ArmorCategory": "Light",
-				"ArmorMaterial": "Leather",
-				"LevelScaling": {
-					"BaseLevel": 1,
-					"LevelIncrement": 1,
-					"MaxLevel": 0,
-					"ArmorRatingAdjustment": 0
-				},
-				"OverridePierceRating": -1,
-				"OverrideSlashRating": -1,
-				"OverrideCrushRating": 3,
-				"OverrideBurnRating": -1,
-				"OverrideFreezeRating": 3,
-				"OverrideShockRating": -1,
-				"OverrideCorrodeRating": -1,
-				"ImmunityPierce": "false",
-				"ImmunitySlash": "false",
-				"ImmunityCrush": "false",
-				"ImmunityBurn": "false",
-				"ImmunityFreeze": "false",
-				"ImmunityShock": "false",
-				"ImmunityCorrode": "false"
-			}
-		]
+			"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "",
+			"ItemModel": "",
+			"AnimationController": "",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		}, {
+			"$type": "Game.GameData.ArmorComponent, Assembly-CSharp",
+			"ArmorRating": 5,
+			"SpeedFactor": 0.833,
+			"ArmorCategory": "Light",
+			"ArmorMaterial": "Leather",
+			"LevelScaling": {
+				"BaseLevel": 1,
+				"LevelIncrement": 1,
+				"MaxLevel": 0,
+				"ArmorRatingAdjustment": 0
+			},
+			"OverridePierceRating": -1,
+			"OverrideSlashRating": -1,
+			"OverrideCrushRating": 3,
+			"OverrideBurnRating": -1,
+			"OverrideFreezeRating": 3,
+			"OverrideShockRating": -1,
+			"OverrideCorrodeRating": -1,
+			"ImmunityPierce": "false",
+			"ImmunitySlash": "false",
+			"ImmunityCrush": "false",
+			"ImmunityBurn": "false",
+			"ImmunityFreeze": "false",
+			"ImmunityShock": "false",
+			"ImmunityCorrode": "false"
+		}]
 	}]
 }

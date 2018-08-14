@@ -4,48 +4,46 @@
 		"DebugName": "Head_U_Hat_Cowl_of_the_Piercing_Gaze",
 		"ID": "38d3e917-9d1e-4919-a925-cf26b75a127b",
 		"Components": [{
-				"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
-				"DisplayName": 4214,
-				"DescriptionText": 4215,
-				"FilterType": "Clothing",
-				"InventoryAudioEventListID": "50b61346-2a8e-4595-a76f-85c497adab02",
-				"IsQuestItem": "false",
-				"IsIngredient": "false",
-				"IsCurrency": "false",
-				"IsAdventuringItem": "false",
-				"CanSellForFullValue": "false",
-				"MaxStackSize": 1,
-				"NeverDropAsLoot": "false",
-				"CanBePickpocketed": "true",
-				"IsUnique": "true",
-				"Value": 56,
-				"IconTextureSmall": "gui/icons/items/head/hat_hood_s.png",
-				"IconTextureLarge": "gui/icons/items/head/hat_hood_l.png",
-				"PencilSketchTexture": "",
-				"InspectOnUseButton": [],
-				"IsPlaceholder": "false"
+			"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+			"DisplayName": 4214,
+			"DescriptionText": 4215,
+			"FilterType": "Clothing",
+			"InventoryAudioEventListID": "50b61346-2a8e-4595-a76f-85c497adab02",
+			"IsQuestItem": "false",
+			"IsIngredient": "false",
+			"IsCurrency": "false",
+			"IsAdventuringItem": "false",
+			"CanSellForFullValue": "false",
+			"MaxStackSize": 1,
+			"NeverDropAsLoot": "false",
+			"CanBePickpocketed": "true",
+			"IsUnique": "true",
+			"Value": 56,
+			"IconTextureSmall": "gui/icons/items/head/hat_hood_s.png",
+			"IconTextureLarge": "gui/icons/items/head/hat_hood_l.png",
+			"PencilSketchTexture": "",
+			"InspectOnUseButton": [],
+			"IsPlaceholder": "false"
+		}, {
+			"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+			"EquipmentType": "None",
+			"EquipmentSlot": "Head",
+			"AppearancePiece": {
+				"ModelVisualDataPath": "prefabs/items/appearance/helm/a_helm12.asset"
 			},
-			{
-				"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
-				"EquipmentType": "None",
-				"EquipmentSlot": "Head",
-				"AppearancePiece": {
-					"ModelVisualDataPath": "prefabs/items/appearance/helm/a_helm12.asset"
-				},
-				"ItemModsIDs": ["6a63bb51-88df-42e8-a557-4926682d7394"],
-				"OnEquipVisualEffects": [],
-				"RestrictedToClassIDs": [],
-				"RestrictedToPlayer": "false",
-				"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
-				"CannotUnequip": "false",
-				"ItemRendererPrefab": "",
-				"ItemModel": "",
-				"AnimationController": "",
-				"PaperdollOverrideRenderer": "",
-				"AttackSummonID": "00000000-0000-0000-0000-000000000000",
-				"CannotSheathe": "false",
-				"PropVisualEffects": []
-			}
-		]
+			"ItemModsIDs": ["6a63bb51-88df-42e8-a557-4926682d7394"],
+			"OnEquipVisualEffects": [],
+			"RestrictedToClassIDs": [],
+			"RestrictedToPlayer": "false",
+			"ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+			"CannotUnequip": "false",
+			"ItemRendererPrefab": "",
+			"ItemModel": "",
+			"AnimationController": "",
+			"PaperdollOverrideRenderer": "",
+			"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+			"CannotSheathe": "false",
+			"PropVisualEffects": []
+		}]
 	}]
 }
