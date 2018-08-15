@@ -25,6 +25,20 @@
 					"ModelVisualDataPath": "prefabs/heads/m_hum_head01/a_m_hum_head05.asset"
 				}, {
 					"ModelVisualDataPath": "prefabs/heads/m_hum_head01/a_m_hum_head06.asset"
+				}, {
+					"ModelVisualDataPath": "prefabs/heads/m_hum_head01/a_m_hum_head02.asset"
+				}, {
+					"ModelVisualDataPath": "prefabs/heads/m_hum_head01/a_m_hum_head08.asset"
+				}, {
+					"ModelVisualDataPath": "prefabs/heads/m_hum_head01/a_m_hum_head07.asset"
+				}, {
+					"ModelVisualDataPath": "prefabs/heads/m_hum_head01/a_m_hum_head09.asset"
+				}, {
+					"ModelVisualDataPath": "prefabs/heads/m_hum_head01/a_m_hum_head10.asset"
+				}, {
+					"ModelVisualDataPath": "prefabs/heads/m_hum_head01/a_m_hum_head11.asset"
+				}, {
+					"ModelVisualDataPath": "prefabs/heads/m_hum_head01/a_m_hum_head12.asset"
 				}],
 				"FemaleHeadAppearancePieces": [{
 					"ModelVisualDataPath": "prefabs/heads/f_hum_head01/a_f_hum_head01.asset"
