@@ -5,52 +5,52 @@
   <EntryCount>3325</EntryCount>
   <Entries>
 	<Entry>
-      <ID>322386301</ID>
+      <ID>271858301</ID>
       <DefaultText>Frenzy</DefaultText>
       <FemaleText />
     </Entry>
 	<Entry>
-      <ID>322386302</ID>
+      <ID>271858302</ID>
       <DefaultText>&lt;line-height=100%&gt;Sends the rogue into a frenzied state, granting &lt;link="glossary://GlossaryEntry_Strong"&gt;&lt;#ff4800&gt;Strong&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_might" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; and &lt;link="glossary://GlossaryEntry_Fit"&gt;&lt;#f7b733&gt;Fit&lt;space=0.7em&gt;&lt;sprite="Inline" name="attribute_constitution" tint=1&gt;&lt;space=0.3em&gt;&lt;voffset=0.35em&gt;&lt;size=80%&gt;&lt;font="EspinosaNova-Regular SDF"&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;&lt;/size&gt;&lt;/voffset&gt;&lt;/color&gt;&lt;/link&gt; Inspirations as well as an Action Speed bonus. While frenzied, the rogue receives a &lt;link="glossary://GlossaryEntry_Deflection"&gt;&lt;#B0CFFD&gt;Deflection&lt;space=0.7em&gt;&lt;sprite="Inline" name="cs_deflection" tint=1&gt;&lt;/color&gt;&lt;/link&gt; penalty.&lt;/line-height&gt;</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>322386303</ID>
+      <ID>271858303</ID>
       <DefaultText>Lingering Frenzy</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>322386304</ID>
+      <ID>271858304</ID>
       <DefaultText>(Lingering Frenzy) - While active, kills increase the frenzy duration.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>322386305</ID>
+      <ID>271858305</ID>
       <DefaultText>The rogue's attacks become so forceful as to impact others around the target enemy. For every successful melee attack, the rogue makes reduced-damage attacks at all other enemies within a short distance of the target.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>322386306</ID>
+      <ID>271858306</ID>
       <DefaultText>The rogue learns to line up their most savage blows, improving the Accuracy of secondary attacks from Carnage.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>322386307</ID>
+      <ID>271858307</ID>
       <DefaultText>Small Puff</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>322386308</ID>
+      <ID>271858308</ID>
       <DefaultText>The rogue dissapears in a small puff.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>322386309</ID>
+      <ID>271858309</ID>
       <DefaultText>The Endless Loop</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>322386310</ID>
+      <ID>271858310</ID>
       <DefaultText>Refund 1 Guile when scoring a killing blow.</DefaultText>
       <FemaleText />
     </Entry>
