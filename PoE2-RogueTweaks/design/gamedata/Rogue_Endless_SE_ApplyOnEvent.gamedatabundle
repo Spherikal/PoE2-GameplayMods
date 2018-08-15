@@ -1,14 +1,14 @@
 {
     "GameDataObjects": [{
         "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-        "DebugName": "Rogue_SE_OnApplyEvent",
+        "DebugName": "Rogue_Endless_SE_ApplyOnEvent",
         "ID": "03152d0d-a66f-4f7c-86b0-987d1df3046e",
         "Components": [{
             "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-            "StatusEffectType": "ApplyStatusEffectOnEvent",
-            "OverrideDescriptionString": -1,
+            "StatusEffectType": "ApplyStatusEffectOnEventWithChance",
+            "OverrideDescriptionString": 271858301,
             "UseStatusEffectValueAs": "None",
-            "BaseValue": 0,
+            "BaseValue": 1,
             "DynamicValue": {
                 "Stat": "None",
                 "SkillDataID": "00000000-0000-0000-0000-000000000000",
@@ -31,16 +31,16 @@
                 }
             },
             "TriggerAdjustment": {
-                "TriggerOnEvent": "OnScoringKill",
+                "TriggerOnEvent": "None",
                 "TriggerOffEvent": "None",
                 "ValidateWithAttackFilter": "false",
                 "ParamValue": 0,
                 "ValueAdjustment": 0,
                 "DurationAdjustment": 0,
                 "ResetTriggerOnEffectTimeout": "false",
-                "MaxTriggerCount": 1,
+                "MaxTriggerCount": 0,
                 "IgnoreMaxTriggerCount": "false",
-                "RemoveEffectAtMax": "true",
+                "RemoveEffectAtMax": "false",
                 "ChanceToTrigger": 1
             },
             "PowerLevelScaling": {
@@ -57,52 +57,10 @@
             "ClearOnFoodRest": "false",
             "ClearWhenAttacks": "false",
             "ClearOnDeath": "false",
-            "HideFromCombatTooltip": "false",
+            "HideFromCombatTooltip": "true",
             "HideFromCombatLog": "false",
             "HideFromUI": "false",
-            "VisualEffects": [{
-                "VisualEffect": "prefabs/effects/abilities/paladin/fx_flames_of_devotion_white_hit.prefab",
-                "AttachPoint": "Chest",
-                "AttachObject": "Target",
-                "AttachMode": "Position",
-                "MeshType": "None",
-                "Event": "OnHit"
-            }, {
-                "VisualEffect": "prefabs/effects/abilities/paladin/fx_flames_of_devotion_white_chest.prefab",
-                "AttachPoint": "Chest",
-                "AttachObject": "Caster",
-                "AttachMode": "Attach",
-                "MeshType": "None",
-                "Event": "OnStart"
-            }, {
-                "VisualEffect": "prefabs/effects/abilities/paladin/fx_flames_of_devotion_white_se.prefab",
-                "AttachPoint": "RightWeapon",
-                "AttachObject": "Caster",
-                "AttachMode": "Attach",
-                "MeshType": "None",
-                "Event": "OnStart"
-            }, {
-                "VisualEffect": "prefabs/effects/abilities/paladin/fx_flames_of_devotion_white_se.prefab",
-                "AttachPoint": "LeftWeapon",
-                "AttachObject": "Caster",
-                "AttachMode": "Attach",
-                "MeshType": "None",
-                "Event": "OnStart"
-            }, {
-                "VisualEffect": "prefabs/effects/abilities/paladin/fx_flames_of_devotion_white_se.prefab",
-                "AttachPoint": "RightFoot",
-                "AttachObject": "Caster",
-                "AttachMode": "Attach",
-                "MeshType": "None",
-                "Event": "OnStart"
-            }, {
-                "VisualEffect": "prefabs/effects/abilities/paladin/fx_flames_of_devotion_white_se.prefab",
-                "AttachPoint": "LeftFoot",
-                "AttachObject": "Caster",
-                "AttachMode": "Attach",
-                "MeshType": "None",
-                "Event": "OnStart"
-            }],
+            "VisualEffects": [],
             "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
             "AttackFilter": {
                 "KeywordsIDs": [],
@@ -133,7 +91,7 @@
                 "IsMarked": "false",
                 "TargetHostility": "Default"
             },
-            "ExtraValue": 0,
+            "ExtraValue": 1,
             "OverridePenetration": 0,
             "DamageTypeValue": "All",
             "KeywordValueID": "00000000-0000-0000-0000-000000000000",

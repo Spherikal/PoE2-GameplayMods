@@ -19,8 +19,8 @@
 			"CanBePickpocketed": "true",
 			"IsUnique": "true",
 			"Value": 35,
-			"IconTextureSmall": "gui/icons/items/weapons/shield_medium/shield_medium_animat_s.png",
-			"IconTextureLarge": "gui/icons/items/weapons/shield_medium/shield_medium_animat_l.png",
+			"IconTextureSmall": "gui/icons/items/weapons/shield_medium/shield_medium_02_s.png",
+			"IconTextureLarge": "gui/icons/items/weapons/shield_medium/shield_medium_02_l.png",
 			"PencilSketchTexture": "",
 			"InspectOnUseButton": [],
 			"IsPlaceholder": "false"
@@ -29,7 +29,7 @@
 			"EquipmentType": "MediumShield",
 			"EquipmentSlot": "SecondaryWeaponOnly",
 			"AppearancePiece": {
-				"ModelVisualDataPath": "prefabs/items/appearance/weapons/shield_medium/shield_medium_adra.asset"
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/shield_medium/shield_medium05.asset"
 			},
 			"ItemModsIDs": ["92236b9d-7217-47fa-9c45-3b30b38e70a0", "e2b1b1d6-0e6e-4046-b11e-1ef52ca23639", "ada8ae46-b63c-4251-9bf4-10f16cceb4b5", "d0b1f796-2546-4a25-8d2f-511282ac6d22", "63d1c47c-6f0d-46fe-ac7a-f351d6c2b08e"],
 			"OnEquipVisualEffects": [],

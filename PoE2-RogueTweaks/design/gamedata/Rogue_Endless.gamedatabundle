@@ -63,7 +63,7 @@
                 "PenetrationAdjustment": 0
             },
             "StatusEffectKeywordsIDs": [],
-            "StatusEffectsIDs": ["94f3bf91-cbd7-40a2-9800-0c315b631ae2"],
+            "StatusEffectsIDs": ["03152d0d-a66f-4f7c-86b0-987d1df3046e"],
             "VisualEffects": [],
             "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
             "AttackID": "00000000-0000-0000-0000-000000000000",

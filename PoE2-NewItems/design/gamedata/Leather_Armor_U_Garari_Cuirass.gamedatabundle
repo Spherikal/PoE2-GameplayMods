@@ -19,8 +19,8 @@
 			"CanBePickpocketed": "true",
 			"IsUnique": "true",
 			"Value": 200,
-			"IconTextureSmall": "gui/icons/items/armor/cloth/lax02_robe_harbingers_robes_s.png",
-			"IconTextureLarge": "gui/icons/items/armor/cloth/lax02_robe_harbingers_robes_l.png",
+			"IconTextureSmall": "gui/icons/items/armor/cloth/armor_cloth_tekehu_s.png",
+			"IconTextureLarge": "gui/icons/items/armor/cloth/armor_cloth_tekehu_l.png",
 			"PencilSketchTexture": "",
 			"InspectOnUseButton": [],
 			"IsPlaceholder": "false"
@@ -29,7 +29,7 @@
 			"EquipmentType": "None",
 			"EquipmentSlot": "Armor",
 			"AppearancePiece": {
-				"ModelVisualDataPath": "prefabs/lax02/appearance/body/cl/a_lax02_cl200_v01.asset"
+				"ModelVisualDataPath": "prefabs/items/appearance/body/cl/cl32/a_cl32.asset"
 			},
 			"ItemModsIDs": ["f23d7b9f-563a-4a5a-b7c4-d572e2386ddf", "4c2d656d-4f87-4661-81f4-5587cfaefbcd", "6871f520-73a5-4f93-89f7-019d73eb493e"],
 			"OnEquipVisualEffects": [],

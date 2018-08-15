@@ -1485,35 +1485,11 @@
 					"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
 					"Conditional": {
 						"Operator": 0,
-						"Components": [{
-							"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-							"Data": {
-								"FullName": "Boolean ProgressionTableIsSubclass(Guid)",
-								"Parameters": ["ff4e2496-c063-4274-afe3-653f06094b1c"],
-								"Flags": "",
-								"UnrealCall": "",
-								"FunctionHash": 0,
-								"ParameterHash": 0
-							},
-							"Not": false,
-							"Operator": 0
-						}]
+						"Components": []
 					},
 					"VisibilityConditional": {
 						"Operator": 0,
-						"Components": [{
-							"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-							"Data": {
-								"FullName": "Boolean ProgressionTableIsSubclass(Guid)",
-								"Parameters": ["ff4e2496-c063-4274-afe3-653f06094b1c"],
-								"Flags": "",
-								"UnrealCall": "",
-								"FunctionHash": 0,
-								"ParameterHash": 0
-							},
-							"Not": false,
-							"Operator": 0
-						}]
+						"Components": []
 					},
 					"IsMutuallyExclusiveUpgrade": "true"
 				}

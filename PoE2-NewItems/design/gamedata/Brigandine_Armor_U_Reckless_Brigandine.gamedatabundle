@@ -29,7 +29,7 @@
 			"EquipmentType": "None",
 			"EquipmentSlot": "Armor",
 			"AppearancePiece": {
-				"ModelVisualDataPath": "prefabs/items/appearance/body/sc/sc03/a_sc03_v02.asset"
+				"ModelVisualDataPath": "prefabs/items/appearance/body/sc/sc06/a_sc06.asset"
 			},
 			"ItemModsIDs": ["2f868d39-3962-4a62-a656-041121931423", "b1247f31-f94b-4f6a-8199-f71ccf5a3277"],
 			"OnEquipVisualEffects": [],
