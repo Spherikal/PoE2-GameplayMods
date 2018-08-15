@@ -1470,6 +1470,54 @@
 					"IsMutuallyExclusiveUpgrade": "true"
 				}
 			}, {
+				"Note": "PL 0 Auto Grant - The Endless Loop",
+				"Category": "General",
+				"UnlockStyle": "AutoGrant",
+				"ActivationObject": "Self",
+				"AddAbilityID": "8ae8458b-75e9-4d51-a8e8-e1c50e6701c4",
+				"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+				"Prerequisites": {
+					"MinimumCharacterLevel": 1,
+					"PowerLevelRequirement": {
+						"ClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+						"MinimumPowerLevel": 0
+					},
+					"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+					"Conditional": {
+						"Operator": 0,
+						"Components": [{
+							"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+							"Data": {
+								"FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+								"Parameters": ["ff4e2496-c063-4274-afe3-653f06094b1c"],
+								"Flags": "",
+								"UnrealCall": "",
+								"FunctionHash": 0,
+								"ParameterHash": 0
+							},
+							"Not": false,
+							"Operator": 0
+						}]
+					},
+					"VisibilityConditional": {
+						"Operator": 0,
+						"Components": [{
+							"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+							"Data": {
+								"FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+								"Parameters": ["ff4e2496-c063-4274-afe3-653f06094b1c"],
+								"Flags": "",
+								"UnrealCall": "",
+								"FunctionHash": 0,
+								"ParameterHash": 0
+							},
+							"Not": false,
+							"Operator": 0
+						}]
+					},
+					"IsMutuallyExclusiveUpgrade": "true"
+				}
+			}, {
 				"Note": "PL 1 Unlock - Frenzy",
 				"Category": "General",
 				"UnlockStyle": "Unlock",

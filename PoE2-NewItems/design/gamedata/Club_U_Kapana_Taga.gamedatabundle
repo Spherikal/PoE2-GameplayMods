@@ -69,7 +69,7 @@
 			"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
 			"ForceBackScabbard": "false",
 			"ScabbardAppearancePiece": {
-				"ModelVisualDataPath": "prefabs/items/appearance/weapons/sabre/a_sabre01_scabbard.asset"
+				"ModelVisualDataPath": "prefabs/items/appearance/weapons/sabre/a_sabre07_scabbard.asset"
 			},
 			"ScabbardRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
 			"ScabbardModel": "",

@@ -1,0 +1,157 @@
+{
+    "GameDataObjects": [{
+        "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+        "DebugName": "Rogue_SE_OnKill",
+        "ID": "94f3bf91-cbd7-40a2-9800-0c315b631ae2",
+        "Components": [{
+            "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+            "StatusEffectType": "ApplyStatusEffectOnEvent",
+            "OverrideDescriptionString": -1,
+            "UseStatusEffectValueAs": "None",
+            "BaseValue": 0,
+            "DynamicValue": {
+                "Stat": "None",
+                "SkillDataID": "00000000-0000-0000-0000-000000000000",
+                "ClassID": "00000000-0000-0000-0000-000000000000",
+                "MultiplyBy": 1,
+                "Operator": "Add"
+            },
+            "KeywordsIDs": [],
+            "DurationType": "UseDurationTime",
+            "Duration": 0.1,
+            "MaxStackQuantity": 0,
+            "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+            "ApplicationType": "ApplyOnStart",
+            "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+            "StackedChildrenApplyEffects": "false",
+            "ApplicationPrerequisites": {
+                "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                }
+            },
+            "TriggerAdjustment": {
+                "TriggerOnEvent": "OnScoringKill",
+                "TriggerOffEvent": "None",
+                "ValidateWithAttackFilter": "false",
+                "ParamValue": 0,
+                "ValueAdjustment": 0,
+                "DurationAdjustment": 0,
+                "ResetTriggerOnEffectTimeout": "false",
+                "MaxTriggerCount": 1,
+                "IgnoreMaxTriggerCount": "false",
+                "RemoveEffectAtMax": "true",
+                "ChanceToTrigger": 1
+            },
+            "PowerLevelScaling": {
+                "UseCharacterLevel": "false",
+                "BaseLevel": 0,
+                "LevelIncrement": 1,
+                "MaxLevel": 0,
+                "ValueAdjustment": 0,
+                "DurationAdjustment": 0
+            },
+            "IsHostile": "false",
+            "ClearOnCombatEnd": "false",
+            "ClearOnRest": "false",
+            "ClearOnFoodRest": "false",
+            "ClearWhenAttacks": "false",
+            "ClearOnDeath": "false",
+            "HideFromCombatTooltip": "false",
+            "HideFromCombatLog": "false",
+            "HideFromUI": "false",
+            "VisualEffects": [{
+                "VisualEffect": "prefabs/effects/abilities/paladin/fx_flames_of_devotion_white_hit.prefab",
+                "AttachPoint": "Chest",
+                "AttachObject": "Target",
+                "AttachMode": "Position",
+                "MeshType": "None",
+                "Event": "OnHit"
+            }, {
+                "VisualEffect": "prefabs/effects/abilities/paladin/fx_flames_of_devotion_white_chest.prefab",
+                "AttachPoint": "Chest",
+                "AttachObject": "Caster",
+                "AttachMode": "Attach",
+                "MeshType": "None",
+                "Event": "OnStart"
+            }, {
+                "VisualEffect": "prefabs/effects/abilities/paladin/fx_flames_of_devotion_white_se.prefab",
+                "AttachPoint": "RightWeapon",
+                "AttachObject": "Caster",
+                "AttachMode": "Attach",
+                "MeshType": "None",
+                "Event": "OnStart"
+            }, {
+                "VisualEffect": "prefabs/effects/abilities/paladin/fx_flames_of_devotion_white_se.prefab",
+                "AttachPoint": "LeftWeapon",
+                "AttachObject": "Caster",
+                "AttachMode": "Attach",
+                "MeshType": "None",
+                "Event": "OnStart"
+            }, {
+                "VisualEffect": "prefabs/effects/abilities/paladin/fx_flames_of_devotion_white_se.prefab",
+                "AttachPoint": "RightFoot",
+                "AttachObject": "Caster",
+                "AttachMode": "Attach",
+                "MeshType": "None",
+                "Event": "OnStart"
+            }, {
+                "VisualEffect": "prefabs/effects/abilities/paladin/fx_flames_of_devotion_white_se.prefab",
+                "AttachPoint": "LeftFoot",
+                "AttachObject": "Caster",
+                "AttachMode": "Attach",
+                "MeshType": "None",
+                "Event": "OnStart"
+            }],
+            "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+            "AttackFilter": {
+                "KeywordsIDs": [],
+                "KeywordLogic": "Or",
+                "Range": "None",
+                "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+                "Source": "None",
+                "DefendedBy": "None",
+                "Empowered": "false",
+                "Disengagement": "false",
+                "Stealthed": "false",
+                "UseStealthLinger": "false",
+                "PowerLevel": 0,
+                "PowerLevelOperator": "EqualTo",
+                "ChanceToApply": 1,
+                "AttackHostility": "Default"
+            },
+            "AttackTargetFilter": {
+                "KeywordsIDs": [],
+                "KeywordLogic": "Or",
+                "Race": "None",
+                "IsKith": "false",
+                "HealthPercentage": 0,
+                "HealthOperator": "EqualTo",
+                "Distance": 0,
+                "DistanceOperator": "EqualTo",
+                "HasDOT": "false",
+                "IsMarked": "false",
+                "TargetHostility": "Default"
+            },
+            "ExtraValue": 0,
+            "OverridePenetration": 0,
+            "DamageTypeValue": "All",
+            "KeywordValueID": "00000000-0000-0000-0000-000000000000",
+            "RaceValue": "None",
+            "StatusEffectTypeValue": "None",
+            "ItemValueID": "00000000-0000-0000-0000-000000000000",
+            "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+            "StatusEffectsValueIDs": ["1ca9c9d5-3478-4315-b588-0dd167de5f31"],
+            "AttackValueID": "00000000-0000-0000-0000-000000000000",
+            "AttackOverrideValue": "None",
+            "EventValue": "OnScoringKill",
+            "ClassValueID": "00000000-0000-0000-0000-000000000000",
+            "WeaponTypeValue": "None",
+            "AttackHitType": "None",
+            "SkillValueID": "00000000-0000-0000-0000-000000000000",
+            "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+            "BedRestDaysMinimum": 0,
+            "BedRestDaysMaximum": 0
+        }]
+    }]
+}
