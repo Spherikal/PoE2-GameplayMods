@@ -10,6 +10,7 @@
 			"AttributeAverage": 10,
 			"MaxPerceptionDistance": 7,
 			"MaxStealthRadius": 4,
+            "MaxDetectionRange": 12,
 			"DefaultWalkSpeed": 2,
 			"DefaultRunSpeed": 4,
 			"DefaultAnimalCompanionWalkSpeed": 2,
@@ -18,7 +19,6 @@
 			"NormalHealthRechargeRate": 10,
 			"HealthRechargeDelay": 3,
 			"ModalRecoveryTime": 3,
-			"HitMultiplier": 1,
 			"GlobalRaceScale": [{
 				"Race": "Human",
 				"MaleScale": 1,
@@ -97,7 +97,7 @@
 				"HealthMultiplier": 1.25,
 				"AccuracyBonus": 5,
 				"DefenseBonus": 5,
-				"ArmorBonus": 2,
+				"ArmorBonus": 0,
 				"PenetrationBonus": 0,
 				"LevelMultiplier": 1,
 				"RecoveryTimeMultiplier": 1,
@@ -701,153 +701,189 @@
 				"LeaveCoverMaxDelay": 10
 			}
 		}, {
-			"$type": "Game.GameData.AnimationControllerComponent, Assembly-CSharp",
-			"RaceOverrides": [{
-				"Race": "None",
-				"GenderOverride": [{
-					"Gender": "Male",
-					"Controller": "art/animation/animationcontrollers/biped/default_othr_m.overridecontroller"
-				}, {
-					"Gender": "Female",
-					"Controller": "art/animation/animationcontrollers/biped/default_othr_f.overridecontroller"
-				}, {
-					"Gender": "Neuter",
-					"Controller": "art/animation/animationcontrollers/biped/default_othr_m.overridecontroller"
-				}]
-			}, {
-				"Race": "Human",
-				"GenderOverride": [{
-					"Gender": "Male",
-					"Controller": "art/animation/animationcontrollers/biped/default_hum_m.overridecontroller"
-				}, {
-					"Gender": "Female",
-					"Controller": "art/animation/animationcontrollers/biped/default_hum_f.overridecontroller"
-				}, {
-					"Gender": "Neuter",
-					"Controller": "art/animation/animationcontrollers/biped/default_hum_m.overridecontroller"
-				}]
-			}, {
-				"Race": "Elf",
-				"GenderOverride": [{
-					"Gender": "Male",
-					"Controller": "art/animation/animationcontrollers/biped/default_elf_m.overridecontroller"
-				}, {
-					"Gender": "Female",
-					"Controller": "art/animation/animationcontrollers/biped/default_elf_f.overridecontroller"
-				}, {
-					"Gender": "Neuter",
-					"Controller": "art/animation/animationcontrollers/biped/default_orl_m.overridecontroller"
-				}]
-			}, {
-				"Race": "Dwarf",
-				"GenderOverride": [{
-					"Gender": "Male",
-					"Controller": "art/animation/animationcontrollers/biped/default_dwa_m.overridecontroller"
-				}, {
-					"Gender": "Female",
-					"Controller": "art/animation/animationcontrollers/biped/default_dwa_f.overridecontroller"
-				}, {
-					"Gender": "Neuter",
-					"Controller": "art/animation/animationcontrollers/biped/default_orl_m.overridecontroller"
-				}]
-			}, {
-				"Race": "Godlike",
-				"GenderOverride": [{
-					"Gender": "Male",
-					"Controller": ""
-				}, {
-					"Gender": "Female",
-					"Controller": ""
-				}, {
-					"Gender": "Neuter",
-					"Controller": ""
-				}]
-			}, {
-				"Race": "Orlan",
-				"GenderOverride": [{
-					"Gender": "Male",
-					"Controller": "art/animation/animationcontrollers/biped/default_orl_m.overridecontroller"
-				}, {
-					"Gender": "Female",
-					"Controller": "art/animation/animationcontrollers/biped/default_orl_f.overridecontroller"
-				}, {
-					"Gender": "Neuter",
-					"Controller": "art/animation/animationcontrollers/biped/default_orl_m.overridecontroller"
-				}]
-			}, {
-				"Race": "Aumaua",
-				"GenderOverride": [{
-					"Gender": "Male",
-					"Controller": "art/animation/animationcontrollers/biped/default_aum_m.overridecontroller"
-				}, {
-					"Gender": "Female",
-					"Controller": "art/animation/animationcontrollers/biped/default_aum_f.overridecontroller"
-				}, {
-					"Gender": "Neuter",
-					"Controller": "art/animation/animationcontrollers/biped/default_aum_m.overridecontroller"
-				}]
-			}, {
-				"Race": "Beast",
-				"GenderOverride": [{
-					"Gender": "Male",
-					"Controller": ""
-				}, {
-					"Gender": "Female",
-					"Controller": ""
-				}, {
-					"Gender": "Neuter",
-					"Controller": ""
-				}]
-			}, {
-				"Race": "Primordial",
-				"GenderOverride": [{
-					"Gender": "Male",
-					"Controller": ""
-				}, {
-					"Gender": "Female",
-					"Controller": ""
-				}, {
-					"Gender": "Neuter",
-					"Controller": ""
-				}]
-			}, {
-				"Race": "Spirit",
-				"GenderOverride": [{
-					"Gender": "Male",
-					"Controller": ""
-				}, {
-					"Gender": "Female",
-					"Controller": ""
-				}, {
-					"Gender": "Neuter",
-					"Controller": ""
-				}]
-			}, {
-				"Race": "Vessel",
-				"GenderOverride": [{
-					"Gender": "Male",
-					"Controller": ""
-				}, {
-					"Gender": "Female",
-					"Controller": ""
-				}, {
-					"Gender": "Neuter",
-					"Controller": ""
-				}]
-			}, {
-				"Race": "Wilder",
-				"GenderOverride": [{
-					"Gender": "Male",
-					"Controller": ""
-				}, {
-					"Gender": "Female",
-					"Controller": ""
-				}, {
-					"Gender": "Neuter",
-					"Controller": ""
-				}]
-			}]
-		}, {
+            "$type": "Game.GameData.AnimationControllerComponent, Assembly-CSharp",
+            "RaceOverrides": [{
+                "Race": "None",
+                "GenderOverride": [{
+                    "Gender": "Male",
+                    "Controller": "art/animation/animationcontrollers/biped/default_othr_m.overridecontroller",
+                    "PaperDoll": ""
+                }, {
+                    "Gender": "Female",
+                    "Controller": "art/animation/animationcontrollers/biped/default_othr_f.overridecontroller",
+                    "PaperDoll": ""
+                }, {
+                    "Gender": "Neuter",
+                    "Controller": "art/animation/animationcontrollers/biped/default_othr_m.overridecontroller",
+                    "PaperDoll": ""
+                }]
+            }, {
+                "Race": "Human",
+                "GenderOverride": [{
+                    "Gender": "Male",
+                    "Controller": "art/animation/animationcontrollers/biped/default_hum_m.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_hum_m.overridecontroller"
+                }, {
+                    "Gender": "Female",
+                    "Controller": "art/animation/animationcontrollers/biped/default_hum_f.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_hum_f.overridecontroller"
+                }, {
+                    "Gender": "Neuter",
+                    "Controller": "art/animation/animationcontrollers/biped/default_hum_m.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_hum_m.overridecontroller"
+                }]
+            }, {
+                "Race": "Elf",
+                "GenderOverride": [{
+                    "Gender": "Male",
+                    "Controller": "art/animation/animationcontrollers/biped/default_elf_m.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_elf_m.overridecontroller"
+                }, {
+                    "Gender": "Female",
+                    "Controller": "art/animation/animationcontrollers/biped/default_elf_f.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_elf_f.overridecontroller"
+                }, {
+                    "Gender": "Neuter",
+                    "Controller": "art/animation/animationcontrollers/biped/default_orl_m.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_elf_m.overridecontroller"
+                }]
+            }, {
+                "Race": "Dwarf",
+                "GenderOverride": [{
+                    "Gender": "Male",
+                    "Controller": "art/animation/animationcontrollers/biped/default_dwa_m.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_dwa_m.overridecontroller"
+                }, {
+                    "Gender": "Female",
+                    "Controller": "art/animation/animationcontrollers/biped/default_dwa_f.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_dwa_f.overridecontroller"
+                }, {
+                    "Gender": "Neuter",
+                    "Controller": "art/animation/animationcontrollers/biped/default_orl_m.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_dwa_m.overridecontroller"
+                }]
+            }, {
+                "Race": "Godlike",
+                "GenderOverride": [{
+                    "Gender": "Male",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }, {
+                    "Gender": "Female",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }, {
+                    "Gender": "Neuter",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }]
+            }, {
+                "Race": "Orlan",
+                "GenderOverride": [{
+                    "Gender": "Male",
+                    "Controller": "art/animation/animationcontrollers/biped/default_orl_m.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_orlm.overridecontroller"
+                }, {
+                    "Gender": "Female",
+                    "Controller": "art/animation/animationcontrollers/biped/default_orl_f.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_orlf.overridecontroller"
+                }, {
+                    "Gender": "Neuter",
+                    "Controller": "art/animation/animationcontrollers/biped/default_orl_m.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_orlm.overridecontroller"
+                }]
+            }, {
+                "Race": "Aumaua",
+                "GenderOverride": [{
+                    "Gender": "Male",
+                    "Controller": "art/animation/animationcontrollers/biped/default_aum_m.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_aum_m.overridecontroller"
+                }, {
+                    "Gender": "Female",
+                    "Controller": "art/animation/animationcontrollers/biped/default_aum_f.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_aum_f.overridecontroller"
+                }, {
+                    "Gender": "Neuter",
+                    "Controller": "art/animation/animationcontrollers/biped/default_aum_m.overridecontroller",
+                    "PaperDoll": "art/animation/animationcontrollers/paperdoll/paper_doll_aum_m.overridecontroller"
+                }]
+            }, {
+                "Race": "Beast",
+                "GenderOverride": [{
+                    "Gender": "Male",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }, {
+                    "Gender": "Female",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }, {
+                    "Gender": "Neuter",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }]
+            }, {
+                "Race": "Primordial",
+                "GenderOverride": [{
+                    "Gender": "Male",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }, {
+                    "Gender": "Female",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }, {
+                    "Gender": "Neuter",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }]
+            }, {
+                "Race": "Spirit",
+                "GenderOverride": [{
+                    "Gender": "Male",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }, {
+                    "Gender": "Female",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }, {
+                    "Gender": "Neuter",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }]
+            }, {
+                "Race": "Vessel",
+                "GenderOverride": [{
+                    "Gender": "Male",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }, {
+                    "Gender": "Female",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }, {
+                    "Gender": "Neuter",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }]
+            }, {
+                "Race": "Wilder",
+                "GenderOverride": [{
+                    "Gender": "Male",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }, {
+                    "Gender": "Female",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }, {
+                    "Gender": "Neuter",
+                    "Controller": "",
+                    "PaperDoll": ""
+                }]
+            }]
+        }, {
 			"$type": "Game.GameData.CombatSettingsComponent, Assembly-CSharp",
 			"SneakAttackAfflictionTypesIDs": ["912396df-94ce-454f-806e-ad15969a02b1", "fda623d6-29a2-4e02-be6a-25c332ff194f", "5d1b11b3-9435-4de1-a9dd-f23d85bbe09e", "a50f1a60-cf8d-413f-8b11-b973c0e78d6e", "5d192433-3732-42fb-8bd2-9043dbf5c4e9", "42a17f02-5ade-4826-a41a-09a6042598f8"],
 			"PenetrationRatioMultipliers": [{
@@ -876,6 +912,7 @@
 			"NoPenetrationNotification": 0.3,
 			"GlobalRecoveryMultiplier": 2,
 			"DualWeaponRecoveryMultiplier": 0.7,
+            "DualWeaponFullAttackDamageMultiplier": 0.65,
 			"SingleWeaponAccuracyBonus": 12,
 			"SwitchWeaponRecoveryTime": 2,
 			"InterruptRecoveryTime": 2,
@@ -1021,7 +1058,8 @@
 				"EncounterTooltipString": 3760
 			}],
 			"CombatMoveSpeedMultiplier": 0.85,
-			"StealthLingerDuration": 2
+            "StealthLingerDuration": 2,
+            "CastHeightRange": 100
 		}, {
 			"$type": "Game.GameData.TownieScheduleSettingsComponent, Assembly-CSharp",
 			"MinWaypointsToVisit": 2,

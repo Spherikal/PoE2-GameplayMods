@@ -13,6 +13,7 @@
 			"IsIngredient": "false",
 			"IsCurrency": "false",
 			"IsAdventuringItem": "false",
+			"IsJunk": "false",
 			"CanSellForFullValue": "false",
 			"MaxStackSize": 1,
 			"NeverDropAsLoot": "false",
@@ -35,6 +36,10 @@
 			"OnEquipVisualEffects": [],
 			"RestrictedToClassIDs": [],
 			"RestrictedToPlayer": "true",
+			"EquipConditionals": {
+				"Operator": 0,
+				"Components": []
+			},
 			"ProficientAbilityID": "e56c9809-5046-48a8-9334-491b053c79a7",
 			"CannotUnequip": "false",
 			"ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
@@ -74,6 +79,10 @@
 			"$type": "Game.GameData.SoulbindComponent, Assembly-CSharp",
 			"ProhibitUnbind": "true",
 			"BindableClassesIDs": [],
+            "BindConditions": {
+                "Operator": 0,
+                "Components": []
+            },
 			"UnlockStages": [{
 				"Note": "1st Stage: Kills",
 				"LoreToAdd": -1,
@@ -169,7 +178,7 @@
 				"OverrideItemModel": "",
 				"Scripts": []
 			}, {
-				"Note": "2nd Stage: Kills",
+				"Note": "2nd Stage: Deal Damage",
 				"LoreToAdd": 5083,
 				"ItemModsToAddIDs": [],
 				"ItemModsToRemoveIDs": ["17949408-3304-4869-aae5-8021c6e4e404"],
@@ -225,8 +234,8 @@
 			}, {
 				"Note": "2nd Stage: Talk to Sword",
 				"LoreToAdd": 5187,
-				"ItemModsToAddIDs": ["b420d957-6932-4b02-8e02-1393b07f390d", "eee60f64-ca72-4493-8060-fd8e745224df"],
-				"ItemModsToRemoveIDs": ["7d7b81f7-7322-441f-a366-5d15d30379f5"],
+				"ItemModsToAddIDs": ["b420d957-6932-4b02-8e02-1393b07f390d", "ad711668-e339-4fca-92c3-2da2a16a998b"],
+                "ItemModsToRemoveIDs": ["7d7b81f7-7322-441f-a366-5d15d30379f5"],
 				"EligibleClassesIDs": [],
 				"UnlockActions": [{
 					"TargetValue": 1,
@@ -320,7 +329,7 @@
 				"Note": "3rd Stage: Talk to Sword",
 				"LoreToAdd": 5188,
 				"ItemModsToAddIDs": ["84037320-461b-4e58-807a-41f7e3daab8a"],
-				"ItemModsToRemoveIDs": ["ad711668-e339-4fca-92c3-2da2a16a998b"],
+				"ItemModsToRemoveIDs": [],
 				"EligibleClassesIDs": [],
 				"UnlockActions": [{
 					"TargetValue": 1,

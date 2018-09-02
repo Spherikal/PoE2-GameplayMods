@@ -13,6 +13,7 @@
 			"IsIngredient": "false",
 			"IsCurrency": "false",
 			"IsAdventuringItem": "false",
+            "IsJunk": "false",
 			"CanSellForFullValue": "false",
 			"MaxStackSize": 1,
 			"NeverDropAsLoot": "false",
@@ -35,6 +36,10 @@
 			"OnEquipVisualEffects": [],
 			"RestrictedToClassIDs": [],
 			"RestrictedToPlayer": "false",
+			"EquipConditionals": {
+				"Operator": 0,
+				"Components": []
+			},
 			"ProficientAbilityID": "f2a32614-d8ce-4183-870f-96cc74d2c57a",
 			"CannotUnequip": "false",
 			"ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",

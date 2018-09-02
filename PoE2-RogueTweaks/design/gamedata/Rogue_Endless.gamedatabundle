@@ -15,7 +15,7 @@
             "UsageType": "None",
             "UsageValue": 0,
             "AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
-            "AbilityLevel": 0,
+            "AbilityLevel": 1,
             "IsPassive": "true",
             "StackingRuleOverride": "Default",
             "TriggerOnHit": "false",

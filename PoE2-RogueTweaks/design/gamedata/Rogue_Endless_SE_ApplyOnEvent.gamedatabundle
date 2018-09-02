@@ -5,17 +5,17 @@
         "ID": "03152d0d-a66f-4f7c-86b0-987d1df3046e",
         "Components": [{
             "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-            "StatusEffectType": "ApplyStatusEffectOnEventWithChance",
-            "OverrideDescriptionString": 271858301,
-            "UseStatusEffectValueAs": "None",
-            "BaseValue": 1,
-            "DynamicValue": {
-                "Stat": "None",
-                "SkillDataID": "00000000-0000-0000-0000-000000000000",
-                "ClassID": "00000000-0000-0000-0000-000000000000",
-                "MultiplyBy": 1,
-                "Operator": "Add"
-            },
+            "StatusEffectType": "ApplyStatusEffectOnEvent",
+			"OverrideDescriptionString": 271858301,
+			"UseStatusEffectValueAs": "None",
+			"BaseValue": 0,
+			"DynamicValue": {
+				"Stat": "None",
+				"SkillDataID": "00000000-0000-0000-0000-000000000000",
+				"ClassID": "00000000-0000-0000-0000-000000000000",
+				"MultiplyBy": 1,
+				"Operator": "Add"
+			},
             "KeywordsIDs": [],
             "DurationType": "Infinite",
             "Duration": 0,

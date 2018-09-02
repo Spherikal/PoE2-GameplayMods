@@ -1470,9 +1470,9 @@
 					"IsMutuallyExclusiveUpgrade": "true"
 				}
 			}, {
-				"Note": "PL 0 Auto Grant - The Endless Loop",
+				"Note": "PL 1 Unlock - The Endless Loop",
 				"Category": "General",
-				"UnlockStyle": "AutoGrant",
+				"UnlockStyle": "Unlock",
 				"ActivationObject": "Self",
 				"AddAbilityID": "8ae8458b-75e9-4d51-a8e8-e1c50e6701c4",
 				"RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
@@ -1480,7 +1480,7 @@
 					"MinimumCharacterLevel": 1,
 					"PowerLevelRequirement": {
 						"ClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
-						"MinimumPowerLevel": 0
+						"MinimumPowerLevel": 1
 					},
 					"RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
 					"Conditional": {

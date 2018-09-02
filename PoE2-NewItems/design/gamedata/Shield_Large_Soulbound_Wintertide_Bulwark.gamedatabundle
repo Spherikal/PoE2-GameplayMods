@@ -13,6 +13,7 @@
             "IsIngredient": "false",
             "IsCurrency": "false",
             "IsAdventuringItem": "false",
+            "IsJunk": "false",
             "CanSellForFullValue": "false",
             "MaxStackSize": 1,
             "NeverDropAsLoot": "false",

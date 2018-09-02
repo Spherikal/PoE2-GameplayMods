@@ -1,2 +1,0 @@
-cloth_outfit_ydwin_s = 0 0 42 42
-devils_caroc_s = 43 0 42 42
