@@ -1,0 +1,51 @@
+{
+    "GameDataObjects": [{
+        "$type": "Game.GameData.ProgressionTableManagerGameData, Assembly-CSharp",
+        "DebugName": "ProgressionTableManager",
+        "ID": "2be32291-5324-4410-9e26-a67d2d20b716",
+        "Components": [{
+            "$type": "Game.GameData.ProgressionTableManagerComponent, Assembly-CSharp",
+            "RacialProgressionTableID": "b2afaada-c140-42c3-9f02-2f919e45b49d",
+            "ProficienciesProgressionTableID": "a01f1324-4484-4548-a2b3-602a28dca631",
+            "ClassTables": [{
+                "CharacterClassID": "6e6750b6-61d7-4b61-9713-55957e0f0591",
+                "TableID": "dcc7b7db-c31b-4075-869c-bd660bfe4ee2"
+            }, {
+                "CharacterClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+                "TableID": "958174ed-bef9-4d9b-9bc0-25bef1864623"
+            }, {
+                "CharacterClassID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+                "TableID": "a52e8b61-9343-4716-8a55-3168be143cc4"
+            }, {
+                "CharacterClassID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+                "TableID": "8b5635bf-28b1-4836-9712-66c99553ccf2"
+            }, {
+                "CharacterClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+                "TableID": "67621a56-397e-4fae-8e04-59890b25c7fc"
+            }, {
+                "CharacterClassID": "1718929c-1faf-4292-b82c-7e2a7c20b3ab",
+                "TableID": "d574de6c-f4cb-4948-9a71-fb372700e6a5"
+            }, {
+                "CharacterClassID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+                "TableID": "879d3662-bdf7-4585-99e4-0af2df117c50"
+            }, {
+                "CharacterClassID": "f64b5a21-2dd1-41ae-8562-60ce099b25aa",
+                "TableID": "7af80bf4-f8fc-48ff-b02e-884b2e7b12f9"
+            }, {
+                "CharacterClassID": "f0036bfb-53d5-4d0c-b11a-b780d788a108",
+                "TableID": "dc561d91-7bc9-4314-acff-837511566964"
+            }, {
+                "CharacterClassID": "ccdc9675-e2a7-46fa-83e9-7a5368b56265",
+                "TableID": "12ba861c-8f31-45af-869f-e02a9a677484"
+            }, {
+                "CharacterClassID": "b4a0f1d1-b8f7-47e7-b899-99e478004a37",
+                "TableID": "6b722b30-d930-43ae-b936-248a1616f48e"
+            }],
+            "CharacterCreationAttributePoints": 25,
+            "CharacterCreationMaxAttributeGulf": 14,
+            "CharacterCreationAttributeMinimum": 3,
+            "CharacterCreationAttributeMaximum": 18,
+            "CharacterCreationBaseStat": 10
+        }]
+    }]
+}
