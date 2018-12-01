@@ -1,12 +1,12 @@
 {
     "GameDataObjects": [{
         "$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
-        "DebugName": "Breastplate_Armor_U_Casita_Samelias_Legacy",
-        "ID": "8cc0e17a-c41f-4c5b-af88-2be826d706d8",
+        "DebugName": "LAX02_Plate_Armor_U_One_Dozen_Stood",
+        "ID": "b6373e31-931a-4c06-8c3e-b2c357dbc14e",
         "Components": [{
             "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
-            "DisplayName": 2570,
-            "DescriptionText": 4927,
+            "DisplayName": 4732,
+            "DescriptionText": 4731,
             "FilterType": "Armor",
             "InventoryAudioEventListID": "3b0b476e-883e-4a9e-9a61-956eabf30b6d",
             "IsQuestItem": "false",
@@ -20,8 +20,8 @@
             "CanBePickpocketed": "true",
             "IsUnique": "true",
             "Value": 200,
-            "IconTextureSmall": "gui/icons/items/armor/breastplate/breastplate_armor_pallegina_s.png",
-            "IconTextureLarge": "gui/icons/items/armor/breastplate/breastplate_armor_pallegina_l.png",
+            "IconTextureSmall": "gui/icons/items/armor/breastplate/breastplate_armor_pallegina_fivesuns_s.png",
+            "IconTextureLarge": "gui/icons/items/armor/breastplate/breastplate_armor_pallegina_fivesuns_l.png",
             "PencilSketchTexture": "",
             "InspectOnUseButton": [],
             "IsPlaceholder": "false"
@@ -30,9 +30,9 @@
             "EquipmentType": "None",
             "EquipmentSlot": "Armor",
             "AppearancePiece": {
-                "ModelVisualDataPath": "prefabs/items/appearance/body/bp/bp04/a_bp04.asset"
+                "ModelVisualDataPath": "prefabs/items/appearance/body/bp/bp04/a_bp04_no_sash.asset"
             },
-            "ItemModsIDs": ["2f868d39-3962-4a62-a656-041121931423", "72710a5f-c6dd-4c82-b711-e2ae0aeea889"],
+            "ItemModsIDs": ["f23d7b9f-563a-4a5a-b7c4-d572e2386ddf", "6e53290b-90a2-4987-be68-8c9ab7644f55", "6bdd0b24-94ab-418a-8de4-a444a6f3d539"],
             "OnEquipVisualEffects": [],
             "RestrictedToClassIDs": [],
             "RestrictedToPlayer": "false",
@@ -51,9 +51,9 @@
             "PropVisualEffects": []
         }, {
             "$type": "Game.GameData.ArmorComponent, Assembly-CSharp",
-            "ArmorRating": 7,
-            "SpeedFactor": 0.741,
-            "ArmorCategory": "Medium",
+            "ArmorRating": 9,
+            "SpeedFactor": 0.645,
+            "ArmorCategory": "Heavy",
             "ArmorMaterial": "Plate",
             "LevelScaling": {
                 "BaseLevel": 1,
@@ -62,8 +62,8 @@
                 "ArmorRatingAdjustment": 0
             },
             "OverridePierceRating": -1,
-            "OverrideSlashRating": 5,
-            "OverrideCrushRating": -1,
+            "OverrideSlashRating": -1,
+            "OverrideCrushRating": 5,
             "OverrideBurnRating": -1,
             "OverrideFreezeRating": -1,
             "OverrideShockRating": 5,

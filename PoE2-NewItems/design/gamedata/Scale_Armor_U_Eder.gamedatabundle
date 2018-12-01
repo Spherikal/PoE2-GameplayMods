@@ -1,1 +1,80 @@
-{"GameDataObjects":[{"$type":"Game.GameData.EquippableGameData, Assembly-CSharp","DebugName":"Scale_Armor_U_Eder","ID":"cf0258c3-ecc3-413a-9d3c-53bf53208517","Components":[{"$type":"Game.GameData.ItemComponent, Assembly-CSharp","DisplayName":1826,"DescriptionText":4913,"FilterType":"Armor","InventoryAudioEventListID":"0816d104-11c9-4cd5-9980-76e6b996df11","IsQuestItem":"false","IsIngredient":"false","IsCurrency":"false","IsAdventuringItem":"false","IsJunk":"false","CanSellForFullValue":"false","MaxStackSize":1,"NeverDropAsLoot":"false","CanBePickpocketed":"true","IsUnique":"true","Value":200,"IconTextureSmall":"gui/icons/items/armor/breastplate/breastplate_armor_exceptional_s.png","IconTextureLarge":"gui/icons/items/armor/breastplate/breastplate_armor_exceptional_l.png","PencilSketchTexture":"","InspectOnUseButton":[],"IsPlaceholder":"false"},{"$type":"Game.GameData.EquippableComponent, Assembly-CSharp","EquipmentType":"None","EquipmentSlot":"Armor","AppearancePiece":{"ModelVisualDataPath":"prefabs/items/appearance/body/bp/bp05/a_bp05.asset"},"ItemModsIDs":["f7298890-a9d9-4d5b-bd29-a5059f2d2e20"],"OnEquipVisualEffects":[],"RestrictedToClassIDs":[],"RestrictedToPlayer":"false","EquipConditionals":{"Operator":0,"Components":[]},"ProficientAbilityID":"00000000-0000-0000-0000-000000000000","CannotUnequip":"false","ItemRendererPrefab":"","ItemModel":"","AnimationController":"","PaperdollOverrideRenderer":"","AttackSummonID":"00000000-0000-0000-0000-000000000000","CannotSheathe":"false","PropVisualEffects":[]},{"$type":"Game.GameData.ArmorComponent, Assembly-CSharp","ArmorRating":7,"SpeedFactor":0.741,"ArmorCategory":"Medium","ArmorMaterial":"Scale","LevelScaling":{"BaseLevel":1,"LevelIncrement":1,"MaxLevel":0,"ArmorRatingAdjustment":0},"OverridePierceRating":5,"OverrideSlashRating":-1,"OverrideCrushRating":-1,"OverrideBurnRating":-1,"OverrideFreezeRating":-1,"OverrideShockRating":-1,"OverrideCorrodeRating":5,"ImmunityPierce":"false","ImmunitySlash":"false","ImmunityCrush":"false","ImmunityBurn":"false","ImmunityFreeze":"false","ImmunityShock":"false","ImmunityCorrode":"false"}]}]}
+{
+    "GameDataObjects": [{
+        "$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+        "DebugName": "Scale_Armor_U_Eder",
+        "ID": "cf0258c3-ecc3-413a-9d3c-53bf53208517",
+        "Components": [{
+            "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+            "DisplayName": 1826,
+            "DescriptionText": 4913,
+            "FilterType": "Armor",
+            "InventoryAudioEventListID": "0816d104-11c9-4cd5-9980-76e6b996df11",
+            "IsQuestItem": "false",
+            "IsIngredient": "false",
+            "IsCurrency": "false",
+            "IsAdventuringItem": "false",
+            "IsJunk": "false",
+            "CanSellForFullValue": "false",
+            "MaxStackSize": 1,
+            "NeverDropAsLoot": "false",
+            "CanBePickpocketed": "true",
+            "IsUnique": "true",
+            "Value": 200,
+            "IconTextureSmall": "gui/icons/items/armor/breastplate/breastplate_armor_exceptional_s.png",
+            "IconTextureLarge": "gui/icons/items/armor/breastplate/breastplate_armor_exceptional_l.png",
+            "PencilSketchTexture": "",
+            "InspectOnUseButton": [],
+            "IsPlaceholder": "false"
+        }, {
+            "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+            "EquipmentType": "None",
+            "EquipmentSlot": "Armor",
+            "AppearancePiece": {
+                "ModelVisualDataPath": "prefabs/items/appearance/body/bp/bp05/a_bp05.asset"
+            },
+            "ItemModsIDs": ["f7298890-a9d9-4d5b-bd29-a5059f2d2e20"],
+            "OnEquipVisualEffects": [],
+            "RestrictedToClassIDs": [],
+            "RestrictedToPlayer": "false",
+            "EquipConditionals": {
+                "Operator": 0,
+                "Components": []
+            },
+            "ProficientAbilityID": "00000000-0000-0000-0000-000000000000",
+            "CannotUnequip": "false",
+            "ItemRendererPrefab": "",
+            "ItemModel": "",
+            "AnimationController": "",
+            "PaperdollOverrideRenderer": "",
+            "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+            "CannotSheathe": "false",
+            "PropVisualEffects": []
+        }, {
+            "$type": "Game.GameData.ArmorComponent, Assembly-CSharp",
+            "ArmorRating": 7,
+            "SpeedFactor": 0.741,
+            "ArmorCategory": "Medium",
+            "ArmorMaterial": "Scale",
+            "LevelScaling": {
+                "BaseLevel": 1,
+                "LevelIncrement": 1,
+                "MaxLevel": 0,
+                "ArmorRatingAdjustment": 0
+            },
+            "OverridePierceRating": 5,
+            "OverrideSlashRating": -1,
+            "OverrideCrushRating": -1,
+            "OverrideBurnRating": -1,
+            "OverrideFreezeRating": -1,
+            "OverrideShockRating": -1,
+            "OverrideCorrodeRating": 5,
+            "ImmunityPierce": "false",
+            "ImmunitySlash": "false",
+            "ImmunityCrush": "false",
+            "ImmunityBurn": "false",
+            "ImmunityFreeze": "false",
+            "ImmunityShock": "false",
+            "ImmunityCorrode": "false"
+        }]
+    }]
+}

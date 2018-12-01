@@ -1,1 +1,63 @@
-{"GameDataObjects":[{"$type":"Game.GameData.EquippableGameData, Assembly-CSharp","DebugName":"Shield_Medium_Heater_U_Lethandrias_Devotion","ID":"6547ba07-fa7c-41f0-bee5-f48dbcc6f3eb","Components":[{"$type":"Game.GameData.ItemComponent, Assembly-CSharp","DisplayName":5033,"DescriptionText":5093,"FilterType":"Weapons","InventoryAudioEventListID":"3e83b58f-e67b-4ba5-b2c4-964e57aa1b4f","IsQuestItem":"false","IsIngredient":"false","IsCurrency":"false","IsAdventuringItem":"false","IsJunk":"false","CanSellForFullValue":"false","MaxStackSize":1,"NeverDropAsLoot":"false","CanBePickpocketed":"true","IsUnique":"true","Value":35,"IconTextureSmall":"gui/icons/items/weapons/shield_medium/shield_medium_01_s.png","IconTextureLarge":"gui/icons/items/weapons/shield_medium/shield_medium_01_l.png","PencilSketchTexture":"","InspectOnUseButton":[],"IsPlaceholder":"false"},{"$type":"Game.GameData.EquippableComponent, Assembly-CSharp","EquipmentType":"MediumShield","EquipmentSlot":"SecondaryWeaponOnly","AppearancePiece":{"ModelVisualDataPath":"prefabs/items/appearance/weapons/shield_medium/shield_medium06.asset"},"ItemModsIDs":["92236b9d-7217-47fa-9c45-3b30b38e70a0","9f21b418-4c30-4e5d-a297-8768bb8fb0bf","9790c251-c61b-415e-aa87-5d7455a3c4cc","2f3f0fc4-3448-418e-83fd-ed6d9cfc84d9"],"OnEquipVisualEffects":[],"RestrictedToClassIDs":[],"RestrictedToPlayer":"false","EquipConditionals":{"Operator":0,"Components":[]},"ProficientAbilityID":"f2a32614-d8ce-4183-870f-96cc74d2c57a","CannotUnequip":"false","ItemRendererPrefab":"prefabs/itemrenderers/genericitemrenderer.prefab","ItemModel":"","AnimationController":"","PaperdollOverrideRenderer":"","AttackSummonID":"00000000-0000-0000-0000-000000000000","CannotSheathe":"false","PropVisualEffects":[]},{"$type":"Game.GameData.ShieldComponent, Assembly-CSharp","ShieldType":"Medium","AttachmentType":"Arm","AnimationStanceID":"82d96ea3-42dd-4466-9b8b-4a3cecf9d898","BaseDeflectBonus":8,"BaseReflexBonus":0,"BaseAccuracyBonus":-4,"AudioEventListID":"00000000-0000-0000-0000-000000000000"}]}]}
+{
+    "GameDataObjects": [{
+        "$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
+        "DebugName": "Shield_Medium_Heater_U_Lethandrias_Devotion",
+        "ID": "6547ba07-fa7c-41f0-bee5-f48dbcc6f3eb",
+        "Components": [{
+            "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+            "DisplayName": 5033,
+            "DescriptionText": 5093,
+            "FilterType": "Weapons",
+            "InventoryAudioEventListID": "3e83b58f-e67b-4ba5-b2c4-964e57aa1b4f",
+            "IsQuestItem": "false",
+            "IsIngredient": "false",
+            "IsCurrency": "false",
+            "IsAdventuringItem": "false",
+            "IsJunk": "false",
+            "CanSellForFullValue": "false",
+            "MaxStackSize": 1,
+            "NeverDropAsLoot": "false",
+            "CanBePickpocketed": "true",
+            "IsUnique": "true",
+            "Value": 35,
+            "IconTextureSmall": "gui/icons/items/weapons/shield_medium/shield_medium_01_s.png",
+            "IconTextureLarge": "gui/icons/items/weapons/shield_medium/shield_medium_01_l.png",
+            "PencilSketchTexture": "",
+            "InspectOnUseButton": [],
+            "IsPlaceholder": "false"
+        }, {
+            "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+            "EquipmentType": "MediumShield",
+            "EquipmentSlot": "SecondaryWeaponOnly",
+            "AppearancePiece": {
+                "ModelVisualDataPath": "prefabs/items/appearance/weapons/shield_medium/shield_medium06.asset"
+            },
+            "ItemModsIDs": ["92236b9d-7217-47fa-9c45-3b30b38e70a0", "9f21b418-4c30-4e5d-a297-8768bb8fb0bf", "9790c251-c61b-415e-aa87-5d7455a3c4cc", "2f3f0fc4-3448-418e-83fd-ed6d9cfc84d9"],
+            "OnEquipVisualEffects": [],
+            "RestrictedToClassIDs": [],
+            "RestrictedToPlayer": "false",
+            "EquipConditionals": {
+                "Operator": 0,
+                "Components": []
+            },
+            "ProficientAbilityID": "f2a32614-d8ce-4183-870f-96cc74d2c57a",
+            "CannotUnequip": "false",
+            "ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+            "ItemModel": "",
+            "AnimationController": "",
+            "PaperdollOverrideRenderer": "",
+            "AttackSummonID": "00000000-0000-0000-0000-000000000000",
+            "CannotSheathe": "false",
+            "PropVisualEffects": []
+        }, {
+            "$type": "Game.GameData.ShieldComponent, Assembly-CSharp",
+            "ShieldType": "Medium",
+            "AttachmentType": "Arm",
+            "AnimationStanceID": "82d96ea3-42dd-4466-9b8b-4a3cecf9d898",
+            "BaseDeflectBonus": 8,
+            "BaseReflexBonus": 0,
+            "BaseAccuracyBonus": -4,
+            "AudioEventListID": "00000000-0000-0000-0000-000000000000"
+        }]
+    }]
+}

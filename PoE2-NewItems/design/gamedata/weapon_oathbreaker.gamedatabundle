@@ -1,14 +1,14 @@
 {
     "GameDataObjects": [{
         "$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
-        "DebugName": "Club_U_Kapana_Taga",
-        "ID": "1bf30763-74a9-4be6-8ff1-e465aeb451f7",
+        "DebugName": "LAX02_Battle_Axe_U_Oathbreakers_End",
+        "ID": "85bd3754-7bb4-4786-9ce7-e08367212e1c",
         "Components": [{
             "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
-            "DisplayName": 3860,
-            "DescriptionText": 3861,
+            "DisplayName": 5464,
+            "DescriptionText": 5465,
             "FilterType": "Weapons",
-            "InventoryAudioEventListID": "81ec0468-cf25-427e-bdb6-b32013313a97",
+            "InventoryAudioEventListID": "b2b31122-0564-425c-9d76-b7640add1343",
             "IsQuestItem": "false",
             "IsIngredient": "false",
             "IsCurrency": "false",
@@ -20,29 +20,30 @@
             "CanBePickpocketed": "true",
             "IsUnique": "true",
             "Value": 35,
-            "IconTextureSmall": "gui/icons/items/weapons/sabre/sabre_mins-fortune_s.png",
-            "IconTextureLarge": "gui/icons/items/weapons/sabre/sabre_mins-fortune_l.png",
+            "IconTextureSmall": "gui/icons/items/weapons/battle_axe/axe_of_woedica_s.png",
+            "IconTextureLarge": "gui/icons/items/weapons/battle_axe/axe_of_woedica_l.png",
             "PencilSketchTexture": "",
             "InspectOnUseButton": [],
             "IsPlaceholder": "false"
         }, {
             "$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
-            "EquipmentType": "Sabre",
+            "EquipmentType": "BattleAxe",
             "EquipmentSlot": "AnyWeapon",
             "AppearancePiece": {
-                "ModelVisualDataPath": "prefabs/items/appearance/weapons/sabre/a_sabre07.asset"
+                "ModelVisualDataPath": "prefabs/lax02/appearance/weapons/great_axe/a_lax02_great_axe_200_v01.asset"
             },
-            "ItemModsIDs": ["39ad9ed8-4931-4dc0-a257-73736e637172", "4aa940c7-6a95-4be7-ad33-651afb6d5dde", "c8ba2ac7-8bf9-4092-8ba4-851251e62ec7", "443abc4c-215e-4b25-89e0-03a4aa751a4c", "e3dfed5a-60cd-4af9-a592-f0a601fca9bd"],
+            "ItemModsIDs": ["7950f6e3-24b9-4fde-b3dc-c61004498ca2", "4aa940c7-6a95-4be7-ad33-651afb6d5dde", "88e9fe1d-d5e1-4c28-921e-0cf368433dc7"],
             "OnEquipVisualEffects": [{
-                "VisualEffect": "",
-                "AttachPoint": "EmissionMesh",
+                "VisualEffect": "prefabs/effects/items/lax02/lax02_fx_oathbreakers_end.prefab",
+                "AttachPoint": "Fx_Bone_01",
                 "EmissiveColor": {
                     "A": 1,
                     "R": 1,
                     "G": 1,
                     "B": 1
                 },
-                "EmissiveGlowScale": 1.15
+                "EmissiveGlowScale": 0,
+                "ScaleToCharacter": "false"
             }],
             "RestrictedToClassIDs": [],
             "RestrictedToPlayer": "false",
@@ -50,7 +51,7 @@
                 "Operator": 0,
                 "Components": []
             },
-            "ProficientAbilityID": "11d2067c-4af7-45ad-ba02-eb098119a4c5",
+            "ProficientAbilityID": "153274a8-40ed-49df-a4d1-9bfc8a78ed2d",
             "CannotUnequip": "false",
             "ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
             "ItemModel": "",
@@ -62,17 +63,17 @@
         }, {
             "$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
             "Stance": "OneHanded",
-            "AnimationStanceID": "42de436a-5f52-4bc5-8310-076eb320abc4",
+            "AnimationStanceID": "2bfb014c-53e1-44d0-82c8-3c3ff7a6741e",
             "StatusEffectsOnLaunchIDs": [],
             "IsDisplayedWhenAlternate": "true",
             "IsUniversalType": "false",
-            "AttackID": "137ac8f4-d734-4629-bb67-c281d0418ad1",
+            "AttackID": "8ba71530-66dd-4512-adfe-68870d26db2d",
             "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
-            "ForceBackScabbard": "false",
+            "ForceBackScabbard": "true",
             "ScabbardAppearancePiece": {
-                "ModelVisualDataPath": "prefabs/items/appearance/weapons/sabre/a_sabre07_scabbard.asset"
+                "ModelVisualDataPath": ""
             },
-            "ScabbardRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+            "ScabbardRendererPrefab": "",
             "ScabbardModel": "",
             "AudioEventListID": "00000000-0000-0000-0000-000000000000"
         }]

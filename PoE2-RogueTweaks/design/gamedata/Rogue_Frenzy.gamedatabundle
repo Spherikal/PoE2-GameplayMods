@@ -1,1 +1,84 @@
-{"GameDataObjects":[{"$type":"Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp","DebugName":"Rogue_Frenzy","ID":"e1fe8bba-6992-4819-8e4e-2d745271050b","Components":[{"$type":"Game.GameData.GenericAbilityComponent, Assembly-CSharp","KeywordsIDs":[],"DisplayName":271858301,"Description":271858302,"UpgradeDescriptions":[],"UpgradedFromID":"00000000-0000-0000-0000-000000000000","Vocalization":"BarbarianShout","Icon":"gui/icons/abilities/monk/mortification.png","UsageType":"ClassPowerPool","UsageValue":1,"AbilityClassID":"8efd7667-8bc9-4020-b7f6-5a91b9d04e48","AbilityLevel":1,"IsPassive":"false","StackingRuleOverride":"Default","TriggerOnHit":"false","IsModal":"false","ModalGroupID":"00000000-0000-0000-0000-000000000000","IsCombatOnly":"false","IsNonCombatOnly":"false","HideFromUI":"false","HideFromCombatLog":"false","UniqueSet":"None","NoiseLevelID":"82bc1ce9-3a81-41ca-a61a-cc1f73a53de7","DurationOverride":0,"OverrideEmpower":"Default","ClearsOnMovement":"false","CannotActivateWhileInStealth":"false","CannotActivateWhileInvisible":"false","ActivationPrerequisites":{"Conditional":{"Operator":0,"Components":[]}},"ApplicationPrerequisites":{"Conditional":{"Operator":0,"Components":[]}},"DeactivationPrerequisites":{"Conditional":{"Operator":0,"Components":[]}},"PowerLevelScaling":{"BaseLevel":0,"LevelIncrement":1,"MaxLevel":0,"DamageAdjustment":1,"DurationAdjustment":1,"BounceCountAdjustment":0,"ProjectileCountAdjustment":0,"AccuracyAdjustment":0,"PenetrationAdjustment":0},"StatusEffectKeywordsIDs":[],"StatusEffectsIDs":["d8884644-10b2-4ca0-a9c8-0e2875d9adbc","9ac0f508-7dcf-47e3-9e2d-ef6b2006968f","808e813a-876d-49d0-8141-944e1836fc56","aa9752bb-b2b1-4212-a542-aba1a80fbdb1"],"VisualEffects":[],"SelfMaterialReplacementID":"00000000-0000-0000-0000-000000000000","AttackID":"a529af64-c667-41f0-aaa0-3902663a8a18","AITargetingConditional":{"Conditional":{"Operator":0,"Components":[]},"Scripts":[]},"AudioEventListID":"f2c3be05-cc14-4ca9-a277-345ce0450ab4"},{"$type":"Game.GameData.SpecialGenericAbilityComponent, Assembly-CSharp","SpecialGenericAbilityType":"Frenzy"},{"$type":"Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"}]}]}
+{
+    "GameDataObjects": [{
+        "$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+        "DebugName": "Rogue_Frenzy",
+        "ID": "e1fe8bba-6992-4819-8e4e-2d745271050b",
+        "Components": [{
+            "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+            "KeywordsIDs": [],
+            "DisplayName": 271858301,
+            "Description": 271858302,
+            "UpgradeDescriptions": [],
+            "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+            "Vocalization": "BarbarianShout",
+            "Icon": "gui/icons/abilities/monk/mortification.png",
+            "UsageType": "ClassPowerPool",
+            "UsageValue": 1,
+            "AbilityClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+            "AbilityLevel": 1,
+            "IsPassive": "false",
+            "StackingRuleOverride": "Default",
+            "TriggerOnHit": "false",
+            "IsModal": "false",
+            "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+            "IsCombatOnly": "false",
+            "IsNonCombatOnly": "false",
+            "HideFromUI": "false",
+            "HideFromCombatLog": "false",
+            "UniqueSet": "None",
+            "NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+            "DurationOverride": 0,
+            "OverrideEmpower": "Default",
+            "ClearsOnMovement": "false",
+            "CannotActivateWhileInStealth": "false",
+            "CannotActivateWhileInvisible": "false",
+            "ActivationPrerequisites": {
+                "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                }
+            },
+            "ApplicationPrerequisites": {
+                "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                }
+            },
+            "DeactivationPrerequisites": {
+                "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                }
+            },
+            "PowerLevelScaling": {
+                "BaseLevel": 0,
+                "LevelIncrement": 1,
+                "MaxLevel": 0,
+                "DamageAdjustment": 1,
+                "DurationAdjustment": 1,
+                "BounceCountAdjustment": 0,
+                "ProjectileCountAdjustment": 0,
+                "AccuracyAdjustment": 0,
+                "PenetrationAdjustment": 0
+            },
+            "StatusEffectKeywordsIDs": [],
+            "StatusEffectsIDs": ["d8884644-10b2-4ca0-a9c8-0e2875d9adbc", "9ac0f508-7dcf-47e3-9e2d-ef6b2006968f", "808e813a-876d-49d0-8141-944e1836fc56", "aa9752bb-b2b1-4212-a542-aba1a80fbdb1"],
+            "VisualEffects": [],
+            "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+            "AttackID": "a529af64-c667-41f0-aaa0-3902663a8a18",
+            "AITargetingConditional": {
+                "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                },
+                "Scripts": []
+            },
+            "AudioEventListID": "f2c3be05-cc14-4ca9-a277-345ce0450ab4"
+        }, {
+            "$type": "Game.GameData.SpecialGenericAbilityComponent, Assembly-CSharp",
+            "SpecialGenericAbilityType": "Frenzy"
+        }, {
+            "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }]
+    }]
+}

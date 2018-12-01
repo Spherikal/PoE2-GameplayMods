@@ -1,20 +1,20 @@
 {
     "GameDataObjects": [{
         "$type": "Game.GameData.AttackMeleeGameData, Assembly-CSharp",
-        "DebugName": "Lay_on_Hands_Melee",
-        "ID": "483142fd-44d7-44c7-a1e7-b5b0abaab833",
+        "DebugName": "LAX02_Battle_Axe_Oathbreakers_End",
+        "ID": "8ba71530-66dd-4512-adfe-68870d26db2d",
         "Components": [{
             "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
-            "KeywordsIDs": [],
-            "AttackDistance": 10,
+            "KeywordsIDs": ["1ff22d3b-e7f5-4803-952d-2e3ee7bc515a"],
+            "AttackDistance": 0.75,
             "MinAttackDistance": 0,
-            "AttackVariationID": "dd5934cf-0e6f-4f4a-8f92-3d3102090e8f",
+            "AttackVariationID": "536366a9-5173-415f-89a6-be3127e0fb68",
             "UseParentEquippableHand": "false",
             "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
-            "RecoveryTimeID": "2065a64b-0d53-48b8-9cfd-600992c389fd",
+            "RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
             "ImpactDelay": 0,
             "ForcedTarget": "None",
-            "AffectedTargetType": "Ally",
+            "AffectedTargetType": "All",
             "AffectedTargetConditional": {
                 "Conditional": {
                     "Operator": 0,
@@ -26,45 +26,25 @@
             "PushDistance": 0,
             "FaceTarget": "true",
             "AccuracyBonus": 0,
-            "PenetrationRating": 0,
+            "PenetrationRating": 7,
             "DamageData": {
-                "DamageType": "None",
+                "DamageType": "Slash",
                 "AlternateDamageType": "None",
-                "Minimum": 0,
-                "Maximum": 0,
+                "Minimum": 13,
+                "Maximum": 19,
                 "DamageProcs": []
             },
             "RequiresHitObject": "true",
             "StatusEffectKeywordsIDs": [],
-            "StatusEffectsIDs": ["fbdf499a-ea26-4f90-8832-28c6b1ea3751"],
+            "StatusEffectsIDs": [],
             "RandomizeStatusEffect": "false",
             "CanGraze": "false",
             "CanCrit": "true",
-            "DefendedBy": "None",
+            "DefendedBy": "Deflect",
             "AfflictionsDefendedBy": "None",
             "AfflictionApplicationModifier": "None",
             "SubstituteHitVisualEffect": "",
-            "VisualEffects": [{
-                "VisualEffect": "prefabs/effects/abilities/paladin/fx_lay_on_hands_start.prefab",
-                "AttachPoint": "RightWeapon",
-                "AttachObject": "Caster",
-                "AttachMode": "Attach",
-                "MeshType": "None",
-                "Event": "OnAnimEvent",
-                "AnimEventID": 0,
-                "Loop": "true",
-                "Scale": "false"
-            }, {
-                "VisualEffect": "prefabs/effects/abilities/paladin/fx_lay_on_hands_target.prefab",
-                "AttachPoint": "Chest",
-                "AttachObject": "Target",
-                "AttachMode": "Attach",
-                "MeshType": "None",
-                "Event": "OnHit",
-                "AnimEventID": 0,
-                "Loop": "false",
-                "Scale": "false"
-            }],
+            "VisualEffects": [],
             "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
             "ExtraAttackID": "00000000-0000-0000-0000-000000000000",
             "LaunchBone": "RightWeapon",
@@ -85,12 +65,18 @@
             "BounceData": {
                 "Bounces": 0,
                 "Multiplier": 0.5,
-                "Range": 10,
-                "InRangeOrder": "false",
+                "Range": 4,
+                "InRangeOrder": "true",
                 "NoRepeatTargets": "false",
-                "AlwaysBounceAtEnemies": "false",
+                "AlwaysBounceAtEnemies": "true",
                 "Delay": 0,
                 "NeverBounce": "false"
+            },
+            "AttackValidityConditional": {
+                "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                }
             }
         }, {
             "$type": "Game.GameData.AttackMeleeComponent, Assembly-CSharp",
