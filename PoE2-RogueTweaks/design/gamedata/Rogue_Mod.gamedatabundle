@@ -429,7 +429,19 @@
                     "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
                     "Conditional": {
                         "Operator": 0,
-                        "Components": []
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["2f69fd41-cf0e-4638-b76d-ff44d7d88726"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 1231916529,
+                                "ParameterHash": -1650301299
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }]
                     },
                     "VisibilityConditional": {
                         "Operator": 0,
@@ -453,7 +465,19 @@
                     "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
                     "Conditional": {
                         "Operator": 0,
-                        "Components": []
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["2f69fd41-cf0e-4638-b76d-ff44d7d88726"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 1231916529,
+                                "ParameterHash": -1650301299
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }]
                     },
                     "VisibilityConditional": {
                         "Operator": 0,
@@ -477,7 +501,19 @@
                     "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
                     "Conditional": {
                         "Operator": 0,
-                        "Components": []
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["2f69fd41-cf0e-4638-b76d-ff44d7d88726"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 1231916529,
+                                "ParameterHash": -1650301299
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }]
                     },
                     "VisibilityConditional": {
                         "Operator": 0,
@@ -501,7 +537,19 @@
                     "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
                     "Conditional": {
                         "Operator": 0,
-                        "Components": []
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["2f69fd41-cf0e-4638-b76d-ff44d7d88726"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 1231916529,
+                                "ParameterHash": -1650301299
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }]
                     },
                     "VisibilityConditional": {
                         "Operator": 0,
@@ -525,7 +573,19 @@
                     "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
                     "Conditional": {
                         "Operator": 0,
-                        "Components": []
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["2f69fd41-cf0e-4638-b76d-ff44d7d88726"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 1231916529,
+                                "ParameterHash": -1650301299
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }]
                     },
                     "VisibilityConditional": {
                         "Operator": 0,
@@ -1470,6 +1530,150 @@
                     "IsMutuallyExclusiveUpgrade": "true"
                 }
             }, {
+                "Note": "PL 0 Auto Grant - Debonaire",
+                "Category": "General",
+                "UnlockStyle": "AutoGrant",
+                "ActivationObject": "Self",
+                "AddAbilityID": "f40fc5b9-0b66-483f-9f30-34a76d567845",
+                "RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+                "Prerequisites": {
+                    "MinimumCharacterLevel": 1,
+                    "PowerLevelRequirement": {
+                        "ClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+                        "MinimumPowerLevel": 0
+                    },
+                    "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+                    "Conditional": {
+                        "Operator": 0,
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["7b47fce1-6511-4cef-8982-abbf0e0f10a9"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 1231916529,
+                                "ParameterHash": -892008835
+                            },
+                            "Not": false,
+                            "Operator": 0
+                        }]
+                    },
+                    "VisibilityConditional": {
+                        "Operator": 0,
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["7b47fce1-6511-4cef-8982-abbf0e0f10a9"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 1231916529,
+                                "ParameterHash": -892008835
+                            },
+                            "Not": false,
+                            "Operator": 0
+                        }]
+                    },
+                    "IsMutuallyExclusiveUpgrade": "true"
+                }
+            }, {
+                "Note": "PL 0 Auto Grant - Roguish Charm",
+                "Category": "General",
+                "UnlockStyle": "AutoGrant",
+                "ActivationObject": "Self",
+                "AddAbilityID": "b75184f8-63d7-44e3-901d-9c9205ad538c",
+                "RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+                "Prerequisites": {
+                    "MinimumCharacterLevel": 1,
+                    "PowerLevelRequirement": {
+                        "ClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+                        "MinimumPowerLevel": 0
+                    },
+                    "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+                    "Conditional": {
+                        "Operator": 0,
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["7b47fce1-6511-4cef-8982-abbf0e0f10a9"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 1231916529,
+                                "ParameterHash": -892008835
+                            },
+                            "Not": false,
+                            "Operator": 0
+                        }]
+                    },
+                    "VisibilityConditional": {
+                        "Operator": 0,
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["7b47fce1-6511-4cef-8982-abbf0e0f10a9"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 1231916529,
+                                "ParameterHash": -892008835
+                            },
+                            "Not": false,
+                            "Operator": 0
+                        }]
+                    },
+                    "IsMutuallyExclusiveUpgrade": "true"
+                }
+            }, {
+                "Note": "PL 0 Auto Grant - Cowardice",
+                "Category": "General",
+                "UnlockStyle": "AutoGrant",
+                "ActivationObject": "Self",
+                "AddAbilityID": "26890e79-a660-4593-ae57-08607d5cf296",
+                "RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+                "Prerequisites": {
+                    "MinimumCharacterLevel": 1,
+                    "PowerLevelRequirement": {
+                        "ClassID": "8efd7667-8bc9-4020-b7f6-5a91b9d04e48",
+                        "MinimumPowerLevel": 0
+                    },
+                    "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+                    "Conditional": {
+                        "Operator": 0,
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["7b47fce1-6511-4cef-8982-abbf0e0f10a9"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 1231916529,
+                                "ParameterHash": -892008835
+                            },
+                            "Not": false,
+                            "Operator": 0
+                        }]
+                    },
+                    "VisibilityConditional": {
+                        "Operator": 0,
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["7b47fce1-6511-4cef-8982-abbf0e0f10a9"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 1231916529,
+                                "ParameterHash": -892008835
+                            },
+                            "Not": false,
+                            "Operator": 0
+                        }]
+                    },
+                    "IsMutuallyExclusiveUpgrade": "true"
+                }
+            }, {
                 "Note": "PL 1 Unlock - The Endless Loop",
                 "Category": "General",
                 "UnlockStyle": "Unlock",
@@ -1485,11 +1689,35 @@
                     "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
                     "Conditional": {
                         "Operator": 0,
-                        "Components": []
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 0,
+                                "ParameterHash": 0
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }]
                     },
                     "VisibilityConditional": {
                         "Operator": 0,
-                        "Components": []
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 0,
+                                "ParameterHash": 0
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }]
                     },
                     "IsMutuallyExclusiveUpgrade": "true"
                 }
@@ -1509,11 +1737,35 @@
                     "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
                     "Conditional": {
                         "Operator": 0,
-                        "Components": []
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 0,
+                                "ParameterHash": 0
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }]
                     },
                     "VisibilityConditional": {
                         "Operator": 0,
-                        "Components": []
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 0,
+                                "ParameterHash": 0
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }]
                     },
                     "IsMutuallyExclusiveUpgrade": "true"
                 }
@@ -2052,19 +2304,32 @@
                         "Components": [{
                             "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                             "Data": {
-                                "FullName": "Boolean ProgressionTableHasAbility(Guid)",
-                                "Parameters": ["e1fe8bba-6992-4819-8e4e-2d745271050b"],
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
+                                "Flags": "",
                                 "UnrealCall": "",
                                 "FunctionHash": 0,
                                 "ParameterHash": 0
                             },
-                            "Not": false,
+                            "Not": true,
                             "Operator": 0
                         }]
                     },
                     "VisibilityConditional": {
                         "Operator": 0,
-                        "Components": []
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["b20b6721-67a5-45f9-9ae0-83f4686eccd9"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 0,
+                                "ParameterHash": 0
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }]
                     },
                     "IsMutuallyExclusiveUpgrade": "true"
                 }

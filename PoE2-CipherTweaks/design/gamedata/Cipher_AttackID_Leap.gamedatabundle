@@ -12,6 +12,7 @@
             "UseParentEquippableHand": "false",
             "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
             "RecoveryTimeID": "cd5ad068-453b-41f9-8779-db38ff00dd20",
+            "OverrideTacticalActionType": "None",
             "ImpactDelay": 0,
             "ForcedTarget": "None",
             "AffectedTargetType": "All",
@@ -81,6 +82,12 @@
                 "AlwaysBounceAtEnemies": "false",
                 "Delay": 0,
                 "NeverBounce": "false"
+            },
+            "AttackValidityConditional": {
+                "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                }
             }
         }, {
             "$type": "Game.GameData.TeleportAttackComponent, Assembly-CSharp",

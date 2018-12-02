@@ -7,6 +7,7 @@
             "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
             "DisplayName": 3856,
             "DescriptionText": 3857,
+            "DescriptionTextTactical": -1,
             "FilterType": "Clothing",
             "InventoryAudioEventListID": "50b61346-2a8e-4595-a76f-85c497adab02",
             "IsQuestItem": "false",

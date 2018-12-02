@@ -7,6 +7,7 @@
             "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
             "DisplayName": 5464,
             "DescriptionText": 5465,
+            "DescriptionTextTactical": -1,
             "FilterType": "Weapons",
             "InventoryAudioEventListID": "b2b31122-0564-425c-9d76-b7640add1343",
             "IsQuestItem": "false",

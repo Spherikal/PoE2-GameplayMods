@@ -13,6 +13,7 @@
             "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
             "StatusEffectType": "None",
             "OverrideDescriptionString": -1,
+            "OverrideDescriptionStringTactical": -1,
             "UseStatusEffectValueAs": "Child",
             "BaseValue": 0,
             "DynamicValue": {
@@ -24,7 +25,7 @@
             },
             "KeywordsIDs": ["4cb9e779-269f-42e3-8855-feabb837d50c", "147667b0-6ef2-444e-b0e4-97622f3d8329"],
             "DurationType": "UseDurationTime",
-            "Duration": 8,
+            "Duration": 6,
             "MaxStackQuantity": 0,
             "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
             "ApplicationType": "ApplyOnStart",
@@ -78,6 +79,10 @@
             "AttackFilter": {
                 "KeywordsIDs": [],
                 "KeywordLogic": "Or",
+                "Race": "None",
+                "IsKith": "false",
+                "HealthPercentage": 0,
+                "HealthOperator": "EqualTo",
                 "Range": "None",
                 "ClassTypeID": "00000000-0000-0000-0000-000000000000",
                 "Source": "None",
@@ -89,7 +94,8 @@
                 "PowerLevel": 0,
                 "PowerLevelOperator": "EqualTo",
                 "ChanceToApply": 1,
-                "AttackHostility": "Default"
+                "AttackHostility": "Default",
+                "TargetType": "None"
             },
             "AttackTargetFilter": {
                 "KeywordsIDs": [],

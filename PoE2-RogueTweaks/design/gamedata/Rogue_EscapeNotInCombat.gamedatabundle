@@ -8,6 +8,7 @@
             "KeywordsIDs": [],
             "DisplayName": 360,
             "Description": 921,
+            "DescriptionTactical": -1,
             "UpgradeDescriptions": [],
             "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
             "Vocalization": "NoVocalization",
@@ -74,7 +75,8 @@
                 },
                 "Scripts": []
             },
-            "AudioEventListID": "63ee55df-f554-4203-b034-00ff2cddcb63"
+            "AudioEventListID": "63ee55df-f554-4203-b034-00ff2cddcb63",
+            "GrantedViaScript": "false"
         }, {
             "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
         }]

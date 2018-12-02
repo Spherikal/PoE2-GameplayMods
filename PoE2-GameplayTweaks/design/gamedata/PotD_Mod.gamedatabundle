@@ -83,11 +83,11 @@
                 "HostileEffectDurationMultiplier": 1
             }, {
                 "Difficulty": "Hard",
-                "HealthMultiplier": 1,
-                "AccuracyBonus": 0,
-                "DefenseBonus": 0,
-                "ArmorBonus": 0,
-                "PenetrationBonus": 0,
+                "HealthMultiplier": 1.12,
+                "AccuracyBonus": 8,
+                "DefenseBonus": 8,
+                "ArmorBonus": 1,
+                "PenetrationBonus": 1,
                 "LevelMultiplier": 1,
                 "RecoveryTimeMultiplier": 1,
                 "DisengagementAccuracyBonus": 0,
@@ -95,10 +95,10 @@
             }, {
                 "Difficulty": "PathOfTheDamned",
                 "HealthMultiplier": 1.25,
-                "AccuracyBonus": 5,
-                "DefenseBonus": 5,
-                "ArmorBonus": 0,
-                "PenetrationBonus": 0,
+                "AccuracyBonus": 12,
+                "DefenseBonus": 12,
+                "ArmorBonus": 1,
+                "PenetrationBonus": 1,
                 "LevelMultiplier": 1,
                 "RecoveryTimeMultiplier": 1,
                 "DisengagementAccuracyBonus": 0,
@@ -268,7 +268,10 @@
             "ItemModCostMultiplier": 250,
             "AdventurerCostMultiplier": 250,
             "RespecCostMultiplier": 125,
-            "TwoHandedCostMultiplier": 1.5
+            "TwoHandedCostMultiplier": 1.5,
+            "BlessingCostMultiplier": 0.8,
+            "PetMeldingNoBonusCost": 1000,
+            "PetMeldingWithBonusCost": 2000
         }, {
             "$type": "Game.GameData.AppearanceVariationSettingsComponent, Assembly-CSharp",
             "SubraceSkinVariationTags": [{
@@ -1059,7 +1062,12 @@
             }],
             "CombatMoveSpeedMultiplier": 0.85,
             "StealthLingerDuration": 2,
-            "CastHeightRange": 100
+            "CastHeightRange": 100,
+            "HighSpellShapingAreaAdjustment": 1.5,
+            "LowSpellShapingAreaAdjustment": 0.5,
+            "HighSpellShapingPowerLevelAdjustment": -5,
+            "LowSpellShapingPowerLevelAdjustment": 1,
+            "InvocationChantDelay": 2
         }, {
             "$type": "Game.GameData.TownieScheduleSettingsComponent, Assembly-CSharp",
             "MinWaypointsToVisit": 2,

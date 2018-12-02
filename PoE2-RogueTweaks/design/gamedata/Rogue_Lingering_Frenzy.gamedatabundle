@@ -8,8 +8,10 @@
             "KeywordsIDs": [],
             "DisplayName": 271858303,
             "Description": 271858302,
+            "DescriptionTactical": -1,
             "UpgradeDescriptions": [{
-                "String": 271858304
+                "String": 271858304,
+                "StringTactical": -1
             }],
             "UpgradedFromID": "e1fe8bba-6992-4819-8e4e-2d745271050b",
             "Vocalization": "BarbarianShout",
@@ -76,7 +78,8 @@
                 },
                 "Scripts": []
             },
-            "AudioEventListID": "f17dc73d-ae3a-402c-b685-60aedce180a8"
+            "AudioEventListID": "f17dc73d-ae3a-402c-b685-60aedce180a8",
+            "GrantedViaScript": "false"
         }, {
             "$type": "Game.GameData.SpecialGenericAbilityComponent, Assembly-CSharp",
             "SpecialGenericAbilityType": "Frenzy"

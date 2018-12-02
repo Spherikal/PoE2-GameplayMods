@@ -12,6 +12,7 @@
             "RequireSubclass": "false",
             "Icon": "gui/icons/gamesystems/class_barbarian_l.png",
             "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_barbarian.png",
+            "TabNugget": "",
             "AccruedResourceIcon": "",
             "SkillsList": [{
                 "SkillID": "3ad9194b-4f41-480e-aa75-1c82df43be84",
@@ -89,7 +90,8 @@
             }],
             "ImprovedUnarmedAttack": "false",
             "UsesGrimoires": "false",
-            "AccruedResourceAbilitiesAreSpells": "false"
+            "AccruedResourceAbilitiesAreSpells": "false",
+            "SpellsAreShapable": "false"
         }]
     }, {
         "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
@@ -104,6 +106,7 @@
             "RequireSubclass": "false",
             "Icon": "gui/icons/gamesystems/class_chanter_l.png",
             "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_chanter.png",
+            "TabNugget": "gui/images/ingamehud/actionbar/hud_tabnugget_chanter.png",
             "AccruedResourceIcon": "gui/icons/gamesystems/actionbar_leader_chanter_resource.png",
             "SkillsList": [{
                 "SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
@@ -196,7 +199,8 @@
             }],
             "ImprovedUnarmedAttack": "false",
             "UsesGrimoires": "false",
-            "AccruedResourceAbilitiesAreSpells": "true"
+            "AccruedResourceAbilitiesAreSpells": "true",
+            "SpellsAreShapable": "true"
         }]
     }, {
         "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
@@ -211,6 +215,7 @@
             "RequireSubclass": "false",
             "Icon": "gui/icons/gamesystems/class_cipher_l.png",
             "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_cipher.png",
+            "TabNugget": "gui/images/ingamehud/actionbar/hud_tabnugget_cipher.png",
             "AccruedResourceIcon": "gui/icons/gamesystems/actionbar_leader_cipher_resource.png",
             "SkillsList": [{
                 "SkillID": "f5d2c2bf-1ffd-4741-b6d8-31ae01985d4b",
@@ -300,7 +305,8 @@
             }],
             "ImprovedUnarmedAttack": "false",
             "UsesGrimoires": "false",
-            "AccruedResourceAbilitiesAreSpells": "true"
+            "AccruedResourceAbilitiesAreSpells": "true",
+            "SpellsAreShapable": "false"
         }]
     }, {
         "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
@@ -315,6 +321,7 @@
             "RequireSubclass": "true",
             "Icon": "gui/icons/gamesystems/class_druid_l.png",
             "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_druid.png",
+            "TabNugget": "gui/images/ingamehud/actionbar/hud_tabnugget_druid.png",
             "AccruedResourceIcon": "",
             "SkillsList": [{
                 "SkillID": "98051b85-d7e5-4746-a66c-260e2fcd2d4b",
@@ -401,7 +408,8 @@
             }],
             "ImprovedUnarmedAttack": "false",
             "UsesGrimoires": "false",
-            "AccruedResourceAbilitiesAreSpells": "false"
+            "AccruedResourceAbilitiesAreSpells": "false",
+            "SpellsAreShapable": "true"
         }]
     }, {
         "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
@@ -416,6 +424,7 @@
             "RequireSubclass": "false",
             "Icon": "gui/icons/gamesystems/class_fighter_l.png",
             "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_fighter.png",
+            "TabNugget": "",
             "AccruedResourceIcon": "",
             "SkillsList": [{
                 "SkillID": "9c7962b8-bf69-4670-ba67-acc86a09fca8",
@@ -481,7 +490,8 @@
             }],
             "ImprovedUnarmedAttack": "false",
             "UsesGrimoires": "false",
-            "AccruedResourceAbilitiesAreSpells": "false"
+            "AccruedResourceAbilitiesAreSpells": "false",
+            "SpellsAreShapable": "false"
         }]
     }, {
         "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
@@ -496,6 +506,7 @@
             "RequireSubclass": "false",
             "Icon": "gui/icons/gamesystems/class_monk_l.png",
             "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_monk.png",
+            "TabNugget": "gui/images/ingamehud/actionbar/hud_tabnugget_monk.png",
             "AccruedResourceIcon": "gui/icons/gamesystems/actionbar_leader_monk_resource.png",
             "SkillsList": [{
                 "SkillID": "98cc5a0d-1387-42e3-9202-417bc42b53ad",
@@ -558,7 +569,8 @@
             }],
             "ImprovedUnarmedAttack": "true",
             "UsesGrimoires": "false",
-            "AccruedResourceAbilitiesAreSpells": "false"
+            "AccruedResourceAbilitiesAreSpells": "false",
+            "SpellsAreShapable": "false"
         }]
     }, {
         "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
@@ -573,6 +585,7 @@
             "RequireSubclass": "true",
             "Icon": "gui/icons/gamesystems/class_paladin_l.png",
             "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_paladin.png",
+            "TabNugget": "gui/images/ingamehud/actionbar/hud_tabnugget_paladin.png",
             "AccruedResourceIcon": "",
             "SkillsList": [{
                 "SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
@@ -632,7 +645,8 @@
             }],
             "ImprovedUnarmedAttack": "false",
             "UsesGrimoires": "false",
-            "AccruedResourceAbilitiesAreSpells": "false"
+            "AccruedResourceAbilitiesAreSpells": "false",
+            "SpellsAreShapable": "false"
         }]
     }, {
         "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
@@ -647,6 +661,7 @@
             "RequireSubclass": "true",
             "Icon": "gui/icons/gamesystems/class_priest_l.png",
             "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_priest.png",
+            "TabNugget": "gui/images/ingamehud/actionbar/hud_tabnugget_priest.png",
             "AccruedResourceIcon": "",
             "SkillsList": [{
                 "SkillID": "c6b6f87a-0381-4219-93eb-77ae2b64f0af",
@@ -721,7 +736,8 @@
             }],
             "ImprovedUnarmedAttack": "false",
             "UsesGrimoires": "false",
-            "AccruedResourceAbilitiesAreSpells": "false"
+            "AccruedResourceAbilitiesAreSpells": "false",
+            "SpellsAreShapable": "true"
         }]
     }, {
         "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
@@ -736,6 +752,7 @@
             "RequireSubclass": "false",
             "Icon": "gui/icons/gamesystems/class_ranger_l.png",
             "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_ranger.png",
+            "TabNugget": "gui/images/ingamehud/actionbar/hud_tabnugget_ranger.png",
             "AccruedResourceIcon": "",
             "SkillsList": [{
                 "SkillID": "c7e22ee0-bdd6-4ca8-99f0-a46f3dd66606",
@@ -789,7 +806,8 @@
             }],
             "ImprovedUnarmedAttack": "false",
             "UsesGrimoires": "false",
-            "AccruedResourceAbilitiesAreSpells": "false"
+            "AccruedResourceAbilitiesAreSpells": "false",
+            "SpellsAreShapable": "false"
         }]
     }, {
         "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
@@ -804,6 +822,7 @@
             "RequireSubclass": "false",
             "Icon": "gui/icons/gamesystems/class_rogue_l.png",
             "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_rogue.png",
+            "TabNugget": "gui/images/ingamehud/actionbar/hud_tabnugget_rogue.png",
             "AccruedResourceIcon": "",
             "SkillsList": [{
                 "SkillID": "6fa62ec8-6695-4a1d-8553-7486b0ac20c4",
@@ -854,7 +873,8 @@
             }],
             "ImprovedUnarmedAttack": "false",
             "UsesGrimoires": "false",
-            "AccruedResourceAbilitiesAreSpells": "false"
+            "AccruedResourceAbilitiesAreSpells": "false",
+            "SpellsAreShapable": "false"
         }]
     }, {
         "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
@@ -869,6 +889,7 @@
             "RequireSubclass": "false",
             "Icon": "gui/icons/gamesystems/class_wizard_l.png",
             "PowerPoolIcon": "gui/icons/gamesystems/actionbar_leader_wizard.png",
+            "TabNugget": "gui/images/ingamehud/actionbar/hud_tabnugget_wizard.png",
             "AccruedResourceIcon": "",
             "SkillsList": [{
                 "SkillID": "f5d2c2bf-1ffd-4741-b6d8-31ae01985d4b",
@@ -934,7 +955,8 @@
             "HybridClassTitles": [],
             "ImprovedUnarmedAttack": "false",
             "UsesGrimoires": "true",
-            "AccruedResourceAbilitiesAreSpells": "false"
+            "AccruedResourceAbilitiesAreSpells": "false",
+            "SpellsAreShapable": "true"
         }]
     }]
 }

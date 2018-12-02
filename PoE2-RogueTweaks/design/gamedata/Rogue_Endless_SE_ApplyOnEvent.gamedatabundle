@@ -7,8 +7,9 @@
             "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
             "StatusEffectType": "ApplyStatusEffectOnEvent",
             "OverrideDescriptionString": 271858301,
+            "OverrideDescriptionStringTactical": -1,
             "UseStatusEffectValueAs": "None",
-            "BaseValue": 0,
+            "BaseValue": 1,
             "DynamicValue": {
                 "Stat": "None",
                 "SkillDataID": "00000000-0000-0000-0000-000000000000",
@@ -65,6 +66,10 @@
             "AttackFilter": {
                 "KeywordsIDs": [],
                 "KeywordLogic": "Or",
+                "Race": "None",
+                "IsKith": "false",
+                "HealthPercentage": 0,
+                "HealthOperator": "EqualTo",
                 "Range": "None",
                 "ClassTypeID": "00000000-0000-0000-0000-000000000000",
                 "Source": "None",
@@ -76,7 +81,8 @@
                 "PowerLevel": 0,
                 "PowerLevelOperator": "EqualTo",
                 "ChanceToApply": 1,
-                "AttackHostility": "Default"
+                "AttackHostility": "Default",
+                "TargetType": "None"
             },
             "AttackTargetFilter": {
                 "KeywordsIDs": [],

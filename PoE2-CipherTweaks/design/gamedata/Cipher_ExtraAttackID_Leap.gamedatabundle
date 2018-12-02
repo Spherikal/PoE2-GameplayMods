@@ -12,6 +12,7 @@
             "UseParentEquippableHand": "false",
             "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
             "RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
+            "OverrideTacticalActionType": "None",
             "ImpactDelay": 0,
             "ForcedTarget": "Self",
             "AffectedTargetType": "Hostile",
@@ -91,6 +92,12 @@
                 "AlwaysBounceAtEnemies": "false",
                 "Delay": 0,
                 "NeverBounce": "false"
+            },
+            "AttackValidityConditional": {
+                "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                }
             }
         }, {
             "$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",

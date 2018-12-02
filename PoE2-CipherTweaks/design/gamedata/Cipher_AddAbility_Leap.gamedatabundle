@@ -8,6 +8,7 @@
             "KeywordsIDs": [],
             "DisplayName": 271858101,
             "Description": 271858102,
+            "DescriptionTactical": -1,
             "UpgradeDescriptions": [],
             "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
             "Vocalization": "BarbarianShout",
@@ -74,7 +75,8 @@
                 },
                 "Scripts": []
             },
-            "AudioEventListID": "0636eacc-ab45-40d0-9abb-2b4f934bb442"
+            "AudioEventListID": "0636eacc-ab45-40d0-9abb-2b4f934bb442",
+            "GrantedViaScript": "false"
         }, {
             "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
         }]

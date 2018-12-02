@@ -6,12 +6,13 @@
         "Components": [{
             "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
             "KeywordsIDs": [],
-            "AttackDistance": 10,
+            "AttackDistance": 15,
             "MinAttackDistance": 0,
             "AttackVariationID": "dd5934cf-0e6f-4f4a-8f92-3d3102090e8f",
             "UseParentEquippableHand": "false",
             "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
             "RecoveryTimeID": "2065a64b-0d53-48b8-9cfd-600992c389fd",
+            "OverrideTacticalActionType": "None",
             "ImpactDelay": 0,
             "ForcedTarget": "None",
             "AffectedTargetType": "Ally",
@@ -91,6 +92,12 @@
                 "AlwaysBounceAtEnemies": "false",
                 "Delay": 0,
                 "NeverBounce": "false"
+            },
+            "AttackValidityConditional": {
+                "Conditional": {
+                    "Operator": 0,
+                    "Components": []
+                }
             }
         }, {
             "$type": "Game.GameData.AttackMeleeComponent, Assembly-CSharp",

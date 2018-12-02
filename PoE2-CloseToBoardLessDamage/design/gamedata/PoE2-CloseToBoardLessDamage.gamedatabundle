@@ -80,7 +80,7 @@
             "CloseToBoardDamage": [{
                 "DamageMin": 3,
                 "DamageMax": 20,
-                "CrewDamageMin": 1,
+                "CrewDamageMin": 0,
                 "CrewDamageMax": 1,
                 "DamageTypes": [{
                     "DamageType": "Hull",
@@ -101,7 +101,7 @@
             }, {
                 "DamageMin": 0,
                 "DamageMax": 10,
-                "CrewDamageMin": 1,
+                "CrewDamageMin": 0,
                 "CrewDamageMax": 1,
                 "DamageTypes": [{
                     "DamageType": "Hull",
@@ -123,7 +123,7 @@
                 "DamageMin": 1,
                 "DamageMax": 1,
                 "CrewDamageMin": 0,
-                "CrewDamageMax": 3,
+                "CrewDamageMax": 2,
                 "DamageTypes": [{
                     "DamageType": "Hull",
                     "Weight": 0
@@ -295,7 +295,17 @@
             "PlayerSurrenderMinimumMoney": 500,
             "PlayerSurrenderSailorTales": 1,
             "CloseToBoardDamageMultPerDefenderRank": 1.2,
-            "CloseToBoardDamageMultPerAttackerRank": 0.9
+            "CloseToBoardDamageMultPerAttackerRank": 0.9,
+            "PlayerFleeBasePercentage": 45,
+            "PlayerFleeRankDifferenceMultiplier": 3,
+            "PlayerFleeSpeedDifferenceMultiplier": 0.3,
+            "PlayerFleeMinimumChance": 0.05,
+            "PlayerFleeMaximumChance": 0.95,
+            "IntimidateChanceBaseValue": 5,
+            "IntimidateLevelDifferenceMultiplier": 5,
+            "IntimidateDefenderDifferenceMultiplier": 3,
+            "IntimidateMoneyMultiplier": 50,
+            "IntimidateSupplyMultiplier": 5
         }, {
             "$type": "Game.GameData.ShipDuelEventSettingsComponent, Assembly-CSharp",
             "EventTypeData": [{

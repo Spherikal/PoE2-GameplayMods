@@ -51,7 +51,7 @@
     </Entry>
     <Entry>
       <ID>271858310</ID>
-      <DefaultText>Refund 1 Guile when scoring a killing blow.</DefaultText>
+      <DefaultText>The rogue's prowness grows with each foe slain—refund 1 Guile when scoring a killing blow.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>
