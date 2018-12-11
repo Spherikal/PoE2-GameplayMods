@@ -1,0 +1,14 @@
+{
+    "Title" : {
+        "en" : "Rogue Tweaks 2"
+    },
+    "Description" : {
+        "en" :  "Makes changes to various parts of the rogue class."
+    },
+    "Author" : "Spherikal",
+    "ModVersion": "1.0",
+    "SupportedGameVersion" : {
+        "Min" : "1.0.0",
+        "Max" : "4.0"
+    }
+}

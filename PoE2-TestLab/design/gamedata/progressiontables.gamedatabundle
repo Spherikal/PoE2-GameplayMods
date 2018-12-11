@@ -1,0 +1,27 @@
+{
+    "GameDataObjects": [{
+        "Note": "PL 0 Auto Grant - Carnage",
+        "Category": "General",
+        "UnlockStyle": "AutoGrant",
+        "ActivationObject": "Self",
+        "AddAbilityID": "73472c8d-4781-4839-a709-bdc047653615",
+        "RemoveAbilityID": "00000000-0000-0000-0000-000000000000",
+        "Prerequisites": {
+            "MinimumCharacterLevel": 1,
+            "PowerLevelRequirement": {
+                "ClassID": "825817d4-1fb0-4e5c-bf84-473743ad98de",
+                "MinimumPowerLevel": 0
+            },
+            "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
+            "Conditional": {
+                "Operator": 0,
+                "Components": []
+            },
+            "VisibilityConditional": {
+                "Operator": 0,
+                "Components": []
+            },
+            "IsMutuallyExclusiveUpgrade": "true"
+        }
+    }]
+}
