@@ -1,0 +1,411 @@
+{
+    "GameDataObjects": [{
+			"$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+			"DebugName": "Mace_Soulbound_Magistrates_Cudgel",
+			"ID": "5894e353-1ade-4ce2-8ffd-84b8f68af52a",
+			"Components": [{
+					"$type": "Game.GameData.ItemComponent, Assembly-CSharp",
+					"DisplayName": 4694,
+					"DescriptionText": 5176,
+					"DescriptionTextTactical": -1,
+					"FilterType": "Weapons",
+					"InventoryAudioEventListID": "b2b31122-0564-425c-9d76-b7640add1343",
+					"IsQuestItem": "false",
+					"IsIngredient": "false",
+					"IsCurrency": "false",
+					"IsAdventuringItem": "false",
+					"IsJunk": "false",
+					"CanSellForFullValue": "false",
+					"MaxStackSize": 1,
+					"NeverDropAsLoot": "false",
+					"CanBePickpocketed": "true",
+					"IsUnique": "false",
+					"Value": 35,
+					"IconTextureSmall": "gui/icons/items/weapons/mace/mace_gulfaryc_s.png",
+					"IconTextureLarge": "gui/icons/items/weapons/mace/mace_gulfaryc_l.png",
+					"PencilSketchTexture": "gui/itemsketches/sketch_gulfaryc.png",
+					"InspectOnUseButton": [],
+					"IsPlaceholder": "false"
+				}, {
+					"$type": "Game.GameData.EquippableComponent, Assembly-CSharp",
+					"EquipmentType": "Mace",
+					"EquipmentSlot": "AnyWeapon",
+					"AppearancePiece": {
+						"ModelVisualDataPath": "prefabs/items/appearance/weapons/mace/a_mace05.asset"
+					},
+					"ItemModsIDs": ["b420d957-6932-4b02-8e02-1393b07f390d", "14c60b60-c278-4aa9-b53a-b2ce2f8966a7", "8c41b14f-b572-4c55-baa3-4e5c801bbbe3"],
+					"OnEquipVisualEffects": [{
+							"VisualEffect": "prefabs/effects/items/weapons/fx_magistrates_cudgel.prefab",
+							"AttachPoint": "Fx_Bone_01",
+							"EmissiveColor": {
+								"A": 1,
+								"R": 0.3137255,
+								"G": 0.1568628,
+								"B": 1
+							},
+							"EmissiveGlowScale": 1,
+							"ScaleToCharacter": "false"
+						}
+					],
+					"RestrictedToClassIDs": [],
+					"RestrictedToPlayer": "false",
+					"EquipConditionals": {
+						"Operator": 0,
+						"Components": []
+					},
+					"ProficientAbilityID": "a30b2411-8e7b-4ae2-a2ed-91ed550021b6",
+					"CannotUnequip": "false",
+					"ItemRendererPrefab": "prefabs/itemrenderers/genericitemrenderer.prefab",
+					"ItemModel": "",
+					"AnimationController": "",
+					"PaperdollOverrideRenderer": "",
+					"AttackSummonID": "00000000-0000-0000-0000-000000000000",
+					"CannotSheathe": "false",
+					"PropVisualEffects": []
+				}, {
+					"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+					"Stance": "OneHanded",
+					"AnimationStanceID": "ddeda306-872b-4d63-8032-fbaf359d0ed2",
+					"StatusEffectsOnLaunchIDs": [],
+					"IsDisplayedWhenAlternate": "true",
+					"IsUniversalType": "false",
+					"AttackID": "1576e11f-cb87-40bf-b037-423ca0636a82",
+					"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+					"ForceBackScabbard": "false",
+					"ScabbardAppearancePiece": {
+						"ModelVisualDataPath": ""
+					},
+					"ScabbardRendererPrefab": "",
+					"ScabbardModel": "",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+				}, {
+					"$type": "Game.GameData.DataScriptEventComponent, Assembly-CSharp",
+					"Scripts": []
+				}, {
+					"$type": "Game.GameData.SoulbindComponent, Assembly-CSharp",
+					"ProhibitUnbind": "false",
+					"BindableClassesIDs": ["ccdc9675-e2a7-46fa-83e9-7a5368b56265", "6e6750b6-61d7-4b61-9713-55957e0f0591", "f0036bfb-53d5-4d0c-b11a-b780d788a108"],
+					"BindConditions": {
+						"Operator": 0,
+						"Components": []
+					},
+					"UnlockStages": [{
+							"Note": "1st Cipher Unlock",
+							"LoreToAdd": 5173,
+							"ItemModsToAddIDs": ["0616f644-1ffb-4be8-8564-8efb931f8d26", "3ab8666d-4026-4f2a-ab9c-bb4c72cc8721"],
+							"ItemModsToRemoveIDs": ["8c41b14f-b572-4c55-baa3-4e5c801bbbe3"],
+							"EligibleClassesIDs": ["ccdc9675-e2a7-46fa-83e9-7a5368b56265"],
+							"UnlockActions": [{
+									"TargetValue": 250,
+									"StatType": "Custom",
+									"OverrideRequirementString": 4970,
+									"RequireDamageType": "None",
+									"RequireHitType": "None",
+									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+									"Prerequisites": {
+										"Conditional": {
+											"Operator": 0,
+											"Components": []
+										}
+									},
+									"Conditional": {
+										"Operator": 0,
+										"Components": []
+									}
+								}
+							],
+							"OverrideIconTextureSmall": "",
+							"OverrideIconTextureLarge": "",
+							"OverrideItemModel": "",
+							"Scripts": []
+						}, {
+							"Note": "1st Fighter Unlock",
+							"LoreToAdd": 5173,
+							"ItemModsToAddIDs": ["0616f644-1ffb-4be8-8564-8efb931f8d26", "a8b376ec-97cb-4d62-a8fd-18fbeeddfb03", "ac35e8e2-e492-42f2-8a1e-a0c9a124c363"],
+							"ItemModsToRemoveIDs": ["8c41b14f-b572-4c55-baa3-4e5c801bbbe3"],
+							"EligibleClassesIDs": ["6e6750b6-61d7-4b61-9713-55957e0f0591"],
+							"UnlockActions": [{
+									"TargetValue": 250,
+									"StatType": "Custom",
+									"OverrideRequirementString": 4970,
+									"RequireDamageType": "None",
+									"RequireHitType": "None",
+									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+									"Prerequisites": {
+										"Conditional": {
+											"Operator": 0,
+											"Components": []
+										}
+									},
+									"Conditional": {
+										"Operator": 0,
+										"Components": []
+									}
+								}
+							],
+							"OverrideIconTextureSmall": "",
+							"OverrideIconTextureLarge": "",
+							"OverrideItemModel": "",
+							"Scripts": []
+						}, {
+							"Note": "1st Monk Unlock",
+							"LoreToAdd": 5173,
+							"ItemModsToAddIDs": ["0616f644-1ffb-4be8-8564-8efb931f8d26", "1c7fd1c8-511c-4793-a844-c8d20be1911a"],
+							"ItemModsToRemoveIDs": ["8c41b14f-b572-4c55-baa3-4e5c801bbbe3"],
+							"EligibleClassesIDs": ["f0036bfb-53d5-4d0c-b11a-b780d788a108"],
+							"UnlockActions": [{
+									"TargetValue": 250,
+									"StatType": "Custom",
+									"OverrideRequirementString": 4970,
+									"RequireDamageType": "None",
+									"RequireHitType": "None",
+									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+									"Prerequisites": {
+										"Conditional": {
+											"Operator": 0,
+											"Components": []
+										}
+									},
+									"Conditional": {
+										"Operator": 0,
+										"Components": []
+									}
+								}
+							],
+							"OverrideIconTextureSmall": "",
+							"OverrideIconTextureLarge": "",
+							"OverrideItemModel": "",
+							"Scripts": []
+						}, {
+							"Note": "2nd Cipher Unlock",
+							"LoreToAdd": 5174,
+							"ItemModsToAddIDs": ["457cdd9a-9512-4e0a-9f79-4e9889756647"],
+							"ItemModsToRemoveIDs": ["3ab8666d-4026-4f2a-ab9c-bb4c72cc8721"],
+							"EligibleClassesIDs": ["ccdc9675-e2a7-46fa-83e9-7a5368b56265"],
+							"UnlockActions": [{
+									"TargetValue": 30,
+									"StatType": "Custom",
+									"OverrideRequirementString": 4971,
+									"RequireDamageType": "None",
+									"RequireHitType": "None",
+									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+									"Prerequisites": {
+										"Conditional": {
+											"Operator": 0,
+											"Components": []
+										}
+									},
+									"Conditional": {
+										"Operator": 0,
+										"Components": []
+									}
+								}
+							],
+							"OverrideIconTextureSmall": "",
+							"OverrideIconTextureLarge": "",
+							"OverrideItemModel": "",
+							"Scripts": [{
+									"Data": {
+										"FullName": "Void SetGlobalValue(String, Int32)",
+										"Parameters": ["n_Magistrates_Cudgel_State", "1"],
+										"Flags": "",
+										"UnrealCall": "",
+										"FunctionHash": 1935477378,
+										"ParameterHash": 1429749521
+									},
+									"Conditional": {
+										"Operator": 0,
+										"Components": []
+									}
+								}, {
+									"Data": {
+										"FullName": "Void WorldMapSetVisibility(Guid, MapVisibilityType)",
+										"Parameters": ["64c1fe63-9dc7-4f68-a87f-9071daa86834", "Unlocked"],
+										"Flags": "",
+										"UnrealCall": "",
+										"FunctionHash": -202242522,
+										"ParameterHash": -1419426586
+									},
+									"Conditional": {
+										"Operator": 0,
+										"Components": []
+									}
+								}
+							]
+						}, {
+							"Note": "2nd Fighter Unlock",
+							"LoreToAdd": 5174,
+							"ItemModsToAddIDs": ["a2d6d44d-fe77-4953-8c8f-47c02dd04ed3"],
+							"ItemModsToRemoveIDs": ["a8b376ec-97cb-4d62-a8fd-18fbeeddfb03", "ac35e8e2-e492-42f2-8a1e-a0c9a124c363"],
+							"EligibleClassesIDs": ["6e6750b6-61d7-4b61-9713-55957e0f0591"],
+							"UnlockActions": [{
+									"TargetValue": 5,
+									"StatType": "Custom",
+									"OverrideRequirementString": 5128,
+									"RequireDamageType": "None",
+									"RequireHitType": "None",
+									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+									"Prerequisites": {
+										"Conditional": {
+											"Operator": 0,
+											"Components": []
+										}
+									},
+									"Conditional": {
+										"Operator": 0,
+										"Components": []
+									}
+								}, {
+									"TargetValue": 750,
+									"StatType": "Custom",
+									"OverrideRequirementString": 5129,
+									"RequireDamageType": "None",
+									"RequireHitType": "None",
+									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+									"Prerequisites": {
+										"Conditional": {
+											"Operator": 0,
+											"Components": []
+										}
+									},
+									"Conditional": {
+										"Operator": 0,
+										"Components": []
+									}
+								}
+							],
+							"OverrideIconTextureSmall": "",
+							"OverrideIconTextureLarge": "",
+							"OverrideItemModel": "",
+							"Scripts": [{
+									"Data": {
+										"FullName": "Void SetGlobalValue(String, Int32)",
+										"Parameters": ["n_Magistrates_Cudgel_State", "1"],
+										"Flags": "",
+										"UnrealCall": "",
+										"FunctionHash": 1935477378,
+										"ParameterHash": 1429749521
+									},
+									"Conditional": {
+										"Operator": 0,
+										"Components": []
+									}
+								}, {
+									"Data": {
+										"FullName": "Void WorldMapSetVisibility(Guid, MapVisibilityType)",
+										"Parameters": ["64c1fe63-9dc7-4f68-a87f-9071daa86834", "Unlocked"],
+										"Flags": "",
+										"UnrealCall": "",
+										"FunctionHash": -202242522,
+										"ParameterHash": -1419426586
+									},
+									"Conditional": {
+										"Operator": 0,
+										"Components": []
+									}
+								}
+							]
+						}, {
+							"Note": "2nd Monk Unlock",
+							"LoreToAdd": 5174,
+							"ItemModsToAddIDs": ["38dee156-2fc6-4edf-ac19-08285d93234b"],
+							"ItemModsToRemoveIDs": ["1c7fd1c8-511c-4793-a844-c8d20be1911a"],
+							"EligibleClassesIDs": ["f0036bfb-53d5-4d0c-b11a-b780d788a108"],
+							"UnlockActions": [{
+									"TargetValue": 50,
+									"StatType": "Custom",
+									"OverrideRequirementString": 4972,
+									"RequireDamageType": "None",
+									"RequireHitType": "None",
+									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+									"Prerequisites": {
+										"Conditional": {
+											"Operator": 0,
+											"Components": []
+										}
+									},
+									"Conditional": {
+										"Operator": 0,
+										"Components": []
+									}
+								}
+							],
+							"OverrideIconTextureSmall": "",
+							"OverrideIconTextureLarge": "",
+							"OverrideItemModel": "",
+							"Scripts": [{
+									"Data": {
+										"FullName": "Void SetGlobalValue(String, Int32)",
+										"Parameters": ["n_Magistrates_Cudgel_State", "1"],
+										"Flags": "",
+										"UnrealCall": "",
+										"FunctionHash": 1935477378,
+										"ParameterHash": 1429749521
+									},
+									"Conditional": {
+										"Operator": 0,
+										"Components": []
+									}
+								}, {
+									"Data": {
+										"FullName": "Void WorldMapSetVisibility(Guid, MapVisibilityType)",
+										"Parameters": ["64c1fe63-9dc7-4f68-a87f-9071daa86834", "Unlocked"],
+										"Flags": "",
+										"UnrealCall": "",
+										"FunctionHash": -202242522,
+										"ParameterHash": -1419426586
+									},
+									"Conditional": {
+										"Operator": 0,
+										"Components": []
+									}
+								}
+							]
+						}, {
+							"Note": "3rd Unlock",
+							"LoreToAdd": 5175,
+							"ItemModsToAddIDs": ["b1ddc8b4-cf35-4825-a0c0-e9b694eea3e4", "8b93c088-542b-46a8-a5a3-df0e74854157"],
+							"ItemModsToRemoveIDs": ["b420d957-6932-4b02-8e02-1393b07f390d"],
+							"EligibleClassesIDs": [],
+							"UnlockActions": [{
+									"TargetValue": 1,
+									"StatType": "Conditional",
+									"OverrideRequirementString": 5144,
+									"RequireDamageType": "None",
+									"RequireHitType": "None",
+									"StatusEffectValueID": "00000000-0000-0000-0000-000000000000",
+									"Prerequisites": {
+										"Conditional": {
+											"Operator": 0,
+											"Components": []
+										}
+									},
+									"Conditional": {
+										"Operator": 0,
+										"Components": [{
+												"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+												"Data": {
+													"FullName": "Boolean IsGlobalValue(String, Operator, Int32)",
+													"Parameters": ["n_Magistrates_Cudgel_State", "EqualTo", "2"],
+													"Flags": "",
+													"UnrealCall": "",
+													"FunctionHash": 901380568,
+													"ParameterHash": -1180480037
+												},
+												"Not": false,
+												"Operator": 0
+											}
+										]
+									}
+								}
+							],
+							"OverrideIconTextureSmall": "",
+							"OverrideIconTextureLarge": "",
+							"OverrideItemModel": "",
+							"Scripts": []
+						}
+					]
+				}
+			]
+		}]
+}
