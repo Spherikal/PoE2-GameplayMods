@@ -31,6 +31,10 @@
             "ApplicationType": "ApplyOnStart",
             "IntervalRateID": "00000000-0000-0000-0000-000000000000",
             "StackedChildrenApplyEffects": "false",
+            "InclusionConditions": {
+                "Operator": 0,
+                "Components": []
+            },
             "ApplicationPrerequisites": {
                 "Conditional": {
                     "Operator": 0,
@@ -67,6 +71,7 @@
             "HideFromCombatTooltip": "false",
             "HideFromCombatLog": "false",
             "HideFromUI": "false",
+            "HideIfNoValue": "false",
             "VisualEffects": [{
                 "VisualEffect": "prefabs/effects/afflictions/fx_affliction_blinded.prefab",
                 "AttachPoint": "Head",

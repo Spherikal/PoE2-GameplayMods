@@ -119,27 +119,6 @@
                     "DamageType": "BelowDeckCrew",
                     "Weight": 0
                 }]
-            }, {
-                "DamageMin": 1,
-                "DamageMax": 1,
-                "CrewDamageMin": 0,
-                "CrewDamageMax": 2,
-                "DamageTypes": [{
-                    "DamageType": "Hull",
-                    "Weight": 0
-                }, {
-                    "DamageType": "Sail",
-                    "Weight": 0
-                }, {
-                    "DamageType": "AnyCrew",
-                    "Weight": 1
-                }, {
-                    "DamageType": "AboveDeckCrew",
-                    "Weight": 0
-                }, {
-                    "DamageType": "BelowDeckCrew",
-                    "Weight": 0
-                }]
             }],
             "MaxEvents": 4,
             "InjuriesIDs": ["17fc9c75-c0ea-4823-b5f6-f3b29f53d546", "c97a3d47-ea0b-48e3-93f7-4fa94fcadefc", "1e0fbf95-28b3-4a18-baef-ff5ff21e7986", "b7c6acd2-ca6d-4bf6-ac71-6dcf82b96d65", "163e8713-5a13-4a64-a68d-4a302c9c4596", "08142ffd-7629-44e7-898b-bfeb66c78952"],
@@ -305,7 +284,10 @@
             "IntimidateLevelDifferenceMultiplier": 5,
             "IntimidateDefenderDifferenceMultiplier": 3,
             "IntimidateMoneyMultiplier": 50,
-            "IntimidateSupplyMultiplier": 5
+            "IntimidateSupplyMultiplier": 5,
+            "IntimidateAdjustmentID": "71c858fe-7c4b-432a-a105-c518319eaed7",
+            "IntimidateFoodLootListID": "22469ef5-4850-4d48-bf0b-0d790b7da95a",
+            "IntimidateDrinkLootListID": "5f0484ec-9157-4d84-a76b-313c29259ffe"
         }, {
             "$type": "Game.GameData.ShipDuelEventSettingsComponent, Assembly-CSharp",
             "EventTypeData": [{
@@ -378,7 +360,8 @@
             }, {
                 "Threshold": 0.7,
                 "Value": 2.5
-            }]
+            }],
+            "FleeEvent": ""
         }]
     }]
 }

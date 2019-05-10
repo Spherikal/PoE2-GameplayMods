@@ -25,6 +25,10 @@
             "ApplicationType": "ApplyOnStart",
             "IntervalRateID": "00000000-0000-0000-0000-000000000000",
             "StackedChildrenApplyEffects": "false",
+            "InclusionConditions": {
+                "Operator": 0,
+                "Components": []
+            },
             "ApplicationPrerequisites": {
                 "Conditional": {
                     "Operator": 0,
@@ -73,6 +77,7 @@
             "HideFromCombatTooltip": "true",
             "HideFromCombatLog": "false",
             "HideFromUI": "false",
+            "HideIfNoValue": "false",
             "VisualEffects": [],
             "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
             "AttackFilter": {

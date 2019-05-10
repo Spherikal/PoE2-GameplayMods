@@ -53,6 +53,7 @@
             "AttributeAttackSpeedMultiplier": 0.03,
             "AttributeDurationMultiplier": 0.05,
             "AttributeIncomingHostileEffectDuationMultiplier": -0.03,
+            "AttributeTacticalStrideMultiplier": 0.04,
             "AttributeAreaMultiplier": 0.1,
             "IngestibleDurationMultiplier": 0,
             "MaxAttributeScore": 35,
@@ -926,6 +927,9 @@
             "MinimumRollToGraze": 25,
             "MinimumRollToHit": 50,
             "MinimumRollToCrit": 100,
+            "MinimumRollToGrazeTactical": 1,
+            "MinimumRollToHitTactical": 50,
+            "MinimumRollToCritTactical": 100,
             "GrazeDamageMult": 0.5,
             "GrazeEffectDurationMult": 0.5,
             "CritDamageMult": 1.25,
@@ -1132,6 +1136,13 @@
             "MinimumTimeBetweenTutorials": 15,
             "TutorialNotificationDisplayDelay": 1,
             "TimeUntilAutoHideTutorialNotification": 10
+        }, {
+            "$type": "Game.GameData.TacticalModeSettingsComponent, Assembly-CSharp",
+            "MovementTimePerRound": 3,
+            "EffectTimePerRound": 6,
+            "ImmediateTimeThreshold": 1,
+            "TimedTurnsDuration": 10,
+            "EnterCombatBaseRecovery": 6
         }]
     }]
 }
