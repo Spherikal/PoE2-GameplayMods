@@ -2421,7 +2421,19 @@
                     "RequiresAbilityID": "00000000-0000-0000-0000-000000000000",
                     "Conditional": {
                         "Operator": 0,
-                        "Components": []
+                        "Components": [{
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableIsSubclass(Guid)",
+                                "Parameters": ["7b47fce1-6511-4cef-8982-abbf0e0f10a9"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": 1231916529,
+                                "ParameterHash": -892008835
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }]
                     },
                     "VisibilityConditional": {
                         "Operator": 0,
@@ -2466,6 +2478,30 @@
                                 "UnrealCall": "",
                                 "FunctionHash": -1793712019,
                                 "ParameterHash": 124907666
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }, {
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableHasAbility(Guid)",
+                                "Parameters": ["c15e41f1-8e2f-4d67-b7b3-b79134b80e2a"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": -1793712019,
+                                "ParameterHash": -805766243
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }, {
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableHasAbility(Guid)",
+                                "Parameters": ["0862b2a9-6d99-41e8-a283-c62b41c83825"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": -1793712019,
+                                "ParameterHash": 61023668
                             },
                             "Not": true,
                             "Operator": 0
@@ -2514,6 +2550,30 @@
                                 "UnrealCall": "",
                                 "FunctionHash": -1793712019,
                                 "ParameterHash": 515611327
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }, {
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableHasAbility(Guid)",
+                                "Parameters": ["c15e41f1-8e2f-4d67-b7b3-b79134b80e2a"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": -1793712019,
+                                "ParameterHash": -805766243
+                            },
+                            "Not": true,
+                            "Operator": 0
+                        }, {
+                            "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                            "Data": {
+                                "FullName": "Boolean ProgressionTableHasAbility(Guid)",
+                                "Parameters": ["0862b2a9-6d99-41e8-a283-c62b41c83825"],
+                                "Flags": "",
+                                "UnrealCall": "",
+                                "FunctionHash": -1793712019,
+                                "ParameterHash": 61023668
                             },
                             "Not": true,
                             "Operator": 0
