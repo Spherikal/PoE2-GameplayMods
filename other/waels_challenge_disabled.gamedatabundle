@@ -1,0 +1,61 @@
+{
+    "GameDataObjects": [{
+        "$type": "Game.GameData.GodChallengeGameData, Assembly-CSharp",
+        "DebugName": "Wael",
+        "ID": "25e1b809-8e9c-4ae9-bc22-f0b499dda8a1",
+        "Components": [{
+            "$type": "Game.GameData.GodChallengeComponent, Assembly-CSharp",
+            "Type": "God",
+            "DisplayName": 5238,
+            "StarsSprite": "gui/images/ingamehud/challenges/mf_stars_wael.png",
+            "FilledConstellationSprite": "gui/images/ingamehud/challenges/mf_god_wael.png",
+            "SelectedConstellationSprite": "gui/images/ingamehud/challenges/mf_god_wael_selected.png",
+            "ActivationPrerequisites": {
+                "Conditional": {
+                    "Operator": 0,
+                    "Components": [{
+                        "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                        "Data": {
+                            "FullName": "Boolean IsGodChallengeEnabled(Guid)",
+                            "Parameters": ["4df752e6-b097-4152-9dc4-e82879c1401c"],
+                            "Flags": "",
+                            "UnrealCall": "",
+                            "FunctionHash": -356906070,
+                            "ParameterHash": 1048968676
+                        },
+                        "Not": true,
+                        "Operator": 0
+                    }]
+                }
+            },
+            "DisableCheats": "false",
+            "DisableMods": "false",
+            "DisablesNewGameBonuses": "false",
+            "AddAbilityToPartyID": "00000000-0000-0000-0000-000000000000",
+            "CannotFleeCombat": "false",
+            "CannotPause": "false",
+            "CannotSlow": "false",
+            "ExperienceMultiplier": 1,
+            "EnemyLevelMultiplier": 1,
+            "ExpertMode": "false",
+            "TrialOfIron": "false",
+            "PathOfTheDamned": "false",
+            "LevelScalingOnlyUp": "false",
+            "ProhibitPartyMembers": "false",
+            "EnableEquipmentWear": "false",
+            "FogRevealRadiusBonus": 0,
+            "WellLitFogRevealRadiusBonus": 0,
+            "AdditionalEffectStrings": [],
+            "UIOrder": 20,
+            "EnableEndOfWorldCountdown": "false",
+            "FoodSpoils": "false",
+            "OverrideMovers": "false",
+            "ShipRankModifier": 0,
+            "PerRestResources": "false",
+            "RestrictHealthRegeneration": "false",
+            "OnlyPreparedMealsRest": "false",
+            "ObfuscateNumbers": "false",
+            "ActivatesAllChallenges": "false"
+        }]
+    }]
+}

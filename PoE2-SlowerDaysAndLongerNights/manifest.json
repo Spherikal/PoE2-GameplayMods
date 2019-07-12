@@ -3,12 +3,12 @@
     "en": "Slower Days and Longer Nights"
   },
   "Author": "Spherikal",
-  "ModVersion": "1.5",
+  "ModVersion": "1.6",
   "Url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1513059518",
   "SteamItemID": 1513059518,
   "SupportedGameVersion": {
     "Min": "1.0",
-    "Max": "4.0"
+    "Max": "5.0"
   },
   "Description": {
     "en": "This mod makes the night and day last twice as long."
