@@ -10,7 +10,7 @@
             "MinAttackDistance": 0,
             "AttackVariationID": "3a40f52b-aeb5-4441-a44f-3e85e5c443f0",
             "UseParentEquippableHand": "false",
-            "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+            "CastSpeedID": "e4c738a7-4d3f-407f-b035-cc76191fe26b",
             "RecoveryTimeID": "cd5ad068-453b-41f9-8779-db38ff00dd20",
             "OverrideTacticalActionType": "None",
             "ImpactDelay": 0,
