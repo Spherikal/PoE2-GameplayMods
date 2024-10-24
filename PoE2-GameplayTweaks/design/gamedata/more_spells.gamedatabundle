@@ -1,0 +1,386 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
+      "DebugName": "Wizard",
+      "ID": "acfd1303-4699-4939-91eb-6ac46d4af0bd",
+      "Components": [
+        {
+          "$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
+          "BaseStatsID": "9cf41223-fe57-4ba2-8aae-ccab2d6eecb8",
+          "IsSpellcaster": "true",
+          "SpellcastsByPowerLevel": [
+            {
+              "Values": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "3",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "3",
+                "2",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "2",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "3",
+                "2",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "3",
+                "3",
+                "2",
+                "1",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "3",
+                "3",
+                "3",
+                "2",
+                "1",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "2",
+                "1",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "2"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
+      "DebugName": "Priest",
+      "ID": "f7cb46af-a719-41c0-9a53-107eefdbce2b",
+      "Components": [
+        {
+          "$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
+          "BaseStatsID": "3e429ebe-f2b6-4ef5-b53c-23f264f710d0",
+          "IsSpellcaster": "true",
+          "SpellcastsByPowerLevel": [
+            {
+              "Values": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "3",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "3",
+                "2",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "2",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "3",
+                "2",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "3",
+                "3",
+                "2",
+                "1",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "3",
+                "3",
+                "3",
+                "2",
+                "1",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "2",
+                "1",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "2"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.CharacterClassGameData, Assembly-CSharp",
+      "DebugName": "Druid",
+      "ID": "568f1c26-1398-4e67-8b81-0f6a60e6cdde",
+      "Components": [
+        {
+          "$type": "Game.GameData.CharacterClassComponent, Assembly-CSharp",
+          "BaseStatsID": "35a26ec2-711f-41b2-a25f-f62cf4e0a1ca",
+          "IsSpellcaster": "true",
+          "SpellcastsByPowerLevel": [
+            {
+              "Values": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "3",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "3",
+                "2",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "2",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "3",
+                "2",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "3",
+                "3",
+                "2",
+                "1",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "3",
+                "3",
+                "3",
+                "2",
+                "1",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4",
+                "3",
+                "3",
+                "3",
+                "3",
+                "3",
+                "2",
+                "1",
+                "0"
+              ]
+            },
+            {
+              "Values": [
+                "4","3","3","3","3","3","3","3","2"
+              ]
+            }]
+		}]
+    }]
+}

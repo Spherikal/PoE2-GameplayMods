@@ -1,0 +1,156 @@
+{
+    "GameDataObjects": [{
+        "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+        "DebugName": "Blessed_Harvest_Ranged",
+        "ID": "4d9c08dc-fa25-4618-9215-b766509ad2e6",
+        "Components": [{
+                "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+                "KeywordsIDs": ["bf3b4557-b7ac-4e41-ba9a-db241b443a56"],
+                "AttackDistance": 4,
+                "MinAttackDistance": 0,
+                "AttackVariationID": "7439b86f-785c-4551-8851-95b375a02792",
+                "UseParentEquippableHand": "false",
+                "CastSpeedID": "e4c738a7-4d3f-407f-b035-cc76191fe26b",
+                "RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
+                "ImpactDelay": 0,
+                "ForcedTarget": "None",
+                "AffectedTargetType": "All",
+                "AffectedTargetConditional": {
+                    "Conditional": {
+                        "Operator": 0,
+                        "Components": []
+                    }
+                },
+                "AffectedTargetDeathState": "Alive",
+                "HostilityOverride": "Default",
+                "PushDistance": 0,
+                "FaceTarget": "true",
+                "AccuracyBonus": 0,
+                "PenetrationRating": 9,
+                "DamageData": {
+                    "DamageType": "None",
+                    "AlternateDamageType": "None",
+                    "Minimum": 0,
+                    "Maximum": 0,
+                    "DamageProcs": []
+                },
+                "RequiresHitObject": "true",
+                "StatusEffectKeywordsIDs": ["bf3b4557-b7ac-4e41-ba9a-db241b443a56"],
+                "StatusEffectsIDs": ["f86e9057-8e3a-43ea-a04b-b4ae181ef3e8"],
+                "RandomizeStatusEffect": "false",
+                "CanGraze": "false",
+                "CanCrit": "true",
+                "DefendedBy": "Fortitude",
+                "AfflictionsDefendedBy": "None",
+                "AfflictionApplicationModifier": "None",
+                "SubstituteHitVisualEffect": "",
+                "VisualEffects": [{
+                        "VisualEffect": "prefabs/effects/abilities/cast/fx_cast_priest_hand.prefab",
+                        "AttachPoint": "LeftWeapon",
+                        "AttachObject": "Caster",
+                        "AttachMode": "Attach",
+                        "MeshType": "None",
+                        "Event": "OnAnimEvent",
+                        "AnimEventID": 0,
+                        "Loop": "true",
+                        "Scale": "false"
+                    }, {
+                        "VisualEffect": "prefabs/effects/abilities/cast/fx_cast_priest_hand.prefab",
+                        "AttachPoint": "RightWeapon",
+                        "AttachObject": "Caster",
+                        "AttachMode": "Attach",
+                        "MeshType": "None",
+                        "Event": "OnAnimEvent",
+                        "AnimEventID": 0,
+                        "Loop": "true",
+                        "Scale": "false"
+                    }, {
+                        "VisualEffect": "prefabs/effects/abilities/cast/fx_cast_priest_finish.prefab",
+                        "AttachPoint": "RightWeapon",
+                        "AttachObject": "Caster",
+                        "AttachMode": "Attach",
+                        "MeshType": "None",
+                        "Event": "OnLaunch",
+                        "AnimEventID": 0,
+                        "Loop": "false",
+                        "Scale": "false"
+                    }, {
+                        "VisualEffect": "prefabs/effects/abilities/cast/fx_cast_priest_finish.prefab",
+                        "AttachPoint": "LeftWeapon",
+                        "AttachObject": "Caster",
+                        "AttachMode": "Attach",
+                        "MeshType": "None",
+                        "Event": "OnLaunch",
+                        "AnimEventID": 0,
+                        "Loop": "false",
+                        "Scale": "false"
+                    }, {
+                        "VisualEffect": "prefabs/effects/abilities/priest/fx_blessed_harvest_hit.prefab",
+                        "AttachPoint": "Chest",
+                        "AttachObject": "Target",
+                        "AttachMode": "Position",
+                        "MeshType": "None",
+                        "Event": "OnHit",
+                        "AnimEventID": 0,
+                        "Loop": "false",
+                        "Scale": "false"
+                    }
+                ],
+                "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+                "ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+                "LaunchBone": "RightWeapon",
+                "HitBone": "Chest",
+                "OnHitShakeDuration": "None",
+                "OnHitShakeStrength": "None",
+                "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+                "AllReactNoise": "false",
+                "InterruptsOn": "Crit",
+                "InterruptType": "Normal",
+                "TargetAngle": 0,
+                "ApplyOnceOnly": "false",
+                "PathsToTarget": "true",
+                "HideFromCombatLog": "false",
+                "AdditionalAttackOnTooltip": "false",
+                "DoesNotApplyDamage": "false",
+                "TreatAsWeapon": "false",
+                "BounceData": {
+                    "Bounces": 0,
+                    "Multiplier": 0.5,
+                    "Range": 10,
+                    "InRangeOrder": "false",
+                    "NoRepeatTargets": "false",
+                    "AlwaysBounceAtEnemies": "false",
+                    "Delay": 0,
+                    "NeverBounce": "false"
+                },
+                "AttackValidityConditional": {
+                    "Conditional": {
+                        "Operator": 0,
+                        "Components": []
+                    }
+                }
+            }, {
+                "$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+                "LaunchAttackOnCollision": "false",
+                "ProjectileCount": 1,
+                "IgnoreMagicDefense": "false",
+                "ProjectileConeAngle": 145,
+                "ProjectilePrefab": "prefabs/projectiles/invisible_projectile.prefab",
+                "IsMultiHit": "false",
+                "MultiHitTravelDist": 10,
+                "MultiHitMaxHits": 0,
+                "LaunchSource": "Caster",
+                "LaunchOffset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "LaunchOffsetRandom": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        ]
+    }]
+}
